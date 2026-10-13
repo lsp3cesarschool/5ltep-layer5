@@ -1,0 +1,296 @@
+{
+ "dataset": {
+  "name": "rapp-pilhas-e-baterias-importador",
+  "title": "Rapp Pilhas e baterias - Importador",
+  "id": "503f10ae-b624-481e-9ef7-0a490bc33d2d",
+  "resources": 24,
+  "last_change": "2026-10-07T23:02:39+00:00",
+  "last_type": "CONTENT_MOD",
+  "entity": "https://dadosabertos.ibama.gov.br/dataset/503f10ae-b624-481e-9ef7-0a490bc33d2d#3e4c65443032",
+  "portal_page": "https://dadosabertos.ibama.gov.br/dataset/rapp-pilhas-e-baterias-importador"
+ },
+ "qs": {
+  "kind": "partial",
+  "factor": 1.0,
+  "coverage": 0.5,
+  "valid_layers": [
+   "L1",
+   "L4"
+  ],
+  "integrity": [],
+  "low": 0.29999,
+  "high": 0.79999,
+  "band": "alert",
+  "eligible": false,
+  "missing_layers": [
+   "L2",
+   "L3"
+  ]
+ },
+ "layers": {
+  "L1": {
+   "status": "valid",
+   "reason": null,
+   "rate": 0.3333,
+   "evaluated_at": "2026-10-12T15:10:32+00:00",
+   "current": true,
+   "facts": {
+    "level": 2,
+    "tables": 18,
+    "verifiable": 18,
+    "conformant": 6
+   },
+   "signals": [
+    {
+     "key": "L1:rapp-pilhas-e-baterias-importador",
+     "count": 12,
+     "en": "12 of 18 verifiable file(s) do not conform to the declared schema",
+     "pt": "12 de 18 arquivo(s) verificável(is) fora do esquema declarado"
+    }
+   ]
+  },
+  "L2": {
+   "status": "missing",
+   "reason": "not_reached",
+   "rate": null,
+   "evaluated_at": null,
+   "current": null,
+   "facts": {},
+   "signals": []
+  },
+  "L3": {
+   "status": "missing",
+   "reason": "not_reached",
+   "rate": null,
+   "evaluated_at": null,
+   "current": null,
+   "facts": {},
+   "signals": []
+  },
+  "L4": {
+   "status": "valid",
+   "reason": null,
+   "rate": 1.0,
+   "evaluated_at": "2026-10-13T00:35:39+00:00",
+   "current": true,
+   "facts": {
+    "observations": 104,
+    "critical_in_window": 0,
+    "entity": "https://dadosabertos.ibama.gov.br/dataset/503f10ae-b624-481e-9ef7-0a490bc33d2d#3e4c65443032"
+   },
+   "signals": []
+  }
+ },
+ "findings": [
+  {
+   "layer": "L1",
+   "kind": "signal",
+   "key": "L1:rapp-pilhas-e-baterias-importador",
+   "count": 12,
+   "when": null,
+   "en": "12 of 18 verifiable file(s) do not conform to the declared schema",
+   "pt": "12 de 18 arquivo(s) verificável(is) fora do esquema declarado"
+  },
+  {
+   "layer": "L4",
+   "kind": "simultaneous",
+   "when": "2026-10-07T23:02:39+00:00",
+   "count": 3,
+   "en": "CONTENT_MOD in 3 datasets in the same monitoring cycle (probably one operational event)",
+   "pt": "CONTENT_MOD em 3 conjuntos no mesmo ciclo de monitoramento (provavelmente um único evento operacional)"
+  }
+ ],
+ "outcomes": {
+  "open": [
+   {
+    "key": "L1:rapp-pilhas-e-baterias-importador",
+    "layer": "L1",
+    "first_reported": "2026-10-13T19:15:59+00:00",
+    "count": 12,
+    "evaluated_at": "2026-10-12T15:10:32+00:00",
+    "status": "reported",
+    "en": "12 of 18 verifiable file(s) do not conform to the declared schema",
+    "pt": "12 de 18 arquivo(s) verificável(is) fora do esquema declarado",
+    "digests": {
+     "6c96417b-b6bf-4599-bb11-471c14ddbe56": "0dc37bf698d3c793610dc592b130c8a2465f883b5c0267c51e0a121ff829d94e",
+     "0dcf7b76-12fd-498e-9ae2-d3de8e5331cb": "63bfd10d9b9cb32887c419ad18ceaaa2d3416d2a27616c2f895773ea96933ed7",
+     "8b4cc0cb-f3c6-4fe3-be79-94ab1867df71": "5b57f8fab79831800cf1e680267af1c44eb53160cb5ede589b91058f67d2e72e",
+     "85efc1b6-c4bb-4e1b-96cc-8fb4e39dd811": "42ca75cc5ee1367af2ed4a130077b0b51f21a08aea8dc8b620cab6978d45e1aa",
+     "78692bb1-017c-4ba4-a954-ff619bdc53ed": "4317185b6dff55a49a57a0f232aedc028ecf65c9bf048f477aa03f3a27d2a9e2",
+     "c60c95d4-ce2b-4d27-884d-1a572a604576": "edc09c89b5d0fb9854a94c498445dee5e463086469ca2a7513846dbf18a3fb4d",
+     "4260f6e2-6598-415a-a371-0a8bf7b16bd6": "06dcd5197356be40a924d7ce5bfcfda46c5265b16397fad1e101a729a8ef6c52",
+     "7fcc2bcd-fdb0-4be5-b215-37973dc6dd2f": "e97df8a6c39560080b6a7897c67940d9ca012b747573043bd1b158761ae486d7",
+     "ebca9d7f-aceb-4c50-9f48-34f502d2eb55": "ce01fbddd9dbe77403596b5840b24123f508e41c958467e7ce01305039133906",
+     "6c1ec9e7-6615-4b99-bd38-a64d1267a3c8": "8dce7e4a874c608fe37b60ab564aa73bd2148f58277dc3fba726d942acba0877",
+     "d7f3fcc4-4a5d-413e-9213-9f6ede3a1380": "44cb2c36682ad428c1992b8cee4b1d01ff29e60596716e2ce8e7082847455a50",
+     "a2adba95-0b96-4ccf-9630-13cc1668396a": "768f5a96045728341394fa9d649ccaa96103663db241e73e89c01f02d8d39104",
+     "c10fc1fd-3c85-4e12-a9cd-79fe464602c3": "6baccbca9825be0bdd438b0310321f279117b44fb64837ede847a8f2dd87d371",
+     "cb9cf40d-f0fa-4304-ae73-3c857c3d59d0": "cdac319fcf29ff72473a83aa9d6553237281357b3c70fb6bd684c45d0f1e03c0",
+     "e6a02e7b-98c0-44e4-aa7c-2f61b9552e04": "9a7baa34a1eaf2c89569ac4dd01f51528330d451146724fbeec6b52ed71fa34e",
+     "6cd160bc-baf4-4966-a520-47ac533f8890": "afebbbb9657723f773c279e4c64334c6350b1bcf3b10ac2d67c2f2b02a74b7bf",
+     "de5ffe29-1873-4b34-87e9-fa5cb7e1a6a7": "9c2276a9a28c7f6eeda91b1c300c7d79bbcb5dd8d558253f93c6557b50b019cc",
+     "a262adef-7e05-47fe-b1ab-56cc86980a05": "712a94ebc45ea0175b88b96785561e0855c0bd8f7a23c8c1789dfe21c3b4e174"
+    }
+   }
+  ],
+  "closed": []
+ },
+ "sources": {
+  "L1": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-12T15:21:48+00:00",
+   "files": [
+    {
+     "path": "results/layer1_summary.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/layer1_summary.json",
+     "commit": {
+      "sha": "77beac1c896b766f80e89fe9d866a0a4df7a0a2f",
+      "date": "2026-10-12T15:21:49Z"
+     }
+    },
+    {
+     "path": "results/validation.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/validation.json",
+     "commit": {
+      "sha": "77beac1c896b766f80e89fe9d866a0a4df7a0a2f",
+      "date": "2026-10-12T15:21:49Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer1/"
+  },
+  "L2": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-09T13:35:26+00:00",
+   "files": [
+    {
+     "path": "docs/data/layer2.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2/main/docs/data/layer2.json",
+     "commit": {
+      "sha": "ca984fd1db33199f0e23902160abd42b9c258241",
+      "date": "2026-10-09T13:35:45Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer2/"
+  },
+  "L3": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-05T13:09:25+00:00",
+   "files": [
+    {
+     "path": "docs/data/index.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer3/main/docs/data/index.json",
+     "commit": {
+      "sha": "9bbbae5b1be89d4cc31dbbbea6d1785d0bfe107b",
+      "date": "2026-09-29T18:50:44Z"
+     }
+    },
+    {
+     "path": "results/ibama-autos-infracao/layer3_summary.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer3/main/results/ibama-autos-infracao/layer3_summary.json",
+     "commit": {
+      "sha": "c5cd4b136398a59bf1bd64008f520aff425233ad",
+      "date": "2026-10-05T13:09:26Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer3/"
+  },
+  "L4": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-13T14:06:16.422517+00:00",
+   "files": [
+    {
+     "path": "docs/data/layer4.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
+     "commit": {
+      "sha": "82df29b1981165e1108d0758d447ea3a5f82314c",
+      "date": "2026-10-13T14:06:17Z"
+     }
+    },
+    {
+     "path": "docs/data/cross_check.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
+     "commit": {
+      "sha": "6dcb4d1cc30ea34f156bc4879d90e9faf0689b2f",
+      "date": "2026-10-13T10:54:55Z"
+     }
+    },
+    {
+     "path": "data/hash_store.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
+     "commit": {
+      "sha": "d6b92426a330eaf146c7be4ef99643db9f69b2ad",
+      "date": "2026-10-13T00:35:56Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer4/"
+  }
+ },
+ "policy": {
+  "policy_version": "1.1.0",
+  "aggregation": "arithmetic",
+  "weights": {
+   "L1": 0.3,
+   "L2": 0.3,
+   "L3": 0.2,
+   "L4": 0.2
+  },
+  "cutoff": 0.85,
+  "critical_floor": 0.7,
+  "integrity_factor": 0.5,
+  "integrity_types": [
+   "RETRO_ALTER"
+  ],
+  "scope_types": [
+   "SCHEMA_DRIFT"
+  ],
+  "unrecorded_change": "finding",
+  "cadence_days": {
+   "L1": 7,
+   "L2": 7,
+   "L3": 31,
+   "L4": 0.25
+  },
+  "validity_days": {
+   "L1": 14.0,
+   "L2": 14.0,
+   "L3": 62.0,
+   "L4": 0.5
+  },
+  "l4_window_days": 30,
+  "findings_window_days": 90,
+  "simultaneous_event_min_datasets": 3
+ },
+ "portal": {
+  "portal_url": "https://dadosabertos.ibama.gov.br",
+  "name": "IBAMA",
+  "title": "IBAMA open data portal (Dados Abertos IBAMA)",
+  "repository": "lsp3cesarschool/5ltep-layer5"
+ },
+ "notice": {
+  "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
+  "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
+ },
+ "generated_at": "2026-10-13T19:15:59+00:00",
+ "engine": {
+  "repository": "lsp3cesarschool/5ltep-layer5",
+  "commit": "5afce449ab2d792ff43a0689b3de635e72ef4935",
+  "run_id": "38453450972"
+ },
+ "ficha": {
+  "id": "sha256:a898d05448c7836db4d40ec5516d47736220bd024c5549dbf6adcbceff9fe9f4",
+  "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=rapp-pilhas-e-baterias-importador",
+  "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/rapp-pilhas-e-baterias-importador.json",
+  "how_to_cite": {
+   "en": "5L-TEP Layer 5 record of 'rapp-pilhas-e-baterias-importador' (IBAMA), 2026-10-13, sha256:a898d05448c7836d…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=rapp-pilhas-e-baterias-importador",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'rapp-pilhas-e-baterias-importador' (IBAMA), 2026-10-13, sha256:a898d05448c7836d…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=rapp-pilhas-e-baterias-importador"
+  }
+ }
+}

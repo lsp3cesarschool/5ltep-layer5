@@ -1,0 +1,4774 @@
+{
+ "layer": 5,
+ "run": {
+  "generated_at": "2026-10-13T19:15:59+00:00",
+  "repository": "lsp3cesarschool/5ltep-layer5",
+  "version": "0.1.0",
+  "commit": "5afce449ab2d792ff43a0689b3de635e72ef4935",
+  "run_id": "38453450972"
+ },
+ "portal": {
+  "portal_url": "https://dadosabertos.ibama.gov.br",
+  "name": "IBAMA",
+  "title": "IBAMA open data portal (Dados Abertos IBAMA)",
+  "repository": "lsp3cesarschool/5ltep-layer5"
+ },
+ "policy": {
+  "policy_version": "1.1.0",
+  "aggregation": "arithmetic",
+  "weights": {
+   "L1": 0.3,
+   "L2": 0.3,
+   "L3": 0.2,
+   "L4": 0.2
+  },
+  "cutoff": 0.85,
+  "critical_floor": 0.7,
+  "integrity_factor": 0.5,
+  "integrity_types": [
+   "RETRO_ALTER"
+  ],
+  "scope_types": [
+   "SCHEMA_DRIFT"
+  ],
+  "unrecorded_change": "finding",
+  "cadence_days": {
+   "L1": 7,
+   "L2": 7,
+   "L3": 31,
+   "L4": 0.25
+  },
+  "validity_days": {
+   "L1": 14.0,
+   "L2": 14.0,
+   "L3": 62.0,
+   "L4": 0.5
+  },
+  "l4_window_days": 30,
+  "findings_window_days": 90,
+  "simultaneous_event_min_datasets": 3
+ },
+ "notice": {
+  "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
+  "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
+ },
+ "layers": {
+  "L1": {
+   "layer": "L1",
+   "status": "ok",
+   "reason": null,
+   "detail": null,
+   "generated_at": "2026-10-12T15:21:48+00:00",
+   "age_days": 1.16,
+   "validity_days": 14.0,
+   "expired": false,
+   "repository": "lsp3cesarschool/5ltep-layer1",
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer1/",
+   "workflow": "https://github.com/lsp3cesarschool/5ltep-layer1/actions/workflows/layer1.yml",
+   "files": [
+    {
+     "path": "results/layer1_summary.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/layer1_summary.json",
+     "commit": {
+      "sha": "77beac1c896b766f80e89fe9d866a0a4df7a0a2f",
+      "date": "2026-10-12T15:21:49Z"
+     }
+    },
+    {
+     "path": "results/validation.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/validation.json",
+     "commit": {
+      "sha": "77beac1c896b766f80e89fe9d866a0a4df7a0a2f",
+      "date": "2026-10-12T15:21:49Z"
+     }
+    }
+   ],
+   "portal": {
+    "rate": 0.3333,
+    "verifiable": 120,
+    "conformant": 40,
+    "datasets_by_level": {
+     "0": 44,
+     "1": 13,
+     "2": 20,
+     "3": 0,
+     "4": 0
+    }
+   }
+  },
+  "L2": {
+   "layer": "L2",
+   "status": "ok",
+   "reason": null,
+   "detail": null,
+   "generated_at": "2026-10-09T13:35:26+00:00",
+   "age_days": 4.24,
+   "validity_days": 14.0,
+   "expired": false,
+   "repository": "lsp3cesarschool/5ltep-layer2",
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer2/",
+   "workflow": "https://github.com/lsp3cesarschool/5ltep-layer2/actions/workflows/layer2.yml",
+   "files": [
+    {
+     "path": "docs/data/layer2.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2/main/docs/data/layer2.json",
+     "commit": {
+      "sha": "ca984fd1db33199f0e23902160abd42b9c258241",
+      "date": "2026-10-09T13:35:45Z"
+     }
+    }
+   ],
+   "portal": {
+    "rate": 0.9103,
+    "rules": 35,
+    "evaluated": 35,
+    "references": [
+     "dados.agricultura.gov.br › sistema-de-agrotoxicos-fitossanitarios-agrofit › Produto Técnico",
+     "dados.florestal.gov.br › especies-florestais-madeireiras-comerciais › Dados_abertos_especies_madeireiras_SNIF_fonte_LPF_SFB",
+     "dados.mma.gov.br › especies-ameacadas › FAUNA - Lista de Espécies Ameaçadas - 2021.csv",
+     "dadosabertos.tse.jus.br › codigos-oficiais-de-uf-e-municipios-segundo-o-tse-e-o-ibge › Códigos oficiais de UF e municípios segundo o TSE e o IBGE"
+    ],
+    "run_url": "https://github.com/lsp3cesarschool/5ltep-layer2/actions/runs/37937363972"
+   }
+  },
+  "L3": {
+   "layer": "L3",
+   "status": "ok",
+   "reason": null,
+   "detail": null,
+   "generated_at": "2026-10-05T13:09:25+00:00",
+   "age_days": 8.25,
+   "validity_days": 62.0,
+   "expired": false,
+   "repository": "lsp3cesarschool/5ltep-layer3",
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer3/",
+   "workflow": "https://github.com/lsp3cesarschool/5ltep-layer3/actions/workflows/layer3.yml",
+   "files": [
+    {
+     "path": "docs/data/index.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer3/main/docs/data/index.json",
+     "commit": {
+      "sha": "9bbbae5b1be89d4cc31dbbbea6d1785d0bfe107b",
+      "date": "2026-09-29T18:50:44Z"
+     }
+    },
+    {
+     "path": "results/ibama-autos-infracao/layer3_summary.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer3/main/results/ibama-autos-infracao/layer3_summary.json",
+     "commit": {
+      "sha": "c5cd4b136398a59bf1bd64008f520aff425233ad",
+      "date": "2026-10-05T13:09:26Z"
+     }
+    }
+   ],
+   "portal": {}
+  },
+  "L4": {
+   "layer": "L4",
+   "status": "ok",
+   "reason": null,
+   "detail": null,
+   "generated_at": "2026-10-13T14:06:16.422517+00:00",
+   "age_days": 0.22,
+   "validity_days": 0.5,
+   "expired": false,
+   "repository": "lsp3cesarschool/5ltep-layer4",
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer4/",
+   "workflow": "https://github.com/lsp3cesarschool/5ltep-layer4/actions/workflows/monitor.yml",
+   "files": [
+    {
+     "path": "docs/data/layer4.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
+     "commit": {
+      "sha": "82df29b1981165e1108d0758d447ea3a5f82314c",
+      "date": "2026-10-13T14:06:17Z"
+     }
+    },
+    {
+     "path": "docs/data/cross_check.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
+     "commit": {
+      "sha": "6dcb4d1cc30ea34f156bc4879d90e9faf0689b2f",
+      "date": "2026-10-13T10:54:55Z"
+     }
+    },
+    {
+     "path": "data/hash_store.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
+     "commit": {
+      "sha": "d6b92426a330eaf146c7be4ef99643db9f69b2ad",
+      "date": "2026-10-13T00:35:56Z"
+     }
+    }
+   ],
+   "portal": {
+    "datasets": 79,
+    "relocations": [
+     {
+      "from": "dadosabertos.ibama.gov.br",
+      "to": "stibamadadosabertosprd.blob.core.windows.net",
+      "urls": 79,
+      "events": 25,
+      "datasets": 18,
+      "last": "2026-10-08T23:18:16+00:00"
+     },
+     {
+      "from": "",
+      "to": "stibamadadosabertosprd.blob.core.windows.net",
+      "urls": 1,
+      "events": 1,
+      "datasets": 1,
+      "last": "2026-10-06T18:19:17+00:00"
+     }
+    ],
+    "toolkit_version": "1.1.0"
+   }
+  }
+ },
+ "totals": {
+  "datasets": 79,
+  "complete": 0,
+  "partial": 41,
+  "no_content": 38,
+  "eligible": 0,
+  "bands": {
+   "none:None": 38,
+   "partial:undetermined": 14,
+   "partial:alert": 24,
+   "partial:critical": 3
+  }
+ },
+ "coverage": {
+  "L1": {
+   "reached": 33,
+   "valid": 33
+  },
+  "L2": {
+   "reached": 13,
+   "valid": 13
+  },
+  "L3": {
+   "reached": 1,
+   "valid": 1
+  },
+  "L4": {
+   "reached": 79,
+   "valid": 79
+  }
+ },
+ "combinations": [
+  {
+   "layers": [
+    "L4"
+   ],
+   "datasets": 38
+  },
+  {
+   "layers": [
+    "L1",
+    "L4"
+   ],
+   "datasets": 28
+  },
+  {
+   "layers": [
+    "L2",
+    "L4"
+   ],
+   "datasets": 7
+  },
+  {
+   "layers": [
+    "L1",
+    "L2",
+    "L4"
+   ],
+   "datasets": 5
+  },
+  {
+   "layers": [
+    "L2",
+    "L3",
+    "L4"
+   ],
+   "datasets": 1
+  }
+ ],
+ "groups": [
+  {
+   "type": "CONTENT_MOD",
+   "when": "2026-10-07T23:02:39+00:00",
+   "datasets": [
+    "fiscalizacao-termo-de-embargo",
+    "rapp-pilhas-e-baterias-importador",
+    "sinaflor-empreendimentos-de-base-florestal"
+   ]
+  },
+  {
+   "type": "CONTENT_MOD",
+   "when": "2026-08-14T18:55:10+00:00",
+   "datasets": [
+    "fiscalizacao-termo-de-embargo",
+    "fiscalizacao-termo-de-suspensao",
+    "volumes-explorados-inventario-amostral"
+   ]
+  }
+ ],
+ "unrecorded_changes": [
+  {
+   "dataset": "arrecadacao-de-multas-ambientais-bens-tutelados",
+   "resource_id": "cd55e477-2f11-43e5-b994-7be34e275561",
+   "from": "2026-10-09T13:30:59+00:00",
+   "to": "2026-10-12T14:40:46+00:00",
+   "layers": [
+    "L2",
+    "L1"
+   ]
+  },
+  {
+   "dataset": "ato-declaratorio-ambiental-ada",
+   "resource_id": "09494a73-726a-4341-92ca-b97cf35914b2",
+   "from": "2026-10-09T13:30:59+00:00",
+   "to": "2026-10-12T14:42:43+00:00",
+   "layers": [
+    "L2",
+    "L1"
+   ]
+  },
+  {
+   "dataset": "fiscalizacao-auto-de-infracao",
+   "resource_id": "b2aba344-95df-43c0-b2ba-f4353cfd9a00",
+   "from": "2026-10-05T13:05:36+00:00",
+   "to": "2026-10-09T13:30:59+00:00",
+   "layers": [
+    "L3",
+    "L2"
+   ]
+  },
+  {
+   "dataset": "fiscalizacao-auto-de-infracao",
+   "resource_id": "b2aba344-95df-43c0-b2ba-f4353cfd9a00",
+   "from": "2026-10-09T13:30:59+00:00",
+   "to": "2026-10-12T11:11:57+00:00",
+   "layers": [
+    "L2",
+    "L1"
+   ]
+  },
+  {
+   "dataset": "fiscalizacao-auto-de-infracao",
+   "resource_id": "903120d7-9a73-46d2-8e22-93576f4f855b",
+   "from": "2026-10-09T13:30:59+00:00",
+   "to": "2026-10-12T11:14:37+00:00",
+   "layers": [
+    "L2",
+    "L1"
+   ]
+  },
+  {
+   "dataset": "fiscalizacao-auto-de-infracao",
+   "resource_id": "160b14e2-d7d8-40aa-b06c-295575a5fb9c",
+   "from": "2026-10-09T13:30:59+00:00",
+   "to": "2026-10-12T11:15:40+00:00",
+   "layers": [
+    "L2",
+    "L1"
+   ]
+  },
+  {
+   "dataset": "fiscalizacao-auto-de-infracao",
+   "resource_id": "afe30a48-eb96-4915-8f13-c4e838dae033",
+   "from": "2026-10-09T13:30:59+00:00",
+   "to": "2026-10-12T11:15:45+00:00",
+   "layers": [
+    "L2",
+    "L1"
+   ]
+  },
+  {
+   "dataset": "fiscalizacao-termo-de-embargo",
+   "resource_id": "8f88b43e-287a-470b-a730-db440f9e37fa",
+   "from": "2026-10-09T13:30:59+00:00",
+   "to": "2026-10-12T11:11:07+00:00",
+   "layers": [
+    "L2",
+    "L1"
+   ]
+  },
+  {
+   "dataset": "licencas-ambientais-de-atividades-e-empreendimentos-licenciados-pelo-ibama",
+   "resource_id": "9e4873d3-10d8-464f-a883-88be3b3abf06",
+   "from": "2026-10-09T13:30:59+00:00",
+   "to": "2026-10-12T14:37:18+00:00",
+   "layers": [
+    "L2",
+    "L1"
+   ]
+  },
+  {
+   "dataset": "sinaflor-pmfs-amazonia-legal",
+   "resource_id": "fac201c9-8e09-49d5-9113-1608cf45b8c8",
+   "from": "2026-10-09T13:30:59+00:00",
+   "to": "2026-10-12T14:39:23+00:00",
+   "layers": [
+    "L2",
+    "L1"
+   ]
+  },
+  {
+   "dataset": "siscites-licencas-de-fauna-e-flora-emitidas",
+   "resource_id": "dddd819f-275a-4653-9104-772dd7519e6a",
+   "from": "2026-10-09T13:30:59+00:00",
+   "to": "2026-10-12T14:39:40+00:00",
+   "layers": [
+    "L2",
+    "L1"
+   ]
+  },
+  {
+   "dataset": "volumes-explorados-if-100",
+   "resource_id": "ac345e77-863b-472c-a06a-4f171263bc70",
+   "from": "2026-10-09T13:30:59+00:00",
+   "to": "2026-10-12T14:39:42+00:00",
+   "layers": [
+    "L2",
+    "L1"
+   ]
+  }
+ ],
+ "alerts": {
+  "new_integrity_events": [],
+  "unavailable_layers": [],
+  "integrity_open": 0
+ },
+ "hitl": {
+  "status": "instrumented_awaiting_steward",
+  "profiles": [
+   {
+    "profile": "ibama-autos-infracao",
+    "issues": 28,
+    "decided": 0,
+    "open_by_level": {
+     "level-shift": 25,
+     "pending": 2,
+     "advisory": 1
+    },
+    "human_llm_agreement": null
+   }
+  ]
+ },
+ "inference": {
+  "open_signals": 85,
+  "closed": {
+   "remediated_observed": 0,
+   "cleared_without_data_change": 0,
+   "withdrawn_observed": 0
+  },
+  "open_by_status": {
+   "unchanged": 0,
+   "changed_signal_persists": 0,
+   "not_reassessed": 0,
+   "reported": 85
+  },
+  "median_days_to_first_change": null,
+  "rounds_observed": 1
+ },
+ "datasets": [
+  {
+   "name": "antropizacao-dos-biomas-extra-amazonicos",
+   "title": "Antropização dos Biomas Extra-Amazônicos",
+   "resources": 16,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-12T11:10:48+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:c611532831823d032d2fbd196c5511935105208f925f2f022c7c7d6c31ae842b"
+  },
+  {
+   "name": "arrecadacao-com-tcfa",
+   "title": "Arrecadação com TCFA",
+   "resources": 4,
+   "last_change": "2026-10-08T23:18:16+00:00",
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-12T11:11:31+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 1,
+   "finding_kinds": [
+    "signal"
+   ],
+   "ficha_id": "sha256:36708d7f6b3c8d3925d694bfef12992dff7fc331ed894e9baa6cf4b19ec22367"
+  },
+  {
+   "name": "arrecadacao-de-multas-ambientais-bens-tutelados",
+   "title": "Arrecadação de Multas Ambientais Bens tutelados",
+   "resources": 4,
+   "last_change": "2026-08-26T19:49:09+00:00",
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-12T14:42:29+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "valid",
+     "rate": 0.9995067978384824,
+     "reason": null,
+     "evaluated_at": "2026-10-09T13:35:24+00:00",
+     "current": false
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L2",
+     "L4"
+    ],
+    "low": 0.4998520393515447,
+    "high": 0.9998520393515447,
+    "band": "undetermined",
+    "eligible": false,
+    "missing_layers": [
+     "L1",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 4,
+   "finding_kinds": [
+    "signal",
+    "unrecorded_change"
+   ],
+   "ficha_id": "sha256:24681a6809e6be3b5c603d99254574851448d6904626a3978c9e91c6b08815f4"
+  },
+  {
+   "name": "ato-declaratorio-ambiental-ada",
+   "title": "Ato Declaratório Ambiental (ADA)",
+   "resources": 4,
+   "last_change": "2026-07-09T03:25:53+00:00",
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-12T14:43:46+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "valid",
+     "rate": 0.992507088346626,
+     "reason": null,
+     "evaluated_at": "2026-10-09T13:35:18+00:00",
+     "current": false
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L2",
+     "L4"
+    ],
+    "low": 0.4977521265039878,
+    "high": 0.9977521265039878,
+    "band": "undetermined",
+    "eligible": false,
+    "missing_layers": [
+     "L1",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 2,
+   "finding_kinds": [
+    "signal",
+    "unrecorded_change"
+   ],
+   "ficha_id": "sha256:d926624955b41416c6b2eb28df54e75e781294ab85a58d7669fc5594cc0ba4dc"
+  },
+  {
+   "name": "autorizacao-ambiental-para-o-transporte-interestadual-de-produtos-perigosos-aatipp",
+   "title": "Autorização Ambiental para o Transporte Interestadual de Produtos Perigosos - AATIPP",
+   "resources": 4,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 0.0,
+     "reason": null,
+     "evaluated_at": "2026-10-03T06:20:51+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L1",
+     "L4"
+    ],
+    "low": 0.2,
+    "high": 0.7,
+    "band": "alert",
+    "eligible": false,
+    "missing_layers": [
+     "L2",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 1,
+   "finding_kinds": [
+    "signal"
+   ],
+   "ficha_id": "sha256:67813f42a5b9d1bec996390e21f6fd887f34f800b3ce84ab9dc286417ec0b9f1"
+  },
+  {
+   "name": "catalogo-de-imagens-orbitais",
+   "title": "Catálogo de Imagens Orbitais",
+   "resources": 1,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_nothing_verifiable",
+     "evaluated_at": "2026-10-12T15:21:48+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:f434de509a9a198155592e0818b4cc57fa24353954f9e31bc91040f8a6920f10"
+  },
+  {
+   "name": "certificados-ambientais",
+   "title": "Certificados Ambientais",
+   "resources": 4,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-03T06:20:56+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:b6053e7dc7e6461fa5e593414aad685029f7e2012ec6b38ab282bb6577d2035f"
+  },
+  {
+   "name": "dof-autorizacoes-de-exploracao-florestal",
+   "title": "DOF - Autorizações de Exploração Florestal",
+   "resources": 3,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-12T14:47:11+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:89763a75271eb4ee5ba1596a8c35f3265d1a7b1232ff71cea3122071effd068b"
+  },
+  {
+   "name": "dof-conversoes-de-produtos-florestais",
+   "title": "DOF - Conversões de Produtos Florestais",
+   "resources": 3,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 0.0,
+     "reason": null,
+     "evaluated_at": "2026-10-12T14:54:20+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L1",
+     "L4"
+    ],
+    "low": 0.2,
+    "high": 0.7,
+    "band": "alert",
+    "eligible": false,
+    "missing_layers": [
+     "L2",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 1,
+   "finding_kinds": [
+    "signal"
+   ],
+   "ficha_id": "sha256:5ab938a15e92f54ada874c3290e49c2c644d0de7f27144b3929af76fcc58a6c7"
+  },
+  {
+   "name": "dof-transportes-de-produtos-florestais",
+   "title": "DOF - Transportes de Produtos Florestais",
+   "resources": 3,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 0.0,
+     "reason": null,
+     "evaluated_at": "2026-10-12T14:23:06+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L1",
+     "L4"
+    ],
+    "low": 0.2,
+    "high": 0.7,
+    "band": "alert",
+    "eligible": false,
+    "missing_layers": [
+     "L2",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 1,
+   "finding_kinds": [
+    "signal"
+   ],
+   "ficha_id": "sha256:262dcbef6663cc1ec24faec86283d258376e41f40a69ecbdba3cdeaee94c4051"
+  },
+  {
+   "name": "dof-trechos-e-veiculos-de-transportes-florestais-detalhes",
+   "title": "DOF - Trechos e Veículos de Transportes Florestais (Detalhes)",
+   "resources": 3,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 0.0,
+     "reason": null,
+     "evaluated_at": "2026-10-12T15:02:51+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L1",
+     "L4"
+    ],
+    "low": 0.2,
+    "high": 0.7,
+    "band": "alert",
+    "eligible": false,
+    "missing_layers": [
+     "L2",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 1,
+   "finding_kinds": [
+    "signal"
+   ],
+   "ficha_id": "sha256:4efe60f40aa58341561ecadc234d58aab6e5b85b29f33717548a2abf7e42ab16"
+  },
+  {
+   "name": "efluentes-liquidos",
+   "title": "Efluentes Líquidos",
+   "resources": 4,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-03T10:54:06+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:5ea0c65efc5675c3f7bcdf7d04e90cd2512b1648cfaa25cac5c1fa3b4ae3632a"
+  },
+  {
+   "name": "emissoes-de-poluentes-atmosfericos",
+   "title": "Emissões de Poluentes Atmosféricos",
+   "resources": 4,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-03T10:54:12+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:fdc9165fd3ce368dfdde5bd43e30f4c8a3a11d5ef47979849dbfc33a8dc575cf"
+  },
+  {
+   "name": "evolucao-das-receitas-arrecadadas",
+   "title": "Evolução das Receitas Arrecadadas",
+   "resources": 4,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-03T10:54:15+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:97d37ea2ed5f9d575f2f7ccf58cf46631135c6ccd6f40aa11454b3c8b91c7d55"
+  },
+  {
+   "name": "exploracao-economica-da-madeira-ou-lenha-e-subprodutos-florestais",
+   "title": "Exploração Econômica da Madeira ou Lenha e Subprodutos Florestais",
+   "resources": 4,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-03T10:54:17+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:33795ca387c39479c27fe9d1be8e55208bf312183878805e6f62ab38cee8f8bf"
+  },
+  {
+   "name": "extracao-e-tratamento-de-produtos-minerais",
+   "title": "Extração e tratamento de Produtos Minerais",
+   "resources": 4,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-03T10:54:19+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:c765a613174d5c24ecc74ca30ae1c91412456c53c972015d82ef23bcf9b751be"
+  },
+  {
+   "name": "fabricante-de-produtos-que-utilizam-materia-prima-de-origem-florestal",
+   "title": "Fabricante de Produtos que utilizam matéria prima de origem florestal",
+   "resources": 4,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-03T10:54:21+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:02d48181cab34b1ee560d4af4363b7912262c40a660db9a08a41f815e82758bb"
+  },
+  {
+   "name": "fila-de-acompanhamento-de-registro-de-agrotoxicos-quimicos",
+   "title": "Fila de acompanhamento de registro de agrotóxicos químicos",
+   "resources": 3,
+   "last_change": "2026-09-28T23:00:33+00:00",
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-12T11:11:50+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 1,
+   "finding_kinds": [
+    "signal"
+   ],
+   "ficha_id": "sha256:2776c29bd170c5a85b2ea22d6cee2e34bfdf045d7bb66a3a92f76a7bff898269"
+  },
+  {
+   "name": "fiscalizacao-auto-de-infracao",
+   "title": "Fiscalização - auto de infração",
+   "resources": 24,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-12T14:36:41+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "valid",
+     "rate": 0.9642854455247133,
+     "reason": null,
+     "evaluated_at": "2026-10-09T13:34:49+00:00",
+     "current": false
+    },
+    "L3": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-05T13:05:36+00:00",
+     "current": false
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.7,
+    "valid_layers": [
+     "L2",
+     "L3",
+     "L4"
+    ],
+    "low": 0.689285633657414,
+    "high": 0.9892856336574141,
+    "band": "undetermined",
+    "eligible": false,
+    "missing_layers": [
+     "L1"
+    ],
+    "integrity_open": false
+   },
+   "findings": 16,
+   "finding_kinds": [
+    "signal",
+    "unrecorded_change"
+   ],
+   "ficha_id": "sha256:c8b9062700e274e9c7be30e521619f0f606c16aefa9104aac8a7b228777427c9"
+  },
+  {
+   "name": "fiscalizacao-notificacao",
+   "title": "Fiscalização - Notificação",
+   "resources": 4,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 0.0,
+     "reason": null,
+     "evaluated_at": "2026-10-12T15:07:00+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L1",
+     "L4"
+    ],
+    "low": 0.2,
+    "high": 0.7,
+    "band": "alert",
+    "eligible": false,
+    "missing_layers": [
+     "L2",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 1,
+   "finding_kinds": [
+    "signal"
+   ],
+   "ficha_id": "sha256:27fcc7e53c6689c848f487143c75d920c3d526a1febde88453fa9d1570ec4ae2"
+  },
+  {
+   "name": "fiscalizacao-termo-de-apreensao",
+   "title": "Fiscalização - termo de apreensão",
+   "resources": 18,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 0.7778,
+     "reason": null,
+     "evaluated_at": "2026-10-03T11:01:22+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "valid",
+     "rate": 0.9774748008874885,
+     "reason": null,
+     "evaluated_at": "2026-10-09T13:35:26+00:00",
+     "current": true
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.8,
+    "valid_layers": [
+     "L1",
+     "L2",
+     "L4"
+    ],
+    "low": 0.7265824402662465,
+    "high": 0.9265824402662466,
+    "band": "undetermined",
+    "eligible": false,
+    "missing_layers": [
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 3,
+   "finding_kinds": [
+    "signal"
+   ],
+   "ficha_id": "sha256:2c08ff5a13482d0cbbb9fe89e5e371268c074e65fa740beaa4f63adb171e510b"
+  },
+  {
+   "name": "fiscalizacao-termo-de-demolicao",
+   "title": "Fiscalização - Termo de demolição",
+   "resources": 12,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 0.6667,
+     "reason": null,
+     "evaluated_at": "2026-10-12T15:07:28+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L1",
+     "L4"
+    ],
+    "low": 0.40001,
+    "high": 0.90001,
+    "band": "undetermined",
+    "eligible": false,
+    "missing_layers": [
+     "L2",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 1,
+   "finding_kinds": [
+    "signal"
+   ],
+   "ficha_id": "sha256:b4e859be61e8f3d46c75da2bc13f6881f9cf5f65b09adfeac90c64130f381c0a"
+  },
+  {
+   "name": "fiscalizacao-termo-de-destruicao-ou-inutilizacao",
+   "title": "Fiscalização - Termo de destruição ou inutilização",
+   "resources": 20,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 0.6,
+     "reason": null,
+     "evaluated_at": "2026-10-12T15:07:45+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L1",
+     "L4"
+    ],
+    "low": 0.38,
+    "high": 0.88,
+    "band": "undetermined",
+    "eligible": false,
+    "missing_layers": [
+     "L2",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 1,
+   "finding_kinds": [
+    "signal"
+   ],
+   "ficha_id": "sha256:527dc0767172f8295bb0138f4e567d317c630fed8618f659767ce4c8c29defa8"
+  },
+  {
+   "name": "fiscalizacao-termo-de-destruicao-ou-inutilizacao-serie-a-e-b",
+   "title": "Fiscalização – termo de destruição ou inutilização (série A e B)",
+   "resources": 12,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-03T11:01:51+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L1",
+     "L4"
+    ],
+    "low": 0.5,
+    "high": 1.0,
+    "band": "undetermined",
+    "eligible": false,
+    "missing_layers": [
+     "L2",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:ed1a8248cc8af3c8887ead644586c6f4b29c284bb02d1014280e9f5f2d64f014"
+  },
+  {
+   "name": "fiscalizacao-termo-de-doacao",
+   "title": "Fiscalização - Termo de doação",
+   "resources": 20,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 0.4,
+     "reason": null,
+     "evaluated_at": "2026-10-12T15:08:08+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L1",
+     "L4"
+    ],
+    "low": 0.32,
+    "high": 0.8200000000000001,
+    "band": "alert",
+    "eligible": false,
+    "missing_layers": [
+     "L2",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 1,
+   "finding_kinds": [
+    "signal"
+   ],
+   "ficha_id": "sha256:f841b707c8813d2bfe278f65a25b1aa796a74f7101414ceecbc0019851fa5d76"
+  },
+  {
+   "name": "fiscalizacao-termo-de-embargo",
+   "title": "Fiscalização - termo de embargo",
+   "resources": 24,
+   "last_change": "2026-10-07T23:02:39+00:00",
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 0.375,
+     "reason": null,
+     "evaluated_at": "2026-10-12T15:08:22+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "valid",
+     "rate": 0.9998241062398311,
+     "reason": null,
+     "evaluated_at": "2026-10-09T13:34:24+00:00",
+     "current": false
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.8,
+    "valid_layers": [
+     "L1",
+     "L2",
+     "L4"
+    ],
+    "low": 0.6124472318719494,
+    "high": 0.8124472318719493,
+    "band": "alert",
+    "eligible": false,
+    "missing_layers": [
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 14,
+   "finding_kinds": [
+    "signal",
+    "simultaneous",
+    "unrecorded_change"
+   ],
+   "ficha_id": "sha256:2b915e7975b23d73e0170289b223d77e08360bf42a4dc41891a7f193120b82d9"
+  },
+  {
+   "name": "fiscalizacao-termo-de-incineracao",
+   "title": "Fiscalização - Termo de incineração",
+   "resources": 12,
+   "last_change": "2026-06-11T16:05:34+00:00",
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 0.6667,
+     "reason": null,
+     "evaluated_at": "2026-10-12T15:08:33+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L1",
+     "L4"
+    ],
+    "low": 0.40001,
+    "high": 0.90001,
+    "band": "undetermined",
+    "eligible": false,
+    "missing_layers": [
+     "L2",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 1,
+   "finding_kinds": [
+    "signal"
+   ],
+   "ficha_id": "sha256:aab0df8173f2242f0a0c55de921d374c953f116ed82448ceb1f14ca787212018"
+  },
+  {
+   "name": "fiscalizacao-termo-de-soltura",
+   "title": "Fiscalização - Termo de soltura",
+   "resources": 20,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 0.4,
+     "reason": null,
+     "evaluated_at": "2026-10-12T14:37:14+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L1",
+     "L4"
+    ],
+    "low": 0.32,
+    "high": 0.8200000000000001,
+    "band": "alert",
+    "eligible": false,
+    "missing_layers": [
+     "L2",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 1,
+   "finding_kinds": [
+    "signal"
+   ],
+   "ficha_id": "sha256:11533764f7d38309daada78417865feb7f055b9f7c65400e6c08c16fb5668494"
+  },
+  {
+   "name": "fiscalizacao-termo-de-suspensao",
+   "title": "Fiscalização - termo de suspensão",
+   "resources": 12,
+   "last_change": "2026-08-14T18:55:10+00:00",
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 0.0,
+     "reason": null,
+     "evaluated_at": "2026-10-12T15:08:44+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L1",
+     "L4"
+    ],
+    "low": 0.2,
+    "high": 0.7,
+    "band": "alert",
+    "eligible": false,
+    "missing_layers": [
+     "L2",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 2,
+   "finding_kinds": [
+    "signal",
+    "simultaneous"
+   ],
+   "ficha_id": "sha256:9f9f71bd169ee01ce34ff953a9066a9f5b249bf9bef555e96aefb821143817e7"
+  },
+  {
+   "name": "fonte-energetica",
+   "title": "Fonte Energética",
+   "resources": 4,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-03T11:04:50+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:29fe687cea10acb06752a23c25912adcb6b060ce23f6c62a692ed308c7502c8c"
+  },
+  {
+   "name": "fontes-energeticas",
+   "title": "Fontes Energéticas",
+   "resources": 4,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-03T11:04:52+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:0bca3e77099b165f183315f8e5399be2e2edf36178fc4549fd221fc46a054266"
+  },
+  {
+   "name": "imagens-aereas-do-desastre-mariana-mg",
+   "title": "Imagens aéreas do desastre Mariana/MG",
+   "resources": 3,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-12T11:10:48+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:ce493c522eae880d506e61d0a1b538172a469738eb86c1d1b3c1685d5cffd235"
+  },
+  {
+   "name": "importador-exportador-de-fauna-e-flora-produtos-parte",
+   "title": "Importador/ Exportador de Fauna e Flora - Produtos/ Parte",
+   "resources": 4,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-03T11:04:59+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:48076b788b4ad3c542b7d6386adc32ea97f11734c614413ab2e5a1e5d16784a3"
+  },
+  {
+   "name": "julgamentos-de-auto-de-infracao-realizado-no-ambito-do-ibama",
+   "title": "Julgamentos de Auto de Infração - Realizado no âmbito do IBAMA",
+   "resources": 4,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-03T11:05:02+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "valid",
+     "rate": 0.9162605228178998,
+     "reason": null,
+     "evaluated_at": "2026-10-09T13:35:18+00:00",
+     "current": true
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L2",
+     "L4"
+    ],
+    "low": 0.47487815684536994,
+    "high": 0.9748781568453699,
+    "band": "undetermined",
+    "eligible": false,
+    "missing_layers": [
+     "L1",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 2,
+   "finding_kinds": [
+    "signal"
+   ],
+   "ficha_id": "sha256:122312fe33280faff46a776a1c8494a187f50db82f37d4ccc7a2e34cb414f489"
+  },
+  {
+   "name": "licencas-ambientais-de-atividades-e-empreendimentos-licenciados-pelo-ibama",
+   "title": "Licenças ambientais de atividades e empreendimentos licenciados pelo Ibama",
+   "resources": 4,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-12T14:37:18+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "valid",
+     "rate": 0.9958622972525654,
+     "reason": null,
+     "evaluated_at": "2026-10-09T13:35:18+00:00",
+     "current": false
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L2",
+     "L4"
+    ],
+    "low": 0.4987586891757696,
+    "high": 0.9987586891757696,
+    "band": "undetermined",
+    "eligible": false,
+    "missing_layers": [
+     "L1",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 5,
+   "finding_kinds": [
+    "signal",
+    "unrecorded_change"
+   ],
+   "ficha_id": "sha256:18198525d79b3f2244de5efad74f4cf70bc0237c0d22c36322f532945e9d3e46"
+  },
+  {
+   "name": "multas-ambientais-distribuidas-por-bens-tutelados",
+   "title": "Multas Ambientais Distribuídas por Bens Tutelados",
+   "resources": 4,
+   "last_change": "2026-08-26T19:49:09+00:00",
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-12T15:09:34+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 1,
+   "finding_kinds": [
+    "signal"
+   ],
+   "ficha_id": "sha256:4ddbf555ffe66280108404c58a0d34166cf53a657cd8eff614e4f677b711506e"
+  },
+  {
+   "name": "pescador-profissional",
+   "title": "Pescador Profissional",
+   "resources": 4,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-03T11:05:51+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:72145812a2954a2cb7bd03fd37a5186db2c5999fe4e20b7b800c47293e4ea701"
+  },
+  {
+   "name": "pessoas-juridicas-inscritas-no-ctf-aida",
+   "title": "Pessoas jurídicas inscritas no CTF/AIDA",
+   "resources": 3,
+   "last_change": "2026-06-24T19:48:36+00:00",
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-12T14:37:20+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:f5e61a89aa8508c60ad5c1b0edd90daeab383279a62daa214d25e7d6c72fbf02"
+  },
+  {
+   "name": "pessoas-juridicas-inscritas-no-ctf-app",
+   "title": "Pessoas jurídicas inscritas no CTF/APP",
+   "resources": 4,
+   "last_change": "2026-06-24T19:48:36+00:00",
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 0.0,
+     "reason": null,
+     "evaluated_at": "2026-10-12T14:37:29+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L1",
+     "L4"
+    ],
+    "low": 0.2,
+    "high": 0.7,
+    "band": "alert",
+    "eligible": false,
+    "missing_layers": [
+     "L2",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 1,
+   "finding_kinds": [
+    "signal"
+   ],
+   "ficha_id": "sha256:c477ea6dd3afc0f0d1fdca5cd78a5c745e75fa7bcdb3cb47b7022d64855815d6"
+  },
+  {
+   "name": "plantacao-vegetacao-nativa",
+   "title": "Plantação/ Vegetação Nativa",
+   "resources": 4,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-03T11:08:38+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:c67d9df7aff67e8a533d156978c3b8ea6691f0444ee8516fe0dfc5d1b19b9744"
+  },
+  {
+   "name": "produtos-reciclados",
+   "title": "Produtos Reciclados",
+   "resources": 4,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-03T11:08:40+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:a4e11ff8f43b3a77992d4f6611f85e63021d5ec5a72b236df99f26a830ae5fd9"
+  },
+  {
+   "name": "rapp-pilhas-e-baterias-fabricante-nacional",
+   "title": "Rapp Pilhas e Baterias - Fabricante Nacional",
+   "resources": 20,
+   "last_change": "2026-10-06T18:19:17+00:00",
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 0.2,
+     "reason": null,
+     "evaluated_at": "2026-10-12T14:38:45+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L1",
+     "L4"
+    ],
+    "low": 0.26,
+    "high": 0.76,
+    "band": "alert",
+    "eligible": false,
+    "missing_layers": [
+     "L2",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 2,
+   "finding_kinds": [
+    "signal"
+   ],
+   "ficha_id": "sha256:0c4823bafac14931d32bd3b9c92e9535bece4690c54a5098f988306aee4c0f52"
+  },
+  {
+   "name": "rapp-pilhas-e-baterias-importador",
+   "title": "Rapp Pilhas e baterias - Importador",
+   "resources": 24,
+   "last_change": "2026-10-07T23:02:39+00:00",
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 0.3333,
+     "reason": null,
+     "evaluated_at": "2026-10-12T15:10:32+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L1",
+     "L4"
+    ],
+    "low": 0.29999,
+    "high": 0.79999,
+    "band": "alert",
+    "eligible": false,
+    "missing_layers": [
+     "L2",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 2,
+   "finding_kinds": [
+    "signal",
+    "simultaneous"
+   ],
+   "ficha_id": "sha256:a898d05448c7836db4d40ec5516d47736220bd024c5549dbf6adcbceff9fe9f4"
+  },
+  {
+   "name": "rapp-pilhas-e-baterias-reciclador",
+   "title": "Rapp Pilhas e Baterias - Reciclador",
+   "resources": 4,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 0.0,
+     "reason": null,
+     "evaluated_at": "2026-10-12T15:10:33+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L1",
+     "L4"
+    ],
+    "low": 0.2,
+    "high": 0.7,
+    "band": "alert",
+    "eligible": false,
+    "missing_layers": [
+     "L2",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 1,
+   "finding_kinds": [
+    "signal"
+   ],
+   "ficha_id": "sha256:a6cbd8592c25e6819376a6d95190b7ef85724e4a43467a773d19a4eb8518ced9"
+  },
+  {
+   "name": "relatorios-de-comercializacao-de-agrotoxicos",
+   "title": "Relatórios de Comercialização de Agrotóxicos",
+   "resources": 3,
+   "last_change": "2026-08-17T18:40:16+00:00",
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-12T15:10:41+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "valid",
+     "rate": 0.8515655199072285,
+     "reason": null,
+     "evaluated_at": "2026-10-09T13:35:25+00:00",
+     "current": true
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L2",
+     "L4"
+    ],
+    "low": 0.45546965597216854,
+    "high": 0.9554696559721685,
+    "band": "undetermined",
+    "eligible": false,
+    "missing_layers": [
+     "L1",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 2,
+   "finding_kinds": [
+    "signal"
+   ],
+   "ficha_id": "sha256:bccf57f171e683475a82a8b9d3175ccc3b162ec091148dd011131af31bc95f1d"
+  },
+  {
+   "name": "residuos-solidos-armazenador",
+   "title": "Resíduos Sólidos – Armazenador",
+   "resources": 4,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-03T11:10:39+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:9b630740b6a61557b5e6e70fe2b775636b9ef9f40df83f249d21d7f9b783a883"
+  },
+  {
+   "name": "residuos-solidos-destinador",
+   "title": "Resíduos Sólidos – Destinador",
+   "resources": 4,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-03T11:10:42+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:ca77f4eb9c93eb7925133182c6411809921b1b569478be30a7ce7cf3be7cb663"
+  },
+  {
+   "name": "residuos-solidos-gerador-a-partir-de-2012",
+   "title": "Resíduos Sólidos - Gerador (a partir de 2012)",
+   "resources": 4,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-03T11:10:45+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:d4950632046fb348508a228f4121ce262bc9f41ea7c30cf4282ee398775877d9"
+  },
+  {
+   "name": "residuos-solidos-gerador-anterior-a-2012",
+   "title": "Resíduos Sólidos - Gerador (anterior a 2012)",
+   "resources": 4,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-03T11:10:55+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:84b1e81cb1bc86892d99d50a5d74e6d4154ee01860ba4c2ebfa409dedee742e3"
+  },
+  {
+   "name": "residuos-solidos-transportador",
+   "title": "Resíduos Sólidos – Transportador",
+   "resources": 4,
+   "last_change": "2026-10-02T22:29:04+00:00",
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-03T11:10:59+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:d692d960d83343aa98b02b0da7d72eabfb19ebe05e093b956b48541ea0c31dd4"
+  },
+  {
+   "name": "siema-comunicado-de-acidente-ambiental",
+   "title": "Siema - Comunicado de Acidente Ambiental",
+   "resources": 3,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-12T11:10:48+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:2ce0afd68fa3ced96d4f561f97887a89866b30048003952d00bd5e4692b31233"
+  },
+  {
+   "name": "silvicultura",
+   "title": "Silvicultura",
+   "resources": 4,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-03T11:11:03+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:a851fd5724a6d09025de9915bcf1f0fac721a440b860377d2c695b2d3308cfd0"
+  },
+  {
+   "name": "sinaflor-autorizacao-de-supressao-de-vegetacao",
+   "title": "Sinaflor - Autorização de Supressão de Vegetação",
+   "resources": 4,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 0.0,
+     "reason": null,
+     "evaluated_at": "2026-10-12T14:39:04+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L1",
+     "L4"
+    ],
+    "low": 0.2,
+    "high": 0.7,
+    "band": "alert",
+    "eligible": false,
+    "missing_layers": [
+     "L2",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 1,
+   "finding_kinds": [
+    "signal"
+   ],
+   "ficha_id": "sha256:493112e670a9fcf441762e6e8d5d8d4cdda7b4197ab3c3ac85ab70c815cc8e0d"
+  },
+  {
+   "name": "sinaflor-autorizacao-de-utilizacao-de-materia-prima-florestal",
+   "title": "Sinaflor - Autorização de Utilização de Matéria-Prima Florestal",
+   "resources": 3,
+   "last_change": "2026-07-08T14:12:22+00:00",
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-12T14:39:07+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:5d3b4798591a3f7cbf9d8b9524e67814e5459ddacffc21549cbadc9a8cb9111f"
+  },
+  {
+   "name": "sinaflor-autorizacao-especial",
+   "title": "Sinaflor - Autorização Especial",
+   "resources": 3,
+   "last_change": "2026-08-14T02:01:51+00:00",
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 0.0,
+     "reason": null,
+     "evaluated_at": "2026-10-12T14:39:10+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L1",
+     "L4"
+    ],
+    "low": 0.2,
+    "high": 0.7,
+    "band": "alert",
+    "eligible": false,
+    "missing_layers": [
+     "L2",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 2,
+   "finding_kinds": [
+    "signal"
+   ],
+   "ficha_id": "sha256:15b8a8fd434b48e88a6abec4641bb8be943f323946653fd149121e5fc4ddf36d"
+  },
+  {
+   "name": "sinaflor-corte-de-arvores-isoladas",
+   "title": "Sinaflor - Corte de Árvores Isoladas",
+   "resources": 4,
+   "last_change": "2026-07-09T15:12:50+00:00",
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 0.0,
+     "reason": null,
+     "evaluated_at": "2026-10-12T15:20:13+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L1",
+     "L4"
+    ],
+    "low": 0.2,
+    "high": 0.7,
+    "band": "alert",
+    "eligible": false,
+    "missing_layers": [
+     "L2",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 1,
+   "finding_kinds": [
+    "signal"
+   ],
+   "ficha_id": "sha256:99e4e3f53ec064a737a22ff3e23765c008e60b24be2788c28e216731b60d8366"
+  },
+  {
+   "name": "sinaflor-empreendimentos-de-base-florestal",
+   "title": "Sinaflor - Empreendimentos de Base Florestal",
+   "resources": 4,
+   "last_change": "2026-10-07T23:02:39+00:00",
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 0.0,
+     "reason": null,
+     "evaluated_at": "2026-10-12T11:11:21+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L1",
+     "L4"
+    ],
+    "low": 0.2,
+    "high": 0.7,
+    "band": "alert",
+    "eligible": false,
+    "missing_layers": [
+     "L2",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 3,
+   "finding_kinds": [
+    "signal",
+    "simultaneous"
+   ],
+   "ficha_id": "sha256:98d1f655985e221881818b0e374a5373db3e9e34241e90707b437f8f51ac0ec9"
+  },
+  {
+   "name": "sinaflor-exploracao-de-floresta-plantada",
+   "title": "Sinaflor - Exploração de Floresta Plantada",
+   "resources": 3,
+   "last_change": "2026-07-08T14:12:22+00:00",
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 0.0,
+     "reason": null,
+     "evaluated_at": "2026-10-12T14:39:17+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L1",
+     "L4"
+    ],
+    "low": 0.2,
+    "high": 0.7,
+    "band": "alert",
+    "eligible": false,
+    "missing_layers": [
+     "L2",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 1,
+   "finding_kinds": [
+    "signal"
+   ],
+   "ficha_id": "sha256:b5e3b45aa6fdf582997f1f17db669c423bd101d4ad834bb4a584c09b4c214fa8"
+  },
+  {
+   "name": "sinaflor-pmfs-amazonia-legal",
+   "title": "Sinaflor - PMFS Amazônia Legal",
+   "resources": 4,
+   "last_change": "2026-07-08T19:27:07+00:00",
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 0.0,
+     "reason": null,
+     "evaluated_at": "2026-10-12T14:39:23+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "valid",
+     "rate": 0.9769076305220884,
+     "reason": null,
+     "evaluated_at": "2026-10-09T13:34:40+00:00",
+     "current": false
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.8,
+    "valid_layers": [
+     "L1",
+     "L2",
+     "L4"
+    ],
+    "low": 0.49307228915662654,
+    "high": 0.6930722891566266,
+    "band": "critical",
+    "eligible": false,
+    "missing_layers": [
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 4,
+   "finding_kinds": [
+    "signal",
+    "unrecorded_change"
+   ],
+   "ficha_id": "sha256:82fa2dded21b4c5e1775aa9db9189436fb4cda5e00d7d7044d5afcdf594aa275"
+  },
+  {
+   "name": "sinaflor-pmfs-outros-biomas",
+   "title": "Sinaflor - PMFS Outros Biomas",
+   "resources": 4,
+   "last_change": "2026-07-08T19:27:07+00:00",
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 0.0,
+     "reason": null,
+     "evaluated_at": "2026-10-12T15:10:51+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L1",
+     "L4"
+    ],
+    "low": 0.2,
+    "high": 0.7,
+    "band": "alert",
+    "eligible": false,
+    "missing_layers": [
+     "L2",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 1,
+   "finding_kinds": [
+    "signal"
+   ],
+   "ficha_id": "sha256:786599af75ec5ba066b94d01dcf27a24b74b6a6376e7ea21721848ec6e1495c9"
+  },
+  {
+   "name": "sinaflor-poa-amazonia-legal",
+   "title": "Sinaflor - POA Amazônia Legal",
+   "resources": 4,
+   "last_change": "2026-09-10T20:30:51+00:00",
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 0.0,
+     "reason": null,
+     "evaluated_at": "2026-10-12T14:39:26+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L1",
+     "L4"
+    ],
+    "low": 0.2,
+    "high": 0.7,
+    "band": "alert",
+    "eligible": false,
+    "missing_layers": [
+     "L2",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 2,
+   "finding_kinds": [
+    "signal"
+   ],
+   "ficha_id": "sha256:d547c7143126b54419dffeec5a5f3025ec168fe039efb98aae7425ba2db09f64"
+  },
+  {
+   "name": "sinaflor-poa-outros-biomas",
+   "title": "Sinaflor - POA Outros Biomas",
+   "resources": 4,
+   "last_change": "2026-07-16T02:42:24+00:00",
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 0.0,
+     "reason": null,
+     "evaluated_at": "2026-10-12T14:39:29+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L1",
+     "L4"
+    ],
+    "low": 0.2,
+    "high": 0.7,
+    "band": "alert",
+    "eligible": false,
+    "missing_layers": [
+     "L2",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 2,
+   "finding_kinds": [
+    "signal"
+   ],
+   "ficha_id": "sha256:9a7dc0ca95839d53b9d821585cd3030f3269976d8d2c775e0f3d3a175ae6618e"
+  },
+  {
+   "name": "sinaflor-responsavel-tecnico",
+   "title": "Sinaflor - Responsável Técnico",
+   "resources": 3,
+   "last_change": "2026-08-12T19:02:56+00:00",
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-12T14:39:36+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L1",
+     "L4"
+    ],
+    "low": 0.5,
+    "high": 1.0,
+    "band": "undetermined",
+    "eligible": false,
+    "missing_layers": [
+     "L2",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 1,
+   "finding_kinds": [
+    "signal"
+   ],
+   "ficha_id": "sha256:b5f34b629aec9b9651f798054eddb9b1910b23e6ed49ca71819a595e7792989b"
+  },
+  {
+   "name": "sinaflor-uso-alternativo-do-solo",
+   "title": "Sinaflor - Uso Alternativo do Solo",
+   "resources": 4,
+   "last_change": "2026-07-08T19:27:07+00:00",
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 0.0,
+     "reason": null,
+     "evaluated_at": "2026-10-12T15:18:23+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L1",
+     "L4"
+    ],
+    "low": 0.2,
+    "high": 0.7,
+    "band": "alert",
+    "eligible": false,
+    "missing_layers": [
+     "L2",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 1,
+   "finding_kinds": [
+    "signal"
+   ],
+   "ficha_id": "sha256:77fbe285ea1f856f283d89739232c9e7d847ad8ce2496ab0c0ce79bb3ac113e0"
+  },
+  {
+   "name": "sinaflor-uso-alternativo-do-solo-agricultor-familiar",
+   "title": "Sinaflor - Uso Alternativo do Solo - Agricultor familiar",
+   "resources": 3,
+   "last_change": "2026-07-16T19:13:22+00:00",
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 0.0,
+     "reason": null,
+     "evaluated_at": "2026-10-12T15:18:23+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L1",
+     "L4"
+    ],
+    "low": 0.2,
+    "high": 0.7,
+    "band": "alert",
+    "eligible": false,
+    "missing_layers": [
+     "L2",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 2,
+   "finding_kinds": [
+    "signal"
+   ],
+   "ficha_id": "sha256:dde85e0ac39912aa868c36b8e75c274e406ac8d413edcfd0758419914537f07c"
+  },
+  {
+   "name": "siscites-licencas-de-fauna-e-flora-emitidas",
+   "title": "Siscites - licenças de fauna e flora emitidas",
+   "resources": 4,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-12T14:39:40+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "valid",
+     "rate": 0.9939431219958801,
+     "reason": null,
+     "evaluated_at": "2026-10-09T13:34:23+00:00",
+     "current": false
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L2",
+     "L4"
+    ],
+    "low": 0.498182936598764,
+    "high": 0.998182936598764,
+    "band": "undetermined",
+    "eligible": false,
+    "missing_layers": [
+     "L1",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 3,
+   "finding_kinds": [
+    "signal",
+    "unrecorded_change"
+   ],
+   "ficha_id": "sha256:19f5bdd5f192aff78ef5035dc698e1b11d31a2e5b3fa310c87cbda6e339cb983"
+  },
+  {
+   "name": "sisfauna-comercializacao-de-partes-produtos",
+   "title": "Sisfauna - Comercialização de Partes & Produtos",
+   "resources": 4,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-03T11:12:50+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:3ea394267a2666830355ddfb928ffdd588e317f10cf005b554c1d66a4b4c1c66"
+  },
+  {
+   "name": "sisfauna-plantel-estimado",
+   "title": "Sisfauna - Plantel Estimado",
+   "resources": 4,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-03T11:12:53+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:8cff4f65b4f924065201629339b611e64aa675ff56acafa7a741da6312cbbd68"
+  },
+  {
+   "name": "sisfauna-plantel-exato",
+   "title": "Sisfauna - Plantel Exato",
+   "resources": 4,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-03T11:12:56+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-09T13:34:25+00:00",
+     "current": true
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L2",
+     "L4"
+    ],
+    "low": 0.5,
+    "high": 1.0,
+    "band": "undetermined",
+    "eligible": false,
+    "missing_layers": [
+     "L1",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:ec1b014a333bc7d334b2ee8270f885630988b65a6eabe1b2f84166a6a8cd3834"
+  },
+  {
+   "name": "sisfogo-roi",
+   "title": "Sisfogo - ROI",
+   "resources": 5,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 0.0,
+     "reason": null,
+     "evaluated_at": "2026-10-03T11:13:00+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "valid",
+     "rate": 0.9982844513469924,
+     "reason": null,
+     "evaluated_at": "2026-10-09T13:34:29+00:00",
+     "current": true
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.8,
+    "valid_layers": [
+     "L1",
+     "L2",
+     "L4"
+    ],
+    "low": 0.49948533540409773,
+    "high": 0.6994853354040977,
+    "band": "critical",
+    "eligible": false,
+    "missing_layers": [
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 2,
+   "finding_kinds": [
+    "signal"
+   ],
+   "ficha_id": "sha256:328590394d4cc2519b2e1457b5518c0f627732931427d6d0cb41e848575ea8e5"
+  },
+  {
+   "name": "supressao-de-vegetacao-nao-florestal-no-bioma-amazonia",
+   "title": "Supressão de Vegetação não florestal no bioma Amazônia",
+   "resources": 3,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-12T11:10:49+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:a826ee118c8c39eca7a12732e1985fd3a79539eef52ccd0ac1102d66ec654fb5"
+  },
+  {
+   "name": "termos-de-embargo",
+   "title": "Termos de Embargo",
+   "resources": 1,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_nothing_verifiable",
+     "evaluated_at": "2026-10-12T15:21:48+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:c04dbe6595ef4197b04e0266c8b9228f6224521be260b27bd2be6679df73ab5e"
+  },
+  {
+   "name": "transporte-de-produtos-quimicos-perigosos-ou-combustiveis",
+   "title": "Transporte de Produtos Químicos Perigosos ou Combustíveis",
+   "resources": 4,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-03T11:13:16+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:fe01ecb8965a9b88c17c3644962f664d717af41d1d88ac61009ddc5179434885"
+  },
+  {
+   "name": "unidade-poluidora",
+   "title": "Unidade Poluidora",
+   "resources": 4,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-03T11:13:27+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:38888462f4ddc3fa31ea306f133b8e449241a65da00fbaa2467ea093618aad12"
+  },
+  {
+   "name": "unidades-ibama",
+   "title": "Unidades IBAMA",
+   "resources": 3,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-12T11:10:49+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:4e2cf72f3a5c8f215d9fb5c83d00f66ba1619ac5a1ff7bb1625c5f31524109e9"
+  },
+  {
+   "name": "vegetacao-de-mangue-brasileira",
+   "title": "Vegetação de Mangue brasileira",
+   "resources": 3,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-12T11:10:49+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:beef861198e3f8320ab837eb1ee5f73b2be3e6d0dd4f5a1cb87c91fcd48d8076"
+  },
+  {
+   "name": "vias-despavimentadas",
+   "title": "Vias Despavimentadas",
+   "resources": 4,
+   "last_change": null,
+   "layers": {
+    "L1": {
+     "status": "missing",
+     "rate": null,
+     "reason": "l1_level0",
+     "evaluated_at": "2026-10-03T11:13:31+00:00",
+     "current": null
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "none",
+    "factor": 1.0,
+    "coverage": 0.2,
+    "valid_layers": [
+     "L4"
+    ],
+    "band": null,
+    "integrity_open": false
+   },
+   "findings": 0,
+   "finding_kinds": [],
+   "ficha_id": "sha256:8d43c9f52566550e9f46ced13ae1d70dc5254f1485dc0052c7ec2037ced42d1f"
+  },
+  {
+   "name": "volumes-explorados-if-100",
+   "title": "Volumes Explorados - IF 100%",
+   "resources": 3,
+   "last_change": "2026-10-08T23:18:16+00:00",
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 0.0,
+     "reason": null,
+     "evaluated_at": "2026-10-12T14:39:47+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "valid",
+     "rate": 0.7573042372224306,
+     "reason": null,
+     "evaluated_at": "2026-10-09T13:34:39+00:00",
+     "current": false
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.8,
+    "valid_layers": [
+     "L1",
+     "L2",
+     "L4"
+    ],
+    "low": 0.42719127116672917,
+    "high": 0.6271912711667291,
+    "band": "critical",
+    "eligible": false,
+    "missing_layers": [
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 6,
+   "finding_kinds": [
+    "signal",
+    "unrecorded_change"
+   ],
+   "ficha_id": "sha256:2d19039e5fba7d552b596fd863c8b0becfb0124d7c6c69438d1437320e8f54fb"
+  },
+  {
+   "name": "volumes-explorados-inventario-amostral",
+   "title": "Volumes Explorados - Inventário Amostral",
+   "resources": 3,
+   "last_change": "2026-10-02T22:29:04+00:00",
+   "layers": {
+    "L1": {
+     "status": "valid",
+     "rate": 0.0,
+     "reason": null,
+     "evaluated_at": "2026-10-12T15:18:35+00:00",
+     "current": true
+    },
+    "L2": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L3": {
+     "status": "missing",
+     "rate": null,
+     "reason": "not_reached",
+     "evaluated_at": null,
+     "current": null
+    },
+    "L4": {
+     "status": "valid",
+     "rate": 1.0,
+     "reason": null,
+     "evaluated_at": "2026-10-13T00:35:39+00:00",
+     "current": true
+    }
+   },
+   "qs": {
+    "kind": "partial",
+    "factor": 1.0,
+    "coverage": 0.5,
+    "valid_layers": [
+     "L1",
+     "L4"
+    ],
+    "low": 0.2,
+    "high": 0.7,
+    "band": "alert",
+    "eligible": false,
+    "missing_layers": [
+     "L2",
+     "L3"
+    ],
+    "integrity_open": false
+   },
+   "findings": 2,
+   "finding_kinds": [
+    "signal",
+    "simultaneous"
+   ],
+   "ficha_id": "sha256:03404429c830a67834ab5ce59a7907ebbb0f9eac67e5e17f5279ae560587fa62"
+  }
+ ]
+}

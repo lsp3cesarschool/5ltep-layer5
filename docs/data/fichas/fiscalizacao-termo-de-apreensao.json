@@ -1,0 +1,387 @@
+{
+ "dataset": {
+  "name": "fiscalizacao-termo-de-apreensao",
+  "title": "Fiscalização - termo de apreensão",
+  "id": "89568872-a865-4e19-8a7c-6f11965a3195",
+  "resources": 18,
+  "last_change": null,
+  "last_type": null,
+  "entity": "https://dadosabertos.ibama.gov.br/dataset/89568872-a865-4e19-8a7c-6f11965a3195#33fac8c9ca1a",
+  "portal_page": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-termo-de-apreensao"
+ },
+ "qs": {
+  "kind": "partial",
+  "factor": 1.0,
+  "coverage": 0.8,
+  "valid_layers": [
+   "L1",
+   "L2",
+   "L4"
+  ],
+  "integrity": [],
+  "low": 0.7265824402662465,
+  "high": 0.9265824402662466,
+  "band": "undetermined",
+  "eligible": false,
+  "missing_layers": [
+   "L3"
+  ]
+ },
+ "layers": {
+  "L1": {
+   "status": "valid",
+   "reason": null,
+   "rate": 0.7778,
+   "evaluated_at": "2026-10-03T11:01:22+00:00",
+   "current": true,
+   "facts": {
+    "level": 1,
+    "tables": 18,
+    "verifiable": 18,
+    "conformant": 14
+   },
+   "signals": [
+    {
+     "key": "L1:fiscalizacao-termo-de-apreensao",
+     "count": 4,
+     "en": "4 of 18 verifiable file(s) do not conform to the declared schema",
+     "pt": "4 de 18 arquivo(s) verificável(is) fora do esquema declarado"
+    }
+   ]
+  },
+  "L2": {
+   "status": "valid",
+   "reason": null,
+   "rate": 0.9774748008874885,
+   "evaluated_at": "2026-10-09T13:35:26+00:00",
+   "current": true,
+   "facts": {
+    "rules": [
+     "seizure-coordinates-missing-or-zero",
+     "term-without-infraction"
+    ],
+    "checks": 183439,
+    "signals": 4132,
+    "not_evaluated": []
+   },
+   "signals": [
+    {
+     "key": "L2:seizure-coordinates-missing-or-zero",
+     "count": 4103,
+     "en": "4103 signal(s) of rule 'Seizure term without coordinates or at (0,0)' in 58136 check(s)",
+     "pt": "4103 sinal(is) da regra 'Termo de apreensão sem coordenada ou em (0,0)' em 58136 verificação(ões)"
+    },
+    {
+     "key": "L2:term-without-infraction",
+     "count": 29,
+     "en": "29 signal(s) of rule 'Seizure term linked to an unpublished infraction notice' in 125303 check(s)",
+     "pt": "29 sinal(is) da regra 'Termo de apreensão ligado a auto não publicado' em 125303 verificação(ões)"
+    }
+   ]
+  },
+  "L3": {
+   "status": "missing",
+   "reason": "not_reached",
+   "rate": null,
+   "evaluated_at": null,
+   "current": null,
+   "facts": {},
+   "signals": []
+  },
+  "L4": {
+   "status": "valid",
+   "reason": null,
+   "rate": 1.0,
+   "evaluated_at": "2026-10-13T00:35:39+00:00",
+   "current": true,
+   "facts": {
+    "observations": 104,
+    "critical_in_window": 0,
+    "entity": "https://dadosabertos.ibama.gov.br/dataset/89568872-a865-4e19-8a7c-6f11965a3195#33fac8c9ca1a"
+   },
+   "signals": []
+  }
+ },
+ "findings": [
+  {
+   "layer": "L1",
+   "kind": "signal",
+   "key": "L1:fiscalizacao-termo-de-apreensao",
+   "count": 4,
+   "when": null,
+   "en": "4 of 18 verifiable file(s) do not conform to the declared schema",
+   "pt": "4 de 18 arquivo(s) verificável(is) fora do esquema declarado"
+  },
+  {
+   "layer": "L2",
+   "kind": "signal",
+   "key": "L2:seizure-coordinates-missing-or-zero",
+   "count": 4103,
+   "when": null,
+   "en": "4103 signal(s) of rule 'Seizure term without coordinates or at (0,0)' in 58136 check(s)",
+   "pt": "4103 sinal(is) da regra 'Termo de apreensão sem coordenada ou em (0,0)' em 58136 verificação(ões)"
+  },
+  {
+   "layer": "L2",
+   "kind": "signal",
+   "key": "L2:term-without-infraction",
+   "count": 29,
+   "when": null,
+   "en": "29 signal(s) of rule 'Seizure term linked to an unpublished infraction notice' in 125303 check(s)",
+   "pt": "29 sinal(is) da regra 'Termo de apreensão ligado a auto não publicado' em 125303 verificação(ões)"
+  }
+ ],
+ "outcomes": {
+  "open": [
+   {
+    "key": "L1:fiscalizacao-termo-de-apreensao",
+    "layer": "L1",
+    "first_reported": "2026-10-13T19:15:59+00:00",
+    "count": 4,
+    "evaluated_at": "2026-10-03T11:01:22+00:00",
+    "status": "reported",
+    "en": "4 of 18 verifiable file(s) do not conform to the declared schema",
+    "pt": "4 de 18 arquivo(s) verificável(is) fora do esquema declarado",
+    "digests": {
+     "3364a902-067a-469a-bd9a-b865d234eed9": "afd442f6d8af42303c6015154b26bd227eb240a778928e71063dfcf6a86db2dc",
+     "67c67a93-f99e-4764-b0ee-4a2911d79c7a": "78530c50d3776adf5c14caf260ca15fcae37e7c2d6e0ea9e0d609e5da77f075e",
+     "27242a34-0690-436a-83e9-572f2e9cbc0e": "3091b98113b667da9d7e10a2f7433691f0cd07fa87c3955bbdcc881f3bd67b12",
+     "beab1a59-3fd2-4e00-871d-0d2052ef2425": "ea3ba089c36c6a51aa16a8fe1e34e538251590d190d8be0057c7b645c5b6557c",
+     "0c3335d3-cd37-48f6-9785-9de6864dfeb8": "94572a53253d402a2450b134465e8b2cdc10a4353cf1ad2ceb5ba7c822b90706",
+     "26063153-1102-4cc1-ba71-df8f2bb00727": "ec267785cf69970c14a845744fabf24e3697507ceaf31c43c7b6b14d24ce172b",
+     "081627a0-d158-44a8-88b0-600929e93526": "5a4de5c370ed164d70fc3745cd69f6286c0c7ce52ea830e97c0b9f2edb0b8262",
+     "122931cd-78da-4064-87b6-3f2a89406c61": "4b09e2d7c7527084628799cc308a39c7e08209ac151b56ac61dc2a0f30225160",
+     "27706b6b-e099-4cd7-bb87-2a45a47f9446": "f6f5bf786e50fd3a570b687078c38b3a10cd6c37e9162966c4fd0ec62a120102",
+     "10869c00-3e91-4da2-99a9-e73c976a9af6": "5512ddb83ad4743650031801685c2ac15a9704d54d2f8d50d7711fd5ce6a5062",
+     "4d0993b3-3fc3-4708-b617-7e86485dbb99": "2c46bd7fdf82451551f866d842523f21bdb5fbad46283c9189565384311d302d",
+     "f7195f5e-26ac-444a-ad98-d1bd69081d58": "abd5f02be35b61b92502de521b91ce97a5409cff9e88b25d6b04d4e3a17ad327",
+     "c49419ca-efed-4090-a32e-565c2ec68084": "9e63646dde96fef2b437a64e8c080081a228df13bcac419c7aba55e856f396a7",
+     "497ac942-f584-415c-bed8-a5bb09f97463": "3b6088202510e50cb0a5044345219cb16a79ea71e696c38dd4cfb5a6b6f2ab2a",
+     "76095503-a1e2-4e5d-8f02-fd05aa632522": "e332556ae6729b64f55e4e73bab3413a3af60ca781df41b0b5dc0aa77ee1446d",
+     "a96d568d-2beb-44bd-84ce-19522dd0f856": "1c6066bab88070dd1592b02fea5424c5b8325afb9b2e9385f73669dbc6d539ac",
+     "3b99c21e-30b2-410b-8823-356bb73012e0": "4090a12a865fa8cefb0d891f45fbef5600776f5e1550b14b13d6405f28701ee7",
+     "e8f66578-2df7-424e-bd85-bcbf260243a9": "b42d6c7c28de64591315d9a8780d81b13ca2a51470a40b9d66a4247571ac3a0d"
+    }
+   },
+   {
+    "key": "L2:seizure-coordinates-missing-or-zero",
+    "layer": "L2",
+    "first_reported": "2026-10-13T19:15:59+00:00",
+    "count": 4103,
+    "evaluated_at": "2026-10-09T13:35:26+00:00",
+    "status": "reported",
+    "en": "4103 signal(s) of rule 'Seizure term without coordinates or at (0,0)' in 58136 check(s)",
+    "pt": "4103 sinal(is) da regra 'Termo de apreensão sem coordenada ou em (0,0)' em 58136 verificação(ões)",
+    "digests": {
+     "3364a902-067a-469a-bd9a-b865d234eed9": "afd442f6d8af42303c6015154b26bd227eb240a778928e71063dfcf6a86db2dc",
+     "67c67a93-f99e-4764-b0ee-4a2911d79c7a": "78530c50d3776adf5c14caf260ca15fcae37e7c2d6e0ea9e0d609e5da77f075e",
+     "27242a34-0690-436a-83e9-572f2e9cbc0e": "3091b98113b667da9d7e10a2f7433691f0cd07fa87c3955bbdcc881f3bd67b12",
+     "beab1a59-3fd2-4e00-871d-0d2052ef2425": "ea3ba089c36c6a51aa16a8fe1e34e538251590d190d8be0057c7b645c5b6557c",
+     "0c3335d3-cd37-48f6-9785-9de6864dfeb8": "94572a53253d402a2450b134465e8b2cdc10a4353cf1ad2ceb5ba7c822b90706",
+     "26063153-1102-4cc1-ba71-df8f2bb00727": "ec267785cf69970c14a845744fabf24e3697507ceaf31c43c7b6b14d24ce172b",
+     "081627a0-d158-44a8-88b0-600929e93526": "5a4de5c370ed164d70fc3745cd69f6286c0c7ce52ea830e97c0b9f2edb0b8262",
+     "122931cd-78da-4064-87b6-3f2a89406c61": "4b09e2d7c7527084628799cc308a39c7e08209ac151b56ac61dc2a0f30225160",
+     "27706b6b-e099-4cd7-bb87-2a45a47f9446": "f6f5bf786e50fd3a570b687078c38b3a10cd6c37e9162966c4fd0ec62a120102",
+     "10869c00-3e91-4da2-99a9-e73c976a9af6": "5512ddb83ad4743650031801685c2ac15a9704d54d2f8d50d7711fd5ce6a5062",
+     "4d0993b3-3fc3-4708-b617-7e86485dbb99": "2c46bd7fdf82451551f866d842523f21bdb5fbad46283c9189565384311d302d",
+     "f7195f5e-26ac-444a-ad98-d1bd69081d58": "abd5f02be35b61b92502de521b91ce97a5409cff9e88b25d6b04d4e3a17ad327",
+     "c49419ca-efed-4090-a32e-565c2ec68084": "9e63646dde96fef2b437a64e8c080081a228df13bcac419c7aba55e856f396a7",
+     "497ac942-f584-415c-bed8-a5bb09f97463": "3b6088202510e50cb0a5044345219cb16a79ea71e696c38dd4cfb5a6b6f2ab2a",
+     "76095503-a1e2-4e5d-8f02-fd05aa632522": "e332556ae6729b64f55e4e73bab3413a3af60ca781df41b0b5dc0aa77ee1446d",
+     "a96d568d-2beb-44bd-84ce-19522dd0f856": "1c6066bab88070dd1592b02fea5424c5b8325afb9b2e9385f73669dbc6d539ac",
+     "3b99c21e-30b2-410b-8823-356bb73012e0": "4090a12a865fa8cefb0d891f45fbef5600776f5e1550b14b13d6405f28701ee7",
+     "e8f66578-2df7-424e-bd85-bcbf260243a9": "b42d6c7c28de64591315d9a8780d81b13ca2a51470a40b9d66a4247571ac3a0d"
+    }
+   },
+   {
+    "key": "L2:term-without-infraction",
+    "layer": "L2",
+    "first_reported": "2026-10-13T19:15:59+00:00",
+    "count": 29,
+    "evaluated_at": "2026-10-09T13:35:26+00:00",
+    "status": "reported",
+    "en": "29 signal(s) of rule 'Seizure term linked to an unpublished infraction notice' in 125303 check(s)",
+    "pt": "29 sinal(is) da regra 'Termo de apreensão ligado a auto não publicado' em 125303 verificação(ões)",
+    "digests": {
+     "3364a902-067a-469a-bd9a-b865d234eed9": "afd442f6d8af42303c6015154b26bd227eb240a778928e71063dfcf6a86db2dc",
+     "67c67a93-f99e-4764-b0ee-4a2911d79c7a": "78530c50d3776adf5c14caf260ca15fcae37e7c2d6e0ea9e0d609e5da77f075e",
+     "27242a34-0690-436a-83e9-572f2e9cbc0e": "3091b98113b667da9d7e10a2f7433691f0cd07fa87c3955bbdcc881f3bd67b12",
+     "beab1a59-3fd2-4e00-871d-0d2052ef2425": "ea3ba089c36c6a51aa16a8fe1e34e538251590d190d8be0057c7b645c5b6557c",
+     "0c3335d3-cd37-48f6-9785-9de6864dfeb8": "94572a53253d402a2450b134465e8b2cdc10a4353cf1ad2ceb5ba7c822b90706",
+     "26063153-1102-4cc1-ba71-df8f2bb00727": "ec267785cf69970c14a845744fabf24e3697507ceaf31c43c7b6b14d24ce172b",
+     "081627a0-d158-44a8-88b0-600929e93526": "5a4de5c370ed164d70fc3745cd69f6286c0c7ce52ea830e97c0b9f2edb0b8262",
+     "122931cd-78da-4064-87b6-3f2a89406c61": "4b09e2d7c7527084628799cc308a39c7e08209ac151b56ac61dc2a0f30225160",
+     "27706b6b-e099-4cd7-bb87-2a45a47f9446": "f6f5bf786e50fd3a570b687078c38b3a10cd6c37e9162966c4fd0ec62a120102",
+     "10869c00-3e91-4da2-99a9-e73c976a9af6": "5512ddb83ad4743650031801685c2ac15a9704d54d2f8d50d7711fd5ce6a5062",
+     "4d0993b3-3fc3-4708-b617-7e86485dbb99": "2c46bd7fdf82451551f866d842523f21bdb5fbad46283c9189565384311d302d",
+     "f7195f5e-26ac-444a-ad98-d1bd69081d58": "abd5f02be35b61b92502de521b91ce97a5409cff9e88b25d6b04d4e3a17ad327",
+     "c49419ca-efed-4090-a32e-565c2ec68084": "9e63646dde96fef2b437a64e8c080081a228df13bcac419c7aba55e856f396a7",
+     "497ac942-f584-415c-bed8-a5bb09f97463": "3b6088202510e50cb0a5044345219cb16a79ea71e696c38dd4cfb5a6b6f2ab2a",
+     "76095503-a1e2-4e5d-8f02-fd05aa632522": "e332556ae6729b64f55e4e73bab3413a3af60ca781df41b0b5dc0aa77ee1446d",
+     "a96d568d-2beb-44bd-84ce-19522dd0f856": "1c6066bab88070dd1592b02fea5424c5b8325afb9b2e9385f73669dbc6d539ac",
+     "3b99c21e-30b2-410b-8823-356bb73012e0": "4090a12a865fa8cefb0d891f45fbef5600776f5e1550b14b13d6405f28701ee7",
+     "e8f66578-2df7-424e-bd85-bcbf260243a9": "b42d6c7c28de64591315d9a8780d81b13ca2a51470a40b9d66a4247571ac3a0d"
+    }
+   }
+  ],
+  "closed": []
+ },
+ "sources": {
+  "L1": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-12T15:21:48+00:00",
+   "files": [
+    {
+     "path": "results/layer1_summary.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/layer1_summary.json",
+     "commit": {
+      "sha": "77beac1c896b766f80e89fe9d866a0a4df7a0a2f",
+      "date": "2026-10-12T15:21:49Z"
+     }
+    },
+    {
+     "path": "results/validation.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/validation.json",
+     "commit": {
+      "sha": "77beac1c896b766f80e89fe9d866a0a4df7a0a2f",
+      "date": "2026-10-12T15:21:49Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer1/"
+  },
+  "L2": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-09T13:35:26+00:00",
+   "files": [
+    {
+     "path": "docs/data/layer2.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2/main/docs/data/layer2.json",
+     "commit": {
+      "sha": "ca984fd1db33199f0e23902160abd42b9c258241",
+      "date": "2026-10-09T13:35:45Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer2/"
+  },
+  "L3": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-05T13:09:25+00:00",
+   "files": [
+    {
+     "path": "docs/data/index.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer3/main/docs/data/index.json",
+     "commit": {
+      "sha": "9bbbae5b1be89d4cc31dbbbea6d1785d0bfe107b",
+      "date": "2026-09-29T18:50:44Z"
+     }
+    },
+    {
+     "path": "results/ibama-autos-infracao/layer3_summary.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer3/main/results/ibama-autos-infracao/layer3_summary.json",
+     "commit": {
+      "sha": "c5cd4b136398a59bf1bd64008f520aff425233ad",
+      "date": "2026-10-05T13:09:26Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer3/"
+  },
+  "L4": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-13T14:06:16.422517+00:00",
+   "files": [
+    {
+     "path": "docs/data/layer4.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
+     "commit": {
+      "sha": "82df29b1981165e1108d0758d447ea3a5f82314c",
+      "date": "2026-10-13T14:06:17Z"
+     }
+    },
+    {
+     "path": "docs/data/cross_check.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
+     "commit": {
+      "sha": "6dcb4d1cc30ea34f156bc4879d90e9faf0689b2f",
+      "date": "2026-10-13T10:54:55Z"
+     }
+    },
+    {
+     "path": "data/hash_store.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
+     "commit": {
+      "sha": "d6b92426a330eaf146c7be4ef99643db9f69b2ad",
+      "date": "2026-10-13T00:35:56Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer4/"
+  }
+ },
+ "policy": {
+  "policy_version": "1.1.0",
+  "aggregation": "arithmetic",
+  "weights": {
+   "L1": 0.3,
+   "L2": 0.3,
+   "L3": 0.2,
+   "L4": 0.2
+  },
+  "cutoff": 0.85,
+  "critical_floor": 0.7,
+  "integrity_factor": 0.5,
+  "integrity_types": [
+   "RETRO_ALTER"
+  ],
+  "scope_types": [
+   "SCHEMA_DRIFT"
+  ],
+  "unrecorded_change": "finding",
+  "cadence_days": {
+   "L1": 7,
+   "L2": 7,
+   "L3": 31,
+   "L4": 0.25
+  },
+  "validity_days": {
+   "L1": 14.0,
+   "L2": 14.0,
+   "L3": 62.0,
+   "L4": 0.5
+  },
+  "l4_window_days": 30,
+  "findings_window_days": 90,
+  "simultaneous_event_min_datasets": 3
+ },
+ "portal": {
+  "portal_url": "https://dadosabertos.ibama.gov.br",
+  "name": "IBAMA",
+  "title": "IBAMA open data portal (Dados Abertos IBAMA)",
+  "repository": "lsp3cesarschool/5ltep-layer5"
+ },
+ "notice": {
+  "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
+  "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
+ },
+ "generated_at": "2026-10-13T19:15:59+00:00",
+ "engine": {
+  "repository": "lsp3cesarschool/5ltep-layer5",
+  "commit": "5afce449ab2d792ff43a0689b3de635e72ef4935",
+  "run_id": "38453450972"
+ },
+ "ficha": {
+  "id": "sha256:2c08ff5a13482d0cbbb9fe89e5e371268c074e65fa740beaa4f63adb171e510b",
+  "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-apreensao",
+  "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/fiscalizacao-termo-de-apreensao.json",
+  "how_to_cite": {
+   "en": "5L-TEP Layer 5 record of 'fiscalizacao-termo-de-apreensao' (IBAMA), 2026-10-13, sha256:2c08ff5a13482d0c…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-apreensao",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-termo-de-apreensao' (IBAMA), 2026-10-13, sha256:2c08ff5a13482d0c…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-apreensao"
+  }
+ }
+}

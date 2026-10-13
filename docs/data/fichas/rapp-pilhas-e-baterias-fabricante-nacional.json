@@ -1,0 +1,329 @@
+{
+ "dataset": {
+  "name": "rapp-pilhas-e-baterias-fabricante-nacional",
+  "title": "Rapp Pilhas e Baterias - Fabricante Nacional",
+  "id": "079831ad-dc14-43c2-9d44-8eed0283c817",
+  "resources": 20,
+  "last_change": "2026-10-06T18:19:17+00:00",
+  "last_type": "CONTENT_MOD",
+  "entity": "https://dadosabertos.ibama.gov.br/dataset/079831ad-dc14-43c2-9d44-8eed0283c817#679b25198801",
+  "portal_page": "https://dadosabertos.ibama.gov.br/dataset/rapp-pilhas-e-baterias-fabricante-nacional"
+ },
+ "qs": {
+  "kind": "partial",
+  "factor": 1.0,
+  "coverage": 0.5,
+  "valid_layers": [
+   "L1",
+   "L4"
+  ],
+  "integrity": [],
+  "low": 0.26,
+  "high": 0.76,
+  "band": "alert",
+  "eligible": false,
+  "missing_layers": [
+   "L2",
+   "L3"
+  ]
+ },
+ "layers": {
+  "L1": {
+   "status": "valid",
+   "reason": null,
+   "rate": 0.2,
+   "evaluated_at": "2026-10-12T14:38:45+00:00",
+   "current": true,
+   "facts": {
+    "level": 2,
+    "tables": 15,
+    "verifiable": 15,
+    "conformant": 3
+   },
+   "signals": [
+    {
+     "key": "L1:rapp-pilhas-e-baterias-fabricante-nacional",
+     "count": 12,
+     "en": "12 of 15 verifiable file(s) do not conform to the declared schema",
+     "pt": "12 de 15 arquivo(s) verificável(is) fora do esquema declarado"
+    }
+   ]
+  },
+  "L2": {
+   "status": "missing",
+   "reason": "not_reached",
+   "rate": null,
+   "evaluated_at": null,
+   "current": null,
+   "facts": {},
+   "signals": []
+  },
+  "L3": {
+   "status": "missing",
+   "reason": "not_reached",
+   "rate": null,
+   "evaluated_at": null,
+   "current": null,
+   "facts": {},
+   "signals": []
+  },
+  "L4": {
+   "status": "valid",
+   "reason": null,
+   "rate": 1.0,
+   "evaluated_at": "2026-10-13T00:35:39+00:00",
+   "current": true,
+   "facts": {
+    "observations": 104,
+    "critical_in_window": 0,
+    "entity": "https://dadosabertos.ibama.gov.br/dataset/079831ad-dc14-43c2-9d44-8eed0283c817#679b25198801"
+   },
+   "signals": [
+    {
+     "key": "L4:access:2026-10-06T18:19:17+00:00",
+     "count": 1,
+     "when": "2026-10-06T18:19:17+00:00",
+     "en": "6 resource URL(s) changed (1 moved from ? to stibamadadosabertosprd.blob.core.windows.net; 1 plain file → zip)",
+     "pt": "6 URL(s) de recurso alterada(s) (1 movida(s) de ? para stibamadadosabertosprd.blob.core.windows.net; 1 arquivo simples → zip)"
+    }
+   ]
+  }
+ },
+ "findings": [
+  {
+   "layer": "L1",
+   "kind": "signal",
+   "key": "L1:rapp-pilhas-e-baterias-fabricante-nacional",
+   "count": 12,
+   "when": null,
+   "en": "12 of 15 verifiable file(s) do not conform to the declared schema",
+   "pt": "12 de 15 arquivo(s) verificável(is) fora do esquema declarado"
+  },
+  {
+   "layer": "L4",
+   "kind": "signal",
+   "key": "L4:access:2026-10-06T18:19:17+00:00",
+   "count": 1,
+   "when": "2026-10-06T18:19:17+00:00",
+   "en": "6 resource URL(s) changed (1 moved from ? to stibamadadosabertosprd.blob.core.windows.net; 1 plain file → zip)",
+   "pt": "6 URL(s) de recurso alterada(s) (1 movida(s) de ? para stibamadadosabertosprd.blob.core.windows.net; 1 arquivo simples → zip)"
+  }
+ ],
+ "outcomes": {
+  "open": [
+   {
+    "key": "L1:rapp-pilhas-e-baterias-fabricante-nacional",
+    "layer": "L1",
+    "first_reported": "2026-10-13T19:15:59+00:00",
+    "count": 12,
+    "evaluated_at": "2026-10-12T14:38:45+00:00",
+    "status": "reported",
+    "en": "12 of 15 verifiable file(s) do not conform to the declared schema",
+    "pt": "12 de 15 arquivo(s) verificável(is) fora do esquema declarado",
+    "digests": {
+     "305df277-08a9-44d4-a5af-be3e2eddb950": "12e2e7b1782cb48ff496bddfc72bd51259c63995c2eba175c99aa792a52ca5ab",
+     "473e8496-3530-4c95-897a-447db2bf8b7e": "b6b498fab5d45acf4e1e9f60d55c99f3c03cec9c6e791e8092ed0210415bd260",
+     "53af19d0-356e-4e4a-ba52-98982cdc047c": "03e6587b551337be1bd52ac7c5133996c2e79f5bfc6b949c46382bf8fb305dfa",
+     "cc755979-551a-4e07-8be1-0a3d615286c0": "9324034009fee30a0ad6408aeb6f7b572d5ec2791e60a28b1152bce0038989bd",
+     "d42ef134-d6f2-4129-a7f7-497c06dcf695": "a1b2f63b7911525d696ea13a4072a4ca397816e91328d324e9685233175e1b2e",
+     "819ac66f-8c8f-465f-9f30-4def5e81ece6": "9bdafbb2d6066b27e5c267a84cc77d3da15b2c071d22ed23f70dcd28c919c40c",
+     "6bde1c16-692f-4706-be68-bd2b3c1ac7d4": "176c87dd57f6e7b39744146cae83718489ae43a67b10c319f985ad58d2eabebc",
+     "4c02546d-c971-44b2-a007-87e2127c02b3": "2fbb8fa1301dde29a32977d98b08015a8098a70ef7dc7dbdfde6a213dc5ed4b9",
+     "336f347e-21f9-4bef-82f2-a4984aaa66d6": "6147803f05ac9b5c56a0be00d7aab85af2d04ebb0e11d0419bad7af2eafe79b5",
+     "5329587b-8db8-4c39-b7bf-8b2230495f16": "9b15402e5ff098b6ee8af96a854246b788d2c77daaf5c4901f4b8113e5fe01ac",
+     "2f8116fe-968a-4efb-9895-3e35f41ee300": "b7d1512b17a3154ae80d02ed19f0917728e5397f44f57ed3524923dbf41f1396",
+     "2e2cb2ba-95bf-4680-bf65-abc5777e229d": "019b232955b7f7be2635e864e096beb3899cd319854c27395ce32cb3e457968d",
+     "9fbedfb0-618c-43d9-931a-7b5925a88842": "ec99eb7d04a254429f297f0e32cb8a24e699d6d55644d438aa0ea906f94234e5",
+     "058e6e91-eb09-4df6-8452-e1cfa21eb05e": "7f962f1f1030feb494540d82a446ac2f0daa0703a76ac3c9a14e72a0e13697ac",
+     "1013018f-2a1d-4af8-8ffd-8acb7219e73a": "dee6174003228942b9960082c4a563c9567ad7c4b5fe0a8d6adcb72370af9997"
+    }
+   },
+   {
+    "key": "L4:access:2026-10-06T18:19:17+00:00",
+    "layer": "L4",
+    "first_reported": "2026-10-13T19:15:59+00:00",
+    "count": 1,
+    "evaluated_at": "2026-10-13T00:35:39+00:00",
+    "status": "reported",
+    "en": "6 resource URL(s) changed (1 moved from ? to stibamadadosabertosprd.blob.core.windows.net; 1 plain file → zip)",
+    "pt": "6 URL(s) de recurso alterada(s) (1 movida(s) de ? para stibamadadosabertosprd.blob.core.windows.net; 1 arquivo simples → zip)",
+    "digests": {
+     "305df277-08a9-44d4-a5af-be3e2eddb950": "12e2e7b1782cb48ff496bddfc72bd51259c63995c2eba175c99aa792a52ca5ab",
+     "473e8496-3530-4c95-897a-447db2bf8b7e": "b6b498fab5d45acf4e1e9f60d55c99f3c03cec9c6e791e8092ed0210415bd260",
+     "53af19d0-356e-4e4a-ba52-98982cdc047c": "03e6587b551337be1bd52ac7c5133996c2e79f5bfc6b949c46382bf8fb305dfa",
+     "cc755979-551a-4e07-8be1-0a3d615286c0": "9324034009fee30a0ad6408aeb6f7b572d5ec2791e60a28b1152bce0038989bd",
+     "d42ef134-d6f2-4129-a7f7-497c06dcf695": "a1b2f63b7911525d696ea13a4072a4ca397816e91328d324e9685233175e1b2e",
+     "819ac66f-8c8f-465f-9f30-4def5e81ece6": "9bdafbb2d6066b27e5c267a84cc77d3da15b2c071d22ed23f70dcd28c919c40c",
+     "6bde1c16-692f-4706-be68-bd2b3c1ac7d4": "176c87dd57f6e7b39744146cae83718489ae43a67b10c319f985ad58d2eabebc",
+     "4c02546d-c971-44b2-a007-87e2127c02b3": "2fbb8fa1301dde29a32977d98b08015a8098a70ef7dc7dbdfde6a213dc5ed4b9",
+     "336f347e-21f9-4bef-82f2-a4984aaa66d6": "6147803f05ac9b5c56a0be00d7aab85af2d04ebb0e11d0419bad7af2eafe79b5",
+     "5329587b-8db8-4c39-b7bf-8b2230495f16": "9b15402e5ff098b6ee8af96a854246b788d2c77daaf5c4901f4b8113e5fe01ac",
+     "2f8116fe-968a-4efb-9895-3e35f41ee300": "b7d1512b17a3154ae80d02ed19f0917728e5397f44f57ed3524923dbf41f1396",
+     "2e2cb2ba-95bf-4680-bf65-abc5777e229d": "019b232955b7f7be2635e864e096beb3899cd319854c27395ce32cb3e457968d",
+     "9fbedfb0-618c-43d9-931a-7b5925a88842": "ec99eb7d04a254429f297f0e32cb8a24e699d6d55644d438aa0ea906f94234e5",
+     "058e6e91-eb09-4df6-8452-e1cfa21eb05e": "7f962f1f1030feb494540d82a446ac2f0daa0703a76ac3c9a14e72a0e13697ac",
+     "1013018f-2a1d-4af8-8ffd-8acb7219e73a": "dee6174003228942b9960082c4a563c9567ad7c4b5fe0a8d6adcb72370af9997"
+    }
+   }
+  ],
+  "closed": []
+ },
+ "sources": {
+  "L1": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-12T15:21:48+00:00",
+   "files": [
+    {
+     "path": "results/layer1_summary.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/layer1_summary.json",
+     "commit": {
+      "sha": "77beac1c896b766f80e89fe9d866a0a4df7a0a2f",
+      "date": "2026-10-12T15:21:49Z"
+     }
+    },
+    {
+     "path": "results/validation.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/validation.json",
+     "commit": {
+      "sha": "77beac1c896b766f80e89fe9d866a0a4df7a0a2f",
+      "date": "2026-10-12T15:21:49Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer1/"
+  },
+  "L2": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-09T13:35:26+00:00",
+   "files": [
+    {
+     "path": "docs/data/layer2.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2/main/docs/data/layer2.json",
+     "commit": {
+      "sha": "ca984fd1db33199f0e23902160abd42b9c258241",
+      "date": "2026-10-09T13:35:45Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer2/"
+  },
+  "L3": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-05T13:09:25+00:00",
+   "files": [
+    {
+     "path": "docs/data/index.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer3/main/docs/data/index.json",
+     "commit": {
+      "sha": "9bbbae5b1be89d4cc31dbbbea6d1785d0bfe107b",
+      "date": "2026-09-29T18:50:44Z"
+     }
+    },
+    {
+     "path": "results/ibama-autos-infracao/layer3_summary.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer3/main/results/ibama-autos-infracao/layer3_summary.json",
+     "commit": {
+      "sha": "c5cd4b136398a59bf1bd64008f520aff425233ad",
+      "date": "2026-10-05T13:09:26Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer3/"
+  },
+  "L4": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-13T14:06:16.422517+00:00",
+   "files": [
+    {
+     "path": "docs/data/layer4.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
+     "commit": {
+      "sha": "82df29b1981165e1108d0758d447ea3a5f82314c",
+      "date": "2026-10-13T14:06:17Z"
+     }
+    },
+    {
+     "path": "docs/data/cross_check.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
+     "commit": {
+      "sha": "6dcb4d1cc30ea34f156bc4879d90e9faf0689b2f",
+      "date": "2026-10-13T10:54:55Z"
+     }
+    },
+    {
+     "path": "data/hash_store.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
+     "commit": {
+      "sha": "d6b92426a330eaf146c7be4ef99643db9f69b2ad",
+      "date": "2026-10-13T00:35:56Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer4/"
+  }
+ },
+ "policy": {
+  "policy_version": "1.1.0",
+  "aggregation": "arithmetic",
+  "weights": {
+   "L1": 0.3,
+   "L2": 0.3,
+   "L3": 0.2,
+   "L4": 0.2
+  },
+  "cutoff": 0.85,
+  "critical_floor": 0.7,
+  "integrity_factor": 0.5,
+  "integrity_types": [
+   "RETRO_ALTER"
+  ],
+  "scope_types": [
+   "SCHEMA_DRIFT"
+  ],
+  "unrecorded_change": "finding",
+  "cadence_days": {
+   "L1": 7,
+   "L2": 7,
+   "L3": 31,
+   "L4": 0.25
+  },
+  "validity_days": {
+   "L1": 14.0,
+   "L2": 14.0,
+   "L3": 62.0,
+   "L4": 0.5
+  },
+  "l4_window_days": 30,
+  "findings_window_days": 90,
+  "simultaneous_event_min_datasets": 3
+ },
+ "portal": {
+  "portal_url": "https://dadosabertos.ibama.gov.br",
+  "name": "IBAMA",
+  "title": "IBAMA open data portal (Dados Abertos IBAMA)",
+  "repository": "lsp3cesarschool/5ltep-layer5"
+ },
+ "notice": {
+  "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
+  "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
+ },
+ "generated_at": "2026-10-13T19:15:59+00:00",
+ "engine": {
+  "repository": "lsp3cesarschool/5ltep-layer5",
+  "commit": "5afce449ab2d792ff43a0689b3de635e72ef4935",
+  "run_id": "38453450972"
+ },
+ "ficha": {
+  "id": "sha256:0c4823bafac14931d32bd3b9c92e9535bece4690c54a5098f988306aee4c0f52",
+  "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=rapp-pilhas-e-baterias-fabricante-nacional",
+  "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/rapp-pilhas-e-baterias-fabricante-nacional.json",
+  "how_to_cite": {
+   "en": "5L-TEP Layer 5 record of 'rapp-pilhas-e-baterias-fabricante-nacional' (IBAMA), 2026-10-13, sha256:0c4823bafac14931…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=rapp-pilhas-e-baterias-fabricante-nacional",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'rapp-pilhas-e-baterias-fabricante-nacional' (IBAMA), 2026-10-13, sha256:0c4823bafac14931…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=rapp-pilhas-e-baterias-fabricante-nacional"
+  }
+ }
+}

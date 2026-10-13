@@ -1,0 +1,670 @@
+{
+ "dataset": {
+  "name": "fiscalizacao-termo-de-embargo",
+  "title": "Fiscalização - termo de embargo",
+  "id": "4b292c2e-56bb-4639-9ea2-a9b02fea9558",
+  "resources": 24,
+  "last_change": "2026-10-07T23:02:39+00:00",
+  "last_type": "CONTENT_MOD",
+  "entity": "https://dadosabertos.ibama.gov.br/dataset/4b292c2e-56bb-4639-9ea2-a9b02fea9558#ac484a83530c",
+  "portal_page": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-termo-de-embargo"
+ },
+ "qs": {
+  "kind": "partial",
+  "factor": 1.0,
+  "coverage": 0.8,
+  "valid_layers": [
+   "L1",
+   "L2",
+   "L4"
+  ],
+  "integrity": [],
+  "low": 0.6124472318719494,
+  "high": 0.8124472318719493,
+  "band": "alert",
+  "eligible": false,
+  "missing_layers": [
+   "L3"
+  ]
+ },
+ "layers": {
+  "L1": {
+   "status": "valid",
+   "reason": null,
+   "rate": 0.375,
+   "evaluated_at": "2026-10-12T15:08:22+00:00",
+   "current": true,
+   "facts": {
+    "level": 1,
+    "tables": 8,
+    "verifiable": 8,
+    "conformant": 3
+   },
+   "signals": [
+    {
+     "key": "L1:fiscalizacao-termo-de-embargo",
+     "count": 5,
+     "en": "5 of 8 verifiable file(s) do not conform to the declared schema",
+     "pt": "5 de 8 arquivo(s) verificável(is) fora do esquema declarado"
+    }
+   ]
+  },
+  "L2": {
+   "status": "valid",
+   "reason": null,
+   "rate": 0.9998241062398311,
+   "evaluated_at": "2026-10-09T13:34:24+00:00",
+   "current": false,
+   "facts": {
+    "rules": [
+     "embargo-date-implausible",
+     "lifted-before-embargo"
+    ],
+    "checks": 136446,
+    "signals": 24,
+    "not_evaluated": []
+   },
+   "signals": [
+    {
+     "key": "L2:embargo-date-implausible",
+     "count": 8,
+     "en": "8 signal(s) of rule 'Embargo date outside a plausible range' in 116763 check(s)",
+     "pt": "8 sinal(is) da regra 'Data do embargo fora de faixa plausível' em 116763 verificação(ões)"
+    },
+    {
+     "key": "L2:lifted-before-embargo",
+     "count": 16,
+     "en": "16 signal(s) of rule 'Embargo lifted before it was imposed' in 19683 check(s)",
+     "pt": "16 sinal(is) da regra 'Desembargo anterior ao embargo' em 19683 verificação(ões)"
+    }
+   ]
+  },
+  "L3": {
+   "status": "missing",
+   "reason": "not_reached",
+   "rate": null,
+   "evaluated_at": null,
+   "current": null,
+   "facts": {},
+   "signals": []
+  },
+  "L4": {
+   "status": "valid",
+   "reason": null,
+   "rate": 1.0,
+   "evaluated_at": "2026-10-13T00:35:39+00:00",
+   "current": true,
+   "facts": {
+    "observations": 30,
+    "critical_in_window": 0,
+    "entity": "https://dadosabertos.ibama.gov.br/dataset/4b292c2e-56bb-4639-9ea2-a9b02fea9558#ac484a83530c"
+   },
+   "signals": [
+    {
+     "key": "L4:access:2026-08-14T18:55:10+00:00",
+     "count": 3,
+     "when": "2026-08-14T18:55:10+00:00",
+     "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net; 3 zip → plain file)",
+     "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net; 3 zip → arquivo simples)"
+    },
+    {
+     "key": "L4:access:2026-08-20T18:39:41+00:00",
+     "count": 3,
+     "when": "2026-08-20T18:39:41+00:00",
+     "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net)",
+     "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net)"
+    },
+    {
+     "key": "L4:access:2026-09-01T20:41:02+00:00",
+     "count": 3,
+     "when": "2026-09-01T20:41:02+00:00",
+     "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net)",
+     "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net)"
+    },
+    {
+     "key": "L4:access:2026-09-08T16:10:46+00:00",
+     "count": 3,
+     "when": "2026-09-08T16:10:46+00:00",
+     "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net)",
+     "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net)"
+    },
+    {
+     "key": "L4:access:2026-09-09T20:35:59+00:00",
+     "count": 3,
+     "when": "2026-09-09T20:35:59+00:00",
+     "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net)",
+     "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net)"
+    },
+    {
+     "key": "L4:access:2026-09-11T03:30:05+00:00",
+     "count": 3,
+     "when": "2026-09-11T03:30:05+00:00",
+     "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net)",
+     "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net)"
+    },
+    {
+     "key": "L4:access:2026-09-16T16:19:30+00:00",
+     "count": 3,
+     "when": "2026-09-16T16:19:30+00:00",
+     "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net)",
+     "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net)"
+    },
+    {
+     "key": "L4:access:2026-09-22T16:28:15+00:00",
+     "count": 3,
+     "when": "2026-09-22T16:28:15+00:00",
+     "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net)",
+     "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net)"
+    }
+   ]
+  }
+ },
+ "findings": [
+  {
+   "layer": "L1",
+   "kind": "signal",
+   "key": "L1:fiscalizacao-termo-de-embargo",
+   "count": 5,
+   "when": null,
+   "en": "5 of 8 verifiable file(s) do not conform to the declared schema",
+   "pt": "5 de 8 arquivo(s) verificável(is) fora do esquema declarado"
+  },
+  {
+   "layer": "L2",
+   "kind": "signal",
+   "key": "L2:embargo-date-implausible",
+   "count": 8,
+   "when": null,
+   "en": "8 signal(s) of rule 'Embargo date outside a plausible range' in 116763 check(s)",
+   "pt": "8 sinal(is) da regra 'Data do embargo fora de faixa plausível' em 116763 verificação(ões)"
+  },
+  {
+   "layer": "L2",
+   "kind": "signal",
+   "key": "L2:lifted-before-embargo",
+   "count": 16,
+   "when": null,
+   "en": "16 signal(s) of rule 'Embargo lifted before it was imposed' in 19683 check(s)",
+   "pt": "16 sinal(is) da regra 'Desembargo anterior ao embargo' em 19683 verificação(ões)"
+  },
+  {
+   "layer": "L4",
+   "kind": "signal",
+   "key": "L4:access:2026-08-14T18:55:10+00:00",
+   "count": 3,
+   "when": "2026-08-14T18:55:10+00:00",
+   "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net; 3 zip → plain file)",
+   "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net; 3 zip → arquivo simples)"
+  },
+  {
+   "layer": "L4",
+   "kind": "signal",
+   "key": "L4:access:2026-08-20T18:39:41+00:00",
+   "count": 3,
+   "when": "2026-08-20T18:39:41+00:00",
+   "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net)",
+   "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net)"
+  },
+  {
+   "layer": "L4",
+   "kind": "signal",
+   "key": "L4:access:2026-09-01T20:41:02+00:00",
+   "count": 3,
+   "when": "2026-09-01T20:41:02+00:00",
+   "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net)",
+   "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net)"
+  },
+  {
+   "layer": "L4",
+   "kind": "signal",
+   "key": "L4:access:2026-09-08T16:10:46+00:00",
+   "count": 3,
+   "when": "2026-09-08T16:10:46+00:00",
+   "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net)",
+   "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net)"
+  },
+  {
+   "layer": "L4",
+   "kind": "signal",
+   "key": "L4:access:2026-09-09T20:35:59+00:00",
+   "count": 3,
+   "when": "2026-09-09T20:35:59+00:00",
+   "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net)",
+   "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net)"
+  },
+  {
+   "layer": "L4",
+   "kind": "signal",
+   "key": "L4:access:2026-09-11T03:30:05+00:00",
+   "count": 3,
+   "when": "2026-09-11T03:30:05+00:00",
+   "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net)",
+   "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net)"
+  },
+  {
+   "layer": "L4",
+   "kind": "signal",
+   "key": "L4:access:2026-09-16T16:19:30+00:00",
+   "count": 3,
+   "when": "2026-09-16T16:19:30+00:00",
+   "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net)",
+   "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net)"
+  },
+  {
+   "layer": "L4",
+   "kind": "signal",
+   "key": "L4:access:2026-09-22T16:28:15+00:00",
+   "count": 3,
+   "when": "2026-09-22T16:28:15+00:00",
+   "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net)",
+   "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net)"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-10-12T11:11:07+00:00",
+   "resource_id": "8f88b43e-287a-470b-a730-db440f9e37fa",
+   "en": "the bytes of resource 8f88b43e-287a-470b-a730-db440f9e37fa changed between 2026-10-09 and 2026-10-12 with no change in the portal metadata",
+   "pt": "os bytes do recurso 8f88b43e-287a-470b-a730-db440f9e37fa mudaram entre 2026-10-09 e 2026-10-12 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L4",
+   "kind": "simultaneous",
+   "when": "2026-10-07T23:02:39+00:00",
+   "count": 3,
+   "en": "CONTENT_MOD in 3 datasets in the same monitoring cycle (probably one operational event)",
+   "pt": "CONTENT_MOD em 3 conjuntos no mesmo ciclo de monitoramento (provavelmente um único evento operacional)"
+  },
+  {
+   "layer": "L4",
+   "kind": "simultaneous",
+   "when": "2026-08-14T18:55:10+00:00",
+   "count": 3,
+   "en": "CONTENT_MOD in 3 datasets in the same monitoring cycle (probably one operational event)",
+   "pt": "CONTENT_MOD em 3 conjuntos no mesmo ciclo de monitoramento (provavelmente um único evento operacional)"
+  }
+ ],
+ "outcomes": {
+  "open": [
+   {
+    "key": "L1:fiscalizacao-termo-de-embargo",
+    "layer": "L1",
+    "first_reported": "2026-10-13T19:15:59+00:00",
+    "count": 5,
+    "evaluated_at": "2026-10-12T15:08:22+00:00",
+    "status": "reported",
+    "en": "5 of 8 verifiable file(s) do not conform to the declared schema",
+    "pt": "5 de 8 arquivo(s) verificável(is) fora do esquema declarado",
+    "digests": {
+     "8f88b43e-287a-470b-a730-db440f9e37fa": "c5336cab703e81437c41d4d44f80f83daf0404f53c322c07a1194b46fbfc70dc",
+     "aba90ea8-e2f3-431e-a0cc-1ae24773843b": "49bdbe891673a2587f1cd34b4262d87730d2576fd5e70afbe5f7b394ca31ec8a",
+     "90d17ce7-6a9b-4bfb-804c-6d52e43af264": "fc7a2f9cad38aa047bf433111196a2f36cfc6a8073ede8ec5893b8eace3016c5",
+     "3360882c-a038-4129-a1f0-7013af37926a": "4cd987b1f7f51884287588016ac0f438a5bd71904f9e61dd80fc619f51555499",
+     "0a4284aa-e142-4d6d-823f-9958f26c829e": "d1e7058480ed19e6c6f865de0ed45f00895506cd8dda7e2f8da78adb382dcbb6",
+     "ccdbf737-0fbf-4547-adf6-267204aa4413": "c3a2c6515d2d1b83e2a4f3a0967dacde143008302d885646085ca6d7eaf46923",
+     "21347475-cd71-41de-a677-f0fbaa8c02b2": "b0c5137470d12911b12535220a4e3d2025a01bb6dbdfc66ede7aa307cf9858a5",
+     "04f7998d-58e1-4717-85f5-401dc9994b19": "6d7e3f494194339606de49cc215eb2365d3c712f7cfb489379d0d0b894559711"
+    }
+   },
+   {
+    "key": "L2:embargo-date-implausible",
+    "layer": "L2",
+    "first_reported": "2026-10-13T19:15:59+00:00",
+    "count": 8,
+    "evaluated_at": "2026-10-09T13:34:24+00:00",
+    "status": "reported",
+    "en": "8 signal(s) of rule 'Embargo date outside a plausible range' in 116763 check(s)",
+    "pt": "8 sinal(is) da regra 'Data do embargo fora de faixa plausível' em 116763 verificação(ões)",
+    "digests": {
+     "8f88b43e-287a-470b-a730-db440f9e37fa": "c5336cab703e81437c41d4d44f80f83daf0404f53c322c07a1194b46fbfc70dc",
+     "aba90ea8-e2f3-431e-a0cc-1ae24773843b": "49bdbe891673a2587f1cd34b4262d87730d2576fd5e70afbe5f7b394ca31ec8a",
+     "90d17ce7-6a9b-4bfb-804c-6d52e43af264": "fc7a2f9cad38aa047bf433111196a2f36cfc6a8073ede8ec5893b8eace3016c5",
+     "3360882c-a038-4129-a1f0-7013af37926a": "4cd987b1f7f51884287588016ac0f438a5bd71904f9e61dd80fc619f51555499",
+     "0a4284aa-e142-4d6d-823f-9958f26c829e": "d1e7058480ed19e6c6f865de0ed45f00895506cd8dda7e2f8da78adb382dcbb6",
+     "ccdbf737-0fbf-4547-adf6-267204aa4413": "c3a2c6515d2d1b83e2a4f3a0967dacde143008302d885646085ca6d7eaf46923",
+     "21347475-cd71-41de-a677-f0fbaa8c02b2": "b0c5137470d12911b12535220a4e3d2025a01bb6dbdfc66ede7aa307cf9858a5",
+     "04f7998d-58e1-4717-85f5-401dc9994b19": "6d7e3f494194339606de49cc215eb2365d3c712f7cfb489379d0d0b894559711"
+    }
+   },
+   {
+    "key": "L2:lifted-before-embargo",
+    "layer": "L2",
+    "first_reported": "2026-10-13T19:15:59+00:00",
+    "count": 16,
+    "evaluated_at": "2026-10-09T13:34:24+00:00",
+    "status": "reported",
+    "en": "16 signal(s) of rule 'Embargo lifted before it was imposed' in 19683 check(s)",
+    "pt": "16 sinal(is) da regra 'Desembargo anterior ao embargo' em 19683 verificação(ões)",
+    "digests": {
+     "8f88b43e-287a-470b-a730-db440f9e37fa": "c5336cab703e81437c41d4d44f80f83daf0404f53c322c07a1194b46fbfc70dc",
+     "aba90ea8-e2f3-431e-a0cc-1ae24773843b": "49bdbe891673a2587f1cd34b4262d87730d2576fd5e70afbe5f7b394ca31ec8a",
+     "90d17ce7-6a9b-4bfb-804c-6d52e43af264": "fc7a2f9cad38aa047bf433111196a2f36cfc6a8073ede8ec5893b8eace3016c5",
+     "3360882c-a038-4129-a1f0-7013af37926a": "4cd987b1f7f51884287588016ac0f438a5bd71904f9e61dd80fc619f51555499",
+     "0a4284aa-e142-4d6d-823f-9958f26c829e": "d1e7058480ed19e6c6f865de0ed45f00895506cd8dda7e2f8da78adb382dcbb6",
+     "ccdbf737-0fbf-4547-adf6-267204aa4413": "c3a2c6515d2d1b83e2a4f3a0967dacde143008302d885646085ca6d7eaf46923",
+     "21347475-cd71-41de-a677-f0fbaa8c02b2": "b0c5137470d12911b12535220a4e3d2025a01bb6dbdfc66ede7aa307cf9858a5",
+     "04f7998d-58e1-4717-85f5-401dc9994b19": "6d7e3f494194339606de49cc215eb2365d3c712f7cfb489379d0d0b894559711"
+    }
+   },
+   {
+    "key": "L4:access:2026-08-14T18:55:10+00:00",
+    "layer": "L4",
+    "first_reported": "2026-10-13T19:15:59+00:00",
+    "count": 3,
+    "evaluated_at": "2026-10-13T00:35:39+00:00",
+    "status": "reported",
+    "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net; 3 zip → plain file)",
+    "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net; 3 zip → arquivo simples)",
+    "digests": {
+     "8f88b43e-287a-470b-a730-db440f9e37fa": "c5336cab703e81437c41d4d44f80f83daf0404f53c322c07a1194b46fbfc70dc",
+     "aba90ea8-e2f3-431e-a0cc-1ae24773843b": "49bdbe891673a2587f1cd34b4262d87730d2576fd5e70afbe5f7b394ca31ec8a",
+     "90d17ce7-6a9b-4bfb-804c-6d52e43af264": "fc7a2f9cad38aa047bf433111196a2f36cfc6a8073ede8ec5893b8eace3016c5",
+     "3360882c-a038-4129-a1f0-7013af37926a": "4cd987b1f7f51884287588016ac0f438a5bd71904f9e61dd80fc619f51555499",
+     "0a4284aa-e142-4d6d-823f-9958f26c829e": "d1e7058480ed19e6c6f865de0ed45f00895506cd8dda7e2f8da78adb382dcbb6",
+     "ccdbf737-0fbf-4547-adf6-267204aa4413": "c3a2c6515d2d1b83e2a4f3a0967dacde143008302d885646085ca6d7eaf46923",
+     "21347475-cd71-41de-a677-f0fbaa8c02b2": "b0c5137470d12911b12535220a4e3d2025a01bb6dbdfc66ede7aa307cf9858a5",
+     "04f7998d-58e1-4717-85f5-401dc9994b19": "6d7e3f494194339606de49cc215eb2365d3c712f7cfb489379d0d0b894559711"
+    }
+   },
+   {
+    "key": "L4:access:2026-08-20T18:39:41+00:00",
+    "layer": "L4",
+    "first_reported": "2026-10-13T19:15:59+00:00",
+    "count": 3,
+    "evaluated_at": "2026-10-13T00:35:39+00:00",
+    "status": "reported",
+    "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net)",
+    "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net)",
+    "digests": {
+     "8f88b43e-287a-470b-a730-db440f9e37fa": "c5336cab703e81437c41d4d44f80f83daf0404f53c322c07a1194b46fbfc70dc",
+     "aba90ea8-e2f3-431e-a0cc-1ae24773843b": "49bdbe891673a2587f1cd34b4262d87730d2576fd5e70afbe5f7b394ca31ec8a",
+     "90d17ce7-6a9b-4bfb-804c-6d52e43af264": "fc7a2f9cad38aa047bf433111196a2f36cfc6a8073ede8ec5893b8eace3016c5",
+     "3360882c-a038-4129-a1f0-7013af37926a": "4cd987b1f7f51884287588016ac0f438a5bd71904f9e61dd80fc619f51555499",
+     "0a4284aa-e142-4d6d-823f-9958f26c829e": "d1e7058480ed19e6c6f865de0ed45f00895506cd8dda7e2f8da78adb382dcbb6",
+     "ccdbf737-0fbf-4547-adf6-267204aa4413": "c3a2c6515d2d1b83e2a4f3a0967dacde143008302d885646085ca6d7eaf46923",
+     "21347475-cd71-41de-a677-f0fbaa8c02b2": "b0c5137470d12911b12535220a4e3d2025a01bb6dbdfc66ede7aa307cf9858a5",
+     "04f7998d-58e1-4717-85f5-401dc9994b19": "6d7e3f494194339606de49cc215eb2365d3c712f7cfb489379d0d0b894559711"
+    }
+   },
+   {
+    "key": "L4:access:2026-09-01T20:41:02+00:00",
+    "layer": "L4",
+    "first_reported": "2026-10-13T19:15:59+00:00",
+    "count": 3,
+    "evaluated_at": "2026-10-13T00:35:39+00:00",
+    "status": "reported",
+    "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net)",
+    "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net)",
+    "digests": {
+     "8f88b43e-287a-470b-a730-db440f9e37fa": "c5336cab703e81437c41d4d44f80f83daf0404f53c322c07a1194b46fbfc70dc",
+     "aba90ea8-e2f3-431e-a0cc-1ae24773843b": "49bdbe891673a2587f1cd34b4262d87730d2576fd5e70afbe5f7b394ca31ec8a",
+     "90d17ce7-6a9b-4bfb-804c-6d52e43af264": "fc7a2f9cad38aa047bf433111196a2f36cfc6a8073ede8ec5893b8eace3016c5",
+     "3360882c-a038-4129-a1f0-7013af37926a": "4cd987b1f7f51884287588016ac0f438a5bd71904f9e61dd80fc619f51555499",
+     "0a4284aa-e142-4d6d-823f-9958f26c829e": "d1e7058480ed19e6c6f865de0ed45f00895506cd8dda7e2f8da78adb382dcbb6",
+     "ccdbf737-0fbf-4547-adf6-267204aa4413": "c3a2c6515d2d1b83e2a4f3a0967dacde143008302d885646085ca6d7eaf46923",
+     "21347475-cd71-41de-a677-f0fbaa8c02b2": "b0c5137470d12911b12535220a4e3d2025a01bb6dbdfc66ede7aa307cf9858a5",
+     "04f7998d-58e1-4717-85f5-401dc9994b19": "6d7e3f494194339606de49cc215eb2365d3c712f7cfb489379d0d0b894559711"
+    }
+   },
+   {
+    "key": "L4:access:2026-09-08T16:10:46+00:00",
+    "layer": "L4",
+    "first_reported": "2026-10-13T19:15:59+00:00",
+    "count": 3,
+    "evaluated_at": "2026-10-13T00:35:39+00:00",
+    "status": "reported",
+    "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net)",
+    "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net)",
+    "digests": {
+     "8f88b43e-287a-470b-a730-db440f9e37fa": "c5336cab703e81437c41d4d44f80f83daf0404f53c322c07a1194b46fbfc70dc",
+     "aba90ea8-e2f3-431e-a0cc-1ae24773843b": "49bdbe891673a2587f1cd34b4262d87730d2576fd5e70afbe5f7b394ca31ec8a",
+     "90d17ce7-6a9b-4bfb-804c-6d52e43af264": "fc7a2f9cad38aa047bf433111196a2f36cfc6a8073ede8ec5893b8eace3016c5",
+     "3360882c-a038-4129-a1f0-7013af37926a": "4cd987b1f7f51884287588016ac0f438a5bd71904f9e61dd80fc619f51555499",
+     "0a4284aa-e142-4d6d-823f-9958f26c829e": "d1e7058480ed19e6c6f865de0ed45f00895506cd8dda7e2f8da78adb382dcbb6",
+     "ccdbf737-0fbf-4547-adf6-267204aa4413": "c3a2c6515d2d1b83e2a4f3a0967dacde143008302d885646085ca6d7eaf46923",
+     "21347475-cd71-41de-a677-f0fbaa8c02b2": "b0c5137470d12911b12535220a4e3d2025a01bb6dbdfc66ede7aa307cf9858a5",
+     "04f7998d-58e1-4717-85f5-401dc9994b19": "6d7e3f494194339606de49cc215eb2365d3c712f7cfb489379d0d0b894559711"
+    }
+   },
+   {
+    "key": "L4:access:2026-09-09T20:35:59+00:00",
+    "layer": "L4",
+    "first_reported": "2026-10-13T19:15:59+00:00",
+    "count": 3,
+    "evaluated_at": "2026-10-13T00:35:39+00:00",
+    "status": "reported",
+    "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net)",
+    "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net)",
+    "digests": {
+     "8f88b43e-287a-470b-a730-db440f9e37fa": "c5336cab703e81437c41d4d44f80f83daf0404f53c322c07a1194b46fbfc70dc",
+     "aba90ea8-e2f3-431e-a0cc-1ae24773843b": "49bdbe891673a2587f1cd34b4262d87730d2576fd5e70afbe5f7b394ca31ec8a",
+     "90d17ce7-6a9b-4bfb-804c-6d52e43af264": "fc7a2f9cad38aa047bf433111196a2f36cfc6a8073ede8ec5893b8eace3016c5",
+     "3360882c-a038-4129-a1f0-7013af37926a": "4cd987b1f7f51884287588016ac0f438a5bd71904f9e61dd80fc619f51555499",
+     "0a4284aa-e142-4d6d-823f-9958f26c829e": "d1e7058480ed19e6c6f865de0ed45f00895506cd8dda7e2f8da78adb382dcbb6",
+     "ccdbf737-0fbf-4547-adf6-267204aa4413": "c3a2c6515d2d1b83e2a4f3a0967dacde143008302d885646085ca6d7eaf46923",
+     "21347475-cd71-41de-a677-f0fbaa8c02b2": "b0c5137470d12911b12535220a4e3d2025a01bb6dbdfc66ede7aa307cf9858a5",
+     "04f7998d-58e1-4717-85f5-401dc9994b19": "6d7e3f494194339606de49cc215eb2365d3c712f7cfb489379d0d0b894559711"
+    }
+   },
+   {
+    "key": "L4:access:2026-09-11T03:30:05+00:00",
+    "layer": "L4",
+    "first_reported": "2026-10-13T19:15:59+00:00",
+    "count": 3,
+    "evaluated_at": "2026-10-13T00:35:39+00:00",
+    "status": "reported",
+    "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net)",
+    "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net)",
+    "digests": {
+     "8f88b43e-287a-470b-a730-db440f9e37fa": "c5336cab703e81437c41d4d44f80f83daf0404f53c322c07a1194b46fbfc70dc",
+     "aba90ea8-e2f3-431e-a0cc-1ae24773843b": "49bdbe891673a2587f1cd34b4262d87730d2576fd5e70afbe5f7b394ca31ec8a",
+     "90d17ce7-6a9b-4bfb-804c-6d52e43af264": "fc7a2f9cad38aa047bf433111196a2f36cfc6a8073ede8ec5893b8eace3016c5",
+     "3360882c-a038-4129-a1f0-7013af37926a": "4cd987b1f7f51884287588016ac0f438a5bd71904f9e61dd80fc619f51555499",
+     "0a4284aa-e142-4d6d-823f-9958f26c829e": "d1e7058480ed19e6c6f865de0ed45f00895506cd8dda7e2f8da78adb382dcbb6",
+     "ccdbf737-0fbf-4547-adf6-267204aa4413": "c3a2c6515d2d1b83e2a4f3a0967dacde143008302d885646085ca6d7eaf46923",
+     "21347475-cd71-41de-a677-f0fbaa8c02b2": "b0c5137470d12911b12535220a4e3d2025a01bb6dbdfc66ede7aa307cf9858a5",
+     "04f7998d-58e1-4717-85f5-401dc9994b19": "6d7e3f494194339606de49cc215eb2365d3c712f7cfb489379d0d0b894559711"
+    }
+   },
+   {
+    "key": "L4:access:2026-09-16T16:19:30+00:00",
+    "layer": "L4",
+    "first_reported": "2026-10-13T19:15:59+00:00",
+    "count": 3,
+    "evaluated_at": "2026-10-13T00:35:39+00:00",
+    "status": "reported",
+    "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net)",
+    "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net)",
+    "digests": {
+     "8f88b43e-287a-470b-a730-db440f9e37fa": "c5336cab703e81437c41d4d44f80f83daf0404f53c322c07a1194b46fbfc70dc",
+     "aba90ea8-e2f3-431e-a0cc-1ae24773843b": "49bdbe891673a2587f1cd34b4262d87730d2576fd5e70afbe5f7b394ca31ec8a",
+     "90d17ce7-6a9b-4bfb-804c-6d52e43af264": "fc7a2f9cad38aa047bf433111196a2f36cfc6a8073ede8ec5893b8eace3016c5",
+     "3360882c-a038-4129-a1f0-7013af37926a": "4cd987b1f7f51884287588016ac0f438a5bd71904f9e61dd80fc619f51555499",
+     "0a4284aa-e142-4d6d-823f-9958f26c829e": "d1e7058480ed19e6c6f865de0ed45f00895506cd8dda7e2f8da78adb382dcbb6",
+     "ccdbf737-0fbf-4547-adf6-267204aa4413": "c3a2c6515d2d1b83e2a4f3a0967dacde143008302d885646085ca6d7eaf46923",
+     "21347475-cd71-41de-a677-f0fbaa8c02b2": "b0c5137470d12911b12535220a4e3d2025a01bb6dbdfc66ede7aa307cf9858a5",
+     "04f7998d-58e1-4717-85f5-401dc9994b19": "6d7e3f494194339606de49cc215eb2365d3c712f7cfb489379d0d0b894559711"
+    }
+   },
+   {
+    "key": "L4:access:2026-09-22T16:28:15+00:00",
+    "layer": "L4",
+    "first_reported": "2026-10-13T19:15:59+00:00",
+    "count": 3,
+    "evaluated_at": "2026-10-13T00:35:39+00:00",
+    "status": "reported",
+    "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net)",
+    "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net)",
+    "digests": {
+     "8f88b43e-287a-470b-a730-db440f9e37fa": "c5336cab703e81437c41d4d44f80f83daf0404f53c322c07a1194b46fbfc70dc",
+     "aba90ea8-e2f3-431e-a0cc-1ae24773843b": "49bdbe891673a2587f1cd34b4262d87730d2576fd5e70afbe5f7b394ca31ec8a",
+     "90d17ce7-6a9b-4bfb-804c-6d52e43af264": "fc7a2f9cad38aa047bf433111196a2f36cfc6a8073ede8ec5893b8eace3016c5",
+     "3360882c-a038-4129-a1f0-7013af37926a": "4cd987b1f7f51884287588016ac0f438a5bd71904f9e61dd80fc619f51555499",
+     "0a4284aa-e142-4d6d-823f-9958f26c829e": "d1e7058480ed19e6c6f865de0ed45f00895506cd8dda7e2f8da78adb382dcbb6",
+     "ccdbf737-0fbf-4547-adf6-267204aa4413": "c3a2c6515d2d1b83e2a4f3a0967dacde143008302d885646085ca6d7eaf46923",
+     "21347475-cd71-41de-a677-f0fbaa8c02b2": "b0c5137470d12911b12535220a4e3d2025a01bb6dbdfc66ede7aa307cf9858a5",
+     "04f7998d-58e1-4717-85f5-401dc9994b19": "6d7e3f494194339606de49cc215eb2365d3c712f7cfb489379d0d0b894559711"
+    }
+   }
+  ],
+  "closed": []
+ },
+ "sources": {
+  "L1": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-12T15:21:48+00:00",
+   "files": [
+    {
+     "path": "results/layer1_summary.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/layer1_summary.json",
+     "commit": {
+      "sha": "77beac1c896b766f80e89fe9d866a0a4df7a0a2f",
+      "date": "2026-10-12T15:21:49Z"
+     }
+    },
+    {
+     "path": "results/validation.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/validation.json",
+     "commit": {
+      "sha": "77beac1c896b766f80e89fe9d866a0a4df7a0a2f",
+      "date": "2026-10-12T15:21:49Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer1/"
+  },
+  "L2": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-09T13:35:26+00:00",
+   "files": [
+    {
+     "path": "docs/data/layer2.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2/main/docs/data/layer2.json",
+     "commit": {
+      "sha": "ca984fd1db33199f0e23902160abd42b9c258241",
+      "date": "2026-10-09T13:35:45Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer2/"
+  },
+  "L3": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-05T13:09:25+00:00",
+   "files": [
+    {
+     "path": "docs/data/index.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer3/main/docs/data/index.json",
+     "commit": {
+      "sha": "9bbbae5b1be89d4cc31dbbbea6d1785d0bfe107b",
+      "date": "2026-09-29T18:50:44Z"
+     }
+    },
+    {
+     "path": "results/ibama-autos-infracao/layer3_summary.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer3/main/results/ibama-autos-infracao/layer3_summary.json",
+     "commit": {
+      "sha": "c5cd4b136398a59bf1bd64008f520aff425233ad",
+      "date": "2026-10-05T13:09:26Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer3/"
+  },
+  "L4": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-13T14:06:16.422517+00:00",
+   "files": [
+    {
+     "path": "docs/data/layer4.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
+     "commit": {
+      "sha": "82df29b1981165e1108d0758d447ea3a5f82314c",
+      "date": "2026-10-13T14:06:17Z"
+     }
+    },
+    {
+     "path": "docs/data/cross_check.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
+     "commit": {
+      "sha": "6dcb4d1cc30ea34f156bc4879d90e9faf0689b2f",
+      "date": "2026-10-13T10:54:55Z"
+     }
+    },
+    {
+     "path": "data/hash_store.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
+     "commit": {
+      "sha": "d6b92426a330eaf146c7be4ef99643db9f69b2ad",
+      "date": "2026-10-13T00:35:56Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer4/"
+  }
+ },
+ "policy": {
+  "policy_version": "1.1.0",
+  "aggregation": "arithmetic",
+  "weights": {
+   "L1": 0.3,
+   "L2": 0.3,
+   "L3": 0.2,
+   "L4": 0.2
+  },
+  "cutoff": 0.85,
+  "critical_floor": 0.7,
+  "integrity_factor": 0.5,
+  "integrity_types": [
+   "RETRO_ALTER"
+  ],
+  "scope_types": [
+   "SCHEMA_DRIFT"
+  ],
+  "unrecorded_change": "finding",
+  "cadence_days": {
+   "L1": 7,
+   "L2": 7,
+   "L3": 31,
+   "L4": 0.25
+  },
+  "validity_days": {
+   "L1": 14.0,
+   "L2": 14.0,
+   "L3": 62.0,
+   "L4": 0.5
+  },
+  "l4_window_days": 30,
+  "findings_window_days": 90,
+  "simultaneous_event_min_datasets": 3
+ },
+ "portal": {
+  "portal_url": "https://dadosabertos.ibama.gov.br",
+  "name": "IBAMA",
+  "title": "IBAMA open data portal (Dados Abertos IBAMA)",
+  "repository": "lsp3cesarschool/5ltep-layer5"
+ },
+ "notice": {
+  "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
+  "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
+ },
+ "generated_at": "2026-10-13T19:15:59+00:00",
+ "engine": {
+  "repository": "lsp3cesarschool/5ltep-layer5",
+  "commit": "5afce449ab2d792ff43a0689b3de635e72ef4935",
+  "run_id": "38453450972"
+ },
+ "ficha": {
+  "id": "sha256:2b915e7975b23d73e0170289b223d77e08360bf42a4dc41891a7f193120b82d9",
+  "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-embargo",
+  "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/fiscalizacao-termo-de-embargo.json",
+  "how_to_cite": {
+   "en": "5L-TEP Layer 5 record of 'fiscalizacao-termo-de-embargo' (IBAMA), 2026-10-13, sha256:2b915e7975b23d73…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-embargo",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-termo-de-embargo' (IBAMA), 2026-10-13, sha256:2b915e7975b23d73…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-embargo"
+  }
+ }
+}

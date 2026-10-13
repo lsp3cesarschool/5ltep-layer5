@@ -1,0 +1,351 @@
+{
+ "dataset": {
+  "name": "arrecadacao-de-multas-ambientais-bens-tutelados",
+  "title": "Arrecadação de Multas Ambientais Bens tutelados",
+  "id": "ef55602f-73f2-4976-a35d-23d6bfebc1df",
+  "resources": 4,
+  "last_change": "2026-08-26T19:49:09+00:00",
+  "last_type": "CONTENT_MOD",
+  "entity": "https://dadosabertos.ibama.gov.br/dataset/ef55602f-73f2-4976-a35d-23d6bfebc1df#e4168bd43351",
+  "portal_page": "https://dadosabertos.ibama.gov.br/dataset/arrecadacao-de-multas-ambientais-bens-tutelados"
+ },
+ "qs": {
+  "kind": "partial",
+  "factor": 1.0,
+  "coverage": 0.5,
+  "valid_layers": [
+   "L2",
+   "L4"
+  ],
+  "integrity": [],
+  "low": 0.4998520393515447,
+  "high": 0.9998520393515447,
+  "band": "undetermined",
+  "eligible": false,
+  "missing_layers": [
+   "L1",
+   "L3"
+  ]
+ },
+ "layers": {
+  "L1": {
+   "status": "missing",
+   "reason": "l1_level0",
+   "rate": null,
+   "evaluated_at": "2026-10-12T14:42:29+00:00",
+   "current": null,
+   "facts": {
+    "level": 0,
+    "tables": 3,
+    "verifiable": 0,
+    "conformant": 0
+   },
+   "signals": []
+  },
+  "L2": {
+   "status": "valid",
+   "reason": null,
+   "rate": 0.9995067978384824,
+   "evaluated_at": "2026-10-09T13:35:24+00:00",
+   "current": false,
+   "facts": {
+    "rules": [
+     "paid-ten-times-original",
+     "payment-before-infraction"
+    ],
+    "checks": 3173141,
+    "signals": 1565,
+    "not_evaluated": []
+   },
+   "signals": [
+    {
+     "key": "L2:paid-ten-times-original",
+     "count": 780,
+     "en": "780 signal(s) of rule 'Amount paid more than 10 times the original fine' in 1584806 check(s)",
+     "pt": "780 sinal(is) da regra 'Valor pago mais de 10 vezes o valor original do auto' em 1584806 verificação(ões)"
+    },
+    {
+     "key": "L2:payment-before-infraction",
+     "count": 785,
+     "en": "785 signal(s) of rule 'Payment dated before the infraction notice' in 1588335 check(s)",
+     "pt": "785 sinal(is) da regra 'Pagamento anterior ao auto' em 1588335 verificação(ões)"
+    }
+   ]
+  },
+  "L3": {
+   "status": "missing",
+   "reason": "not_reached",
+   "rate": null,
+   "evaluated_at": null,
+   "current": null,
+   "facts": {},
+   "signals": []
+  },
+  "L4": {
+   "status": "valid",
+   "reason": null,
+   "rate": 1.0,
+   "evaluated_at": "2026-10-13T00:35:39+00:00",
+   "current": true,
+   "facts": {
+    "observations": 104,
+    "critical_in_window": 0,
+    "entity": "https://dadosabertos.ibama.gov.br/dataset/ef55602f-73f2-4976-a35d-23d6bfebc1df#e4168bd43351"
+   },
+   "signals": [
+    {
+     "key": "L4:access:2026-08-26T19:49:09+00:00",
+     "count": 4,
+     "when": "2026-08-26T19:49:09+00:00",
+     "en": "4 resource URL(s) changed (4 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net; 4 plain file → zip)",
+     "pt": "4 URL(s) de recurso alterada(s) (4 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net; 4 arquivo simples → zip)"
+    }
+   ]
+  }
+ },
+ "findings": [
+  {
+   "layer": "L2",
+   "kind": "signal",
+   "key": "L2:paid-ten-times-original",
+   "count": 780,
+   "when": null,
+   "en": "780 signal(s) of rule 'Amount paid more than 10 times the original fine' in 1584806 check(s)",
+   "pt": "780 sinal(is) da regra 'Valor pago mais de 10 vezes o valor original do auto' em 1584806 verificação(ões)"
+  },
+  {
+   "layer": "L2",
+   "kind": "signal",
+   "key": "L2:payment-before-infraction",
+   "count": 785,
+   "when": null,
+   "en": "785 signal(s) of rule 'Payment dated before the infraction notice' in 1588335 check(s)",
+   "pt": "785 sinal(is) da regra 'Pagamento anterior ao auto' em 1588335 verificação(ões)"
+  },
+  {
+   "layer": "L4",
+   "kind": "signal",
+   "key": "L4:access:2026-08-26T19:49:09+00:00",
+   "count": 4,
+   "when": "2026-08-26T19:49:09+00:00",
+   "en": "4 resource URL(s) changed (4 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net; 4 plain file → zip)",
+   "pt": "4 URL(s) de recurso alterada(s) (4 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net; 4 arquivo simples → zip)"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-10-12T14:40:46+00:00",
+   "resource_id": "cd55e477-2f11-43e5-b994-7be34e275561",
+   "en": "the bytes of resource cd55e477-2f11-43e5-b994-7be34e275561 changed between 2026-10-09 and 2026-10-12 with no change in the portal metadata",
+   "pt": "os bytes do recurso cd55e477-2f11-43e5-b994-7be34e275561 mudaram entre 2026-10-09 e 2026-10-12 sem mudança nos metadados do portal"
+  }
+ ],
+ "outcomes": {
+  "open": [
+   {
+    "key": "L2:paid-ten-times-original",
+    "layer": "L2",
+    "first_reported": "2026-10-13T19:15:59+00:00",
+    "count": 780,
+    "evaluated_at": "2026-10-09T13:35:24+00:00",
+    "status": "reported",
+    "en": "780 signal(s) of rule 'Amount paid more than 10 times the original fine' in 1584806 check(s)",
+    "pt": "780 sinal(is) da regra 'Valor pago mais de 10 vezes o valor original do auto' em 1584806 verificação(ões)",
+    "digests": {
+     "cd55e477-2f11-43e5-b994-7be34e275561": "290ba8cd2a83c9dcffa976ccc2910b5ebc2dabc9cf05a856829316cb787433fc",
+     "9d371390-73e7-4010-af9f-d8f672697094": "aa2cde6668ecb94a0d09f08ccdfddf737c76a3b4e48943b33880c70e5cd1c3da",
+     "2d4550a2-6d6b-4e10-8822-7544fdb12099": "60d82b5a844c11067dd4eb430da7edbd2407fa9bd665cb3e178762fa825d805c"
+    }
+   },
+   {
+    "key": "L2:payment-before-infraction",
+    "layer": "L2",
+    "first_reported": "2026-10-13T19:15:59+00:00",
+    "count": 785,
+    "evaluated_at": "2026-10-09T13:35:24+00:00",
+    "status": "reported",
+    "en": "785 signal(s) of rule 'Payment dated before the infraction notice' in 1588335 check(s)",
+    "pt": "785 sinal(is) da regra 'Pagamento anterior ao auto' em 1588335 verificação(ões)",
+    "digests": {
+     "cd55e477-2f11-43e5-b994-7be34e275561": "290ba8cd2a83c9dcffa976ccc2910b5ebc2dabc9cf05a856829316cb787433fc",
+     "9d371390-73e7-4010-af9f-d8f672697094": "aa2cde6668ecb94a0d09f08ccdfddf737c76a3b4e48943b33880c70e5cd1c3da",
+     "2d4550a2-6d6b-4e10-8822-7544fdb12099": "60d82b5a844c11067dd4eb430da7edbd2407fa9bd665cb3e178762fa825d805c"
+    }
+   },
+   {
+    "key": "L4:access:2026-08-26T19:49:09+00:00",
+    "layer": "L4",
+    "first_reported": "2026-10-13T19:15:59+00:00",
+    "count": 4,
+    "evaluated_at": "2026-10-13T00:35:39+00:00",
+    "status": "reported",
+    "en": "4 resource URL(s) changed (4 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net; 4 plain file → zip)",
+    "pt": "4 URL(s) de recurso alterada(s) (4 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net; 4 arquivo simples → zip)",
+    "digests": {
+     "cd55e477-2f11-43e5-b994-7be34e275561": "290ba8cd2a83c9dcffa976ccc2910b5ebc2dabc9cf05a856829316cb787433fc",
+     "9d371390-73e7-4010-af9f-d8f672697094": "aa2cde6668ecb94a0d09f08ccdfddf737c76a3b4e48943b33880c70e5cd1c3da",
+     "2d4550a2-6d6b-4e10-8822-7544fdb12099": "60d82b5a844c11067dd4eb430da7edbd2407fa9bd665cb3e178762fa825d805c"
+    }
+   }
+  ],
+  "closed": []
+ },
+ "sources": {
+  "L1": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-12T15:21:48+00:00",
+   "files": [
+    {
+     "path": "results/layer1_summary.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/layer1_summary.json",
+     "commit": {
+      "sha": "77beac1c896b766f80e89fe9d866a0a4df7a0a2f",
+      "date": "2026-10-12T15:21:49Z"
+     }
+    },
+    {
+     "path": "results/validation.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/validation.json",
+     "commit": {
+      "sha": "77beac1c896b766f80e89fe9d866a0a4df7a0a2f",
+      "date": "2026-10-12T15:21:49Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer1/"
+  },
+  "L2": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-09T13:35:26+00:00",
+   "files": [
+    {
+     "path": "docs/data/layer2.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2/main/docs/data/layer2.json",
+     "commit": {
+      "sha": "ca984fd1db33199f0e23902160abd42b9c258241",
+      "date": "2026-10-09T13:35:45Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer2/"
+  },
+  "L3": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-05T13:09:25+00:00",
+   "files": [
+    {
+     "path": "docs/data/index.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer3/main/docs/data/index.json",
+     "commit": {
+      "sha": "9bbbae5b1be89d4cc31dbbbea6d1785d0bfe107b",
+      "date": "2026-09-29T18:50:44Z"
+     }
+    },
+    {
+     "path": "results/ibama-autos-infracao/layer3_summary.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer3/main/results/ibama-autos-infracao/layer3_summary.json",
+     "commit": {
+      "sha": "c5cd4b136398a59bf1bd64008f520aff425233ad",
+      "date": "2026-10-05T13:09:26Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer3/"
+  },
+  "L4": {
+   "status": "ok",
+   "reason": null,
+   "generated_at": "2026-10-13T14:06:16.422517+00:00",
+   "files": [
+    {
+     "path": "docs/data/layer4.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
+     "commit": {
+      "sha": "82df29b1981165e1108d0758d447ea3a5f82314c",
+      "date": "2026-10-13T14:06:17Z"
+     }
+    },
+    {
+     "path": "docs/data/cross_check.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
+     "commit": {
+      "sha": "6dcb4d1cc30ea34f156bc4879d90e9faf0689b2f",
+      "date": "2026-10-13T10:54:55Z"
+     }
+    },
+    {
+     "path": "data/hash_store.json",
+     "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
+     "commit": {
+      "sha": "d6b92426a330eaf146c7be4ef99643db9f69b2ad",
+      "date": "2026-10-13T00:35:56Z"
+     }
+    }
+   ],
+   "dashboard": "https://lsp3cesarschool.github.io/5ltep-layer4/"
+  }
+ },
+ "policy": {
+  "policy_version": "1.1.0",
+  "aggregation": "arithmetic",
+  "weights": {
+   "L1": 0.3,
+   "L2": 0.3,
+   "L3": 0.2,
+   "L4": 0.2
+  },
+  "cutoff": 0.85,
+  "critical_floor": 0.7,
+  "integrity_factor": 0.5,
+  "integrity_types": [
+   "RETRO_ALTER"
+  ],
+  "scope_types": [
+   "SCHEMA_DRIFT"
+  ],
+  "unrecorded_change": "finding",
+  "cadence_days": {
+   "L1": 7,
+   "L2": 7,
+   "L3": 31,
+   "L4": 0.25
+  },
+  "validity_days": {
+   "L1": 14.0,
+   "L2": 14.0,
+   "L3": 62.0,
+   "L4": 0.5
+  },
+  "l4_window_days": 30,
+  "findings_window_days": 90,
+  "simultaneous_event_min_datasets": 3
+ },
+ "portal": {
+  "portal_url": "https://dadosabertos.ibama.gov.br",
+  "name": "IBAMA",
+  "title": "IBAMA open data portal (Dados Abertos IBAMA)",
+  "repository": "lsp3cesarschool/5ltep-layer5"
+ },
+ "notice": {
+  "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
+  "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
+ },
+ "generated_at": "2026-10-13T19:15:59+00:00",
+ "engine": {
+  "repository": "lsp3cesarschool/5ltep-layer5",
+  "commit": "5afce449ab2d792ff43a0689b3de635e72ef4935",
+  "run_id": "38453450972"
+ },
+ "ficha": {
+  "id": "sha256:24681a6809e6be3b5c603d99254574851448d6904626a3978c9e91c6b08815f4",
+  "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=arrecadacao-de-multas-ambientais-bens-tutelados",
+  "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/arrecadacao-de-multas-ambientais-bens-tutelados.json",
+  "how_to_cite": {
+   "en": "5L-TEP Layer 5 record of 'arrecadacao-de-multas-ambientais-bens-tutelados' (IBAMA), 2026-10-13, sha256:24681a6809e6be3b…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=arrecadacao-de-multas-ambientais-bens-tutelados",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'arrecadacao-de-multas-ambientais-bens-tutelados' (IBAMA), 2026-10-13, sha256:24681a6809e6be3b…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=arrecadacao-de-multas-ambientais-bens-tutelados"
+  }
+ }
+}
