@@ -18,8 +18,8 @@
    "L4"
   ],
   "integrity": [],
-  "low": 0.4998520393515447,
-  "high": 0.9998520393515447,
+  "low": 0.49985205511049546,
+  "high": 0.9998520551104955,
   "band": "undetermined",
   "eligible": false,
   "missing_layers": [
@@ -45,15 +45,15 @@
   "L2": {
    "status": "valid",
    "reason": null,
-   "rate": 0.9995067978384824,
-   "evaluated_at": "2026-10-09T13:35:24+00:00",
-   "current": false,
+   "rate": 0.9995068503683182,
+   "evaluated_at": "2026-10-14T09:42:39+00:00",
+   "current": true,
    "facts": {
     "rules": [
      "paid-ten-times-original",
      "payment-before-infraction"
     ],
-    "checks": 3173141,
+    "checks": 3173479,
     "signals": 1565,
     "not_evaluated": []
    },
@@ -61,14 +61,14 @@
     {
      "key": "L2:paid-ten-times-original",
      "count": 780,
-     "en": "780 signal(s) of rule 'Amount paid more than 10 times the original fine' in 1584806 check(s)",
-     "pt": "780 sinal(is) da regra 'Valor pago mais de 10 vezes o valor original do auto' em 1584806 verificação(ões)"
+     "en": "780 signal(s) of rule 'Amount paid more than 10 times the original fine' in 1584975 check(s)",
+     "pt": "780 sinal(is) da regra 'Valor pago mais de 10 vezes o valor original do auto' em 1584975 verificação(ões)"
     },
     {
      "key": "L2:payment-before-infraction",
      "count": 785,
-     "en": "785 signal(s) of rule 'Payment dated before the infraction notice' in 1588335 check(s)",
-     "pt": "785 sinal(is) da regra 'Pagamento anterior ao auto' em 1588335 verificação(ões)"
+     "en": "785 signal(s) of rule 'Payment dated before the infraction notice' in 1588504 check(s)",
+     "pt": "785 sinal(is) da regra 'Pagamento anterior ao auto' em 1588504 verificação(ões)"
     }
    ]
   },
@@ -85,10 +85,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-13T00:35:39+00:00",
+   "evaluated_at": "2026-10-14T04:47:52+00:00",
    "current": true,
    "facts": {
-    "observations": 104,
+    "observations": 102,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/ef55602f-73f2-4976-a35d-23d6bfebc1df#e4168bd43351"
    },
@@ -110,8 +110,8 @@
    "key": "L2:paid-ten-times-original",
    "count": 780,
    "when": null,
-   "en": "780 signal(s) of rule 'Amount paid more than 10 times the original fine' in 1584806 check(s)",
-   "pt": "780 sinal(is) da regra 'Valor pago mais de 10 vezes o valor original do auto' em 1584806 verificação(ões)"
+   "en": "780 signal(s) of rule 'Amount paid more than 10 times the original fine' in 1584975 check(s)",
+   "pt": "780 sinal(is) da regra 'Valor pago mais de 10 vezes o valor original do auto' em 1584975 verificação(ões)"
   },
   {
    "layer": "L2",
@@ -119,8 +119,8 @@
    "key": "L2:payment-before-infraction",
    "count": 785,
    "when": null,
-   "en": "785 signal(s) of rule 'Payment dated before the infraction notice' in 1588335 check(s)",
-   "pt": "785 sinal(is) da regra 'Pagamento anterior ao auto' em 1588335 verificação(ões)"
+   "en": "785 signal(s) of rule 'Payment dated before the infraction notice' in 1588504 check(s)",
+   "pt": "785 sinal(is) da regra 'Pagamento anterior ao auto' em 1588504 verificação(ões)"
   },
   {
    "layer": "L4",
@@ -134,10 +134,10 @@
   {
    "layer": "L5",
    "kind": "unrecorded_change",
-   "when": "2026-10-12T14:40:46+00:00",
+   "when": "2026-10-14T09:39:02+00:00",
    "resource_id": "cd55e477-2f11-43e5-b994-7be34e275561",
-   "en": "the bytes of resource cd55e477-2f11-43e5-b994-7be34e275561 changed between 2026-10-09 and 2026-10-12 with no change in the portal metadata",
-   "pt": "os bytes do recurso cd55e477-2f11-43e5-b994-7be34e275561 mudaram entre 2026-10-09 e 2026-10-12 sem mudança nos metadados do portal"
+   "en": "the bytes of resource cd55e477-2f11-43e5-b994-7be34e275561 changed between 2026-10-12 and 2026-10-14 with no change in the portal metadata",
+   "pt": "os bytes do recurso cd55e477-2f11-43e5-b994-7be34e275561 mudaram entre 2026-10-12 e 2026-10-14 sem mudança nos metadados do portal"
   }
  ],
  "outcomes": {
@@ -148,14 +148,15 @@
     "first_reported": "2026-10-13T19:15:59+00:00",
     "count": 780,
     "evaluated_at": "2026-10-09T13:35:24+00:00",
-    "status": "reported",
+    "status": "changed_signal_persists",
     "en": "780 signal(s) of rule 'Amount paid more than 10 times the original fine' in 1584806 check(s)",
     "pt": "780 sinal(is) da regra 'Valor pago mais de 10 vezes o valor original do auto' em 1584806 verificação(ões)",
     "digests": {
      "cd55e477-2f11-43e5-b994-7be34e275561": "290ba8cd2a83c9dcffa976ccc2910b5ebc2dabc9cf05a856829316cb787433fc",
      "9d371390-73e7-4010-af9f-d8f672697094": "aa2cde6668ecb94a0d09f08ccdfddf737c76a3b4e48943b33880c70e5cd1c3da",
      "2d4550a2-6d6b-4e10-8822-7544fdb12099": "60d82b5a844c11067dd4eb430da7edbd2407fa9bd665cb3e178762fa825d805c"
-    }
+    },
+    "first_change_seen": "2026-10-14T10:05:24+00:00"
    },
    {
     "key": "L2:payment-before-infraction",
@@ -163,14 +164,15 @@
     "first_reported": "2026-10-13T19:15:59+00:00",
     "count": 785,
     "evaluated_at": "2026-10-09T13:35:24+00:00",
-    "status": "reported",
+    "status": "changed_signal_persists",
     "en": "785 signal(s) of rule 'Payment dated before the infraction notice' in 1588335 check(s)",
     "pt": "785 sinal(is) da regra 'Pagamento anterior ao auto' em 1588335 verificação(ões)",
     "digests": {
      "cd55e477-2f11-43e5-b994-7be34e275561": "290ba8cd2a83c9dcffa976ccc2910b5ebc2dabc9cf05a856829316cb787433fc",
      "9d371390-73e7-4010-af9f-d8f672697094": "aa2cde6668ecb94a0d09f08ccdfddf737c76a3b4e48943b33880c70e5cd1c3da",
      "2d4550a2-6d6b-4e10-8822-7544fdb12099": "60d82b5a844c11067dd4eb430da7edbd2407fa9bd665cb3e178762fa825d805c"
-    }
+    },
+    "first_change_seen": "2026-10-14T10:05:24+00:00"
    },
    {
     "key": "L4:access:2026-08-26T19:49:09+00:00",
@@ -178,14 +180,15 @@
     "first_reported": "2026-10-13T19:15:59+00:00",
     "count": 4,
     "evaluated_at": "2026-10-13T00:35:39+00:00",
-    "status": "reported",
+    "status": "changed_signal_persists",
     "en": "4 resource URL(s) changed (4 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net; 4 plain file → zip)",
     "pt": "4 URL(s) de recurso alterada(s) (4 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net; 4 arquivo simples → zip)",
     "digests": {
      "cd55e477-2f11-43e5-b994-7be34e275561": "290ba8cd2a83c9dcffa976ccc2910b5ebc2dabc9cf05a856829316cb787433fc",
      "9d371390-73e7-4010-af9f-d8f672697094": "aa2cde6668ecb94a0d09f08ccdfddf737c76a3b4e48943b33880c70e5cd1c3da",
      "2d4550a2-6d6b-4e10-8822-7544fdb12099": "60d82b5a844c11067dd4eb430da7edbd2407fa9bd665cb3e178762fa825d805c"
-    }
+    },
+    "first_change_seen": "2026-10-14T10:05:24+00:00"
    }
   ],
   "closed": []
@@ -218,14 +221,14 @@
   "L2": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-09T13:35:26+00:00",
+   "generated_at": "2026-10-14T09:42:43+00:00",
    "files": [
     {
      "path": "docs/data/layer2.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2/main/docs/data/layer2.json",
      "commit": {
-      "sha": "ca984fd1db33199f0e23902160abd42b9c258241",
-      "date": "2026-10-09T13:35:45Z"
+      "sha": "60e3689b74147757c84ad248307e3ee85378a80e",
+      "date": "2026-10-14T09:43:04Z"
      }
     }
    ],
@@ -258,30 +261,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-13T14:06:16.422517+00:00",
+   "generated_at": "2026-10-14T04:49:10.057111+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "82df29b1981165e1108d0758d447ea3a5f82314c",
-      "date": "2026-10-13T14:06:17Z"
+      "sha": "ba3fe1f6130cfeff258c0ccbffa4539f1c04b2e3",
+      "date": "2026-10-14T04:49:10Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "6dcb4d1cc30ea34f156bc4879d90e9faf0689b2f",
-      "date": "2026-10-13T10:54:55Z"
+      "sha": "a23b919a09c9118b57273e0f9fca5de4de5f7f52",
+      "date": "2026-10-14T08:59:05Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "d6b92426a330eaf146c7be4ef99643db9f69b2ad",
-      "date": "2026-10-13T00:35:56Z"
+      "sha": "ba3fe1f6130cfeff258c0ccbffa4539f1c04b2e3",
+      "date": "2026-10-14T04:49:10Z"
      }
     }
    ],
@@ -333,19 +336,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-13T19:15:59+00:00",
+ "generated_at": "2026-10-14T10:05:24+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "5afce449ab2d792ff43a0689b3de635e72ef4935",
-  "run_id": "38453450972"
+  "commit": "de56242e1e0059891886a4ac787127e87a4ddb00",
+  "run_id": "38547086092"
  },
  "ficha": {
-  "id": "sha256:24681a6809e6be3b5c603d99254574851448d6904626a3978c9e91c6b08815f4",
+  "id": "sha256:4f68246535b8e97f5b303f97cb9a63a192f78eaad5a135dade5cf9ff42b0a0da",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=arrecadacao-de-multas-ambientais-bens-tutelados",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/arrecadacao-de-multas-ambientais-bens-tutelados.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'arrecadacao-de-multas-ambientais-bens-tutelados' (IBAMA), 2026-10-13, sha256:24681a6809e6be3b…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=arrecadacao-de-multas-ambientais-bens-tutelados",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'arrecadacao-de-multas-ambientais-bens-tutelados' (IBAMA), 2026-10-13, sha256:24681a6809e6be3b…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=arrecadacao-de-multas-ambientais-bens-tutelados"
+   "en": "5L-TEP Layer 5 record of 'arrecadacao-de-multas-ambientais-bens-tutelados' (IBAMA), 2026-10-14, sha256:4f68246535b8e97f…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=arrecadacao-de-multas-ambientais-bens-tutelados",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'arrecadacao-de-multas-ambientais-bens-tutelados' (IBAMA), 2026-10-14, sha256:4f68246535b8e97f…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=arrecadacao-de-multas-ambientais-bens-tutelados"
   }
  }
 }

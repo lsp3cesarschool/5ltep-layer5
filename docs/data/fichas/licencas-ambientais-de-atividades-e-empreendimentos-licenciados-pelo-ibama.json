@@ -18,8 +18,8 @@
    "L4"
   ],
   "integrity": [],
-  "low": 0.4987586891757696,
-  "high": 0.9987586891757696,
+  "low": 0.4987593052109181,
+  "high": 0.998759305210918,
   "band": "undetermined",
   "eligible": false,
   "missing_layers": [
@@ -45,9 +45,9 @@
   "L2": {
    "status": "valid",
    "reason": null,
-   "rate": 0.9958622972525654,
-   "evaluated_at": "2026-10-09T13:35:18+00:00",
-   "current": false,
+   "rate": 0.9958643507030603,
+   "evaluated_at": "2026-10-14T09:42:28+00:00",
+   "current": true,
    "facts": {
     "rules": [
      "expiry-before-issue",
@@ -55,7 +55,7 @@
      "operation-licence-over-ten-years",
      "preliminary-licence-over-five-years"
     ],
-    "checks": 18126,
+    "checks": 18135,
     "signals": 75,
     "not_evaluated": []
    },
@@ -63,8 +63,8 @@
     {
      "key": "L2:expiry-before-issue",
      "count": 60,
-     "en": "60 signal(s) of rule 'Licence expiring before it was issued' in 14302 check(s)",
-     "pt": "60 sinal(is) da regra 'Vencimento da licença anterior à emissão' em 14302 verificação(ões)"
+     "en": "60 signal(s) of rule 'Licence expiring before it was issued' in 14311 check(s)",
+     "pt": "60 sinal(is) da regra 'Vencimento da licença anterior à emissão' em 14311 verificação(ões)"
     },
     {
      "key": "L2:installation-licence-over-six-years",
@@ -99,10 +99,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-13T00:35:39+00:00",
+   "evaluated_at": "2026-10-14T04:47:52+00:00",
    "current": true,
    "facts": {
-    "observations": 104,
+    "observations": 102,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/6fe82499-bae2-404e-b85e-6a446ffd1c0e#2b85852d0cc9"
    },
@@ -116,8 +116,8 @@
    "key": "L2:expiry-before-issue",
    "count": 60,
    "when": null,
-   "en": "60 signal(s) of rule 'Licence expiring before it was issued' in 14302 check(s)",
-   "pt": "60 sinal(is) da regra 'Vencimento da licença anterior à emissão' em 14302 verificação(ões)"
+   "en": "60 signal(s) of rule 'Licence expiring before it was issued' in 14311 check(s)",
+   "pt": "60 sinal(is) da regra 'Vencimento da licença anterior à emissão' em 14311 verificação(ões)"
   },
   {
    "layer": "L2",
@@ -149,10 +149,10 @@
   {
    "layer": "L5",
    "kind": "unrecorded_change",
-   "when": "2026-10-12T14:37:18+00:00",
+   "when": "2026-10-14T09:39:02+00:00",
    "resource_id": "9e4873d3-10d8-464f-a883-88be3b3abf06",
-   "en": "the bytes of resource 9e4873d3-10d8-464f-a883-88be3b3abf06 changed between 2026-10-09 and 2026-10-12 with no change in the portal metadata",
-   "pt": "os bytes do recurso 9e4873d3-10d8-464f-a883-88be3b3abf06 mudaram entre 2026-10-09 e 2026-10-12 sem mudança nos metadados do portal"
+   "en": "the bytes of resource 9e4873d3-10d8-464f-a883-88be3b3abf06 changed between 2026-10-12 and 2026-10-14 with no change in the portal metadata",
+   "pt": "os bytes do recurso 9e4873d3-10d8-464f-a883-88be3b3abf06 mudaram entre 2026-10-12 e 2026-10-14 sem mudança nos metadados do portal"
   }
  ],
  "outcomes": {
@@ -163,12 +163,13 @@
     "first_reported": "2026-10-13T19:15:59+00:00",
     "count": 60,
     "evaluated_at": "2026-10-09T13:35:18+00:00",
-    "status": "reported",
+    "status": "changed_signal_persists",
     "en": "60 signal(s) of rule 'Licence expiring before it was issued' in 14302 check(s)",
     "pt": "60 sinal(is) da regra 'Vencimento da licença anterior à emissão' em 14302 verificação(ões)",
     "digests": {
      "9e4873d3-10d8-464f-a883-88be3b3abf06": "2aa42327f8a50ea1377f79f4c7d8d68d916c5f855706c8c982f87164f5b59ce9"
-    }
+    },
+    "first_change_seen": "2026-10-14T10:05:24+00:00"
    },
    {
     "key": "L2:installation-licence-over-six-years",
@@ -176,12 +177,13 @@
     "first_reported": "2026-10-13T19:15:59+00:00",
     "count": 5,
     "evaluated_at": "2026-10-09T13:35:18+00:00",
-    "status": "reported",
+    "status": "changed_signal_persists",
     "en": "5 signal(s) of rule 'Installation licence valid for more than 6 years' in 1434 check(s)",
     "pt": "5 sinal(is) da regra 'Licença de Instalação com validade acima de seis anos' em 1434 verificação(ões)",
     "digests": {
      "9e4873d3-10d8-464f-a883-88be3b3abf06": "2aa42327f8a50ea1377f79f4c7d8d68d916c5f855706c8c982f87164f5b59ce9"
-    }
+    },
+    "first_change_seen": "2026-10-14T10:05:24+00:00"
    },
    {
     "key": "L2:operation-licence-over-ten-years",
@@ -189,12 +191,13 @@
     "first_reported": "2026-10-13T19:15:59+00:00",
     "count": 2,
     "evaluated_at": "2026-10-09T13:35:18+00:00",
-    "status": "reported",
+    "status": "changed_signal_persists",
     "en": "2 signal(s) of rule 'Operating licence valid for more than 10 years' in 1592 check(s)",
     "pt": "2 sinal(is) da regra 'Licença de Operação com validade acima de dez anos' em 1592 verificação(ões)",
     "digests": {
      "9e4873d3-10d8-464f-a883-88be3b3abf06": "2aa42327f8a50ea1377f79f4c7d8d68d916c5f855706c8c982f87164f5b59ce9"
-    }
+    },
+    "first_change_seen": "2026-10-14T10:05:24+00:00"
    },
    {
     "key": "L2:preliminary-licence-over-five-years",
@@ -202,12 +205,13 @@
     "first_reported": "2026-10-13T19:15:59+00:00",
     "count": 8,
     "evaluated_at": "2026-10-09T13:35:18+00:00",
-    "status": "reported",
+    "status": "changed_signal_persists",
     "en": "8 signal(s) of rule 'Preliminary licence valid for more than 5 years' in 798 check(s)",
     "pt": "8 sinal(is) da regra 'Licença Prévia com validade acima de cinco anos' em 798 verificação(ões)",
     "digests": {
      "9e4873d3-10d8-464f-a883-88be3b3abf06": "2aa42327f8a50ea1377f79f4c7d8d68d916c5f855706c8c982f87164f5b59ce9"
-    }
+    },
+    "first_change_seen": "2026-10-14T10:05:24+00:00"
    }
   ],
   "closed": []
@@ -240,14 +244,14 @@
   "L2": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-09T13:35:26+00:00",
+   "generated_at": "2026-10-14T09:42:43+00:00",
    "files": [
     {
      "path": "docs/data/layer2.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2/main/docs/data/layer2.json",
      "commit": {
-      "sha": "ca984fd1db33199f0e23902160abd42b9c258241",
-      "date": "2026-10-09T13:35:45Z"
+      "sha": "60e3689b74147757c84ad248307e3ee85378a80e",
+      "date": "2026-10-14T09:43:04Z"
      }
     }
    ],
@@ -280,30 +284,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-13T14:06:16.422517+00:00",
+   "generated_at": "2026-10-14T04:49:10.057111+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "82df29b1981165e1108d0758d447ea3a5f82314c",
-      "date": "2026-10-13T14:06:17Z"
+      "sha": "ba3fe1f6130cfeff258c0ccbffa4539f1c04b2e3",
+      "date": "2026-10-14T04:49:10Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "6dcb4d1cc30ea34f156bc4879d90e9faf0689b2f",
-      "date": "2026-10-13T10:54:55Z"
+      "sha": "a23b919a09c9118b57273e0f9fca5de4de5f7f52",
+      "date": "2026-10-14T08:59:05Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "d6b92426a330eaf146c7be4ef99643db9f69b2ad",
-      "date": "2026-10-13T00:35:56Z"
+      "sha": "ba3fe1f6130cfeff258c0ccbffa4539f1c04b2e3",
+      "date": "2026-10-14T04:49:10Z"
      }
     }
    ],
@@ -355,19 +359,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-13T19:15:59+00:00",
+ "generated_at": "2026-10-14T10:05:24+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "5afce449ab2d792ff43a0689b3de635e72ef4935",
-  "run_id": "38453450972"
+  "commit": "de56242e1e0059891886a4ac787127e87a4ddb00",
+  "run_id": "38547086092"
  },
  "ficha": {
-  "id": "sha256:18198525d79b3f2244de5efad74f4cf70bc0237c0d22c36322f532945e9d3e46",
+  "id": "sha256:c8a777ba6d7d405d7c2ee810d6109ca76d280f5b068dc8ef3627b6594a2138d7",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=licencas-ambientais-de-atividades-e-empreendimentos-licenciados-pelo-ibama",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/licencas-ambientais-de-atividades-e-empreendimentos-licenciados-pelo-ibama.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'licencas-ambientais-de-atividades-e-empreendimentos-licenciados-pelo-ibama' (IBAMA), 2026-10-13, sha256:18198525d79b3f22…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=licencas-ambientais-de-atividades-e-empreendimentos-licenciados-pelo-ibama",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'licencas-ambientais-de-atividades-e-empreendimentos-licenciados-pelo-ibama' (IBAMA), 2026-10-13, sha256:18198525d79b3f22…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=licencas-ambientais-de-atividades-e-empreendimentos-licenciados-pelo-ibama"
+   "en": "5L-TEP Layer 5 record of 'licencas-ambientais-de-atividades-e-empreendimentos-licenciados-pelo-ibama' (IBAMA), 2026-10-14, sha256:c8a777ba6d7d405d…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=licencas-ambientais-de-atividades-e-empreendimentos-licenciados-pelo-ibama",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'licencas-ambientais-de-atividades-e-empreendimentos-licenciados-pelo-ibama' (IBAMA), 2026-10-14, sha256:c8a777ba6d7d405d…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=licencas-ambientais-de-atividades-e-empreendimentos-licenciados-pelo-ibama"
   }
  }
 }
