@@ -71,22 +71,14 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-14T04:47:52+00:00",
+   "evaluated_at": "2026-10-15T04:32:09+00:00",
    "current": true,
    "facts": {
-    "observations": 102,
+    "observations": 103,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/5dbb0a27-bdc5-48cf-8b7b-a8c725e4510d#e585048955cb"
    },
-   "signals": [
-    {
-     "key": "L4:access:2026-07-16T19:13:22+00:00",
-     "count": 3,
-     "when": "2026-07-16T19:13:22+00:00",
-     "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net; 3 zip → plain file); license title changed",
-     "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net; 3 zip → arquivo simples); título da licença alterado"
-    }
-   ]
+   "signals": []
   }
  },
  "findings": [
@@ -98,15 +90,6 @@
    "when": null,
    "en": "1 of 1 verifiable file(s) do not conform to the declared schema",
    "pt": "1 de 1 arquivo(s) verificável(is) fora do esquema declarado"
-  },
-  {
-   "layer": "L4",
-   "kind": "signal",
-   "key": "L4:access:2026-07-16T19:13:22+00:00",
-   "count": 3,
-   "when": "2026-07-16T19:13:22+00:00",
-   "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net; 3 zip → plain file); license title changed",
-   "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net; 3 zip → arquivo simples); título da licença alterado"
   }
  ],
  "outcomes": {
@@ -123,22 +106,26 @@
     "digests": {
      "eeb2d948-dcdd-44c8-916a-1dd131deacfb": "36791fc55a4970a5683fc44ff0e3598f763a3ce5d75ff2bdc8810ae2ae6f3e01"
     }
-   },
+   }
+  ],
+  "closed": [
    {
-    "key": "L4:access:2026-07-16T19:13:22+00:00",
     "layer": "L4",
     "first_reported": "2026-10-13T19:15:59+00:00",
     "count": 3,
     "evaluated_at": "2026-10-13T00:35:39+00:00",
-    "status": "unchanged",
+    "status": "cleared_without_data_change",
     "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net; 3 zip → plain file); license title changed",
     "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net; 3 zip → arquivo simples); título da licença alterado",
     "digests": {
      "eeb2d948-dcdd-44c8-916a-1dd131deacfb": "36791fc55a4970a5683fc44ff0e3598f763a3ce5d75ff2bdc8810ae2ae6f3e01"
-    }
+    },
+    "key": "L4:access:2026-07-16T19:13:22+00:00",
+    "dataset": "sinaflor-uso-alternativo-do-solo-agricultor-familiar",
+    "outcome": "cleared_without_data_change",
+    "at": "2026-10-15T09:48:41+00:00"
    }
-  ],
-  "closed": []
+  ]
  },
  "sources": {
   "L1": {
@@ -208,30 +195,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-14T04:49:10.057111+00:00",
+   "generated_at": "2026-10-15T04:34:23.577091+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "ba3fe1f6130cfeff258c0ccbffa4539f1c04b2e3",
-      "date": "2026-10-14T04:49:10Z"
+      "sha": "534b3f6f613fbb1ab61da63ffaaadcfaba973a1f",
+      "date": "2026-10-15T04:34:23Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "a23b919a09c9118b57273e0f9fca5de4de5f7f52",
-      "date": "2026-10-14T08:59:05Z"
+      "sha": "90b370349753f2eb1d08b1fd0d2e69cc9d5ad879",
+      "date": "2026-10-15T08:33:24Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "ba3fe1f6130cfeff258c0ccbffa4539f1c04b2e3",
-      "date": "2026-10-14T04:49:10Z"
+      "sha": "534b3f6f613fbb1ab61da63ffaaadcfaba973a1f",
+      "date": "2026-10-15T04:34:23Z"
      }
     }
    ],
@@ -283,19 +270,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-14T10:05:24+00:00",
+ "generated_at": "2026-10-15T09:48:41+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "de56242e1e0059891886a4ac787127e87a4ddb00",
-  "run_id": "38547086092"
+  "commit": "efd6a42d4a93d71192fd7dccb305481b9c8c5c37",
+  "run_id": "38715670548"
  },
  "ficha": {
-  "id": "sha256:1da359f92c65c7da7729644061efe445009a960062a1c644f3b49c5a4c2d0b9e",
+  "id": "sha256:54eeb6a711f780a808f60d2791ed3702a33d99604e1945ff1e730f344bc6691e",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=sinaflor-uso-alternativo-do-solo-agricultor-familiar",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/sinaflor-uso-alternativo-do-solo-agricultor-familiar.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'sinaflor-uso-alternativo-do-solo-agricultor-familiar' (IBAMA), 2026-10-14, sha256:1da359f92c65c7da…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=sinaflor-uso-alternativo-do-solo-agricultor-familiar",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'sinaflor-uso-alternativo-do-solo-agricultor-familiar' (IBAMA), 2026-10-14, sha256:1da359f92c65c7da…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=sinaflor-uso-alternativo-do-solo-agricultor-familiar"
+   "en": "5L-TEP Layer 5 record of 'sinaflor-uso-alternativo-do-solo-agricultor-familiar' (IBAMA), 2026-10-15, sha256:54eeb6a711f780a8…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=sinaflor-uso-alternativo-do-solo-agricultor-familiar",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'sinaflor-uso-alternativo-do-solo-agricultor-familiar' (IBAMA), 2026-10-15, sha256:54eeb6a711f780a8…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=sinaflor-uso-alternativo-do-solo-agricultor-familiar"
   }
  }
 }
