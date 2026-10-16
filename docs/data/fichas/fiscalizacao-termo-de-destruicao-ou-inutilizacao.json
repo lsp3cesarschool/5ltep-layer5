@@ -71,7 +71,7 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-15T04:32:09+00:00",
+   "evaluated_at": "2026-10-16T04:25:46+00:00",
    "current": true,
    "facts": {
     "observations": 103,
@@ -182,30 +182,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-15T04:34:23.577091+00:00",
+   "generated_at": "2026-10-16T04:26:12.813210+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "534b3f6f613fbb1ab61da63ffaaadcfaba973a1f",
-      "date": "2026-10-15T04:34:23Z"
+      "sha": "2b212c6e4cc52621bf00e70e60030e3d32c45cb1",
+      "date": "2026-10-16T04:26:12Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "90b370349753f2eb1d08b1fd0d2e69cc9d5ad879",
-      "date": "2026-10-15T08:33:24Z"
+      "sha": "42d65ad04bee29b18d90cd322300d54fd92411b0",
+      "date": "2026-10-16T08:25:35Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "534b3f6f613fbb1ab61da63ffaaadcfaba973a1f",
-      "date": "2026-10-15T04:34:23Z"
+      "sha": "2b212c6e4cc52621bf00e70e60030e3d32c45cb1",
+      "date": "2026-10-16T04:26:12Z"
      }
     }
    ],
@@ -257,19 +257,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-15T09:48:41+00:00",
+ "generated_at": "2026-10-16T09:42:07+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "efd6a42d4a93d71192fd7dccb305481b9c8c5c37",
-  "run_id": "38715670548"
+  "commit": "e7f3b22ade05c81c7d6cda47f9c07a4a22967118",
+  "run_id": "38882242951"
  },
  "ficha": {
-  "id": "sha256:0453251cea3b2adad55f872f5666cd1fe4d029dcd62254cedb44380b1719a9de",
+  "id": "sha256:a1f2de87acc0fa2639cf8268a3519ce648df6a526d770fb8cdfc50ec3b45ef97",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-destruicao-ou-inutilizacao",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/fiscalizacao-termo-de-destruicao-ou-inutilizacao.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'fiscalizacao-termo-de-destruicao-ou-inutilizacao' (IBAMA), 2026-10-15, sha256:0453251cea3b2ada…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-destruicao-ou-inutilizacao",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-termo-de-destruicao-ou-inutilizacao' (IBAMA), 2026-10-15, sha256:0453251cea3b2ada…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-destruicao-ou-inutilizacao"
+   "en": "5L-TEP Layer 5 record of 'fiscalizacao-termo-de-destruicao-ou-inutilizacao' (IBAMA), 2026-10-16, sha256:a1f2de87acc0fa26…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-destruicao-ou-inutilizacao",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-termo-de-destruicao-ou-inutilizacao' (IBAMA), 2026-10-16, sha256:a1f2de87acc0fa26…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-destruicao-ou-inutilizacao"
   }
  }
 }
