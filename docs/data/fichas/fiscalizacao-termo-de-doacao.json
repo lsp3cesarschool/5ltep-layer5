@@ -71,10 +71,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-18T04:25:43+00:00",
+   "evaluated_at": "2026-10-18T20:36:46+00:00",
    "current": true,
    "facts": {
-    "observations": 103,
+    "observations": 102,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/6c9f6261-2b0a-4152-b8fa-748930de9bbd#ede0386921c8"
    },
@@ -182,30 +182,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-18T04:26:53.627555+00:00",
+   "generated_at": "2026-10-19T04:34:28.398759+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "ae234aa2287e61e3790974ba43e7c4599c709ae7",
-      "date": "2026-10-18T04:26:53Z"
+      "sha": "aee6adc5ca5330fdbe35b14bbea7c97dc9646fe1",
+      "date": "2026-10-19T04:34:28Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "7ba89ea911ece58c4d6d79026e241ae141c56057",
-      "date": "2026-10-18T08:16:57Z"
+      "sha": "8df928fc61370f443222566ce6d03837f36df4a0",
+      "date": "2026-10-19T09:13:11Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "ae234aa2287e61e3790974ba43e7c4599c709ae7",
-      "date": "2026-10-18T04:26:53Z"
+      "sha": "acd71be95c9873e104bb09226e03e2ff24a9f8ec",
+      "date": "2026-10-18T20:37:06Z"
      }
     }
    ],
@@ -257,19 +257,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-18T09:30:24+00:00",
+ "generated_at": "2026-10-19T10:41:45+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "d76307e820d26d07d7951fcb39899ba01b911165",
-  "run_id": "39115590229"
+  "commit": "97dd6f6895c4f7fa6cf736dd7ae108cf028c2c0a",
+  "run_id": "39239265451"
  },
  "ficha": {
-  "id": "sha256:9c35c68abc930c0a02042d2a01204b927ea113ceac1a8d39db4a2aaddef35fc3",
+  "id": "sha256:0b53720ca5b8c454bb099d9d079b0c6d9d310abd37ed17212446f3beef19238f",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-doacao",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/fiscalizacao-termo-de-doacao.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'fiscalizacao-termo-de-doacao' (IBAMA), 2026-10-18, sha256:9c35c68abc930c0a…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-doacao",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-termo-de-doacao' (IBAMA), 2026-10-18, sha256:9c35c68abc930c0a…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-doacao"
+   "en": "5L-TEP Layer 5 record of 'fiscalizacao-termo-de-doacao' (IBAMA), 2026-10-19, sha256:0b53720ca5b8c454…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-doacao",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-termo-de-doacao' (IBAMA), 2026-10-19, sha256:0b53720ca5b8c454…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-doacao"
   }
  }
 }
