@@ -18,8 +18,8 @@
    "L4"
   ],
   "integrity": [],
-  "low": 0.4981827806231938,
-  "high": 0.9981827806231938,
+  "low": 0.4981841574816657,
+  "high": 0.9981841574816657,
   "band": "undetermined",
   "eligible": false,
   "missing_layers": [
@@ -45,15 +45,15 @@
   "L2": {
    "status": "valid",
    "reason": null,
-   "rate": 0.9939426020773127,
-   "evaluated_at": "2026-10-14T09:40:51+00:00",
+   "rate": 0.9939471916055524,
+   "evaluated_at": "2026-10-21T09:30:31+00:00",
    "current": true,
    "facts": {
     "rules": [
      "appendix-i-wild-commercial",
      "wild-commercial-threatened-species"
     ],
-    "checks": 349490,
+    "checks": 349755,
     "signals": 2117,
     "not_evaluated": []
    },
@@ -61,14 +61,14 @@
     {
      "key": "L2:appendix-i-wild-commercial",
      "count": 403,
-     "en": "403 signal(s) of rule 'CITES permit for an Appendix I species of wild origin for commercial purposes' in 244250 check(s)",
-     "pt": "403 sinal(is) da regra 'Licença CITES de espécie do Apêndice I, origem silvestre, para fins comerciais' em 244250 verificação(ões)"
+     "en": "403 signal(s) of rule 'CITES permit for an Appendix I species of wild origin for commercial purposes' in 244466 check(s)",
+     "pt": "403 sinal(is) da regra 'Licença CITES de espécie do Apêndice I, origem silvestre, para fins comerciais' em 244466 verificação(ões)"
     },
     {
      "key": "L2:wild-commercial-threatened-species",
      "count": 1714,
-     "en": "1714 signal(s) of rule 'Commercial CITES permit for a wild specimen of a threatened Brazilian fauna species' in 105240 check(s)",
-     "pt": "1714 sinal(is) da regra 'Licença CITES comercial de espécime silvestre de espécie da lista de fauna ameaçada' em 105240 verificação(ões)"
+     "en": "1714 signal(s) of rule 'Commercial CITES permit for a wild specimen of a threatened Brazilian fauna species' in 105289 check(s)",
+     "pt": "1714 sinal(is) da regra 'Licença CITES comercial de espécime silvestre de espécie da lista de fauna ameaçada' em 105289 verificação(ões)"
     }
    ]
   },
@@ -85,10 +85,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-20T04:43:21+00:00",
+   "evaluated_at": "2026-10-21T04:40:02+00:00",
    "current": true,
    "facts": {
-    "observations": 102,
+    "observations": 103,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/c6f009b9-3cfe-4f1f-bf76-5637381862ba#845cf13e666c"
    },
@@ -102,8 +102,8 @@
    "key": "L2:appendix-i-wild-commercial",
    "count": 403,
    "when": null,
-   "en": "403 signal(s) of rule 'CITES permit for an Appendix I species of wild origin for commercial purposes' in 244250 check(s)",
-   "pt": "403 sinal(is) da regra 'Licença CITES de espécie do Apêndice I, origem silvestre, para fins comerciais' em 244250 verificação(ões)"
+   "en": "403 signal(s) of rule 'CITES permit for an Appendix I species of wild origin for commercial purposes' in 244466 check(s)",
+   "pt": "403 sinal(is) da regra 'Licença CITES de espécie do Apêndice I, origem silvestre, para fins comerciais' em 244466 verificação(ões)"
   },
   {
    "layer": "L2",
@@ -111,8 +111,8 @@
    "key": "L2:wild-commercial-threatened-species",
    "count": 1714,
    "when": null,
-   "en": "1714 signal(s) of rule 'Commercial CITES permit for a wild specimen of a threatened Brazilian fauna species' in 105240 check(s)",
-   "pt": "1714 sinal(is) da regra 'Licença CITES comercial de espécime silvestre de espécie da lista de fauna ameaçada' em 105240 verificação(ões)"
+   "en": "1714 signal(s) of rule 'Commercial CITES permit for a wild specimen of a threatened Brazilian fauna species' in 105289 check(s)",
+   "pt": "1714 sinal(is) da regra 'Licença CITES comercial de espécime silvestre de espécie da lista de fauna ameaçada' em 105289 verificação(ões)"
   },
   {
    "layer": "L5",
@@ -121,6 +121,14 @@
    "resource_id": "dddd819f-275a-4653-9104-772dd7519e6a",
    "en": "the bytes of resource dddd819f-275a-4653-9104-772dd7519e6a changed between 2026-10-12 and 2026-10-14 with no change in the portal metadata",
    "pt": "os bytes do recurso dddd819f-275a-4653-9104-772dd7519e6a mudaram entre 2026-10-12 e 2026-10-14 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-10-21T09:29:23+00:00",
+   "resource_id": "dddd819f-275a-4653-9104-772dd7519e6a",
+   "en": "the bytes of resource dddd819f-275a-4653-9104-772dd7519e6a changed between 2026-10-14 and 2026-10-21 with no change in the portal metadata",
+   "pt": "os bytes do recurso dddd819f-275a-4653-9104-772dd7519e6a mudaram entre 2026-10-14 e 2026-10-21 sem mudança nos metadados do portal"
   }
  ],
  "outcomes": {
@@ -184,14 +192,14 @@
   "L2": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-14T09:42:43+00:00",
+   "generated_at": "2026-10-21T09:31:58+00:00",
    "files": [
     {
      "path": "docs/data/layer2.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2/main/docs/data/layer2.json",
      "commit": {
-      "sha": "60e3689b74147757c84ad248307e3ee85378a80e",
-      "date": "2026-10-14T09:43:04Z"
+      "sha": "dc591712070b78f347d34fcec0ec13bc0ae33c59",
+      "date": "2026-10-21T09:32:19Z"
      }
     }
    ],
@@ -224,30 +232,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-20T04:43:48.486093+00:00",
+   "generated_at": "2026-10-21T04:40:23.258476+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "a5cb0f706e5ab99abe9719104af588e7a998900b",
-      "date": "2026-10-20T04:43:48Z"
+      "sha": "24b583d2edd7742441fbb5b6ba2acc6355557aba",
+      "date": "2026-10-21T04:40:23Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "84afad41581ccfabfa836613532256b8e7c2c81f",
-      "date": "2026-10-20T08:48:19Z"
+      "sha": "a23e1ed9129b9e852b30a9c79d41a4edacd12123",
+      "date": "2026-10-21T08:48:14Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "a5cb0f706e5ab99abe9719104af588e7a998900b",
-      "date": "2026-10-20T04:43:48Z"
+      "sha": "24b583d2edd7742441fbb5b6ba2acc6355557aba",
+      "date": "2026-10-21T04:40:23Z"
      }
     }
    ],
@@ -299,19 +307,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-20T09:58:31+00:00",
+ "generated_at": "2026-10-21T10:03:08+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "fe9230e181fdd646719928e80f2eb1a31fa762bf",
-  "run_id": "39404564350"
+  "commit": "b2cd869230abe67e4ccbe458b060293d2dfab0ae",
+  "run_id": "39581672303"
  },
  "ficha": {
-  "id": "sha256:55dcf34eeedd4e56c4c8d464266775c39e7ccab8f54d23227a239247f26a4852",
+  "id": "sha256:ec7539385e6cd66fd793244a8b10d8003b98836a007dc45572881dea6cefedcc",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=siscites-licencas-de-fauna-e-flora-emitidas",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/siscites-licencas-de-fauna-e-flora-emitidas.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'siscites-licencas-de-fauna-e-flora-emitidas' (IBAMA), 2026-10-20, sha256:55dcf34eeedd4e56…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=siscites-licencas-de-fauna-e-flora-emitidas",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'siscites-licencas-de-fauna-e-flora-emitidas' (IBAMA), 2026-10-20, sha256:55dcf34eeedd4e56…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=siscites-licencas-de-fauna-e-flora-emitidas"
+   "en": "5L-TEP Layer 5 record of 'siscites-licencas-de-fauna-e-flora-emitidas' (IBAMA), 2026-10-21, sha256:ec7539385e6cd66f…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=siscites-licencas-de-fauna-e-flora-emitidas",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'siscites-licencas-de-fauna-e-flora-emitidas' (IBAMA), 2026-10-21, sha256:ec7539385e6cd66f…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=siscites-licencas-de-fauna-e-flora-emitidas"
   }
  }
 }

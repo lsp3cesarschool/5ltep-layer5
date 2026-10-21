@@ -19,8 +19,8 @@
    "L4"
   ],
   "integrity": [],
-  "low": 0.42720803457954154,
-  "high": 0.6272080345795416,
+  "low": 0.42698325814836335,
+  "high": 0.6269832581483634,
   "band": "critical",
   "eligible": false,
   "missing_layers": [
@@ -52,8 +52,8 @@
   "L2": {
    "status": "valid",
    "reason": null,
-   "rate": 0.7573601152651385,
-   "evaluated_at": "2026-10-14T09:41:21+00:00",
+   "rate": 0.7566108604945445,
+   "evaluated_at": "2026-10-21T09:30:54+00:00",
    "current": true,
    "facts": {
     "rules": [
@@ -61,28 +61,28 @@
      "explored-volume-above-authorized",
      "species-not-in-commercial-timber-list"
     ],
-    "checks": 7180662,
-    "signals": 1742315,
+    "checks": 7218198,
+    "signals": 1756831,
     "not_evaluated": []
    },
    "signals": [
     {
      "key": "L2:exploration-outside-validity",
-     "count": 60091,
-     "en": "60091 signal(s) of rule 'Harvest outside the authorisation's validity' in 2393554 check(s)",
-     "pt": "60091 sinal(is) da regra 'Exploração fora da validade da autorização' em 2393554 verificação(ões)"
+     "count": 66414,
+     "en": "66414 signal(s) of rule 'Harvest outside the authorisation's validity' in 2406066 check(s)",
+     "pt": "66414 sinal(is) da regra 'Exploração fora da validade da autorização' em 2406066 verificação(ões)"
     },
     {
      "key": "L2:explored-volume-above-authorized",
-     "count": 875056,
-     "en": "875056 signal(s) of rule 'Harvested volume above the authorised volume' in 2393554 check(s)",
-     "pt": "875056 sinal(is) da regra 'Volume explorado acima do autorizado' em 2393554 verificação(ões)"
+     "count": 879143,
+     "en": "879143 signal(s) of rule 'Harvested volume above the authorised volume' in 2406066 check(s)",
+     "pt": "879143 sinal(is) da regra 'Volume explorado acima do autorizado' em 2406066 verificação(ões)"
     },
     {
      "key": "L2:species-not-in-commercial-timber-list",
-     "count": 807168,
-     "en": "807168 signal(s) of rule 'Harvested species missing from the list of commercial timber species' in 2393554 check(s)",
-     "pt": "807168 sinal(is) da regra 'Espécie explorada fora da lista de espécies madeireiras comerciais' em 2393554 verificação(ões)"
+     "count": 811274,
+     "en": "811274 signal(s) of rule 'Harvested species missing from the list of commercial timber species' in 2406066 check(s)",
+     "pt": "811274 sinal(is) da regra 'Espécie explorada fora da lista de espécies madeireiras comerciais' em 2406066 verificação(ões)"
     }
    ]
   },
@@ -99,10 +99,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-20T04:43:21+00:00",
+   "evaluated_at": "2026-10-21T04:40:02+00:00",
    "current": true,
    "facts": {
-    "observations": 54,
+    "observations": 58,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/08bac698-0921-47d7-b20a-83b9bf5a474c#c7b851598e78"
    },
@@ -131,28 +131,28 @@
    "layer": "L2",
    "kind": "signal",
    "key": "L2:exploration-outside-validity",
-   "count": 60091,
+   "count": 66414,
    "when": null,
-   "en": "60091 signal(s) of rule 'Harvest outside the authorisation's validity' in 2393554 check(s)",
-   "pt": "60091 sinal(is) da regra 'Exploração fora da validade da autorização' em 2393554 verificação(ões)"
+   "en": "66414 signal(s) of rule 'Harvest outside the authorisation's validity' in 2406066 check(s)",
+   "pt": "66414 sinal(is) da regra 'Exploração fora da validade da autorização' em 2406066 verificação(ões)"
   },
   {
    "layer": "L2",
    "kind": "signal",
    "key": "L2:explored-volume-above-authorized",
-   "count": 875056,
+   "count": 879143,
    "when": null,
-   "en": "875056 signal(s) of rule 'Harvested volume above the authorised volume' in 2393554 check(s)",
-   "pt": "875056 sinal(is) da regra 'Volume explorado acima do autorizado' em 2393554 verificação(ões)"
+   "en": "879143 signal(s) of rule 'Harvested volume above the authorised volume' in 2406066 check(s)",
+   "pt": "879143 sinal(is) da regra 'Volume explorado acima do autorizado' em 2406066 verificação(ões)"
   },
   {
    "layer": "L2",
    "kind": "signal",
    "key": "L2:species-not-in-commercial-timber-list",
-   "count": 807168,
+   "count": 811274,
    "when": null,
-   "en": "807168 signal(s) of rule 'Harvested species missing from the list of commercial timber species' in 2393554 check(s)",
-   "pt": "807168 sinal(is) da regra 'Espécie explorada fora da lista de espécies madeireiras comerciais' em 2393554 verificação(ões)"
+   "en": "811274 signal(s) of rule 'Harvested species missing from the list of commercial timber species' in 2406066 check(s)",
+   "pt": "811274 sinal(is) da regra 'Espécie explorada fora da lista de espécies madeireiras comerciais' em 2406066 verificação(ões)"
   },
   {
    "layer": "L4",
@@ -170,6 +170,14 @@
    "resource_id": "ac345e77-863b-472c-a06a-4f171263bc70",
    "en": "the bytes of resource ac345e77-863b-472c-a06a-4f171263bc70 changed between 2026-10-12 and 2026-10-14 with no change in the portal metadata",
    "pt": "os bytes do recurso ac345e77-863b-472c-a06a-4f171263bc70 mudaram entre 2026-10-12 e 2026-10-14 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-10-21T09:29:23+00:00",
+   "resource_id": "ac345e77-863b-472c-a06a-4f171263bc70",
+   "en": "the bytes of resource ac345e77-863b-472c-a06a-4f171263bc70 changed between 2026-10-14 and 2026-10-21 with no change in the portal metadata",
+   "pt": "os bytes do recurso ac345e77-863b-472c-a06a-4f171263bc70 mudaram entre 2026-10-14 e 2026-10-21 sem mudança nos metadados do portal"
   }
  ],
  "outcomes": {
@@ -285,14 +293,14 @@
   "L2": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-14T09:42:43+00:00",
+   "generated_at": "2026-10-21T09:31:58+00:00",
    "files": [
     {
      "path": "docs/data/layer2.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2/main/docs/data/layer2.json",
      "commit": {
-      "sha": "60e3689b74147757c84ad248307e3ee85378a80e",
-      "date": "2026-10-14T09:43:04Z"
+      "sha": "dc591712070b78f347d34fcec0ec13bc0ae33c59",
+      "date": "2026-10-21T09:32:19Z"
      }
     }
    ],
@@ -325,30 +333,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-20T04:43:48.486093+00:00",
+   "generated_at": "2026-10-21T04:40:23.258476+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "a5cb0f706e5ab99abe9719104af588e7a998900b",
-      "date": "2026-10-20T04:43:48Z"
+      "sha": "24b583d2edd7742441fbb5b6ba2acc6355557aba",
+      "date": "2026-10-21T04:40:23Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "84afad41581ccfabfa836613532256b8e7c2c81f",
-      "date": "2026-10-20T08:48:19Z"
+      "sha": "a23e1ed9129b9e852b30a9c79d41a4edacd12123",
+      "date": "2026-10-21T08:48:14Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "a5cb0f706e5ab99abe9719104af588e7a998900b",
-      "date": "2026-10-20T04:43:48Z"
+      "sha": "24b583d2edd7742441fbb5b6ba2acc6355557aba",
+      "date": "2026-10-21T04:40:23Z"
      }
     }
    ],
@@ -400,19 +408,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-20T09:58:31+00:00",
+ "generated_at": "2026-10-21T10:03:08+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "fe9230e181fdd646719928e80f2eb1a31fa762bf",
-  "run_id": "39404564350"
+  "commit": "b2cd869230abe67e4ccbe458b060293d2dfab0ae",
+  "run_id": "39581672303"
  },
  "ficha": {
-  "id": "sha256:0a1c9cd6a032de61d5d6d0741f80192125b40f43f7a8d9b7e98a0f944819cd0a",
+  "id": "sha256:c05093c249504f6e632fbdc9779e56d1d420b273b7f256b258dcc9ccff45344e",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=volumes-explorados-if-100",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/volumes-explorados-if-100.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'volumes-explorados-if-100' (IBAMA), 2026-10-20, sha256:0a1c9cd6a032de61…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=volumes-explorados-if-100",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'volumes-explorados-if-100' (IBAMA), 2026-10-20, sha256:0a1c9cd6a032de61…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=volumes-explorados-if-100"
+   "en": "5L-TEP Layer 5 record of 'volumes-explorados-if-100' (IBAMA), 2026-10-21, sha256:c05093c249504f6e…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=volumes-explorados-if-100",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'volumes-explorados-if-100' (IBAMA), 2026-10-21, sha256:c05093c249504f6e…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=volumes-explorados-if-100"
   }
  }
 }

@@ -19,8 +19,8 @@
    "L4"
   ],
   "integrity": [],
-  "low": 0.612447244631042,
-  "high": 0.812447244631042,
+  "low": 0.6124472844152231,
+  "high": 0.8124472844152231,
   "band": "alert",
   "eligible": false,
   "missing_layers": [
@@ -52,15 +52,15 @@
   "L2": {
    "status": "valid",
    "reason": null,
-   "rate": 0.9998241487701405,
-   "evaluated_at": "2026-10-14T09:40:54+00:00",
+   "rate": 0.999824281384077,
+   "evaluated_at": "2026-10-21T09:30:33+00:00",
    "current": true,
    "facts": {
     "rules": [
      "embargo-date-implausible",
      "lifted-before-embargo"
     ],
-    "checks": 136479,
+    "checks": 136582,
     "signals": 24,
     "not_evaluated": []
    },
@@ -68,14 +68,14 @@
     {
      "key": "L2:embargo-date-implausible",
      "count": 8,
-     "en": "8 signal(s) of rule 'Embargo date outside a plausible range' in 116789 check(s)",
-     "pt": "8 sinal(is) da regra 'Data do embargo fora de faixa plausível' em 116789 verificação(ões)"
+     "en": "8 signal(s) of rule 'Embargo date outside a plausible range' in 116877 check(s)",
+     "pt": "8 sinal(is) da regra 'Data do embargo fora de faixa plausível' em 116877 verificação(ões)"
     },
     {
      "key": "L2:lifted-before-embargo",
      "count": 16,
-     "en": "16 signal(s) of rule 'Embargo lifted before it was imposed' in 19690 check(s)",
-     "pt": "16 sinal(is) da regra 'Desembargo anterior ao embargo' em 19690 verificação(ões)"
+     "en": "16 signal(s) of rule 'Embargo lifted before it was imposed' in 19705 check(s)",
+     "pt": "16 sinal(is) da regra 'Desembargo anterior ao embargo' em 19705 verificação(ões)"
     }
    ]
   },
@@ -92,10 +92,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-20T04:43:21+00:00",
+   "evaluated_at": "2026-10-21T04:40:02+00:00",
    "current": true,
    "facts": {
-    "observations": 54,
+    "observations": 58,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/4b292c2e-56bb-4639-9ea2-a9b02fea9558#ac484a83530c"
    },
@@ -175,8 +175,8 @@
    "key": "L2:embargo-date-implausible",
    "count": 8,
    "when": null,
-   "en": "8 signal(s) of rule 'Embargo date outside a plausible range' in 116789 check(s)",
-   "pt": "8 sinal(is) da regra 'Data do embargo fora de faixa plausível' em 116789 verificação(ões)"
+   "en": "8 signal(s) of rule 'Embargo date outside a plausible range' in 116877 check(s)",
+   "pt": "8 sinal(is) da regra 'Data do embargo fora de faixa plausível' em 116877 verificação(ões)"
   },
   {
    "layer": "L2",
@@ -184,8 +184,8 @@
    "key": "L2:lifted-before-embargo",
    "count": 16,
    "when": null,
-   "en": "16 signal(s) of rule 'Embargo lifted before it was imposed' in 19690 check(s)",
-   "pt": "16 sinal(is) da regra 'Desembargo anterior ao embargo' em 19690 verificação(ões)"
+   "en": "16 signal(s) of rule 'Embargo lifted before it was imposed' in 19705 check(s)",
+   "pt": "16 sinal(is) da regra 'Desembargo anterior ao embargo' em 19705 verificação(ões)"
   },
   {
    "layer": "L4",
@@ -266,6 +266,14 @@
    "resource_id": "8f88b43e-287a-470b-a730-db440f9e37fa",
    "en": "the bytes of resource 8f88b43e-287a-470b-a730-db440f9e37fa changed between 2026-10-12 and 2026-10-14 with no change in the portal metadata",
    "pt": "os bytes do recurso 8f88b43e-287a-470b-a730-db440f9e37fa mudaram entre 2026-10-12 e 2026-10-14 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-10-21T09:29:23+00:00",
+   "resource_id": "8f88b43e-287a-470b-a730-db440f9e37fa",
+   "en": "the bytes of resource 8f88b43e-287a-470b-a730-db440f9e37fa changed between 2026-10-14 and 2026-10-21 with no change in the portal metadata",
+   "pt": "os bytes do recurso 8f88b43e-287a-470b-a730-db440f9e37fa mudaram entre 2026-10-14 e 2026-10-21 sem mudança nos metadados do portal"
   },
   {
    "layer": "L4",
@@ -548,14 +556,14 @@
   "L2": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-14T09:42:43+00:00",
+   "generated_at": "2026-10-21T09:31:58+00:00",
    "files": [
     {
      "path": "docs/data/layer2.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2/main/docs/data/layer2.json",
      "commit": {
-      "sha": "60e3689b74147757c84ad248307e3ee85378a80e",
-      "date": "2026-10-14T09:43:04Z"
+      "sha": "dc591712070b78f347d34fcec0ec13bc0ae33c59",
+      "date": "2026-10-21T09:32:19Z"
      }
     }
    ],
@@ -588,30 +596,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-20T04:43:48.486093+00:00",
+   "generated_at": "2026-10-21T04:40:23.258476+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "a5cb0f706e5ab99abe9719104af588e7a998900b",
-      "date": "2026-10-20T04:43:48Z"
+      "sha": "24b583d2edd7742441fbb5b6ba2acc6355557aba",
+      "date": "2026-10-21T04:40:23Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "84afad41581ccfabfa836613532256b8e7c2c81f",
-      "date": "2026-10-20T08:48:19Z"
+      "sha": "a23e1ed9129b9e852b30a9c79d41a4edacd12123",
+      "date": "2026-10-21T08:48:14Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "a5cb0f706e5ab99abe9719104af588e7a998900b",
-      "date": "2026-10-20T04:43:48Z"
+      "sha": "24b583d2edd7742441fbb5b6ba2acc6355557aba",
+      "date": "2026-10-21T04:40:23Z"
      }
     }
    ],
@@ -663,19 +671,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-20T09:58:31+00:00",
+ "generated_at": "2026-10-21T10:03:08+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "fe9230e181fdd646719928e80f2eb1a31fa762bf",
-  "run_id": "39404564350"
+  "commit": "b2cd869230abe67e4ccbe458b060293d2dfab0ae",
+  "run_id": "39581672303"
  },
  "ficha": {
-  "id": "sha256:094c9e1378239bebc9fcf628eba2ecbc94048e9e32e5d56e78e4d9d18a8c5c58",
+  "id": "sha256:5d7d378b084d60b54404d65a032c79dca8a68c20024981dc835a760c6791dabc",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-embargo",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/fiscalizacao-termo-de-embargo.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'fiscalizacao-termo-de-embargo' (IBAMA), 2026-10-20, sha256:094c9e1378239beb…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-embargo",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-termo-de-embargo' (IBAMA), 2026-10-20, sha256:094c9e1378239beb…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-embargo"
+   "en": "5L-TEP Layer 5 record of 'fiscalizacao-termo-de-embargo' (IBAMA), 2026-10-21, sha256:5d7d378b084d60b5…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-embargo",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-termo-de-embargo' (IBAMA), 2026-10-21, sha256:5d7d378b084d60b5…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-embargo"
   }
  }
 }

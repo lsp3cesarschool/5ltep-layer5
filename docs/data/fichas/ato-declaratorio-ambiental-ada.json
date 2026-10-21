@@ -18,8 +18,8 @@
    "L4"
   ],
   "integrity": [],
-  "low": 0.4977521431637234,
-  "high": 0.9977521431637234,
+  "low": 0.4977521536664733,
+  "high": 0.9977521536664733,
   "band": "undetermined",
   "eligible": false,
   "missing_layers": [
@@ -45,14 +45,14 @@
   "L2": {
    "status": "valid",
    "reason": null,
-   "rate": 0.992507143879078,
-   "evaluated_at": "2026-10-14T09:42:28+00:00",
+   "rate": 0.9925071788882442,
+   "evaluated_at": "2026-10-21T09:31:47+00:00",
    "current": true,
    "facts": {
     "rules": [
      "declared-areas-above-property"
     ],
-    "checks": 6206712,
+    "checks": 6206741,
     "signals": 46506,
     "not_evaluated": []
    },
@@ -60,8 +60,8 @@
     {
      "key": "L2:declared-areas-above-property",
      "count": 46506,
-     "en": "46506 signal(s) of rule 'Permanent protection and net legal reserve above the property area' in 6206712 check(s)",
-     "pt": "46506 sinal(is) da regra 'APP e reserva legal líquida acima da área do imóvel' em 6206712 verificação(ões)"
+     "en": "46506 signal(s) of rule 'Permanent protection and net legal reserve above the property area' in 6206741 check(s)",
+     "pt": "46506 sinal(is) da regra 'APP e reserva legal líquida acima da área do imóvel' em 6206741 verificação(ões)"
     }
    ]
   },
@@ -78,10 +78,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-20T04:43:21+00:00",
+   "evaluated_at": "2026-10-21T04:40:02+00:00",
    "current": true,
    "facts": {
-    "observations": 102,
+    "observations": 103,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/0429abfc-f4ba-4942-86ca-2c2554a80fd0#d80d5e68f366"
    },
@@ -95,8 +95,16 @@
    "key": "L2:declared-areas-above-property",
    "count": 46506,
    "when": null,
-   "en": "46506 signal(s) of rule 'Permanent protection and net legal reserve above the property area' in 6206712 check(s)",
-   "pt": "46506 sinal(is) da regra 'APP e reserva legal líquida acima da área do imóvel' em 6206712 verificação(ões)"
+   "en": "46506 signal(s) of rule 'Permanent protection and net legal reserve above the property area' in 6206741 check(s)",
+   "pt": "46506 sinal(is) da regra 'APP e reserva legal líquida acima da área do imóvel' em 6206741 verificação(ões)"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-10-21T09:29:23+00:00",
+   "resource_id": "09494a73-726a-4341-92ca-b97cf35914b2",
+   "en": "the bytes of resource 09494a73-726a-4341-92ca-b97cf35914b2 changed between 2026-10-14 and 2026-10-21 with no change in the portal metadata",
+   "pt": "os bytes do recurso 09494a73-726a-4341-92ca-b97cf35914b2 mudaram entre 2026-10-14 e 2026-10-21 sem mudança nos metadados do portal"
   }
  ],
  "outcomes": {
@@ -107,14 +115,15 @@
     "first_reported": "2026-10-13T19:15:59+00:00",
     "count": 46506,
     "evaluated_at": "2026-10-09T13:35:18+00:00",
-    "status": "unchanged",
+    "status": "changed_signal_persists",
     "en": "46506 signal(s) of rule 'Permanent protection and net legal reserve above the property area' in 6206666 check(s)",
     "pt": "46506 sinal(is) da regra 'APP e reserva legal líquida acima da área do imóvel' em 6206666 verificação(ões)",
     "digests": {
      "09494a73-726a-4341-92ca-b97cf35914b2": "b3d5b1cf2b779d8cfec5ba448d5f7af0390cefde1e8db25b7bc8dba81ad7b02a",
      "13f44201-5207-4aa9-92d1-69830f642142": "5d71a752e272a552106dd511c343615f5f896820b9ef4430d04607a9f9ee30e2",
      "c4c9db21-036a-4eb7-9d96-cb979f8448c9": "7f907b73ca3596b744ae9861fafd7e3bfb760d52b906e5ae21d1528c1acf24e5"
-    }
+    },
+    "first_change_seen": "2026-10-21T10:03:08+00:00"
    }
   ],
   "closed": []
@@ -147,14 +156,14 @@
   "L2": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-14T09:42:43+00:00",
+   "generated_at": "2026-10-21T09:31:58+00:00",
    "files": [
     {
      "path": "docs/data/layer2.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2/main/docs/data/layer2.json",
      "commit": {
-      "sha": "60e3689b74147757c84ad248307e3ee85378a80e",
-      "date": "2026-10-14T09:43:04Z"
+      "sha": "dc591712070b78f347d34fcec0ec13bc0ae33c59",
+      "date": "2026-10-21T09:32:19Z"
      }
     }
    ],
@@ -187,30 +196,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-20T04:43:48.486093+00:00",
+   "generated_at": "2026-10-21T04:40:23.258476+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "a5cb0f706e5ab99abe9719104af588e7a998900b",
-      "date": "2026-10-20T04:43:48Z"
+      "sha": "24b583d2edd7742441fbb5b6ba2acc6355557aba",
+      "date": "2026-10-21T04:40:23Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "84afad41581ccfabfa836613532256b8e7c2c81f",
-      "date": "2026-10-20T08:48:19Z"
+      "sha": "a23e1ed9129b9e852b30a9c79d41a4edacd12123",
+      "date": "2026-10-21T08:48:14Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "a5cb0f706e5ab99abe9719104af588e7a998900b",
-      "date": "2026-10-20T04:43:48Z"
+      "sha": "24b583d2edd7742441fbb5b6ba2acc6355557aba",
+      "date": "2026-10-21T04:40:23Z"
      }
     }
    ],
@@ -262,19 +271,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-20T09:58:31+00:00",
+ "generated_at": "2026-10-21T10:03:08+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "fe9230e181fdd646719928e80f2eb1a31fa762bf",
-  "run_id": "39404564350"
+  "commit": "b2cd869230abe67e4ccbe458b060293d2dfab0ae",
+  "run_id": "39581672303"
  },
  "ficha": {
-  "id": "sha256:2d5bbfb4cb365b75c18af3330d4152047c137b40ba626a664a6d5add5be252ef",
+  "id": "sha256:479dc80357453c0693ca03c083533ff9b039f6fd7daddfa511d12dad12b8e80b",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=ato-declaratorio-ambiental-ada",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/ato-declaratorio-ambiental-ada.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'ato-declaratorio-ambiental-ada' (IBAMA), 2026-10-20, sha256:2d5bbfb4cb365b75…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=ato-declaratorio-ambiental-ada",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'ato-declaratorio-ambiental-ada' (IBAMA), 2026-10-20, sha256:2d5bbfb4cb365b75…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=ato-declaratorio-ambiental-ada"
+   "en": "5L-TEP Layer 5 record of 'ato-declaratorio-ambiental-ada' (IBAMA), 2026-10-21, sha256:479dc80357453c06…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=ato-declaratorio-ambiental-ada",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'ato-declaratorio-ambiental-ada' (IBAMA), 2026-10-21, sha256:479dc80357453c06…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=ato-declaratorio-ambiental-ada"
   }
  }
 }
