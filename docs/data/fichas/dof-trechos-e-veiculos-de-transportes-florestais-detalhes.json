@@ -71,7 +71,7 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-23T04:43:11+00:00",
+   "evaluated_at": "2026-10-24T04:30:34+00:00",
    "current": true,
    "facts": {
     "observations": 104,
@@ -180,30 +180,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-23T04:44:08.222299+00:00",
+   "generated_at": "2026-10-24T04:37:00.264816+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "966d059a50be7c5f1410dabd4400b8a40502b89c",
-      "date": "2026-10-23T04:44:08Z"
+      "sha": "39b42a410e6fed8582eff2e6e24b6b6e60159f0e",
+      "date": "2026-10-24T04:37:00Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "b9ed5a4b64d338469561e5fecc6216ad0b4b1951",
-      "date": "2026-10-23T08:50:17Z"
+      "sha": "880d56b97c93af97fa278ce8579df11ea17a9d70",
+      "date": "2026-10-24T08:22:26Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "966d059a50be7c5f1410dabd4400b8a40502b89c",
-      "date": "2026-10-23T04:44:08Z"
+      "sha": "39b42a410e6fed8582eff2e6e24b6b6e60159f0e",
+      "date": "2026-10-24T04:37:00Z"
      }
     }
    ],
@@ -255,19 +255,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-23T09:58:26+00:00",
+ "generated_at": "2026-10-24T09:27:38+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "36e35774813222dc2ec464a5539436699739384d",
-  "run_id": "39935723516"
+  "commit": "ea09b76c37d09414292ef0ed8d5af79a2ca44348",
+  "run_id": "40082027321"
  },
  "ficha": {
-  "id": "sha256:91f0d4a3238a8495b534262d8230d9f5c50784850c1684a75b7d668c9d1daf51",
+  "id": "sha256:a257f1aaed02896682ddfaeb31c2aaa3bc9da3c6ef0ed07fb3ab1f1423245537",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=dof-trechos-e-veiculos-de-transportes-florestais-detalhes",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/dof-trechos-e-veiculos-de-transportes-florestais-detalhes.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'dof-trechos-e-veiculos-de-transportes-florestais-detalhes' (IBAMA), 2026-10-23, sha256:91f0d4a3238a8495…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=dof-trechos-e-veiculos-de-transportes-florestais-detalhes",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'dof-trechos-e-veiculos-de-transportes-florestais-detalhes' (IBAMA), 2026-10-23, sha256:91f0d4a3238a8495…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=dof-trechos-e-veiculos-de-transportes-florestais-detalhes"
+   "en": "5L-TEP Layer 5 record of 'dof-trechos-e-veiculos-de-transportes-florestais-detalhes' (IBAMA), 2026-10-24, sha256:a257f1aaed028966…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=dof-trechos-e-veiculos-de-transportes-florestais-detalhes",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'dof-trechos-e-veiculos-de-transportes-florestais-detalhes' (IBAMA), 2026-10-24, sha256:a257f1aaed028966…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=dof-trechos-e-veiculos-de-transportes-florestais-detalhes"
   }
  }
 }
