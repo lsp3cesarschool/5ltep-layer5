@@ -56,7 +56,7 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-24T04:30:34+00:00",
+   "evaluated_at": "2026-10-25T04:35:15+00:00",
    "current": true,
    "facts": {
     "observations": 104,
@@ -139,30 +139,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-24T04:37:00.264816+00:00",
+   "generated_at": "2026-10-25T04:36:04.033516+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "39b42a410e6fed8582eff2e6e24b6b6e60159f0e",
-      "date": "2026-10-24T04:37:00Z"
+      "sha": "bd6cc33cfdef67837f5c61f24afe78ea195ba609",
+      "date": "2026-10-25T04:36:04Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "880d56b97c93af97fa278ce8579df11ea17a9d70",
-      "date": "2026-10-24T08:22:26Z"
+      "sha": "68f1fae427f78b9c57cd8cf91dd6bc13cf9fa987",
+      "date": "2026-10-25T08:39:45Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "39b42a410e6fed8582eff2e6e24b6b6e60159f0e",
-      "date": "2026-10-24T04:37:00Z"
+      "sha": "bd6cc33cfdef67837f5c61f24afe78ea195ba609",
+      "date": "2026-10-25T04:36:04Z"
      }
     }
    ],
@@ -214,19 +214,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-24T09:27:38+00:00",
+ "generated_at": "2026-10-25T09:45:23+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "ea09b76c37d09414292ef0ed8d5af79a2ca44348",
-  "run_id": "40082027321"
+  "commit": "e41c25b07c66b89c7a13f5da28077284e244ac63",
+  "run_id": "40181948342"
  },
  "ficha": {
-  "id": "sha256:1480942cb6b538abfc4a0d0d4af695fd4f3e74404d650f595ab9af1ac49eaa74",
+  "id": "sha256:2c79237af9d86e404e395d946435b232810e7dbb9e95b023620c4ffa883488fc",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=antropizacao-dos-biomas-extra-amazonicos",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/antropizacao-dos-biomas-extra-amazonicos.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'antropizacao-dos-biomas-extra-amazonicos' (IBAMA), 2026-10-24, sha256:1480942cb6b538ab…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=antropizacao-dos-biomas-extra-amazonicos",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'antropizacao-dos-biomas-extra-amazonicos' (IBAMA), 2026-10-24, sha256:1480942cb6b538ab…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=antropizacao-dos-biomas-extra-amazonicos"
+   "en": "5L-TEP Layer 5 record of 'antropizacao-dos-biomas-extra-amazonicos' (IBAMA), 2026-10-25, sha256:2c79237af9d86e40…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=antropizacao-dos-biomas-extra-amazonicos",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'antropizacao-dos-biomas-extra-amazonicos' (IBAMA), 2026-10-25, sha256:2c79237af9d86e40…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=antropizacao-dos-biomas-extra-amazonicos"
   }
  }
 }
