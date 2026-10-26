@@ -56,10 +56,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-25T04:35:15+00:00",
+   "evaluated_at": "2026-10-26T04:40:18+00:00",
    "current": true,
    "facts": {
-    "observations": 104,
+    "observations": 103,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/49c2a644-b3cd-4eaf-ad98-a243eef9656d#c18358b3a1c5"
    },
@@ -139,30 +139,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-25T04:36:04.033516+00:00",
+   "generated_at": "2026-10-26T04:40:44.641584+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "bd6cc33cfdef67837f5c61f24afe78ea195ba609",
-      "date": "2026-10-25T04:36:04Z"
+      "sha": "0847b28f5b6d5474edfa1633e2e7659f93bf8300",
+      "date": "2026-10-26T04:40:44Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "68f1fae427f78b9c57cd8cf91dd6bc13cf9fa987",
-      "date": "2026-10-25T08:39:45Z"
+      "sha": "6fea8467e8dd75b591b42d2cd575b560d69a9a67",
+      "date": "2026-10-26T09:16:32Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "bd6cc33cfdef67837f5c61f24afe78ea195ba609",
-      "date": "2026-10-25T04:36:04Z"
+      "sha": "0847b28f5b6d5474edfa1633e2e7659f93bf8300",
+      "date": "2026-10-26T04:40:44Z"
      }
     }
    ],
@@ -214,19 +214,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-25T09:45:23+00:00",
+ "generated_at": "2026-10-26T10:59:50+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "e41c25b07c66b89c7a13f5da28077284e244ac63",
-  "run_id": "40181948342"
+  "commit": "c0e3db0abe5aeb3edca5efb3588f397fa277d498",
+  "run_id": "40311684318"
  },
  "ficha": {
-  "id": "sha256:9e9af7384a4946a50ce7a22751c55f5a4674885e62887e9ffdd71b1fd75fdbb2",
+  "id": "sha256:96b6bb6473d5eac2a981188280f2362e6f0fe3e22e993c7d4bc37be9bb403839",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=unidades-ibama",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/unidades-ibama.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'unidades-ibama' (IBAMA), 2026-10-25, sha256:9e9af7384a4946a5…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=unidades-ibama",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'unidades-ibama' (IBAMA), 2026-10-25, sha256:9e9af7384a4946a5…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=unidades-ibama"
+   "en": "5L-TEP Layer 5 record of 'unidades-ibama' (IBAMA), 2026-10-26, sha256:96b6bb6473d5eac2…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=unidades-ibama",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'unidades-ibama' (IBAMA), 2026-10-26, sha256:96b6bb6473d5eac2…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=unidades-ibama"
   }
  }
 }
