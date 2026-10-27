@@ -24,7 +24,7 @@
    "status": "missing",
    "reason": "l1_level0",
    "rate": null,
-   "evaluated_at": "2026-10-12T15:09:34+00:00",
+   "evaluated_at": "2026-10-26T12:33:02+00:00",
    "current": null,
    "facts": {
     "level": 0,
@@ -56,10 +56,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-26T04:40:18+00:00",
+   "evaluated_at": "2026-10-27T04:57:59+00:00",
    "current": true,
    "facts": {
-    "observations": 103,
+    "observations": 102,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/004c4ee8-5580-430e-8cec-b52ac7ea9461#21dac3323638"
    },
@@ -83,6 +83,30 @@
    "when": "2026-08-26T19:49:09+00:00",
    "en": "4 resource URL(s) changed (4 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net; 4 plain file → zip); license title changed",
    "pt": "4 URL(s) de recurso alterada(s) (4 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net; 4 arquivo simples → zip); título da licença alterado"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-10-26T12:31:59+00:00",
+   "resource_id": "3d9c4d47-9d44-4971-922c-4a9143d071a6",
+   "en": "the bytes of resource 3d9c4d47-9d44-4971-922c-4a9143d071a6 changed between 2026-10-12 and 2026-10-26 with no change in the portal metadata",
+   "pt": "os bytes do recurso 3d9c4d47-9d44-4971-922c-4a9143d071a6 mudaram entre 2026-10-12 e 2026-10-26 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-10-26T12:32:16+00:00",
+   "resource_id": "4f9c7227-2bbd-4e88-8599-a3fbe787fb5b",
+   "en": "the bytes of resource 4f9c7227-2bbd-4e88-8599-a3fbe787fb5b changed between 2026-10-12 and 2026-10-26 with no change in the portal metadata",
+   "pt": "os bytes do recurso 4f9c7227-2bbd-4e88-8599-a3fbe787fb5b mudaram entre 2026-10-12 e 2026-10-26 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-10-26T12:33:02+00:00",
+   "resource_id": "f7db373a-09a3-48c7-a370-fe71da7dcf8b",
+   "en": "the bytes of resource f7db373a-09a3-48c7-a370-fe71da7dcf8b changed between 2026-10-12 and 2026-10-26 with no change in the portal metadata",
+   "pt": "os bytes do recurso f7db373a-09a3-48c7-a370-fe71da7dcf8b mudaram entre 2026-10-12 e 2026-10-26 sem mudança nos metadados do portal"
   }
  ],
  "outcomes": {
@@ -93,14 +117,15 @@
     "first_reported": "2026-10-13T19:15:59+00:00",
     "count": 4,
     "evaluated_at": "2026-10-13T00:35:39+00:00",
-    "status": "unchanged",
+    "status": "changed_signal_persists",
     "en": "4 resource URL(s) changed (4 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net; 4 plain file → zip); license title changed",
     "pt": "4 URL(s) de recurso alterada(s) (4 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net; 4 arquivo simples → zip); título da licença alterado",
     "digests": {
      "3d9c4d47-9d44-4971-922c-4a9143d071a6": "366c01690a72d0a819f972c389323bcb37d21eb62b052c89c0081bce9af2252b",
      "4f9c7227-2bbd-4e88-8599-a3fbe787fb5b": "437cd1626f3bc31387cf7441ff2b7afcde5c3dce8fc3dd7964ee693fb8ba683d",
      "f7db373a-09a3-48c7-a370-fe71da7dcf8b": "5fc26fee1569a6ea18c184af248d373d36b36b298088304b2d9d2a760c94272f"
-    }
+    },
+    "first_change_seen": "2026-10-27T10:27:20+00:00"
    }
   ],
   "closed": []
@@ -109,22 +134,22 @@
   "L1": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-12T15:21:48+00:00",
+   "generated_at": "2026-10-26T12:52:44+00:00",
    "files": [
     {
      "path": "results/layer1_summary.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/layer1_summary.json",
      "commit": {
-      "sha": "77beac1c896b766f80e89fe9d866a0a4df7a0a2f",
-      "date": "2026-10-12T15:21:49Z"
+      "sha": "9b6a83a88cc596c6c59b4e83bb50eafd06beb357",
+      "date": "2026-10-26T12:52:44Z"
      }
     },
     {
      "path": "results/validation.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/validation.json",
      "commit": {
-      "sha": "77beac1c896b766f80e89fe9d866a0a4df7a0a2f",
-      "date": "2026-10-12T15:21:49Z"
+      "sha": "9b6a83a88cc596c6c59b4e83bb50eafd06beb357",
+      "date": "2026-10-26T12:52:44Z"
      }
     }
    ],
@@ -173,30 +198,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-26T04:40:44.641584+00:00",
+   "generated_at": "2026-10-27T04:59:06.479045+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "0847b28f5b6d5474edfa1633e2e7659f93bf8300",
-      "date": "2026-10-26T04:40:44Z"
+      "sha": "1859cd441578579465d8a762fe173e1ed4a8aeec",
+      "date": "2026-10-27T04:59:06Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "6fea8467e8dd75b591b42d2cd575b560d69a9a67",
-      "date": "2026-10-26T09:16:32Z"
+      "sha": "f9f6b4f1adadf09b11c98af52cbc3ccb225a92fb",
+      "date": "2026-10-27T09:22:01Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "0847b28f5b6d5474edfa1633e2e7659f93bf8300",
-      "date": "2026-10-26T04:40:44Z"
+      "sha": "1859cd441578579465d8a762fe173e1ed4a8aeec",
+      "date": "2026-10-27T04:59:06Z"
      }
     }
    ],
@@ -248,19 +273,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-26T10:59:50+00:00",
+ "generated_at": "2026-10-27T10:27:20+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "c0e3db0abe5aeb3edca5efb3588f397fa277d498",
-  "run_id": "40311684318"
+  "commit": "be2e685ad9cab0f37e2d1cb8722475f2640019c6",
+  "run_id": "40488580779"
  },
  "ficha": {
-  "id": "sha256:865b67eccc4ae967c02ceb17a8e9049e5481040c4b1cca88f8f76e0673f8bc2a",
+  "id": "sha256:ca4eda245948cf173cc93863a62ff7ad55adb6eed7763f75f67ee23b098e1124",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=multas-ambientais-distribuidas-por-bens-tutelados",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/multas-ambientais-distribuidas-por-bens-tutelados.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'multas-ambientais-distribuidas-por-bens-tutelados' (IBAMA), 2026-10-26, sha256:865b67eccc4ae967…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=multas-ambientais-distribuidas-por-bens-tutelados",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'multas-ambientais-distribuidas-por-bens-tutelados' (IBAMA), 2026-10-26, sha256:865b67eccc4ae967…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=multas-ambientais-distribuidas-por-bens-tutelados"
+   "en": "5L-TEP Layer 5 record of 'multas-ambientais-distribuidas-por-bens-tutelados' (IBAMA), 2026-10-27, sha256:ca4eda245948cf17…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=multas-ambientais-distribuidas-por-bens-tutelados",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'multas-ambientais-distribuidas-por-bens-tutelados' (IBAMA), 2026-10-27, sha256:ca4eda245948cf17…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=multas-ambientais-distribuidas-por-bens-tutelados"
   }
  }
 }

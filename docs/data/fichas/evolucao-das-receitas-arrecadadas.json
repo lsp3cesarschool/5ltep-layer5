@@ -24,7 +24,7 @@
    "status": "missing",
    "reason": "l1_level0",
    "rate": null,
-   "evaluated_at": "2026-10-03T10:54:15+00:00",
+   "evaluated_at": "2026-10-26T09:14:47+00:00",
    "current": null,
    "facts": {
     "level": 0,
@@ -56,10 +56,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-26T04:40:18+00:00",
+   "evaluated_at": "2026-10-27T04:57:59+00:00",
    "current": true,
    "facts": {
-    "observations": 103,
+    "observations": 102,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/4d80cf25-31c6-408b-b412-c53d33548189#352802709828"
    },
@@ -93,12 +93,13 @@
     "first_reported": "2026-10-15T09:48:41+00:00",
     "count": 4,
     "evaluated_at": "2026-10-15T04:32:09+00:00",
-    "status": "unchanged",
+    "status": "changed_signal_persists",
     "en": "4 resource URL(s) changed (4 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net); license title changed",
     "pt": "4 URL(s) de recurso alterada(s) (4 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net); título da licença alterado",
     "digests": {
      "e6a5c7ff-4dea-4b34-bd2e-9486cc6fcd56": "34abb820895284fa72869c8f5151235f87b5e8300aaa0b3d47962000d48f0702"
-    }
+    },
+    "first_change_seen": "2026-10-27T10:27:20+00:00"
    }
   ],
   "closed": []
@@ -107,22 +108,22 @@
   "L1": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-12T15:21:48+00:00",
+   "generated_at": "2026-10-26T12:52:44+00:00",
    "files": [
     {
      "path": "results/layer1_summary.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/layer1_summary.json",
      "commit": {
-      "sha": "77beac1c896b766f80e89fe9d866a0a4df7a0a2f",
-      "date": "2026-10-12T15:21:49Z"
+      "sha": "9b6a83a88cc596c6c59b4e83bb50eafd06beb357",
+      "date": "2026-10-26T12:52:44Z"
      }
     },
     {
      "path": "results/validation.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/validation.json",
      "commit": {
-      "sha": "77beac1c896b766f80e89fe9d866a0a4df7a0a2f",
-      "date": "2026-10-12T15:21:49Z"
+      "sha": "9b6a83a88cc596c6c59b4e83bb50eafd06beb357",
+      "date": "2026-10-26T12:52:44Z"
      }
     }
    ],
@@ -171,30 +172,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-26T04:40:44.641584+00:00",
+   "generated_at": "2026-10-27T04:59:06.479045+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "0847b28f5b6d5474edfa1633e2e7659f93bf8300",
-      "date": "2026-10-26T04:40:44Z"
+      "sha": "1859cd441578579465d8a762fe173e1ed4a8aeec",
+      "date": "2026-10-27T04:59:06Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "6fea8467e8dd75b591b42d2cd575b560d69a9a67",
-      "date": "2026-10-26T09:16:32Z"
+      "sha": "f9f6b4f1adadf09b11c98af52cbc3ccb225a92fb",
+      "date": "2026-10-27T09:22:01Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "0847b28f5b6d5474edfa1633e2e7659f93bf8300",
-      "date": "2026-10-26T04:40:44Z"
+      "sha": "1859cd441578579465d8a762fe173e1ed4a8aeec",
+      "date": "2026-10-27T04:59:06Z"
      }
     }
    ],
@@ -246,19 +247,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-26T10:59:50+00:00",
+ "generated_at": "2026-10-27T10:27:20+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "c0e3db0abe5aeb3edca5efb3588f397fa277d498",
-  "run_id": "40311684318"
+  "commit": "be2e685ad9cab0f37e2d1cb8722475f2640019c6",
+  "run_id": "40488580779"
  },
  "ficha": {
-  "id": "sha256:d8b3395fd1e668da005a56cc6a95b94cbb2e7ed0895f056d2c09794dc5de2f8e",
+  "id": "sha256:35c95174338c089a20e196e882bea4d47e41021a27ace33dc7a18d727f0ae61f",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=evolucao-das-receitas-arrecadadas",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/evolucao-das-receitas-arrecadadas.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'evolucao-das-receitas-arrecadadas' (IBAMA), 2026-10-26, sha256:d8b3395fd1e668da…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=evolucao-das-receitas-arrecadadas",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'evolucao-das-receitas-arrecadadas' (IBAMA), 2026-10-26, sha256:d8b3395fd1e668da…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=evolucao-das-receitas-arrecadadas"
+   "en": "5L-TEP Layer 5 record of 'evolucao-das-receitas-arrecadadas' (IBAMA), 2026-10-27, sha256:35c95174338c089a…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=evolucao-das-receitas-arrecadadas",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'evolucao-das-receitas-arrecadadas' (IBAMA), 2026-10-27, sha256:35c95174338c089a…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=evolucao-das-receitas-arrecadadas"
   }
  }
 }

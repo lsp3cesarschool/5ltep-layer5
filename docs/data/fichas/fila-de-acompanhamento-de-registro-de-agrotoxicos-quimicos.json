@@ -24,7 +24,7 @@
    "status": "missing",
    "reason": "l1_level0",
    "rate": null,
-   "evaluated_at": "2026-10-12T11:11:50+00:00",
+   "evaluated_at": "2026-10-26T09:14:59+00:00",
    "current": null,
    "facts": {
     "level": 0,
@@ -56,10 +56,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-26T04:40:18+00:00",
+   "evaluated_at": "2026-10-27T04:57:59+00:00",
    "current": true,
    "facts": {
-    "observations": 103,
+    "observations": 102,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/5cc6ed7b-01b1-430c-96cf-e994a2555348#0dffc6b8beca"
    },
@@ -83,6 +83,14 @@
    "when": "2026-09-28T23:00:33+00:00",
    "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net; 3 zip → plain file)",
    "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net; 3 zip → arquivo simples)"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-10-26T09:14:59+00:00",
+   "resource_id": "eb580641-414e-4ae1-b430-d7b71c8c6709",
+   "en": "the bytes of resource eb580641-414e-4ae1-b430-d7b71c8c6709 changed between 2026-10-12 and 2026-10-26 with no change in the portal metadata",
+   "pt": "os bytes do recurso eb580641-414e-4ae1-b430-d7b71c8c6709 mudaram entre 2026-10-12 e 2026-10-26 sem mudança nos metadados do portal"
   }
  ],
  "outcomes": {
@@ -93,12 +101,13 @@
     "first_reported": "2026-10-13T19:15:59+00:00",
     "count": 3,
     "evaluated_at": "2026-10-13T00:35:39+00:00",
-    "status": "unchanged",
+    "status": "changed_signal_persists",
     "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net; 3 zip → plain file)",
     "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net; 3 zip → arquivo simples)",
     "digests": {
      "eb580641-414e-4ae1-b430-d7b71c8c6709": "73a371baa9e6b066de053adec1bcac2dae41ae3887b7a7a7273aa894e0d6bd60"
-    }
+    },
+    "first_change_seen": "2026-10-27T10:27:20+00:00"
    }
   ],
   "closed": []
@@ -107,22 +116,22 @@
   "L1": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-12T15:21:48+00:00",
+   "generated_at": "2026-10-26T12:52:44+00:00",
    "files": [
     {
      "path": "results/layer1_summary.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/layer1_summary.json",
      "commit": {
-      "sha": "77beac1c896b766f80e89fe9d866a0a4df7a0a2f",
-      "date": "2026-10-12T15:21:49Z"
+      "sha": "9b6a83a88cc596c6c59b4e83bb50eafd06beb357",
+      "date": "2026-10-26T12:52:44Z"
      }
     },
     {
      "path": "results/validation.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/validation.json",
      "commit": {
-      "sha": "77beac1c896b766f80e89fe9d866a0a4df7a0a2f",
-      "date": "2026-10-12T15:21:49Z"
+      "sha": "9b6a83a88cc596c6c59b4e83bb50eafd06beb357",
+      "date": "2026-10-26T12:52:44Z"
      }
     }
    ],
@@ -171,30 +180,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-26T04:40:44.641584+00:00",
+   "generated_at": "2026-10-27T04:59:06.479045+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "0847b28f5b6d5474edfa1633e2e7659f93bf8300",
-      "date": "2026-10-26T04:40:44Z"
+      "sha": "1859cd441578579465d8a762fe173e1ed4a8aeec",
+      "date": "2026-10-27T04:59:06Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "6fea8467e8dd75b591b42d2cd575b560d69a9a67",
-      "date": "2026-10-26T09:16:32Z"
+      "sha": "f9f6b4f1adadf09b11c98af52cbc3ccb225a92fb",
+      "date": "2026-10-27T09:22:01Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "0847b28f5b6d5474edfa1633e2e7659f93bf8300",
-      "date": "2026-10-26T04:40:44Z"
+      "sha": "1859cd441578579465d8a762fe173e1ed4a8aeec",
+      "date": "2026-10-27T04:59:06Z"
      }
     }
    ],
@@ -246,19 +255,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-26T10:59:50+00:00",
+ "generated_at": "2026-10-27T10:27:20+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "c0e3db0abe5aeb3edca5efb3588f397fa277d498",
-  "run_id": "40311684318"
+  "commit": "be2e685ad9cab0f37e2d1cb8722475f2640019c6",
+  "run_id": "40488580779"
  },
  "ficha": {
-  "id": "sha256:2915053f7bd528c1aba9333bfc243b74c469e24aa87873701cf7a2e08d2bd31e",
+  "id": "sha256:bf9134a1d68e4bb57ab1f5ee97453e679eeabcc089eef59bbc11178b7684706d",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fila-de-acompanhamento-de-registro-de-agrotoxicos-quimicos",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/fila-de-acompanhamento-de-registro-de-agrotoxicos-quimicos.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'fila-de-acompanhamento-de-registro-de-agrotoxicos-quimicos' (IBAMA), 2026-10-26, sha256:2915053f7bd528c1…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fila-de-acompanhamento-de-registro-de-agrotoxicos-quimicos",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'fila-de-acompanhamento-de-registro-de-agrotoxicos-quimicos' (IBAMA), 2026-10-26, sha256:2915053f7bd528c1…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fila-de-acompanhamento-de-registro-de-agrotoxicos-quimicos"
+   "en": "5L-TEP Layer 5 record of 'fila-de-acompanhamento-de-registro-de-agrotoxicos-quimicos' (IBAMA), 2026-10-27, sha256:bf9134a1d68e4bb5…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fila-de-acompanhamento-de-registro-de-agrotoxicos-quimicos",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'fila-de-acompanhamento-de-registro-de-agrotoxicos-quimicos' (IBAMA), 2026-10-27, sha256:bf9134a1d68e4bb5…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fila-de-acompanhamento-de-registro-de-agrotoxicos-quimicos"
   }
  }
 }

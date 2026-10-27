@@ -32,7 +32,7 @@
    "status": "missing",
    "reason": "l1_level0",
    "rate": null,
-   "evaluated_at": "2026-10-12T14:36:41+00:00",
+   "evaluated_at": "2026-10-26T09:18:59+00:00",
    "current": null,
    "facts": {
     "level": 0,
@@ -47,7 +47,7 @@
    "reason": null,
    "rate": 0.9640672289119062,
    "evaluated_at": "2026-10-21T09:31:08+00:00",
-   "current": true,
+   "current": false,
    "facts": {
     "rules": [
      "act-end-before-start",
@@ -157,10 +157,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-26T04:40:18+00:00",
+   "evaluated_at": "2026-10-27T04:57:59+00:00",
    "current": true,
    "facts": {
-    "observations": 103,
+    "observations": 102,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/09850847-5ba2-435a-942c-a5dcd7e970c9#af6414f5255a"
    },
@@ -270,42 +270,122 @@
   {
    "layer": "L5",
    "kind": "unrecorded_change",
-   "when": "2026-10-12T11:11:57+00:00",
+   "when": "2026-10-21T09:29:23+00:00",
    "resource_id": "b2aba344-95df-43c0-b2ba-f4353cfd9a00",
-   "en": "the bytes of resource b2aba344-95df-43c0-b2ba-f4353cfd9a00 changed between 2026-10-05 and 2026-10-12 with no change in the portal metadata",
-   "pt": "os bytes do recurso b2aba344-95df-43c0-b2ba-f4353cfd9a00 mudaram entre 2026-10-05 e 2026-10-12 sem mudança nos metadados do portal"
+   "en": "the bytes of resource b2aba344-95df-43c0-b2ba-f4353cfd9a00 changed between 2026-10-05 and 2026-10-21 with no change in the portal metadata",
+   "pt": "os bytes do recurso b2aba344-95df-43c0-b2ba-f4353cfd9a00 mudaram entre 2026-10-05 e 2026-10-21 sem mudança nos metadados do portal"
   },
   {
    "layer": "L5",
    "kind": "unrecorded_change",
-   "when": "2026-10-21T09:29:23+00:00",
+   "when": "2026-10-26T09:15:03+00:00",
    "resource_id": "b2aba344-95df-43c0-b2ba-f4353cfd9a00",
-   "en": "the bytes of resource b2aba344-95df-43c0-b2ba-f4353cfd9a00 changed between 2026-10-12 and 2026-10-21 with no change in the portal metadata",
-   "pt": "os bytes do recurso b2aba344-95df-43c0-b2ba-f4353cfd9a00 mudaram entre 2026-10-12 e 2026-10-21 sem mudança nos metadados do portal"
+   "en": "the bytes of resource b2aba344-95df-43c0-b2ba-f4353cfd9a00 changed between 2026-10-21 and 2026-10-26 with no change in the portal metadata",
+   "pt": "os bytes do recurso b2aba344-95df-43c0-b2ba-f4353cfd9a00 mudaram entre 2026-10-21 e 2026-10-26 sem mudança nos metadados do portal"
   },
   {
    "layer": "L5",
    "kind": "unrecorded_change",
-   "when": "2026-10-21T09:29:23+00:00",
+   "when": "2026-10-26T09:15:08+00:00",
+   "resource_id": "761dbd28-235b-4199-8613-92245416421e",
+   "en": "the bytes of resource 761dbd28-235b-4199-8613-92245416421e changed between 2026-10-12 and 2026-10-26 with no change in the portal metadata",
+   "pt": "os bytes do recurso 761dbd28-235b-4199-8613-92245416421e mudaram entre 2026-10-12 e 2026-10-26 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-10-26T09:15:13+00:00",
+   "resource_id": "c3aea257-5c96-44ee-9e49-c1d3a439b61d",
+   "en": "the bytes of resource c3aea257-5c96-44ee-9e49-c1d3a439b61d changed between 2026-10-12 and 2026-10-26 with no change in the portal metadata",
+   "pt": "os bytes do recurso c3aea257-5c96-44ee-9e49-c1d3a439b61d mudaram entre 2026-10-12 e 2026-10-26 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-10-26T09:16:25+00:00",
    "resource_id": "903120d7-9a73-46d2-8e22-93576f4f855b",
-   "en": "the bytes of resource 903120d7-9a73-46d2-8e22-93576f4f855b changed between 2026-10-12 and 2026-10-21 with no change in the portal metadata",
-   "pt": "os bytes do recurso 903120d7-9a73-46d2-8e22-93576f4f855b mudaram entre 2026-10-12 e 2026-10-21 sem mudança nos metadados do portal"
+   "en": "the bytes of resource 903120d7-9a73-46d2-8e22-93576f4f855b changed between 2026-10-21 and 2026-10-26 with no change in the portal metadata",
+   "pt": "os bytes do recurso 903120d7-9a73-46d2-8e22-93576f4f855b mudaram entre 2026-10-21 e 2026-10-26 sem mudança nos metadados do portal"
   },
   {
    "layer": "L5",
    "kind": "unrecorded_change",
-   "when": "2026-10-21T09:29:23+00:00",
+   "when": "2026-10-26T09:16:38+00:00",
+   "resource_id": "22dae6f2-41b0-4781-9d4c-a45fb6eee0e9",
+   "en": "the bytes of resource 22dae6f2-41b0-4781-9d4c-a45fb6eee0e9 changed between 2026-10-12 and 2026-10-26 with no change in the portal metadata",
+   "pt": "os bytes do recurso 22dae6f2-41b0-4781-9d4c-a45fb6eee0e9 mudaram entre 2026-10-12 e 2026-10-26 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-10-26T09:17:35+00:00",
+   "resource_id": "6f8b8b68-ee86-4ce0-9799-13698ad91062",
+   "en": "the bytes of resource 6f8b8b68-ee86-4ce0-9799-13698ad91062 changed between 2026-10-12 and 2026-10-26 with no change in the portal metadata",
+   "pt": "os bytes do recurso 6f8b8b68-ee86-4ce0-9799-13698ad91062 mudaram entre 2026-10-12 e 2026-10-26 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-10-26T09:18:14+00:00",
+   "resource_id": "3325463b-3f90-4cd6-a033-e3c7cbe1b8ea",
+   "en": "the bytes of resource 3325463b-3f90-4cd6-a033-e3c7cbe1b8ea changed between 2026-10-12 and 2026-10-26 with no change in the portal metadata",
+   "pt": "os bytes do recurso 3325463b-3f90-4cd6-a033-e3c7cbe1b8ea mudaram entre 2026-10-12 e 2026-10-26 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-10-26T09:18:18+00:00",
+   "resource_id": "96c79c3e-a979-47a1-9a05-1eba3df4ce20",
+   "en": "the bytes of resource 96c79c3e-a979-47a1-9a05-1eba3df4ce20 changed between 2026-10-12 and 2026-10-26 with no change in the portal metadata",
+   "pt": "os bytes do recurso 96c79c3e-a979-47a1-9a05-1eba3df4ce20 mudaram entre 2026-10-12 e 2026-10-26 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-10-26T09:18:21+00:00",
    "resource_id": "160b14e2-d7d8-40aa-b06c-295575a5fb9c",
-   "en": "the bytes of resource 160b14e2-d7d8-40aa-b06c-295575a5fb9c changed between 2026-10-12 and 2026-10-21 with no change in the portal metadata",
-   "pt": "os bytes do recurso 160b14e2-d7d8-40aa-b06c-295575a5fb9c mudaram entre 2026-10-12 e 2026-10-21 sem mudança nos metadados do portal"
+   "en": "the bytes of resource 160b14e2-d7d8-40aa-b06c-295575a5fb9c changed between 2026-10-21 and 2026-10-26 with no change in the portal metadata",
+   "pt": "os bytes do recurso 160b14e2-d7d8-40aa-b06c-295575a5fb9c mudaram entre 2026-10-21 e 2026-10-26 sem mudança nos metadados do portal"
   },
   {
    "layer": "L5",
    "kind": "unrecorded_change",
-   "when": "2026-10-21T09:29:23+00:00",
+   "when": "2026-10-26T09:18:24+00:00",
+   "resource_id": "8fd0af49-f045-4fc5-a1cc-d5def2efd3b5",
+   "en": "the bytes of resource 8fd0af49-f045-4fc5-a1cc-d5def2efd3b5 changed between 2026-10-12 and 2026-10-26 with no change in the portal metadata",
+   "pt": "os bytes do recurso 8fd0af49-f045-4fc5-a1cc-d5def2efd3b5 mudaram entre 2026-10-12 e 2026-10-26 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-10-26T09:18:27+00:00",
    "resource_id": "afe30a48-eb96-4915-8f13-c4e838dae033",
-   "en": "the bytes of resource afe30a48-eb96-4915-8f13-c4e838dae033 changed between 2026-10-12 and 2026-10-21 with no change in the portal metadata",
-   "pt": "os bytes do recurso afe30a48-eb96-4915-8f13-c4e838dae033 mudaram entre 2026-10-12 e 2026-10-21 sem mudança nos metadados do portal"
+   "en": "the bytes of resource afe30a48-eb96-4915-8f13-c4e838dae033 changed between 2026-10-21 and 2026-10-26 with no change in the portal metadata",
+   "pt": "os bytes do recurso afe30a48-eb96-4915-8f13-c4e838dae033 mudaram entre 2026-10-21 e 2026-10-26 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-10-26T09:18:30+00:00",
+   "resource_id": "2783a310-045b-4255-869a-c46a5647f8fc",
+   "en": "the bytes of resource 2783a310-045b-4255-869a-c46a5647f8fc changed between 2026-10-12 and 2026-10-26 with no change in the portal metadata",
+   "pt": "os bytes do recurso 2783a310-045b-4255-869a-c46a5647f8fc mudaram entre 2026-10-12 e 2026-10-26 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-10-26T09:18:34+00:00",
+   "resource_id": "4244aee7-93c3-4b5f-89aa-fa6a09f1344f",
+   "en": "the bytes of resource 4244aee7-93c3-4b5f-89aa-fa6a09f1344f changed between 2026-10-12 and 2026-10-26 with no change in the portal metadata",
+   "pt": "os bytes do recurso 4244aee7-93c3-4b5f-89aa-fa6a09f1344f mudaram entre 2026-10-12 e 2026-10-26 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-10-26T09:18:59+00:00",
+   "resource_id": "67fa25c0-8869-4cd9-8938-36d4c7061e07",
+   "en": "the bytes of resource 67fa25c0-8869-4cd9-8938-36d4c7061e07 changed between 2026-10-12 and 2026-10-26 with no change in the portal metadata",
+   "pt": "os bytes do recurso 67fa25c0-8869-4cd9-8938-36d4c7061e07 mudaram entre 2026-10-12 e 2026-10-26 sem mudança nos metadados do portal"
   }
  ],
  "outcomes": {
@@ -614,22 +694,22 @@
   "L1": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-12T15:21:48+00:00",
+   "generated_at": "2026-10-26T12:52:44+00:00",
    "files": [
     {
      "path": "results/layer1_summary.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/layer1_summary.json",
      "commit": {
-      "sha": "77beac1c896b766f80e89fe9d866a0a4df7a0a2f",
-      "date": "2026-10-12T15:21:49Z"
+      "sha": "9b6a83a88cc596c6c59b4e83bb50eafd06beb357",
+      "date": "2026-10-26T12:52:44Z"
      }
     },
     {
      "path": "results/validation.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/validation.json",
      "commit": {
-      "sha": "77beac1c896b766f80e89fe9d866a0a4df7a0a2f",
-      "date": "2026-10-12T15:21:49Z"
+      "sha": "9b6a83a88cc596c6c59b4e83bb50eafd06beb357",
+      "date": "2026-10-26T12:52:44Z"
      }
     }
    ],
@@ -678,30 +758,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-26T04:40:44.641584+00:00",
+   "generated_at": "2026-10-27T04:59:06.479045+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "0847b28f5b6d5474edfa1633e2e7659f93bf8300",
-      "date": "2026-10-26T04:40:44Z"
+      "sha": "1859cd441578579465d8a762fe173e1ed4a8aeec",
+      "date": "2026-10-27T04:59:06Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "6fea8467e8dd75b591b42d2cd575b560d69a9a67",
-      "date": "2026-10-26T09:16:32Z"
+      "sha": "f9f6b4f1adadf09b11c98af52cbc3ccb225a92fb",
+      "date": "2026-10-27T09:22:01Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "0847b28f5b6d5474edfa1633e2e7659f93bf8300",
-      "date": "2026-10-26T04:40:44Z"
+      "sha": "1859cd441578579465d8a762fe173e1ed4a8aeec",
+      "date": "2026-10-27T04:59:06Z"
      }
     }
    ],
@@ -753,19 +833,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-26T10:59:50+00:00",
+ "generated_at": "2026-10-27T10:27:20+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "c0e3db0abe5aeb3edca5efb3588f397fa277d498",
-  "run_id": "40311684318"
+  "commit": "be2e685ad9cab0f37e2d1cb8722475f2640019c6",
+  "run_id": "40488580779"
  },
  "ficha": {
-  "id": "sha256:846f33d46989c30ffe0b2047ed116eed5194befa76277b6d9dbf093fd9ed7214",
+  "id": "sha256:60049d67bc760bd91b2c0d88622ada3020248d0d87a397037711fce0be180e27",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-auto-de-infracao",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/fiscalizacao-auto-de-infracao.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'fiscalizacao-auto-de-infracao' (IBAMA), 2026-10-26, sha256:846f33d46989c30f…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-auto-de-infracao",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-auto-de-infracao' (IBAMA), 2026-10-26, sha256:846f33d46989c30f…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-auto-de-infracao"
+   "en": "5L-TEP Layer 5 record of 'fiscalizacao-auto-de-infracao' (IBAMA), 2026-10-27, sha256:60049d67bc760bd9…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-auto-de-infracao",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-auto-de-infracao' (IBAMA), 2026-10-27, sha256:60049d67bc760bd9…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-auto-de-infracao"
   }
  }
 }
