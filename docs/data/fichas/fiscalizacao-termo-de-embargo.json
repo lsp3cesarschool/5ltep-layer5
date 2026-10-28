@@ -92,10 +92,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-27T04:57:59+00:00",
+   "evaluated_at": "2026-10-28T05:34:05+00:00",
    "current": true,
    "facts": {
-    "observations": 80,
+    "observations": 84,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/4b292c2e-56bb-4639-9ea2-a9b02fea9558#ac484a83530c"
    },
@@ -266,62 +266,6 @@
    "resource_id": "8f88b43e-287a-470b-a730-db440f9e37fa",
    "en": "the bytes of resource 8f88b43e-287a-470b-a730-db440f9e37fa changed between 2026-10-21 and 2026-10-26 with no change in the portal metadata",
    "pt": "os bytes do recurso 8f88b43e-287a-470b-a730-db440f9e37fa mudaram entre 2026-10-21 e 2026-10-26 sem mudança nos metadados do portal"
-  },
-  {
-   "layer": "L5",
-   "kind": "unrecorded_change",
-   "when": "2026-10-26T09:19:04+00:00",
-   "resource_id": "aba90ea8-e2f3-431e-a0cc-1ae24773843b",
-   "en": "the bytes of resource aba90ea8-e2f3-431e-a0cc-1ae24773843b changed between 2026-10-12 and 2026-10-26 with no change in the portal metadata",
-   "pt": "os bytes do recurso aba90ea8-e2f3-431e-a0cc-1ae24773843b mudaram entre 2026-10-12 e 2026-10-26 sem mudança nos metadados do portal"
-  },
-  {
-   "layer": "L5",
-   "kind": "unrecorded_change",
-   "when": "2026-10-26T12:31:32+00:00",
-   "resource_id": "90d17ce7-6a9b-4bfb-804c-6d52e43af264",
-   "en": "the bytes of resource 90d17ce7-6a9b-4bfb-804c-6d52e43af264 changed between 2026-10-12 and 2026-10-26 with no change in the portal metadata",
-   "pt": "os bytes do recurso 90d17ce7-6a9b-4bfb-804c-6d52e43af264 mudaram entre 2026-10-12 e 2026-10-26 sem mudança nos metadados do portal"
-  },
-  {
-   "layer": "L5",
-   "kind": "unrecorded_change",
-   "when": "2026-10-26T12:31:35+00:00",
-   "resource_id": "3360882c-a038-4129-a1f0-7013af37926a",
-   "en": "the bytes of resource 3360882c-a038-4129-a1f0-7013af37926a changed between 2026-10-12 and 2026-10-26 with no change in the portal metadata",
-   "pt": "os bytes do recurso 3360882c-a038-4129-a1f0-7013af37926a mudaram entre 2026-10-12 e 2026-10-26 sem mudança nos metadados do portal"
-  },
-  {
-   "layer": "L5",
-   "kind": "unrecorded_change",
-   "when": "2026-10-26T09:19:07+00:00",
-   "resource_id": "0a4284aa-e142-4d6d-823f-9958f26c829e",
-   "en": "the bytes of resource 0a4284aa-e142-4d6d-823f-9958f26c829e changed between 2026-10-12 and 2026-10-26 with no change in the portal metadata",
-   "pt": "os bytes do recurso 0a4284aa-e142-4d6d-823f-9958f26c829e mudaram entre 2026-10-12 e 2026-10-26 sem mudança nos metadados do portal"
-  },
-  {
-   "layer": "L5",
-   "kind": "unrecorded_change",
-   "when": "2026-10-26T12:31:37+00:00",
-   "resource_id": "ccdbf737-0fbf-4547-adf6-267204aa4413",
-   "en": "the bytes of resource ccdbf737-0fbf-4547-adf6-267204aa4413 changed between 2026-10-12 and 2026-10-26 with no change in the portal metadata",
-   "pt": "os bytes do recurso ccdbf737-0fbf-4547-adf6-267204aa4413 mudaram entre 2026-10-12 e 2026-10-26 sem mudança nos metadados do portal"
-  },
-  {
-   "layer": "L5",
-   "kind": "unrecorded_change",
-   "when": "2026-10-26T12:31:40+00:00",
-   "resource_id": "21347475-cd71-41de-a677-f0fbaa8c02b2",
-   "en": "the bytes of resource 21347475-cd71-41de-a677-f0fbaa8c02b2 changed between 2026-10-12 and 2026-10-26 with no change in the portal metadata",
-   "pt": "os bytes do recurso 21347475-cd71-41de-a677-f0fbaa8c02b2 mudaram entre 2026-10-12 e 2026-10-26 sem mudança nos metadados do portal"
-  },
-  {
-   "layer": "L5",
-   "kind": "unrecorded_change",
-   "when": "2026-10-26T09:19:30+00:00",
-   "resource_id": "04f7998d-58e1-4717-85f5-401dc9994b19",
-   "en": "the bytes of resource 04f7998d-58e1-4717-85f5-401dc9994b19 changed between 2026-10-12 and 2026-10-26 with no change in the portal metadata",
-   "pt": "os bytes do recurso 04f7998d-58e1-4717-85f5-401dc9994b19 mudaram entre 2026-10-12 e 2026-10-26 sem mudança nos metadados do portal"
   },
   {
    "layer": "L4",
@@ -644,30 +588,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-27T04:59:06.479045+00:00",
+   "generated_at": "2026-10-28T05:34:27.574213+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "1859cd441578579465d8a762fe173e1ed4a8aeec",
-      "date": "2026-10-27T04:59:06Z"
+      "sha": "46f7fe87332b46dd4bc5c83d02f6b96cdcdbcffd",
+      "date": "2026-10-28T05:34:27Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "f9f6b4f1adadf09b11c98af52cbc3ccb225a92fb",
-      "date": "2026-10-27T09:22:01Z"
+      "sha": "3d75dc84b09322a8f0213a256b047c908ca105c8",
+      "date": "2026-10-28T09:56:33Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "1859cd441578579465d8a762fe173e1ed4a8aeec",
-      "date": "2026-10-27T04:59:06Z"
+      "sha": "46f7fe87332b46dd4bc5c83d02f6b96cdcdbcffd",
+      "date": "2026-10-28T05:34:27Z"
      }
     }
    ],
@@ -719,19 +663,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-27T10:27:20+00:00",
+ "generated_at": "2026-10-28T11:16:21+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "be2e685ad9cab0f37e2d1cb8722475f2640019c6",
-  "run_id": "40488580779"
+  "commit": "a7c109e480689b0788609278a77e442fdee6255f",
+  "run_id": "40678632849"
  },
  "ficha": {
-  "id": "sha256:0537dab5d032646f06c6cc34db9b78e9cd2dbb62a1ec19d220ee07eecc370f87",
+  "id": "sha256:ca6feaf5d89824c883bb7d6ea740d21249c68978485d2397497a2126c5e7e6bd",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-embargo",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/fiscalizacao-termo-de-embargo.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'fiscalizacao-termo-de-embargo' (IBAMA), 2026-10-27, sha256:0537dab5d032646f…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-embargo",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-termo-de-embargo' (IBAMA), 2026-10-27, sha256:0537dab5d032646f…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-embargo"
+   "en": "5L-TEP Layer 5 record of 'fiscalizacao-termo-de-embargo' (IBAMA), 2026-10-28, sha256:ca6feaf5d89824c8…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-embargo",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-termo-de-embargo' (IBAMA), 2026-10-28, sha256:ca6feaf5d89824c8…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-embargo"
   }
  }
 }
