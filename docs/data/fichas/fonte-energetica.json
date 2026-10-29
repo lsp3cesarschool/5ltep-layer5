@@ -56,7 +56,7 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-28T05:34:05+00:00",
+   "evaluated_at": "2026-10-29T05:41:30+00:00",
    "current": true,
    "facts": {
     "observations": 102,
@@ -139,30 +139,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-28T05:34:27.574213+00:00",
+   "generated_at": "2026-10-29T05:41:53.962898+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "46f7fe87332b46dd4bc5c83d02f6b96cdcdbcffd",
-      "date": "2026-10-28T05:34:27Z"
+      "sha": "1cb0281a8916a1d6357889816a4e261e3b717d6d",
+      "date": "2026-10-29T05:41:54Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "3d75dc84b09322a8f0213a256b047c908ca105c8",
-      "date": "2026-10-28T09:56:33Z"
+      "sha": "f0bde4d0338a96e7d19b9095d8bc05b5a14f8da9",
+      "date": "2026-10-29T10:19:24Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "46f7fe87332b46dd4bc5c83d02f6b96cdcdbcffd",
-      "date": "2026-10-28T05:34:27Z"
+      "sha": "1cb0281a8916a1d6357889816a4e261e3b717d6d",
+      "date": "2026-10-29T05:41:54Z"
      }
     }
    ],
@@ -214,19 +214,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-28T11:16:21+00:00",
+ "generated_at": "2026-10-29T11:27:53+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "a7c109e480689b0788609278a77e442fdee6255f",
-  "run_id": "40678632849"
+  "commit": "e8c0c02c1e05da62d0818338745a68f70abb8ea5",
+  "run_id": "40865571581"
  },
  "ficha": {
-  "id": "sha256:b008f6f834ce6695327fe912febeed9a3423d551099991cdc8c043ca6fc9f824",
+  "id": "sha256:c3e36c42bb47777b9d7fa1dd92171d7654306aaa4e1c8eeba2e2c7a2bbc3909f",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fonte-energetica",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/fonte-energetica.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'fonte-energetica' (IBAMA), 2026-10-28, sha256:b008f6f834ce6695…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fonte-energetica",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'fonte-energetica' (IBAMA), 2026-10-28, sha256:b008f6f834ce6695…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fonte-energetica"
+   "en": "5L-TEP Layer 5 record of 'fonte-energetica' (IBAMA), 2026-10-29, sha256:c3e36c42bb47777b…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fonte-energetica",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'fonte-energetica' (IBAMA), 2026-10-29, sha256:c3e36c42bb47777b…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fonte-energetica"
   }
  }
 }
