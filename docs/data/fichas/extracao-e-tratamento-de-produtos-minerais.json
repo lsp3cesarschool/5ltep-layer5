@@ -56,7 +56,7 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-30T05:41:12+00:00",
+   "evaluated_at": "2026-10-31T05:33:21+00:00",
    "current": true,
    "facts": {
     "observations": 102,
@@ -139,30 +139,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-30T05:41:29.830318+00:00",
+   "generated_at": "2026-10-31T05:33:42.958239+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "eccc74f21e14265fbac3fa358975cf3ac752d77c",
-      "date": "2026-10-30T05:41:30Z"
+      "sha": "ac35e0bfb733e00c1de81326b08a4423a9ea082b",
+      "date": "2026-10-31T05:33:43Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "08edc7b89ae47e78c745654ef2992f026d489540",
-      "date": "2026-10-30T10:21:53Z"
+      "sha": "17b31e71cc0cb2c7be6634fac71e38e76b594d8f",
+      "date": "2026-10-31T09:53:34Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "eccc74f21e14265fbac3fa358975cf3ac752d77c",
-      "date": "2026-10-30T05:41:30Z"
+      "sha": "ac35e0bfb733e00c1de81326b08a4423a9ea082b",
+      "date": "2026-10-31T05:33:43Z"
      }
     }
    ],
@@ -214,19 +214,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-30T11:20:14+00:00",
+ "generated_at": "2026-10-31T10:52:29+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "be79f55a89c22f251a04a5f8ca469fb35db4f579",
-  "run_id": "41047338386"
+  "commit": "c99e26e77c9b0f6447c130b7d8d21e922091b12e",
+  "run_id": "41194504013"
  },
  "ficha": {
-  "id": "sha256:553bbdbb2cefb0b021efb7ff8aafc46d2827cf20b3c9e4c552f561024870ada4",
+  "id": "sha256:f440b37cefeaa78bb23dda7e84bb12e230ac3af9863e7d50b5db56ae20896bb8",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=extracao-e-tratamento-de-produtos-minerais",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/extracao-e-tratamento-de-produtos-minerais.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'extracao-e-tratamento-de-produtos-minerais' (IBAMA), 2026-10-30, sha256:553bbdbb2cefb0b0…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=extracao-e-tratamento-de-produtos-minerais",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'extracao-e-tratamento-de-produtos-minerais' (IBAMA), 2026-10-30, sha256:553bbdbb2cefb0b0…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=extracao-e-tratamento-de-produtos-minerais"
+   "en": "5L-TEP Layer 5 record of 'extracao-e-tratamento-de-produtos-minerais' (IBAMA), 2026-10-31, sha256:f440b37cefeaa78b…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=extracao-e-tratamento-de-produtos-minerais",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'extracao-e-tratamento-de-produtos-minerais' (IBAMA), 2026-10-31, sha256:f440b37cefeaa78b…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=extracao-e-tratamento-de-produtos-minerais"
   }
  }
 }
