@@ -4,8 +4,8 @@
   "title": "Vegetação de Mangue brasileira",
   "id": "bac8b578-90e5-4988-8037-154bd9c319d7",
   "resources": 3,
-  "last_change": null,
-  "last_type": null,
+  "last_change": "2026-10-31T12:18:20+00:00",
+  "last_type": "REMOVED",
   "entity": "https://dadosabertos.ibama.gov.br/dataset/bac8b578-90e5-4988-8037-154bd9c319d7#0faa836eea83",
   "portal_page": "https://dadosabertos.ibama.gov.br/dataset/vegetacao-de-mangue-brasileira"
  },
@@ -56,10 +56,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-10-31T05:33:21+00:00",
+   "evaluated_at": "2026-11-01T05:56:22+00:00",
    "current": true,
    "facts": {
-    "observations": 102,
+    "observations": 4,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/bac8b578-90e5-4988-8037-154bd9c319d7#0faa836eea83"
    },
@@ -139,30 +139,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-31T05:33:42.958239+00:00",
+   "generated_at": "2026-11-01T06:00:41.590762+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "ac35e0bfb733e00c1de81326b08a4423a9ea082b",
-      "date": "2026-10-31T05:33:43Z"
+      "sha": "c189cd27dc093011289e99477ba1bf8683876bc2",
+      "date": "2026-11-01T06:00:41Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "17b31e71cc0cb2c7be6634fac71e38e76b594d8f",
-      "date": "2026-10-31T09:53:34Z"
+      "sha": "a8a47b400ee7c003765e0e5ee505d8d2a56305b4",
+      "date": "2026-11-01T10:44:27Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "ac35e0bfb733e00c1de81326b08a4423a9ea082b",
-      "date": "2026-10-31T05:33:43Z"
+      "sha": "c189cd27dc093011289e99477ba1bf8683876bc2",
+      "date": "2026-11-01T06:00:41Z"
      }
     }
    ],
@@ -214,19 +214,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-10-31T10:52:29+00:00",
+ "generated_at": "2026-11-01T11:47:28+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "c99e26e77c9b0f6447c130b7d8d21e922091b12e",
-  "run_id": "41194504013"
+  "commit": "c07c57cd9de76fb64e13ae82ca6318d68bd222dd",
+  "run_id": "41303435325"
  },
  "ficha": {
-  "id": "sha256:4f8541a5e6e2e7005b2b0ed3bc9d74cd1f43614c074299da9bd8fb99f34b7111",
+  "id": "sha256:0259886d461beb33b34d864dc9ba037575725c3f9dbd64773b9faa32a70ba927",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=vegetacao-de-mangue-brasileira",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/vegetacao-de-mangue-brasileira.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'vegetacao-de-mangue-brasileira' (IBAMA), 2026-10-31, sha256:4f8541a5e6e2e700…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=vegetacao-de-mangue-brasileira",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'vegetacao-de-mangue-brasileira' (IBAMA), 2026-10-31, sha256:4f8541a5e6e2e700…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=vegetacao-de-mangue-brasileira"
+   "en": "5L-TEP Layer 5 record of 'vegetacao-de-mangue-brasileira' (IBAMA), 2026-11-01, sha256:0259886d461beb33…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=vegetacao-de-mangue-brasileira",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'vegetacao-de-mangue-brasileira' (IBAMA), 2026-11-01, sha256:0259886d461beb33…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=vegetacao-de-mangue-brasileira"
   }
  }
 }
