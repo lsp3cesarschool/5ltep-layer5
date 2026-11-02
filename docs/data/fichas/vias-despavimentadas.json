@@ -24,7 +24,7 @@
    "status": "missing",
    "reason": "l1_level0",
    "rate": null,
-   "evaluated_at": "2026-10-03T11:13:31+00:00",
+   "evaluated_at": "2026-11-02T12:33:20+00:00",
    "current": null,
    "facts": {
     "level": 0,
@@ -56,10 +56,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-01T05:56:22+00:00",
+   "evaluated_at": "2026-11-02T05:56:09+00:00",
    "current": true,
    "facts": {
-    "observations": 102,
+    "observations": 99,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/6dc5f349-b474-484a-b8be-9012f952fd99#5fbc44e04113"
    },
@@ -75,22 +75,22 @@
   "L1": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-26T12:52:44+00:00",
+   "generated_at": "2026-11-02T12:37:26+00:00",
    "files": [
     {
      "path": "results/layer1_summary.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/layer1_summary.json",
      "commit": {
-      "sha": "9b6a83a88cc596c6c59b4e83bb50eafd06beb357",
-      "date": "2026-10-26T12:52:44Z"
+      "sha": "035cd6b1f8f5fd971a77a72dd2b8eaf759342e91",
+      "date": "2026-11-02T12:37:26Z"
      }
     },
     {
      "path": "results/validation.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/validation.json",
      "commit": {
-      "sha": "9b6a83a88cc596c6c59b4e83bb50eafd06beb357",
-      "date": "2026-10-26T12:52:44Z"
+      "sha": "035cd6b1f8f5fd971a77a72dd2b8eaf759342e91",
+      "date": "2026-11-02T12:37:26Z"
      }
     }
    ],
@@ -139,30 +139,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-01T06:00:41.590762+00:00",
+   "generated_at": "2026-11-02T05:56:30.925060+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "c189cd27dc093011289e99477ba1bf8683876bc2",
-      "date": "2026-11-01T06:00:41Z"
+      "sha": "2cdbae5c0e3b3f522db0e1fcc90c9456d5d0b521",
+      "date": "2026-11-02T05:56:31Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "a8a47b400ee7c003765e0e5ee505d8d2a56305b4",
-      "date": "2026-11-01T10:44:27Z"
+      "sha": "f690c1fed89c3bcd90bc9b110a8ef833fddaba12",
+      "date": "2026-11-02T11:35:23Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "c189cd27dc093011289e99477ba1bf8683876bc2",
-      "date": "2026-11-01T06:00:41Z"
+      "sha": "2cdbae5c0e3b3f522db0e1fcc90c9456d5d0b521",
+      "date": "2026-11-02T05:56:31Z"
      }
     }
    ],
@@ -214,19 +214,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-01T11:47:28+00:00",
+ "generated_at": "2026-11-02T13:24:45+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "c07c57cd9de76fb64e13ae82ca6318d68bd222dd",
-  "run_id": "41303435325"
+  "commit": "48b734f897ad26b1b331ee4fa89a10c1e23aa946",
+  "run_id": "41452730057"
  },
  "ficha": {
-  "id": "sha256:ff9f98cc15158dbe256a9194a186f69cff8d4b1696b2dc573e623fc8767e1e0e",
+  "id": "sha256:8c76f477455c47560def3eb068263282dace87a8944834d99fe97713d06ab730",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=vias-despavimentadas",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/vias-despavimentadas.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'vias-despavimentadas' (IBAMA), 2026-11-01, sha256:ff9f98cc15158dbe…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=vias-despavimentadas",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'vias-despavimentadas' (IBAMA), 2026-11-01, sha256:ff9f98cc15158dbe…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=vias-despavimentadas"
+   "en": "5L-TEP Layer 5 record of 'vias-despavimentadas' (IBAMA), 2026-11-02, sha256:8c76f477455c4756…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=vias-despavimentadas",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'vias-despavimentadas' (IBAMA), 2026-11-02, sha256:8c76f477455c4756…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=vias-despavimentadas"
   }
  }
 }
