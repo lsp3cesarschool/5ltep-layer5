@@ -78,10 +78,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-02T05:56:09+00:00",
+   "evaluated_at": "2026-11-03T00:55:10+00:00",
    "current": true,
    "facts": {
-    "observations": 99,
+    "observations": 97,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/b705b94b-e5b9-4246-9038-eaf1ecd4ff04#6c1ba666f510"
    },
@@ -118,34 +118,10 @@
   {
    "layer": "L5",
    "kind": "unrecorded_change",
-   "when": "2026-10-26T12:34:21+00:00",
-   "resource_id": "5baa8719-cbc7-4a31-956c-d8d016ab5672",
-   "en": "the bytes of resource 5baa8719-cbc7-4a31-956c-d8d016ab5672 changed between 2026-10-21 and 2026-10-26 with no change in the portal metadata",
-   "pt": "os bytes do recurso 5baa8719-cbc7-4a31-956c-d8d016ab5672 mudaram entre 2026-10-21 e 2026-10-26 sem mudança nos metadados do portal"
-  },
-  {
-   "layer": "L5",
-   "kind": "unrecorded_change",
    "when": "2026-11-02T12:23:42+00:00",
    "resource_id": "5baa8719-cbc7-4a31-956c-d8d016ab5672",
-   "en": "the bytes of resource 5baa8719-cbc7-4a31-956c-d8d016ab5672 changed between 2026-10-26 and 2026-11-02 with no change in the portal metadata",
-   "pt": "os bytes do recurso 5baa8719-cbc7-4a31-956c-d8d016ab5672 mudaram entre 2026-10-26 e 2026-11-02 sem mudança nos metadados do portal"
-  },
-  {
-   "layer": "L5",
-   "kind": "unrecorded_change",
-   "when": "2026-11-02T11:39:38+00:00",
-   "resource_id": "1fb9c97f-13b8-4385-95e9-8249b974746c",
-   "en": "the bytes of resource 1fb9c97f-13b8-4385-95e9-8249b974746c changed between 2026-10-26 and 2026-11-02 with no change in the portal metadata",
-   "pt": "os bytes do recurso 1fb9c97f-13b8-4385-95e9-8249b974746c mudaram entre 2026-10-26 e 2026-11-02 sem mudança nos metadados do portal"
-  },
-  {
-   "layer": "L5",
-   "kind": "unrecorded_change",
-   "when": "2026-11-02T12:23:48+00:00",
-   "resource_id": "570e4b24-e728-4887-bd6c-864cc8c9f587",
-   "en": "the bytes of resource 570e4b24-e728-4887-bd6c-864cc8c9f587 changed between 2026-10-26 and 2026-11-02 with no change in the portal metadata",
-   "pt": "os bytes do recurso 570e4b24-e728-4887-bd6c-864cc8c9f587 mudaram entre 2026-10-26 e 2026-11-02 sem mudança nos metadados do portal"
+   "en": "the bytes of resource 5baa8719-cbc7-4a31-956c-d8d016ab5672 changed between 2026-10-21 and 2026-11-02 with no change in the portal metadata",
+   "pt": "os bytes do recurso 5baa8719-cbc7-4a31-956c-d8d016ab5672 mudaram entre 2026-10-21 e 2026-11-02 sem mudança nos metadados do portal"
   }
  ],
  "outcomes": {
@@ -253,30 +229,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-02T05:56:30.925060+00:00",
+   "generated_at": "2026-11-03T00:55:36.666280+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "2cdbae5c0e3b3f522db0e1fcc90c9456d5d0b521",
-      "date": "2026-11-02T05:56:31Z"
+      "sha": "b68f00382e7ca0bc191c9e4ffb9967a4a6431eda",
+      "date": "2026-11-03T00:55:36Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "f690c1fed89c3bcd90bc9b110a8ef833fddaba12",
-      "date": "2026-11-02T11:35:23Z"
+      "sha": "ac0464c95a3fc04e7308dd25f7ea5001c34f9e04",
+      "date": "2026-11-03T11:20:41Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "2cdbae5c0e3b3f522db0e1fcc90c9456d5d0b521",
-      "date": "2026-11-02T05:56:31Z"
+      "sha": "b68f00382e7ca0bc191c9e4ffb9967a4a6431eda",
+      "date": "2026-11-03T00:55:36Z"
      }
     }
    ],
@@ -328,19 +304,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-02T13:24:45+00:00",
+ "generated_at": "2026-11-03T12:44:28+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "48b734f897ad26b1b331ee4fa89a10c1e23aa946",
-  "run_id": "41452730057"
+  "commit": "65b33fa6793077ac655a496c486f3c7199c28f9f",
+  "run_id": "41638240342"
  },
  "ficha": {
-  "id": "sha256:2e9d28956a45c29b6f4c66a2a84e9a31f21124497b7f4a08e25744318000e943",
+  "id": "sha256:ed0a90842d05831fcc622b8788110f7bae57b0814691a1bce1934c01212c0ac4",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=relatorios-de-comercializacao-de-agrotoxicos",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/relatorios-de-comercializacao-de-agrotoxicos.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'relatorios-de-comercializacao-de-agrotoxicos' (IBAMA), 2026-11-02, sha256:2e9d28956a45c29b…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=relatorios-de-comercializacao-de-agrotoxicos",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'relatorios-de-comercializacao-de-agrotoxicos' (IBAMA), 2026-11-02, sha256:2e9d28956a45c29b…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=relatorios-de-comercializacao-de-agrotoxicos"
+   "en": "5L-TEP Layer 5 record of 'relatorios-de-comercializacao-de-agrotoxicos' (IBAMA), 2026-11-03, sha256:ed0a90842d05831f…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=relatorios-de-comercializacao-de-agrotoxicos",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'relatorios-de-comercializacao-de-agrotoxicos' (IBAMA), 2026-11-03, sha256:ed0a90842d05831f…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=relatorios-de-comercializacao-de-agrotoxicos"
   }
  }
 }
