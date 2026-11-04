@@ -10,22 +10,14 @@
   "portal_page": "https://dadosabertos.ibama.gov.br/dataset/arrecadacao-de-multas-ambientais-bens-tutelados"
  },
  "qs": {
-  "kind": "partial",
+  "kind": "none",
   "factor": 1.0,
-  "coverage": 0.5,
+  "coverage": 0.2,
   "valid_layers": [
-   "L2",
    "L4"
   ],
   "integrity": [],
-  "low": 0.49985210348534914,
-  "high": 0.9998521034853491,
-  "band": "undetermined",
-  "eligible": false,
-  "missing_layers": [
-   "L1",
-   "L3"
-  ]
+  "band": null
  },
  "layers": {
   "L1": {
@@ -43,11 +35,11 @@
    "signals": []
   },
   "L2": {
-   "status": "valid",
-   "reason": null,
+   "status": "expired",
+   "reason": "summary_too_old",
    "rate": 0.9995070116178304,
    "evaluated_at": "2026-10-21T09:31:55+00:00",
-   "current": false,
+   "current": null,
    "facts": {
     "rules": [
      "paid-ten-times-original",
@@ -85,7 +77,7 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-03T00:55:10+00:00",
+   "evaluated_at": "2026-11-04T06:09:05+00:00",
    "current": true,
    "facts": {
     "observations": 97,
@@ -261,30 +253,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-03T00:55:36.666280+00:00",
+   "generated_at": "2026-11-04T06:09:26.429837+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "b68f00382e7ca0bc191c9e4ffb9967a4a6431eda",
-      "date": "2026-11-03T00:55:36Z"
+      "sha": "34e23dc4d9bc6431be226e7674b9e1eb93abc9c8",
+      "date": "2026-11-04T06:09:26Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "ac0464c95a3fc04e7308dd25f7ea5001c34f9e04",
-      "date": "2026-11-03T11:20:41Z"
+      "sha": "f16865b4599c88f009b7c6a2d253203767919db6",
+      "date": "2026-11-04T11:24:57Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "b68f00382e7ca0bc191c9e4ffb9967a4a6431eda",
-      "date": "2026-11-03T00:55:36Z"
+      "sha": "34e23dc4d9bc6431be226e7674b9e1eb93abc9c8",
+      "date": "2026-11-04T06:09:26Z"
      }
     }
    ],
@@ -336,19 +328,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-03T12:44:28+00:00",
+ "generated_at": "2026-11-04T12:56:21+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "65b33fa6793077ac655a496c486f3c7199c28f9f",
-  "run_id": "41638240342"
+  "commit": "1fee6fdfd1e0642551da45ecd42668ae26568d76",
+  "run_id": "41833571287"
  },
  "ficha": {
-  "id": "sha256:b5fcf57bfabf91f0a4b24a2b7815c800ab69ff3b2d80e61abef16b4c14b39510",
+  "id": "sha256:09363bf36ccae6cf29bd06a7735a3052ac77b770b3ca4953758e5672efa61cae",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=arrecadacao-de-multas-ambientais-bens-tutelados",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/arrecadacao-de-multas-ambientais-bens-tutelados.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'arrecadacao-de-multas-ambientais-bens-tutelados' (IBAMA), 2026-11-03, sha256:b5fcf57bfabf91f0…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=arrecadacao-de-multas-ambientais-bens-tutelados",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'arrecadacao-de-multas-ambientais-bens-tutelados' (IBAMA), 2026-11-03, sha256:b5fcf57bfabf91f0…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=arrecadacao-de-multas-ambientais-bens-tutelados"
+   "en": "5L-TEP Layer 5 record of 'arrecadacao-de-multas-ambientais-bens-tutelados' (IBAMA), 2026-11-04, sha256:09363bf36ccae6cf…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=arrecadacao-de-multas-ambientais-bens-tutelados",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'arrecadacao-de-multas-ambientais-bens-tutelados' (IBAMA), 2026-11-04, sha256:09363bf36ccae6cf…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=arrecadacao-de-multas-ambientais-bens-tutelados"
   }
  }
 }
