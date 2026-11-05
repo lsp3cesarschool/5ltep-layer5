@@ -71,10 +71,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-04T06:09:05+00:00",
+   "evaluated_at": "2026-11-05T06:38:19+00:00",
    "current": true,
    "facts": {
-    "observations": 97,
+    "observations": 98,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/69f05b5f-d4fa-4c16-a4bd-6f152afa4503#9c4e18540315"
    },
@@ -181,30 +181,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-04T06:09:26.429837+00:00",
+   "generated_at": "2026-11-05T06:38:52.869043+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "34e23dc4d9bc6431be226e7674b9e1eb93abc9c8",
-      "date": "2026-11-04T06:09:26Z"
+      "sha": "7f15b4ae8b9bd199bd1f860a74072b766474078f",
+      "date": "2026-11-05T06:38:53Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "f16865b4599c88f009b7c6a2d253203767919db6",
-      "date": "2026-11-04T11:24:57Z"
+      "sha": "d8abd1333497a55371491df1cd2acddab02d5a7b",
+      "date": "2026-11-05T11:22:23Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "34e23dc4d9bc6431be226e7674b9e1eb93abc9c8",
-      "date": "2026-11-04T06:09:26Z"
+      "sha": "7f15b4ae8b9bd199bd1f860a74072b766474078f",
+      "date": "2026-11-05T06:38:53Z"
      }
     }
    ],
@@ -256,19 +256,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-04T12:56:21+00:00",
+ "generated_at": "2026-11-05T13:06:00+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "1fee6fdfd1e0642551da45ecd42668ae26568d76",
-  "run_id": "41833571287"
+  "commit": "78014901673518196749189d5a7d79210f4beb35",
+  "run_id": "42032736466"
  },
  "ficha": {
-  "id": "sha256:5e663b1ac202f019d2867ae309495da2d4cdefed26d1884f459f811b1e93fb25",
+  "id": "sha256:3e3f94650af743e2a45bbbc700dcf75b7eb25076f2ce4b520b7091810ebe4558",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=dof-conversoes-de-produtos-florestais",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/dof-conversoes-de-produtos-florestais.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'dof-conversoes-de-produtos-florestais' (IBAMA), 2026-11-04, sha256:5e663b1ac202f019…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=dof-conversoes-de-produtos-florestais",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'dof-conversoes-de-produtos-florestais' (IBAMA), 2026-11-04, sha256:5e663b1ac202f019…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=dof-conversoes-de-produtos-florestais"
+   "en": "5L-TEP Layer 5 record of 'dof-conversoes-de-produtos-florestais' (IBAMA), 2026-11-05, sha256:3e3f94650af743e2…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=dof-conversoes-de-produtos-florestais",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'dof-conversoes-de-produtos-florestais' (IBAMA), 2026-11-05, sha256:3e3f94650af743e2…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=dof-conversoes-de-produtos-florestais"
   }
  }
 }
