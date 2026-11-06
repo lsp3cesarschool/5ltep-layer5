@@ -71,10 +71,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-05T06:38:19+00:00",
+   "evaluated_at": "2026-11-06T06:34:09+00:00",
    "current": true,
    "facts": {
-    "observations": 98,
+    "observations": 97,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/2bd5a095-4fa7-463f-8716-92542596a5d1#43f26f8a5a70"
    },
@@ -157,7 +157,7 @@
   "L3": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-05T13:09:25+00:00",
+   "generated_at": "2026-11-05T14:36:10+00:00",
    "files": [
     {
      "path": "docs/data/index.json",
@@ -171,8 +171,8 @@
      "path": "results/ibama-autos-infracao/layer3_summary.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer3/main/results/ibama-autos-infracao/layer3_summary.json",
      "commit": {
-      "sha": "c5cd4b136398a59bf1bd64008f520aff425233ad",
-      "date": "2026-10-05T13:09:26Z"
+      "sha": "b9c36025bbfedc18d07f6977f08c2de9486a9a4c",
+      "date": "2026-11-05T14:36:10Z"
      }
     }
    ],
@@ -181,30 +181,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-05T06:38:52.869043+00:00",
+   "generated_at": "2026-11-06T06:34:31.223015+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "7f15b4ae8b9bd199bd1f860a74072b766474078f",
-      "date": "2026-11-05T06:38:53Z"
+      "sha": "cd01ee46a92f859f98a4c967c78a59a0a45ade1c",
+      "date": "2026-11-06T06:34:31Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "d8abd1333497a55371491df1cd2acddab02d5a7b",
-      "date": "2026-11-05T11:22:23Z"
+      "sha": "05c44b77974f23f29ef2e5c893d077ca75d30ef7",
+      "date": "2026-11-06T11:21:02Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "7f15b4ae8b9bd199bd1f860a74072b766474078f",
-      "date": "2026-11-05T06:38:53Z"
+      "sha": "cd01ee46a92f859f98a4c967c78a59a0a45ade1c",
+      "date": "2026-11-06T06:34:31Z"
      }
     }
    ],
@@ -256,19 +256,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-05T13:06:00+00:00",
+ "generated_at": "2026-11-06T12:52:48+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "78014901673518196749189d5a7d79210f4beb35",
-  "run_id": "42032736466"
+  "commit": "83b0b0fd878f459d47a8371e99b4a567a642602e",
+  "run_id": "42221025414"
  },
  "ficha": {
-  "id": "sha256:539a404e97ffe9aefcdd2f2ce3076db161f3b09dabc6f7aedc65fdd7478dd22f",
+  "id": "sha256:62437bfa0a85fc5bcc8eaceb5f7b34a2039e90db51c30353b254f697bfa508ee",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=dof-trechos-e-veiculos-de-transportes-florestais-detalhes",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/dof-trechos-e-veiculos-de-transportes-florestais-detalhes.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'dof-trechos-e-veiculos-de-transportes-florestais-detalhes' (IBAMA), 2026-11-05, sha256:539a404e97ffe9ae…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=dof-trechos-e-veiculos-de-transportes-florestais-detalhes",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'dof-trechos-e-veiculos-de-transportes-florestais-detalhes' (IBAMA), 2026-11-05, sha256:539a404e97ffe9ae…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=dof-trechos-e-veiculos-de-transportes-florestais-detalhes"
+   "en": "5L-TEP Layer 5 record of 'dof-trechos-e-veiculos-de-transportes-florestais-detalhes' (IBAMA), 2026-11-06, sha256:62437bfa0a85fc5b…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=dof-trechos-e-veiculos-de-transportes-florestais-detalhes",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'dof-trechos-e-veiculos-de-transportes-florestais-detalhes' (IBAMA), 2026-11-06, sha256:62437bfa0a85fc5b…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=dof-trechos-e-veiculos-de-transportes-florestais-detalhes"
   }
  }
 }
