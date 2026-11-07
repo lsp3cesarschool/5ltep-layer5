@@ -56,10 +56,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-06T06:34:09+00:00",
+   "evaluated_at": "2026-11-07T05:52:36+00:00",
    "current": true,
    "facts": {
-    "observations": 97,
+    "observations": 96,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/89c6937e-7cea-4651-ae7e-4e153417f7f5#868b377dba13"
    },
@@ -139,30 +139,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-06T06:34:31.223015+00:00",
+   "generated_at": "2026-11-07T05:52:51.196440+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "cd01ee46a92f859f98a4c967c78a59a0a45ade1c",
-      "date": "2026-11-06T06:34:31Z"
+      "sha": "a751e974394150b5b0c14f5db33b1205caa86685",
+      "date": "2026-11-07T05:52:51Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "05c44b77974f23f29ef2e5c893d077ca75d30ef7",
-      "date": "2026-11-06T11:21:02Z"
+      "sha": "08f1da51fe6c92d56ba64ddac7bad393d01e339c",
+      "date": "2026-11-07T10:34:41Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "cd01ee46a92f859f98a4c967c78a59a0a45ade1c",
-      "date": "2026-11-06T06:34:31Z"
+      "sha": "a751e974394150b5b0c14f5db33b1205caa86685",
+      "date": "2026-11-07T05:52:51Z"
      }
     }
    ],
@@ -214,19 +214,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-06T12:52:48+00:00",
+ "generated_at": "2026-11-07T11:40:22+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "83b0b0fd878f459d47a8371e99b4a567a642602e",
-  "run_id": "42221025414"
+  "commit": "1a315d53641cd07b6554d84fe4d712c5e88cad26",
+  "run_id": "42369148882"
  },
  "ficha": {
-  "id": "sha256:a304b85aab26ad1e3e056a40c4709e3812aa62b05e4f02503358bc5fb538ace9",
+  "id": "sha256:fdbe733617bfae2e97ba8a72756f9adc2977caa4139963982df99acceaea3d54",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=certificados-ambientais",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/certificados-ambientais.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'certificados-ambientais' (IBAMA), 2026-11-06, sha256:a304b85aab26ad1e…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=certificados-ambientais",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'certificados-ambientais' (IBAMA), 2026-11-06, sha256:a304b85aab26ad1e…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=certificados-ambientais"
+   "en": "5L-TEP Layer 5 record of 'certificados-ambientais' (IBAMA), 2026-11-07, sha256:fdbe733617bfae2e…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=certificados-ambientais",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'certificados-ambientais' (IBAMA), 2026-11-07, sha256:fdbe733617bfae2e…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=certificados-ambientais"
   }
  }
 }
