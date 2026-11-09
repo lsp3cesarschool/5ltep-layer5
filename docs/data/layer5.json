@@ -1,11 +1,11 @@
 {
  "layer": 5,
  "run": {
-  "generated_at": "2026-11-08T11:52:36+00:00",
+  "generated_at": "2026-11-09T13:49:01+00:00",
   "repository": "lsp3cesarschool/5ltep-layer5",
   "version": "0.1.0",
-  "commit": "5edaa3fa69d5ce72b00f6a8ca36859ded00ec561",
-  "run_id": "42477643131"
+  "commit": "6656d225e130ab37c55c363f00bcda53f95d9fc0",
+  "run_id": "42628776323"
  },
  "portal": {
   "portal_url": "https://dadosabertos.ibama.gov.br",
@@ -59,7 +59,7 @@
    "reason": null,
    "detail": null,
    "generated_at": "2026-11-02T12:37:26+00:00",
-   "age_days": 5.97,
+   "age_days": 7.05,
    "validity_days": 14.0,
    "expired": false,
    "repository": "lsp3cesarschool/5ltep-layer1",
@@ -102,7 +102,7 @@
    "reason": null,
    "detail": null,
    "generated_at": "2026-10-21T09:31:58+00:00",
-   "age_days": 18.1,
+   "age_days": 19.18,
    "validity_days": 14.0,
    "expired": true,
    "repository": "lsp3cesarschool/5ltep-layer2",
@@ -137,7 +137,7 @@
    "reason": null,
    "detail": null,
    "generated_at": "2026-11-05T14:36:10+00:00",
-   "age_days": 2.89,
+   "age_days": 3.97,
    "validity_days": 62.0,
    "expired": false,
    "repository": "lsp3cesarschool/5ltep-layer3",
@@ -168,8 +168,8 @@
    "status": "ok",
    "reason": null,
    "detail": null,
-   "generated_at": "2026-11-08T05:55:29.163452+00:00",
-   "age_days": 0.25,
+   "generated_at": "2026-11-09T06:17:00.829614+00:00",
+   "age_days": 0.31,
    "validity_days": 0.5,
    "expired": false,
    "repository": "lsp3cesarschool/5ltep-layer4",
@@ -180,24 +180,24 @@
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "d306988ab004ecedbfb7a902fe990e18acd1800e",
-      "date": "2026-11-08T05:55:29Z"
+      "sha": "f5f7fd205c281c2bba8f37bb0d81a7b58dfb631a",
+      "date": "2026-11-09T06:17:00Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "91ea885f3663e0bb16b4bc0cf5f3d65fe9a9ec86",
-      "date": "2026-11-08T10:40:37Z"
+      "sha": "be5acb91c334e47135fe97b3233c1cade88e5506",
+      "date": "2026-11-09T11:57:55Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "d306988ab004ecedbfb7a902fe990e18acd1800e",
-      "date": "2026-11-08T05:55:29Z"
+      "sha": "f5f7fd205c281c2bba8f37bb0d81a7b58dfb631a",
+      "date": "2026-11-09T06:17:00Z"
      }
     }
    ],
@@ -463,7 +463,7 @@
    "reported": 0
   },
   "median_days_to_first_change": null,
-  "rounds_observed": 27
+  "rounds_observed": 28
  },
  "datasets": [
   {
@@ -497,7 +497,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -513,7 +513,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:221c55c05d9fe76a8bc39d179237cf50775717e6bace173997569c166f33910c"
+   "ficha_id": "sha256:bf20971e7ef1798608f11b4f938a2b32cd4a981f442d5e8137a6642d8e04607e"
   },
   {
    "name": "arrecadacao-com-tcfa",
@@ -546,7 +546,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -564,7 +564,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:d40766f498816b2ca4a16e688cda266ddcd41e2cd7f8f241b43d5d4633aba69d"
+   "ficha_id": "sha256:857cdbeaf70b4365e84add494788ff3d9d57bed26ed212644e8e605a03489f08"
   },
   {
    "name": "arrecadacao-de-multas-ambientais-bens-tutelados",
@@ -597,7 +597,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -616,7 +616,7 @@
     "signal",
     "unrecorded_change"
    ],
-   "ficha_id": "sha256:714673933ab8ae1b7d8c8ac69e622aeed37eea742eefa7cafe107a4a4f532cf1"
+   "ficha_id": "sha256:5c481a03e84f256a45b0cd3ca2d978e185e28c8810109d2e63f13e64f18414b4"
   },
   {
    "name": "ato-declaratorio-ambiental-ada",
@@ -649,7 +649,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -668,7 +668,7 @@
     "signal",
     "unrecorded_change"
    ],
-   "ficha_id": "sha256:5e65576294c1059d8c48dcdc1d143917f403eb323a7c4ca396a97ae7cc78f450"
+   "ficha_id": "sha256:92ec5f8b42f388db6e8ef60dea2496cd562c6f7cb4e2b453ecbebf2dfb2065d1"
   },
   {
    "name": "autorizacao-ambiental-para-o-transporte-interestadual-de-produtos-perigosos-aatipp",
@@ -701,7 +701,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -727,7 +727,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:a7a7e2eafb373487351afc81c230a19d3cef1df94fe4bd5be1455f2704d1c7fd"
+   "ficha_id": "sha256:02b01547724030100fb93f972dff0f7e504fe2f396399fa1a74b867056145b30"
   },
   {
    "name": "catalogo-de-imagens-orbitais",
@@ -760,7 +760,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -776,7 +776,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:af2d35f8f65063e63c04d069180c1e9938ca5710e0247c284ce0ddadf49550b2"
+   "ficha_id": "sha256:759da3625d5ea776a7bfc2dc53dee557dc974483089caf4efab073e49f58e3d4"
   },
   {
    "name": "certificados-ambientais",
@@ -809,7 +809,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -825,7 +825,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:4ae218f83d3247699f3bb02eb14155ef97c2eaf2c4b088a2691999119746c43f"
+   "ficha_id": "sha256:6c2cff96f48c0e78beb292c29264af57bbfd4ff41ee9aaa97628e0df75e4318a"
   },
   {
    "name": "dof-autorizacoes-de-exploracao-florestal",
@@ -858,7 +858,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -874,7 +874,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:52360c0fc3028b125643e5872afc5852e58923b6e51c3cda2fa02a1cb6c7ddc0"
+   "ficha_id": "sha256:e7320e17183b1ee4bd977cc7e7e8ad12d8bfbb24d8eaa798b8562a116fb33bf5"
   },
   {
    "name": "dof-conversoes-de-produtos-florestais",
@@ -907,7 +907,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -933,7 +933,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:9dffa70a9536a676b0eb3a93a8d07eb0c1dea399a6f0eb15edfcc3a0495b86ba"
+   "ficha_id": "sha256:dfd074f77131109aa3438375641d427a56ecb03c8b1d1e1fa688d78c60eb2698"
   },
   {
    "name": "dof-transportes-de-produtos-florestais",
@@ -966,7 +966,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -992,7 +992,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:fecede0a9fe052811ad878490cec0baffc7575efdfb73fb5eac6645544a360bc"
+   "ficha_id": "sha256:1f16ff97aaa1cb3637a0cd49c78ae448e436424ffaade3c05fb6f1a4590ec9ca"
   },
   {
    "name": "dof-trechos-e-veiculos-de-transportes-florestais-detalhes",
@@ -1025,7 +1025,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -1051,7 +1051,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:e24a4bf7a91915af3f509e4f1ebe5572cb0f7655880bb3accab48278e00c1621"
+   "ficha_id": "sha256:ab280745ff24bc83b1bea69aa25c2455355e560b18a77561ca5c2acea942c8e9"
   },
   {
    "name": "efluentes-liquidos",
@@ -1084,7 +1084,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -1100,7 +1100,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:06e641d7fe27b2242e36efb26b31a2ad54ece14943937a65826455aaedbf2375"
+   "ficha_id": "sha256:71ea5f67577c0a2891eccd3054641adf832898a12cad7669e6da73b6832240d5"
   },
   {
    "name": "emissoes-de-poluentes-atmosfericos",
@@ -1133,7 +1133,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -1149,7 +1149,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:7574dd0261af8d490a9f9583842d6af9bf4fa5e9bb417fa955ffa770b8003ba7"
+   "ficha_id": "sha256:0ae4d767b88372d78b74746ac23872ce6a128ea5d3d3aafff8f9c54708284721"
   },
   {
    "name": "evolucao-das-receitas-arrecadadas",
@@ -1182,7 +1182,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -1200,7 +1200,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:54cb020a99448385592abeb8b515ca3c030f5d933578088d1ff6b1405ce309e9"
+   "ficha_id": "sha256:5476770f126d9a201429487e464fd8bc5f23bab7992490decdbd66e8bc159573"
   },
   {
    "name": "exploracao-economica-da-madeira-ou-lenha-e-subprodutos-florestais",
@@ -1233,7 +1233,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -1249,7 +1249,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:c8940eb869804c9a944eab8863a2dfb61d6ecd4d6003d7a7afe0794309d59db6"
+   "ficha_id": "sha256:85ea5aa2bb149614fe2f90b56a548654642a01c99f00cf5ae6077e93d56e6abf"
   },
   {
    "name": "extracao-e-tratamento-de-produtos-minerais",
@@ -1282,7 +1282,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -1298,7 +1298,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:693be9f6ea7451a3634b05519ca4dc492a035381710897575ad7a08aaba5ee99"
+   "ficha_id": "sha256:d3d77c5cfdc366e38627db073e6c1cececaaf98c6634920ad90d9be5b8eb2324"
   },
   {
    "name": "fabricante-de-produtos-que-utilizam-materia-prima-de-origem-florestal",
@@ -1331,7 +1331,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -1347,7 +1347,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:0cfeb1007d0727b3938e8f289342d9d4f45aa20754b7654649e56c281d1df0bc"
+   "ficha_id": "sha256:ab55c70fb1d1db004ca02b18fb9eb982d0e0d0eebdada0dcfb02c8b6e8f6b422"
   },
   {
    "name": "fila-de-acompanhamento-de-registro-de-agrotoxicos-quimicos",
@@ -1380,7 +1380,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -1398,7 +1398,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:9170a23aae54cbc8d99e9f46b372c7b924a6242d7374665206e4c653c41c256d"
+   "ficha_id": "sha256:a01a4360c7c406d2407624e23031b6f75ee2e47cacae898affe036bff3010f8d"
   },
   {
    "name": "fiscalizacao-auto-de-infracao",
@@ -1431,7 +1431,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -1458,7 +1458,7 @@
     "signal",
     "unrecorded_change"
    ],
-   "ficha_id": "sha256:532acf8eb26d4e42321bd18f6d53c84be634c1da3d9cbba09c4db53f4cc4469f"
+   "ficha_id": "sha256:f9f7feaa39a0083346b99321eb48157919884a27d2ab27c3cce607be96e72abc"
   },
   {
    "name": "fiscalizacao-notificacao",
@@ -1491,7 +1491,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -1517,7 +1517,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:58db405e13b9bac9ebc57ea249876ecb50df2933447b37b80025ff18616525e4"
+   "ficha_id": "sha256:cc622570ee85bae4067d688cd168b9bd3fedc44b01e85b1e6446d577e48930aa"
   },
   {
    "name": "fiscalizacao-termo-de-apreensao",
@@ -1550,7 +1550,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -1576,7 +1576,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:fbe78cc735964ef172a57a6e0c46ec3eb7ca25c5043b5d73150e0c97f63d12d7"
+   "ficha_id": "sha256:da14daa2dfca355f591d1f43f5cd0c4dd85dc7ae1c7f6c85bbc0f98a1bf9ef71"
   },
   {
    "name": "fiscalizacao-termo-de-demolicao",
@@ -1609,7 +1609,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -1635,7 +1635,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:ac72bc750017a82d36d5949f5a8d81a7dc2f55fc6cd6b7caa3f4760b1d4edd40"
+   "ficha_id": "sha256:1b32d2cb7710be82084dcc89c818671a05fcd593eab7ab2db7cd5c55b0a1d759"
   },
   {
    "name": "fiscalizacao-termo-de-destruicao-ou-inutilizacao",
@@ -1668,7 +1668,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -1694,7 +1694,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:54b340bbde820fe4c784cae67f0fcf5b3ec0825eb3f3d977b4a73268f28fa224"
+   "ficha_id": "sha256:33b84feed7fdab5ac69a8a0763229940d17fef76ab11599805214fe44c4d3f17"
   },
   {
    "name": "fiscalizacao-termo-de-destruicao-ou-inutilizacao-serie-a-e-b",
@@ -1727,7 +1727,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -1753,7 +1753,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:4cfd81ab3aa0e59d4ae26cc6e303f3d4805348c8bf89e09d9fbd7a6360ed3561"
+   "ficha_id": "sha256:6aa19e0f6100671c31b78fd4ff73e7bc68cb480458d6ba5e8d3af0c5afefee91"
   },
   {
    "name": "fiscalizacao-termo-de-doacao",
@@ -1786,7 +1786,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -1812,7 +1812,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:525c271f5d2210c761d60e2f729b48da58cf8acb7eaa3323e3783bda6e2d276d"
+   "ficha_id": "sha256:0d83dde61dd2f47d044085613ee579a362c4ae7635de317ba37b40f614120241"
   },
   {
    "name": "fiscalizacao-termo-de-embargo",
@@ -1845,7 +1845,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -1873,7 +1873,7 @@
     "simultaneous",
     "unrecorded_change"
    ],
-   "ficha_id": "sha256:f5ae4c469f28f98a7eef0762c3071b0d3921108f0882c1a61e07e58f2ce63df9"
+   "ficha_id": "sha256:2e4c6bc396a1510e3c840caeb49a76258a62794c87baa32f02aa8507f75b0b2c"
   },
   {
    "name": "fiscalizacao-termo-de-incineracao",
@@ -1906,7 +1906,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -1932,7 +1932,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:28e60c81bd6c7c96e7f87c7196f82fd2613919bc0b63866a41234dd1fda8f616"
+   "ficha_id": "sha256:0c81fa2454fda6dee2629568f9736a69519f2cfd524598ef01d71ef4536d0b81"
   },
   {
    "name": "fiscalizacao-termo-de-soltura",
@@ -1965,7 +1965,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -1991,7 +1991,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:ef57f68ead648ecfe9e4b7307681c9d25dbceee524601c5359143ab1f7ce81f6"
+   "ficha_id": "sha256:c14046604e7ae015a7d19704e0e5f31e978265f4d5ebe52ac44209cda2b0a28c"
   },
   {
    "name": "fiscalizacao-termo-de-suspensao",
@@ -2024,7 +2024,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -2051,7 +2051,7 @@
     "signal",
     "simultaneous"
    ],
-   "ficha_id": "sha256:4c5ca08d0b1e5d11fb68da66b1e6d5a7839d093cfd64ef2e75eefd6f34ab5828"
+   "ficha_id": "sha256:5e4ea9291188ccf70ee9ca9df94027bfe10bcb9cdc1943f2d8fae9649257a190"
   },
   {
    "name": "fonte-energetica",
@@ -2084,7 +2084,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -2100,7 +2100,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:7dc2c4980ab5e05d7f4216e340cf112d0619b562ce7881eb8797927bfcdaa58b"
+   "ficha_id": "sha256:1295cbf3c38872903b98debf078b8c445307cf2f05defc6dcd223e083e2cf31c"
   },
   {
    "name": "fontes-energeticas",
@@ -2133,7 +2133,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -2149,7 +2149,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:283ffa6c1cae899b2450b9552fd7a626b245d1b20ce223949b3b1f7b8ba656c5"
+   "ficha_id": "sha256:c923b09a26c7231bb677b91a4e416f65cd2500b7b858fec505b9bd454db93386"
   },
   {
    "name": "imagens-aereas-do-desastre-mariana-mg",
@@ -2182,7 +2182,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -2198,7 +2198,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:1bec2298d4177032282814f12a6bdcddaf0f77caf2097927daffaa40d5f26029"
+   "ficha_id": "sha256:1fd8c1befb34f7eaa82c7f3d6a778b57695ba76ec36551d86a60ab84fd259dd0"
   },
   {
    "name": "importador-exportador-de-fauna-e-flora-produtos-parte",
@@ -2231,7 +2231,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -2247,7 +2247,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:c0db51c647c6fbc7b751a06dae6fd9e5f01bd0d995f1c46d772a952a311b9ca9"
+   "ficha_id": "sha256:e8921a24fb4af6d3c54918938cc23d793eb7ff58f16ff79685660f41cad9122c"
   },
   {
    "name": "julgamentos-de-auto-de-infracao-realizado-no-ambito-do-ibama",
@@ -2280,7 +2280,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -2298,7 +2298,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:fec3ab7f390e79b0c0c43f081af70eb6575f87167c8c8c55e6a07eac56abbb86"
+   "ficha_id": "sha256:8354e0c902c4d20f28d53d6e0c9a44430f664a3ed638e509d226117bb797f119"
   },
   {
    "name": "licencas-ambientais-de-atividades-e-empreendimentos-licenciados-pelo-ibama",
@@ -2331,7 +2331,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -2350,7 +2350,7 @@
     "signal",
     "unrecorded_change"
    ],
-   "ficha_id": "sha256:ebfe9b86b5e62c913bfdef216ea1e614f049a22bbf912cc7ea47245bac1d82d1"
+   "ficha_id": "sha256:ab769bb0e771666a1139d2823257a213bc731b8ffcad1745cdfad7c1afde5501"
   },
   {
    "name": "multas-ambientais-distribuidas-por-bens-tutelados",
@@ -2383,7 +2383,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -2401,7 +2401,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:a57633a8122459a043390285cc900e4e228ed27d7f9bfc568b5401313239fcbe"
+   "ficha_id": "sha256:481c7ac8f01201d0bbbba4c5ad2020001e3752d58e4227675a62114d41db82c9"
   },
   {
    "name": "pescador-profissional",
@@ -2434,7 +2434,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -2450,7 +2450,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:e05e7e9b8f17498af8bc359f89d31b1c2dd556294f4bc95e8da406b02891d058"
+   "ficha_id": "sha256:14580130413d9c3e5b9f7bd1a9452ed2e46bff39edda76f0a7485951a6e141e4"
   },
   {
    "name": "pessoas-juridicas-inscritas-no-ctf-aida",
@@ -2483,7 +2483,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -2499,7 +2499,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:326caaab05bd19fac1d35855bab2d3e16a4d95a2367ba710ea99ea0a73bb61f7"
+   "ficha_id": "sha256:3f2de87eebac29c5a247574aff8df3f3ff52a4608eb101431dabebf0df8aabd6"
   },
   {
    "name": "pessoas-juridicas-inscritas-no-ctf-app",
@@ -2532,7 +2532,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -2558,7 +2558,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:208d9457520d81f18ff3e010a64394c7e9335b857ca7c58d3dfe2903c453dcd7"
+   "ficha_id": "sha256:292c6092eb619230925957ab2e3f320240fc4619c54b460758724561aff99b95"
   },
   {
    "name": "plantacao-vegetacao-nativa",
@@ -2591,7 +2591,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -2607,7 +2607,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:a72243371158b1ddbd62ed584b8154d09da1fd875dcff2afd3cbdf31122c0f30"
+   "ficha_id": "sha256:a6fb0c8bdd0feb6d8d8e46320eab3fb3ab1b1b16e7f4c02afb57db28465cb904"
   },
   {
    "name": "produtos-reciclados",
@@ -2640,7 +2640,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -2656,7 +2656,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:101875cb14b937f51979b51424c209218cb8c897aeed712945de8d39fdd0564c"
+   "ficha_id": "sha256:19d3ce6ffe9451415e7d1fd505b400044da4ec2099714a5149064a0d0e0940bf"
   },
   {
    "name": "rapp-pilhas-e-baterias-fabricante-nacional",
@@ -2689,7 +2689,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -2715,7 +2715,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:7f2bd127f0ca604e8d34bfef9d8ede42dec5f8652ec78996d2dcb1ef473d99b1"
+   "ficha_id": "sha256:ce6acc4d989edece944c347379a24e570fe114f2f8a5de452ea8dda89d0c5ffa"
   },
   {
    "name": "rapp-pilhas-e-baterias-importador",
@@ -2748,7 +2748,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -2775,7 +2775,7 @@
     "signal",
     "simultaneous"
    ],
-   "ficha_id": "sha256:0c646b1824e925f885cf3dc5f037476c8563dd086fe43016603c45080b170442"
+   "ficha_id": "sha256:c9eefddc21aa5d531f4b4c3898346249cb60e7c1f2155b4825125b8346b35e81"
   },
   {
    "name": "rapp-pilhas-e-baterias-reciclador",
@@ -2808,7 +2808,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -2834,7 +2834,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:c9990dd8c33fcb210bdb7ce2455a2127820d716fc8c29b5aa918bf320c11732e"
+   "ficha_id": "sha256:327bf4abc7b06b3f5b32acb30a086cba5d9abb4fdd2640f7d46a7694b83dbffb"
   },
   {
    "name": "relatorios-de-comercializacao-de-agrotoxicos",
@@ -2867,7 +2867,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -2886,7 +2886,7 @@
     "signal",
     "unrecorded_change"
    ],
-   "ficha_id": "sha256:b066b248f7a467c01126bfce62872d20a64a9b537fd94160619737b0af6f50d5"
+   "ficha_id": "sha256:dcbbc16a08b073b2b379f1635a9cb9e046984608481d1e7a9d6c15ad4a203b34"
   },
   {
    "name": "residuos-solidos-armazenador",
@@ -2919,7 +2919,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -2935,7 +2935,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:4c91a75d713d3034edeae881653f34753562781adfc0a4eb6af6d4cde0b2945a"
+   "ficha_id": "sha256:3bf1a3ccf4ba172b30f7b04e9d9881faaf778ddf3c5116f9dd380d8451cafd44"
   },
   {
    "name": "residuos-solidos-destinador",
@@ -2968,7 +2968,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -2984,7 +2984,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:749f7c24324705bde6c82a12fa2fd310a6865ee8a4fa0483d4fa12fa8e5cb30e"
+   "ficha_id": "sha256:f9f9452645676f3215654d6a0e423b05c52745c6e299229244e15107b2152f9d"
   },
   {
    "name": "residuos-solidos-gerador-a-partir-de-2012",
@@ -3017,7 +3017,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -3033,7 +3033,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:736aafc1ce4ea9a0df21708288f22d82d85f97a3eb99ce84a2427d174066aae2"
+   "ficha_id": "sha256:14340091528701040c19e9f91bc9572aab133f24e2a673b47577cf416d054083"
   },
   {
    "name": "residuos-solidos-gerador-anterior-a-2012",
@@ -3066,7 +3066,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -3082,7 +3082,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:b6e215e8b55a4185052f59a8bb7ae1cead907eb3e35f4ce6932264e8f88ff011"
+   "ficha_id": "sha256:fb7f410f52498ccebec4b23e2c4b43fea7586cc7c2cbad45f7fd861526f8f0d3"
   },
   {
    "name": "residuos-solidos-transportador",
@@ -3115,7 +3115,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -3131,7 +3131,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:c3d14df6b77f6180e030c4928075167813210651260eaf40c4a1e3dc24e3f657"
+   "ficha_id": "sha256:3fcfad70c5535e16044e14227aab5855ea332353ce70bde60487287e6618a87d"
   },
   {
    "name": "siema-comunicado-de-acidente-ambiental",
@@ -3164,7 +3164,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -3180,7 +3180,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:238f0f9650ff7268c268e230d66c9395b3d9e6b9b0b0e9f8fc082a5f6cf862aa"
+   "ficha_id": "sha256:def19290d327aa922dacb71987c86385eee734ca5fd6b18529de8b26caeb49ea"
   },
   {
    "name": "silvicultura",
@@ -3213,7 +3213,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -3229,7 +3229,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:2567225c6915bf1213e0879ea79498769698b1a5eed20e73ce95193b05fd0eb0"
+   "ficha_id": "sha256:75915b2c938743070460fe8f6061368d2592503269705a61dde19221c4d3fd60"
   },
   {
    "name": "sinaflor-autorizacao-de-supressao-de-vegetacao",
@@ -3262,7 +3262,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -3288,7 +3288,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:e3a3c1080334ac82ac4fc398d9a4a649271bc1a0ead8749ccb9e239b9a8826b6"
+   "ficha_id": "sha256:cc037222ffcd5f706e393e6b676faade5576414aca341729cbcfa986b0af5b67"
   },
   {
    "name": "sinaflor-autorizacao-de-utilizacao-de-materia-prima-florestal",
@@ -3321,7 +3321,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -3337,7 +3337,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:969cee6ed00424c6a50ca8f9cf2c3a66acc8a62e2cb344c7101dd702c7ee24d2"
+   "ficha_id": "sha256:cf520793f31c1287edb2fc5668a1106b05a742909b473757fc0a66253f55ac1f"
   },
   {
    "name": "sinaflor-autorizacao-especial",
@@ -3370,7 +3370,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -3396,7 +3396,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:892302d26d56a825fa811ddd255f536358447a03c999eca94067a35f313b21fd"
+   "ficha_id": "sha256:88e047534d0321b48f79356bbac71773960ca84ae407750c740e4acf82a0440f"
   },
   {
    "name": "sinaflor-corte-de-arvores-isoladas",
@@ -3429,7 +3429,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -3455,7 +3455,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:621cf8114a7dd608583f5f13a4dde589e63ad453b7ea7a49a96bb934d491f0d6"
+   "ficha_id": "sha256:6e0f078c536886cab636663406eb41f04c6a3ee96eeec68047bdd784513483d1"
   },
   {
    "name": "sinaflor-empreendimentos-de-base-florestal",
@@ -3488,7 +3488,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -3515,7 +3515,7 @@
     "signal",
     "simultaneous"
    ],
-   "ficha_id": "sha256:cb47b815874975f03037df6cec53288c82880b74698d8a8d207bb1a79cfc9f0b"
+   "ficha_id": "sha256:18eba87a6309c7e4c4ebfc06907ffbd6e9ea569da1db6bf5ef3a1f1fc1365880"
   },
   {
    "name": "sinaflor-exploracao-de-floresta-plantada",
@@ -3548,7 +3548,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -3574,7 +3574,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:14776b25becf8a821dcdcb5638d4f131e8b8a62e40a35460960f4e336f5bcce7"
+   "ficha_id": "sha256:b2e22fe5848453b4e356b0beef6a71a930a53cfc970f60d30179b798ae8a803b"
   },
   {
    "name": "sinaflor-pmfs-amazonia-legal",
@@ -3607,7 +3607,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -3634,7 +3634,7 @@
     "signal",
     "unrecorded_change"
    ],
-   "ficha_id": "sha256:0df5bda75b46ac4c521a9b92e37801594b8a04d120bb0d1e9d7766d28e1d3477"
+   "ficha_id": "sha256:479dde041c3b6fda96a3a4fe90d3b3b839e6a2ae32d21c7c42f84e8c2210f11a"
   },
   {
    "name": "sinaflor-pmfs-outros-biomas",
@@ -3667,7 +3667,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -3693,7 +3693,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:c5dc6c28dd9021761871363a01796c7b24f27410d482e0d654bdd05d9f516058"
+   "ficha_id": "sha256:1467b2313c5a90485b2a585588d12586ef7c7c5b45739d1876010bcf74cd3b3c"
   },
   {
    "name": "sinaflor-poa-amazonia-legal",
@@ -3726,7 +3726,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -3752,7 +3752,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:f91c7fa2759a8c64f06fc5a611a0df9aa578c17edf701926d0eb509b2d941f41"
+   "ficha_id": "sha256:f8e6c420be77dcfda409366a9c4e93bc17098538b3f7bbec502910a003df3d81"
   },
   {
    "name": "sinaflor-poa-outros-biomas",
@@ -3785,7 +3785,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -3811,7 +3811,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:ded702158c6714747e1c1700f10325512ccb42cdd47aa70f5c4c870945cdbfaf"
+   "ficha_id": "sha256:0aa2bf174dda38fb825dbe3bc149e8bcb3053691ccc7a2ab6d532bc660b5e522"
   },
   {
    "name": "sinaflor-responsavel-tecnico",
@@ -3844,7 +3844,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -3870,7 +3870,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:503446245dfee38a6926be1d9d44995cd57025746dbd7f26f164570ddc074856"
+   "ficha_id": "sha256:e1f4e757649cea7404a67d6fd75674c1afaeb197c2a683b6a3e974955fb0359f"
   },
   {
    "name": "sinaflor-uso-alternativo-do-solo",
@@ -3903,7 +3903,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -3929,7 +3929,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:55171138d2f450fbc52afb618af3e0451d2810fcf88242e26349e8f688b58738"
+   "ficha_id": "sha256:252681bae0eee91f21b7b3599133ec32f0dfb015a9875cb289df8fec90520576"
   },
   {
    "name": "sinaflor-uso-alternativo-do-solo-agricultor-familiar",
@@ -3962,7 +3962,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -3988,7 +3988,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:d86e86c0fb58c92721f4d36b37aee316439c0c4b014c3757f062d72190f7a8dc"
+   "ficha_id": "sha256:e64dfedf9992efafd2abfda38958ae86472b8b4a8e5a18a4267cfcc3db719c7c"
   },
   {
    "name": "siscites-licencas-de-fauna-e-flora-emitidas",
@@ -4021,7 +4021,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -4040,7 +4040,7 @@
     "signal",
     "unrecorded_change"
    ],
-   "ficha_id": "sha256:65f9fd6b6bf1e0878996881083d6f7a68aca2403e1c857a726f4db2c7b09b995"
+   "ficha_id": "sha256:b71702efa7049ed232cd50b120827ef93207a0f7d67e6921d3423245cb174b04"
   },
   {
    "name": "sisfauna-comercializacao-de-partes-produtos",
@@ -4073,7 +4073,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -4089,7 +4089,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:5bce741c1e5d925407778d627e983ffc1fa0ae32e727ae68362ff8a4dd14fcfe"
+   "ficha_id": "sha256:5ae2dd8dc10e1fe2d10c4981bfa179edd39b99c23b1ccd60c27c6080a203eec7"
   },
   {
    "name": "sisfauna-plantel-estimado",
@@ -4122,7 +4122,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -4138,7 +4138,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:e473cd4ab0ec7bd07917b52bf6509c75e9e3bf7f591fdde801055513c9a3c241"
+   "ficha_id": "sha256:df99772be68d7871e67cc97183232f08641a21afb8e2d45362c73ce0c220395b"
   },
   {
    "name": "sisfauna-plantel-exato",
@@ -4171,7 +4171,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -4187,7 +4187,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:9584e6a5556516bd0d1b3f318747b758a07bcf394c013bf37ecb486c7d485b57"
+   "ficha_id": "sha256:740223651724eba777c17f113c7601ec7f7d03b07d4cf5b8b7364629f3e1e6fc"
   },
   {
    "name": "sisfogo-roi",
@@ -4220,7 +4220,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -4246,7 +4246,7 @@
    "finding_kinds": [
     "signal"
    ],
-   "ficha_id": "sha256:bac3fb24b1bca5f65435d14de502a5d6fab01f8f729263c3d556f1af3fff5bb8"
+   "ficha_id": "sha256:f7fc7ec284b06b554e8d0c83fe9bfa26dd82fd7ce72458ac5dc7c5c719128388"
   },
   {
    "name": "supressao-de-vegetacao-nao-florestal-no-bioma-amazonia",
@@ -4279,7 +4279,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -4295,7 +4295,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:272ec8bc6836b4022e9080bf3730293f625f8fabd4c70e2eb51bb67776e3414b"
+   "ficha_id": "sha256:da34d298403b99bcef93e6fae4101f345cc9d81c891b7093d13ac33401c4883f"
   },
   {
    "name": "termos-de-embargo",
@@ -4328,7 +4328,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -4344,7 +4344,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:aa17d19bb2c53277e7fe6a36583ff51b952c6587ceaa15c58830fca62394bf10"
+   "ficha_id": "sha256:b76bc4ae526c7f633e4914688673988d3e59025fca3411a22f502ecd0aee5ca9"
   },
   {
    "name": "transporte-de-produtos-quimicos-perigosos-ou-combustiveis",
@@ -4377,7 +4377,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -4393,7 +4393,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:94c1aa329b830d6d237d806ba77b1cb16efea16e79e28918cab83b7a05ca9890"
+   "ficha_id": "sha256:f49d149539067d833da2f0650e1eafc8549c22d48a97ad876b6b83cfd838f659"
   },
   {
    "name": "unidade-poluidora",
@@ -4426,7 +4426,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -4442,7 +4442,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:b879a5b777501be3a33e0c368e82acd0737be0558a15f981bba28cd1e97fc89e"
+   "ficha_id": "sha256:b131ca791fbc6e16feba8c91553e970c17232ac4fc3f4537cda6a1ceeceef6f0"
   },
   {
    "name": "unidades-ibama",
@@ -4475,7 +4475,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -4491,7 +4491,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:a58352e0dcbe3aebcc7ec89884ac55abb26cb9cb6e211aa34facc9579584685f"
+   "ficha_id": "sha256:912556860acfa1e961124f5d0fce25b25dfe001b38ea85202c00bc93525b91d7"
   },
   {
    "name": "vegetacao-de-mangue-brasileira",
@@ -4524,7 +4524,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -4540,7 +4540,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:1dd09420c3c2c360b7515094459566ece18c9d9ec525d1a28ae5c48503debe64"
+   "ficha_id": "sha256:49ab7eeb0fdd313b06360fe930f391b06c514a7a695bfc958cb74e8d127ff398"
   },
   {
    "name": "vias-despavimentadas",
@@ -4573,7 +4573,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -4589,7 +4589,7 @@
    },
    "findings": 0,
    "finding_kinds": [],
-   "ficha_id": "sha256:1118ffe717b8109e74bdf62554209961e9507b3a0ddf8ca53bb1cc3a5907dc3d"
+   "ficha_id": "sha256:51e762f436e05a383b9483c303e0fbd323f87efcee943c35da890a15c30cfaff"
   },
   {
    "name": "volumes-explorados-if-100",
@@ -4622,7 +4622,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -4649,7 +4649,7 @@
     "signal",
     "unrecorded_change"
    ],
-   "ficha_id": "sha256:e18af0bf91c6953a5bd523545138100151ef90373f3914d663912fb52a252a5c"
+   "ficha_id": "sha256:7e39e0d25133dc665d18bb6c04aa77d65ed5bf71b7c32e047213b9ecde28f844"
   },
   {
    "name": "volumes-explorados-inventario-amostral",
@@ -4682,7 +4682,7 @@
      "status": "valid",
      "rate": 1.0,
      "reason": null,
-     "evaluated_at": "2026-11-08T05:55:07+00:00",
+     "evaluated_at": "2026-11-09T06:16:44+00:00",
      "current": true
     }
    },
@@ -4709,7 +4709,7 @@
     "signal",
     "simultaneous"
    ],
-   "ficha_id": "sha256:4a51f9692d551ad7c83205a4ae841b33a888cd8315c0f8a31f5375e6ba18b209"
+   "ficha_id": "sha256:e27bbdd32637076e8efcb29f6059768be0ae3a0fbd5a3a0db44884ec40d1f151"
   }
  ]
 }
