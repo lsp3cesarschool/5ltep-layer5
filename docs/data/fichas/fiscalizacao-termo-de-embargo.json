@@ -12,18 +12,18 @@
  "qs": {
   "kind": "partial",
   "factor": 1.0,
-  "coverage": 0.5,
+  "coverage": 0.8,
   "valid_layers": [
    "L1",
+   "L2",
    "L4"
   ],
   "integrity": [],
-  "low": 0.3125,
-  "high": 0.8125,
+  "low": 0.6124474187729586,
+  "high": 0.8124474187729587,
   "band": "alert",
   "eligible": false,
   "missing_layers": [
-   "L2",
    "L3"
   ]
  },
@@ -32,8 +32,8 @@
    "status": "valid",
    "reason": null,
    "rate": 0.375,
-   "evaluated_at": "2026-11-02T12:20:57+00:00",
-   "current": true,
+   "evaluated_at": "2026-11-09T13:45:27+00:00",
+   "current": false,
    "facts": {
     "level": 1,
     "tables": 8,
@@ -50,17 +50,17 @@
    ]
   },
   "L2": {
-   "status": "expired",
-   "reason": "summary_too_old",
-   "rate": 0.999824281384077,
-   "evaluated_at": "2026-10-21T09:30:33+00:00",
-   "current": null,
+   "status": "valid",
+   "reason": null,
+   "rate": 0.9998247292431954,
+   "evaluated_at": "2026-11-10T12:06:38+00:00",
+   "current": true,
    "facts": {
     "rules": [
      "embargo-date-implausible",
      "lifted-before-embargo"
     ],
-    "checks": 136582,
+    "checks": 136931,
     "signals": 24,
     "not_evaluated": []
    },
@@ -68,14 +68,14 @@
     {
      "key": "L2:embargo-date-implausible",
      "count": 8,
-     "en": "8 signal(s) of rule 'Embargo date outside a plausible range' in 116877 check(s)",
-     "pt": "8 sinal(is) da regra 'Data do embargo fora de faixa plausível' em 116877 verificação(ões)"
+     "en": "8 signal(s) of rule 'Embargo date outside a plausible range' in 117133 check(s)",
+     "pt": "8 sinal(is) da regra 'Data do embargo fora de faixa plausível' em 117133 verificação(ões)"
     },
     {
      "key": "L2:lifted-before-embargo",
      "count": 16,
-     "en": "16 signal(s) of rule 'Embargo lifted before it was imposed' in 19705 check(s)",
-     "pt": "16 sinal(is) da regra 'Desembargo anterior ao embargo' em 19705 verificação(ões)"
+     "en": "16 signal(s) of rule 'Embargo lifted before it was imposed' in 19798 check(s)",
+     "pt": "16 sinal(is) da regra 'Desembargo anterior ao embargo' em 19798 verificação(ões)"
     }
    ]
   },
@@ -92,10 +92,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-09T06:16:44+00:00",
+   "evaluated_at": "2026-11-10T07:10:44+00:00",
    "current": true,
    "facts": {
-    "observations": 96,
+    "observations": 95,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/4b292c2e-56bb-4639-9ea2-a9b02fea9558#ac484a83530c"
    },
@@ -175,8 +175,8 @@
    "key": "L2:embargo-date-implausible",
    "count": 8,
    "when": null,
-   "en": "8 signal(s) of rule 'Embargo date outside a plausible range' in 116877 check(s)",
-   "pt": "8 sinal(is) da regra 'Data do embargo fora de faixa plausível' em 116877 verificação(ões)"
+   "en": "8 signal(s) of rule 'Embargo date outside a plausible range' in 117133 check(s)",
+   "pt": "8 sinal(is) da regra 'Data do embargo fora de faixa plausível' em 117133 verificação(ões)"
   },
   {
    "layer": "L2",
@@ -184,8 +184,8 @@
    "key": "L2:lifted-before-embargo",
    "count": 16,
    "when": null,
-   "en": "16 signal(s) of rule 'Embargo lifted before it was imposed' in 19705 check(s)",
-   "pt": "16 sinal(is) da regra 'Desembargo anterior ao embargo' em 19705 verificação(ões)"
+   "en": "16 signal(s) of rule 'Embargo lifted before it was imposed' in 19798 check(s)",
+   "pt": "16 sinal(is) da regra 'Desembargo anterior ao embargo' em 19798 verificação(ões)"
   },
   {
    "layer": "L4",
@@ -262,10 +262,74 @@
   {
    "layer": "L5",
    "kind": "unrecorded_change",
-   "when": "2026-11-02T11:32:21+00:00",
+   "when": "2026-11-09T13:20:57+00:00",
    "resource_id": "8f88b43e-287a-470b-a730-db440f9e37fa",
-   "en": "the bytes of resource 8f88b43e-287a-470b-a730-db440f9e37fa changed between 2026-10-21 and 2026-11-02 with no change in the portal metadata",
-   "pt": "os bytes do recurso 8f88b43e-287a-470b-a730-db440f9e37fa mudaram entre 2026-10-21 e 2026-11-02 sem mudança nos metadados do portal"
+   "en": "the bytes of resource 8f88b43e-287a-470b-a730-db440f9e37fa changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
+   "pt": "os bytes do recurso 8f88b43e-287a-470b-a730-db440f9e37fa mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-11-10T12:05:32+00:00",
+   "resource_id": "8f88b43e-287a-470b-a730-db440f9e37fa",
+   "en": "the bytes of resource 8f88b43e-287a-470b-a730-db440f9e37fa changed between 2026-11-09 and 2026-11-10 with no change in the portal metadata",
+   "pt": "os bytes do recurso 8f88b43e-287a-470b-a730-db440f9e37fa mudaram entre 2026-11-09 e 2026-11-10 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-11-09T13:23:09+00:00",
+   "resource_id": "aba90ea8-e2f3-431e-a0cc-1ae24773843b",
+   "en": "the bytes of resource aba90ea8-e2f3-431e-a0cc-1ae24773843b changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
+   "pt": "os bytes do recurso aba90ea8-e2f3-431e-a0cc-1ae24773843b mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-11-09T13:45:19+00:00",
+   "resource_id": "90d17ce7-6a9b-4bfb-804c-6d52e43af264",
+   "en": "the bytes of resource 90d17ce7-6a9b-4bfb-804c-6d52e43af264 changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
+   "pt": "os bytes do recurso 90d17ce7-6a9b-4bfb-804c-6d52e43af264 mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-11-09T13:45:22+00:00",
+   "resource_id": "3360882c-a038-4129-a1f0-7013af37926a",
+   "en": "the bytes of resource 3360882c-a038-4129-a1f0-7013af37926a changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
+   "pt": "os bytes do recurso 3360882c-a038-4129-a1f0-7013af37926a mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-11-09T13:23:12+00:00",
+   "resource_id": "0a4284aa-e142-4d6d-823f-9958f26c829e",
+   "en": "the bytes of resource 0a4284aa-e142-4d6d-823f-9958f26c829e changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
+   "pt": "os bytes do recurso 0a4284aa-e142-4d6d-823f-9958f26c829e mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-11-09T13:45:24+00:00",
+   "resource_id": "ccdbf737-0fbf-4547-adf6-267204aa4413",
+   "en": "the bytes of resource ccdbf737-0fbf-4547-adf6-267204aa4413 changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
+   "pt": "os bytes do recurso ccdbf737-0fbf-4547-adf6-267204aa4413 mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-11-09T13:45:27+00:00",
+   "resource_id": "21347475-cd71-41de-a677-f0fbaa8c02b2",
+   "en": "the bytes of resource 21347475-cd71-41de-a677-f0fbaa8c02b2 changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
+   "pt": "os bytes do recurso 21347475-cd71-41de-a677-f0fbaa8c02b2 mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-11-09T13:23:38+00:00",
+   "resource_id": "04f7998d-58e1-4717-85f5-401dc9994b19",
+   "en": "the bytes of resource 04f7998d-58e1-4717-85f5-401dc9994b19 changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
+   "pt": "os bytes do recurso 04f7998d-58e1-4717-85f5-401dc9994b19 mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
   },
   {
    "layer": "L4",
@@ -524,22 +588,22 @@
   "L1": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-02T12:37:26+00:00",
+   "generated_at": "2026-11-09T13:53:57+00:00",
    "files": [
     {
      "path": "results/layer1_summary.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/layer1_summary.json",
      "commit": {
-      "sha": "035cd6b1f8f5fd971a77a72dd2b8eaf759342e91",
-      "date": "2026-11-02T12:37:26Z"
+      "sha": "670a6179b359ad321ce35c517851f62a5e83b514",
+      "date": "2026-11-09T13:53:57Z"
      }
     },
     {
      "path": "results/validation.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/validation.json",
      "commit": {
-      "sha": "035cd6b1f8f5fd971a77a72dd2b8eaf759342e91",
-      "date": "2026-11-02T12:37:26Z"
+      "sha": "670a6179b359ad321ce35c517851f62a5e83b514",
+      "date": "2026-11-09T13:53:57Z"
      }
     }
    ],
@@ -548,14 +612,14 @@
   "L2": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-21T09:31:58+00:00",
+   "generated_at": "2026-11-10T12:08:00+00:00",
    "files": [
     {
      "path": "docs/data/layer2.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2/main/docs/data/layer2.json",
      "commit": {
-      "sha": "dc591712070b78f347d34fcec0ec13bc0ae33c59",
-      "date": "2026-10-21T09:32:19Z"
+      "sha": "a37d862eaf74c7c183fc61faf1655cbbea8a5320",
+      "date": "2026-11-10T12:08:20Z"
      }
     }
    ],
@@ -588,30 +652,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-09T06:17:00.829614+00:00",
+   "generated_at": "2026-11-10T07:11:06.394446+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "f5f7fd205c281c2bba8f37bb0d81a7b58dfb631a",
-      "date": "2026-11-09T06:17:00Z"
+      "sha": "790f93283961b007671c19b3b284867a9d713239",
+      "date": "2026-11-10T07:11:06Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "be5acb91c334e47135fe97b3233c1cade88e5506",
-      "date": "2026-11-09T11:57:55Z"
+      "sha": "9828e484d6953b6ba473d001b57377550a75983c",
+      "date": "2026-11-10T11:32:08Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "f5f7fd205c281c2bba8f37bb0d81a7b58dfb631a",
-      "date": "2026-11-09T06:17:00Z"
+      "sha": "790f93283961b007671c19b3b284867a9d713239",
+      "date": "2026-11-10T07:11:06Z"
      }
     }
    ],
@@ -663,19 +727,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-09T13:49:01+00:00",
+ "generated_at": "2026-11-10T12:09:32+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "6656d225e130ab37c55c363f00bcda53f95d9fc0",
-  "run_id": "42628776323"
+  "commit": "36fa8c6c09e29f5ad665e7835b014a5ac7c668ab",
+  "run_id": "42813343962"
  },
  "ficha": {
-  "id": "sha256:2e4c6bc396a1510e3c840caeb49a76258a62794c87baa32f02aa8507f75b0b2c",
+  "id": "sha256:80f7ec0210b6a8e532371a0bf02367c78c6972808d3bda9430a3d6accb7f99da",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-embargo",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/fiscalizacao-termo-de-embargo.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'fiscalizacao-termo-de-embargo' (IBAMA), 2026-11-09, sha256:2e4c6bc396a1510e…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-embargo",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-termo-de-embargo' (IBAMA), 2026-11-09, sha256:2e4c6bc396a1510e…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-embargo"
+   "en": "5L-TEP Layer 5 record of 'fiscalizacao-termo-de-embargo' (IBAMA), 2026-11-10, sha256:80f7ec0210b6a8e5…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-embargo",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-termo-de-embargo' (IBAMA), 2026-11-10, sha256:80f7ec0210b6a8e5…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-embargo"
   }
  }
 }

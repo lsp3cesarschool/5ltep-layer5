@@ -10,21 +10,29 @@
   "portal_page": "https://dadosabertos.ibama.gov.br/dataset/relatorios-de-comercializacao-de-agrotoxicos"
  },
  "qs": {
-  "kind": "none",
+  "kind": "partial",
   "factor": 1.0,
-  "coverage": 0.2,
+  "coverage": 0.5,
   "valid_layers": [
+   "L2",
    "L4"
   ],
   "integrity": [],
-  "band": null
+  "low": 0.45544611819235226,
+  "high": 0.9554461181923523,
+  "band": "undetermined",
+  "eligible": false,
+  "missing_layers": [
+   "L1",
+   "L3"
+  ]
  },
  "layers": {
   "L1": {
    "status": "missing",
    "reason": "l1_level0",
    "rate": null,
-   "evaluated_at": "2026-11-02T12:23:48+00:00",
+   "evaluated_at": "2026-11-09T13:46:42+00:00",
    "current": null,
    "facts": {
     "level": 0,
@@ -35,25 +43,25 @@
    "signals": []
   },
   "L2": {
-   "status": "expired",
-   "reason": "summary_too_old",
-   "rate": 0.851584643133213,
-   "evaluated_at": "2026-10-21T09:31:57+00:00",
-   "current": null,
+   "status": "valid",
+   "reason": null,
+   "rate": 0.8514870606411742,
+   "evaluated_at": "2026-11-10T12:07:59+00:00",
+   "current": true,
    "facts": {
     "rules": [
      "ingredient-without-registered-technical-product"
     ],
-    "checks": 15524,
-    "signals": 2304,
+    "checks": 15534,
+    "signals": 2307,
     "not_evaluated": []
    },
    "signals": [
     {
      "key": "L2:ingredient-without-registered-technical-product",
-     "count": 2304,
-     "en": "2304 signal(s) of rule 'Active ingredient sold without a registered technical product in AGROFIT' in 15524 check(s)",
-     "pt": "2304 sinal(is) da regra 'Ingrediente ativo vendido sem produto técnico registrado no AGROFIT' em 15524 verificação(ões)"
+     "count": 2307,
+     "en": "2307 signal(s) of rule 'Active ingredient sold without a registered technical product in AGROFIT' in 15534 check(s)",
+     "pt": "2307 sinal(is) da regra 'Ingrediente ativo vendido sem produto técnico registrado no AGROFIT' em 15534 verificação(ões)"
     }
    ]
   },
@@ -70,10 +78,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-09T06:16:44+00:00",
+   "evaluated_at": "2026-11-10T07:10:44+00:00",
    "current": true,
    "facts": {
-    "observations": 96,
+    "observations": 95,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/b705b94b-e5b9-4246-9038-eaf1ecd4ff04#6c1ba666f510"
    },
@@ -93,10 +101,10 @@
    "layer": "L2",
    "kind": "signal",
    "key": "L2:ingredient-without-registered-technical-product",
-   "count": 2304,
+   "count": 2307,
    "when": null,
-   "en": "2304 signal(s) of rule 'Active ingredient sold without a registered technical product in AGROFIT' in 15524 check(s)",
-   "pt": "2304 sinal(is) da regra 'Ingrediente ativo vendido sem produto técnico registrado no AGROFIT' em 15524 verificação(ões)"
+   "en": "2307 signal(s) of rule 'Active ingredient sold without a registered technical product in AGROFIT' in 15534 check(s)",
+   "pt": "2307 sinal(is) da regra 'Ingrediente ativo vendido sem produto técnico registrado no AGROFIT' em 15534 verificação(ões)"
   },
   {
    "layer": "L4",
@@ -110,10 +118,34 @@
   {
    "layer": "L5",
    "kind": "unrecorded_change",
-   "when": "2026-11-02T12:23:42+00:00",
+   "when": "2026-11-09T13:46:36+00:00",
    "resource_id": "5baa8719-cbc7-4a31-956c-d8d016ab5672",
-   "en": "the bytes of resource 5baa8719-cbc7-4a31-956c-d8d016ab5672 changed between 2026-10-21 and 2026-11-02 with no change in the portal metadata",
-   "pt": "os bytes do recurso 5baa8719-cbc7-4a31-956c-d8d016ab5672 mudaram entre 2026-10-21 e 2026-11-02 sem mudança nos metadados do portal"
+   "en": "the bytes of resource 5baa8719-cbc7-4a31-956c-d8d016ab5672 changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
+   "pt": "os bytes do recurso 5baa8719-cbc7-4a31-956c-d8d016ab5672 mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-11-10T12:05:32+00:00",
+   "resource_id": "5baa8719-cbc7-4a31-956c-d8d016ab5672",
+   "en": "the bytes of resource 5baa8719-cbc7-4a31-956c-d8d016ab5672 changed between 2026-11-09 and 2026-11-10 with no change in the portal metadata",
+   "pt": "os bytes do recurso 5baa8719-cbc7-4a31-956c-d8d016ab5672 mudaram entre 2026-11-09 e 2026-11-10 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-11-09T13:24:36+00:00",
+   "resource_id": "1fb9c97f-13b8-4385-95e9-8249b974746c",
+   "en": "the bytes of resource 1fb9c97f-13b8-4385-95e9-8249b974746c changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
+   "pt": "os bytes do recurso 1fb9c97f-13b8-4385-95e9-8249b974746c mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-11-09T13:46:42+00:00",
+   "resource_id": "570e4b24-e728-4887-bd6c-864cc8c9f587",
+   "en": "the bytes of resource 570e4b24-e728-4887-bd6c-864cc8c9f587 changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
+   "pt": "os bytes do recurso 570e4b24-e728-4887-bd6c-864cc8c9f587 mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
   }
  ],
  "outcomes": {
@@ -157,22 +189,22 @@
   "L1": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-02T12:37:26+00:00",
+   "generated_at": "2026-11-09T13:53:57+00:00",
    "files": [
     {
      "path": "results/layer1_summary.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/layer1_summary.json",
      "commit": {
-      "sha": "035cd6b1f8f5fd971a77a72dd2b8eaf759342e91",
-      "date": "2026-11-02T12:37:26Z"
+      "sha": "670a6179b359ad321ce35c517851f62a5e83b514",
+      "date": "2026-11-09T13:53:57Z"
      }
     },
     {
      "path": "results/validation.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/validation.json",
      "commit": {
-      "sha": "035cd6b1f8f5fd971a77a72dd2b8eaf759342e91",
-      "date": "2026-11-02T12:37:26Z"
+      "sha": "670a6179b359ad321ce35c517851f62a5e83b514",
+      "date": "2026-11-09T13:53:57Z"
      }
     }
    ],
@@ -181,14 +213,14 @@
   "L2": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-21T09:31:58+00:00",
+   "generated_at": "2026-11-10T12:08:00+00:00",
    "files": [
     {
      "path": "docs/data/layer2.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2/main/docs/data/layer2.json",
      "commit": {
-      "sha": "dc591712070b78f347d34fcec0ec13bc0ae33c59",
-      "date": "2026-10-21T09:32:19Z"
+      "sha": "a37d862eaf74c7c183fc61faf1655cbbea8a5320",
+      "date": "2026-11-10T12:08:20Z"
      }
     }
    ],
@@ -221,30 +253,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-09T06:17:00.829614+00:00",
+   "generated_at": "2026-11-10T07:11:06.394446+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "f5f7fd205c281c2bba8f37bb0d81a7b58dfb631a",
-      "date": "2026-11-09T06:17:00Z"
+      "sha": "790f93283961b007671c19b3b284867a9d713239",
+      "date": "2026-11-10T07:11:06Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "be5acb91c334e47135fe97b3233c1cade88e5506",
-      "date": "2026-11-09T11:57:55Z"
+      "sha": "9828e484d6953b6ba473d001b57377550a75983c",
+      "date": "2026-11-10T11:32:08Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "f5f7fd205c281c2bba8f37bb0d81a7b58dfb631a",
-      "date": "2026-11-09T06:17:00Z"
+      "sha": "790f93283961b007671c19b3b284867a9d713239",
+      "date": "2026-11-10T07:11:06Z"
      }
     }
    ],
@@ -296,19 +328,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-09T13:49:01+00:00",
+ "generated_at": "2026-11-10T12:09:32+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "6656d225e130ab37c55c363f00bcda53f95d9fc0",
-  "run_id": "42628776323"
+  "commit": "36fa8c6c09e29f5ad665e7835b014a5ac7c668ab",
+  "run_id": "42813343962"
  },
  "ficha": {
-  "id": "sha256:dcbbc16a08b073b2b379f1635a9cb9e046984608481d1e7a9d6c15ad4a203b34",
+  "id": "sha256:7e194a3292038adb958c42c128634b278dd1b14b9e2abd97470f2402e2e61392",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=relatorios-de-comercializacao-de-agrotoxicos",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/relatorios-de-comercializacao-de-agrotoxicos.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'relatorios-de-comercializacao-de-agrotoxicos' (IBAMA), 2026-11-09, sha256:dcbbc16a08b073b2…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=relatorios-de-comercializacao-de-agrotoxicos",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'relatorios-de-comercializacao-de-agrotoxicos' (IBAMA), 2026-11-09, sha256:dcbbc16a08b073b2…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=relatorios-de-comercializacao-de-agrotoxicos"
+   "en": "5L-TEP Layer 5 record of 'relatorios-de-comercializacao-de-agrotoxicos' (IBAMA), 2026-11-10, sha256:7e194a3292038adb…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=relatorios-de-comercializacao-de-agrotoxicos",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'relatorios-de-comercializacao-de-agrotoxicos' (IBAMA), 2026-11-10, sha256:7e194a3292038adb…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=relatorios-de-comercializacao-de-agrotoxicos"
   }
  }
 }

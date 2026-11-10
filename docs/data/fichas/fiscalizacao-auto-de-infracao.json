@@ -12,19 +12,19 @@
  "qs": {
   "kind": "partial",
   "factor": 1.0,
-  "coverage": 0.4,
+  "coverage": 0.7,
   "valid_layers": [
+   "L2",
    "L3",
    "L4"
   ],
   "integrity": [],
-  "low": 0.4,
-  "high": 1.0,
+  "low": 0.6904449624294602,
+  "high": 0.9904449624294602,
   "band": "undetermined",
   "eligible": false,
   "missing_layers": [
-   "L1",
-   "L2"
+   "L1"
   ]
  },
  "layers": {
@@ -32,7 +32,7 @@
    "status": "missing",
    "reason": "l1_level0",
    "rate": null,
-   "evaluated_at": "2026-11-02T11:36:13+00:00",
+   "evaluated_at": "2026-11-09T13:23:05+00:00",
    "current": null,
    "facts": {
     "level": 0,
@@ -43,17 +43,18 @@
    "signals": []
   },
   "L2": {
-   "status": "expired",
-   "reason": "summary_too_old",
-   "rate": 0.9640672289119062,
-   "evaluated_at": "2026-10-21T09:31:08+00:00",
-   "current": null,
+   "status": "valid",
+   "reason": null,
+   "rate": 0.9681498747648674,
+   "evaluated_at": "2026-11-10T12:07:11+00:00",
+   "current": true,
    "facts": {
     "rules": [
      "act-end-before-start",
      "biomes-without-infraction",
      "embargo-link-without-term",
      "fact-after-issue",
+     "fine-outside-legal-limits",
      "infraction-coordinates-missing-or-zero",
      "issued-over-five-years-after-fact",
      "legal-basis-without-infraction",
@@ -63,76 +64,82 @@
      "species-without-infraction",
      "municipality-state"
     ],
-    "checks": 3592264,
-    "signals": 129080,
+    "checks": 4143406,
+    "signals": 131968,
     "not_evaluated": []
    },
    "signals": [
     {
      "key": "L2:act-end-before-start",
-     "count": 634,
-     "en": "634 signal(s) of rule 'Unequivocal act ending before it starts' in 86649 check(s)",
-     "pt": "634 sinal(is) da regra 'Fim do ato inequívoco anterior ao início' em 86649 verificação(ões)"
+     "count": 636,
+     "en": "636 signal(s) of rule 'Unequivocal act ending before it starts' in 87309 check(s)",
+     "pt": "636 sinal(is) da regra 'Fim do ato inequívoco anterior ao início' em 87309 verificação(ões)"
     },
     {
      "key": "L2:biomes-without-infraction",
-     "count": 23523,
-     "en": "23523 signal(s) of rule 'Biome record without a matching infraction notice' in 295110 check(s)",
-     "pt": "23523 sinal(is) da regra 'Registro de bioma sem auto de infração correspondente' em 295110 verificação(ões)"
+     "count": 23890,
+     "en": "23890 signal(s) of rule 'Biome record without a matching infraction notice' in 296073 check(s)",
+     "pt": "23890 sinal(is) da regra 'Registro de bioma sem auto de infração correspondente' em 296073 verificação(ões)"
     },
     {
      "key": "L2:embargo-link-without-term",
-     "count": 21606,
-     "en": "21606 signal(s) of rule 'Embargo term cited by the notice but not published' in 96838 check(s)",
-     "pt": "21606 sinal(is) da regra 'Termo de embargo citado no auto e não publicado' em 96838 verificação(ões)"
+     "count": 21765,
+     "en": "21765 signal(s) of rule 'Embargo term cited by the notice but not published' in 97011 check(s)",
+     "pt": "21765 sinal(is) da regra 'Termo de embargo citado no auto e não publicado' em 97011 verificação(ões)"
     },
     {
      "key": "L2:fact-after-issue",
-     "count": 2120,
-     "en": "2120 signal(s) of rule 'Offence dated after the infraction notice was issued' in 86654 check(s)",
-     "pt": "2120 sinal(is) da regra 'Fato infracional posterior à lavratura do auto' em 86654 verificação(ões)"
+     "count": 2135,
+     "en": "2135 signal(s) of rule 'Offence dated after the infraction notice was issued' in 87313 check(s)",
+     "pt": "2135 sinal(is) da regra 'Fato infracional posterior à lavratura do auto' em 87313 verificação(ões)"
+    },
+    {
+     "key": "L2:fine-outside-legal-limits",
+     "count": 1489,
+     "en": "1489 signal(s) of rule 'Simple fine outside the legal limits (BRL 50.00 to BRL 50,000,000.00)' in 543482 check(s)",
+     "pt": "1489 sinal(is) da regra 'Multa simples fora dos limites legais (R$ 50,00 a R$ 50.000.000,00)' em 543482 verificação(ões)"
     },
     {
      "key": "L2:infraction-coordinates-missing-or-zero",
-     "count": 28345,
-     "en": "28345 signal(s) of rule 'Infraction notice without coordinates or at (0,0)' in 246557 check(s)",
-     "pt": "28345 sinal(is) da regra 'Auto de infração sem coordenada ou em (0,0)' em 246557 verificação(ões)"
+     "count": 28357,
+     "en": "28357 signal(s) of rule 'Infraction notice without coordinates or at (0,0)' in 247389 check(s)",
+     "pt": "28357 sinal(is) da regra 'Auto de infração sem coordenada ou em (0,0)' em 247389 verificação(ões)"
     },
     {
      "key": "L2:issued-over-five-years-after-fact",
-     "count": 1611,
-     "en": "1611 signal(s) of rule 'Notice issued more than five years after the offence' in 84534 check(s)",
-     "pt": "1611 sinal(is) da regra 'Lavratura mais de cinco anos depois do fato' em 84534 verificação(ões)"
+     "count": 1633,
+     "en": "1633 signal(s) of rule 'Notice issued more than five years after the offence' in 85178 check(s)",
+     "pt": "1633 sinal(is) da regra 'Lavratura mais de cinco anos depois do fato' em 85178 verificação(ões)"
     },
     {
      "key": "L2:legal-basis-without-infraction",
-     "count": 35134,
-     "en": "35134 signal(s) of rule 'Legal basis record without a matching infraction notice' in 690618 check(s)",
-     "pt": "35134 sinal(is) da regra 'Registro de enquadramento sem auto de infração correspondente' em 690618 verificação(ões)"
+     "count": 35604,
+     "en": "35604 signal(s) of rule 'Legal basis record without a matching infraction notice' in 691786 check(s)",
+     "pt": "35604 sinal(is) da regra 'Registro de enquadramento sem auto de infração correspondente' em 691786 verificação(ões)"
     },
     {
      "key": "L2:notice-before-issue",
-     "count": 1096,
-     "en": "1096 signal(s) of rule 'Offender notified before the notice was issued' in 432798 check(s)",
-     "pt": "1096 sinal(is) da regra 'Ciência do autuado anterior à lavratura' em 432798 verificação(ões)"
+     "count": 1100,
+     "en": "1100 signal(s) of rule 'Offender notified before the notice was issued' in 433348 check(s)",
+     "pt": "1100 sinal(is) da regra 'Ciência do autuado anterior à lavratura' em 433348 verificação(ões)"
     },
     {
      "key": "L2:seizure-link-without-term",
-     "count": 10691,
-     "en": "10691 signal(s) of rule 'Seizure term cited by the notice but not published' in 109615 check(s)",
-     "pt": "10691 sinal(is) da regra 'Termo de apreensão citado no auto e não publicado' em 109615 verificação(ões)"
+     "count": 10761,
+     "en": "10761 signal(s) of rule 'Seizure term cited by the notice but not published' in 109684 check(s)",
+     "pt": "10761 sinal(is) da regra 'Termo de apreensão citado no auto e não publicado' em 109684 verificação(ões)"
     },
     {
      "key": "L2:species-without-infraction",
-     "count": 3506,
-     "en": "3506 signal(s) of rule 'Specimen record without a matching infraction notice' in 38167 check(s)",
-     "pt": "3506 sinal(is) da regra 'Registro de espécime sem auto de infração correspondente' em 38167 verificação(ões)"
+     "count": 3784,
+     "en": "3784 signal(s) of rule 'Specimen record without a matching infraction notice' in 38445 check(s)",
+     "pt": "3784 sinal(is) da regra 'Registro de espécime sem auto de infração correspondente' em 38445 verificação(ões)"
     },
     {
      "key": "L2:municipality-state",
      "count": 814,
-     "en": "814 signal(s) of rule 'Municipality code consistent with the state of the same place' in 712362 check(s)",
-     "pt": "814 sinal(is) da regra 'Código do município compatível com a UF do mesmo local' em 712362 verificação(ões)"
+     "en": "814 signal(s) of rule 'Municipality code consistent with the state of the same place' in 713194 check(s)",
+     "pt": "814 sinal(is) da regra 'Código do município compatível com a UF do mesmo local' em 713194 verificação(ões)"
     }
    ]
   },
@@ -141,7 +148,7 @@
    "reason": null,
    "rate": 1.0,
    "evaluated_at": "2026-11-05T13:45:24+00:00",
-   "current": true,
+   "current": false,
    "facts": {
     "profile": "ibama-autos-infracao",
     "window": [
@@ -157,10 +164,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-09T06:16:44+00:00",
+   "evaluated_at": "2026-11-10T07:10:44+00:00",
    "current": true,
    "facts": {
-    "observations": 96,
+    "observations": 95,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/09850847-5ba2-435a-942c-a5dcd7e970c9#af6414f5255a"
    },
@@ -172,91 +179,100 @@
    "layer": "L2",
    "kind": "signal",
    "key": "L2:act-end-before-start",
-   "count": 634,
+   "count": 636,
    "when": null,
-   "en": "634 signal(s) of rule 'Unequivocal act ending before it starts' in 86649 check(s)",
-   "pt": "634 sinal(is) da regra 'Fim do ato inequívoco anterior ao início' em 86649 verificação(ões)"
+   "en": "636 signal(s) of rule 'Unequivocal act ending before it starts' in 87309 check(s)",
+   "pt": "636 sinal(is) da regra 'Fim do ato inequívoco anterior ao início' em 87309 verificação(ões)"
   },
   {
    "layer": "L2",
    "kind": "signal",
    "key": "L2:biomes-without-infraction",
-   "count": 23523,
+   "count": 23890,
    "when": null,
-   "en": "23523 signal(s) of rule 'Biome record without a matching infraction notice' in 295110 check(s)",
-   "pt": "23523 sinal(is) da regra 'Registro de bioma sem auto de infração correspondente' em 295110 verificação(ões)"
+   "en": "23890 signal(s) of rule 'Biome record without a matching infraction notice' in 296073 check(s)",
+   "pt": "23890 sinal(is) da regra 'Registro de bioma sem auto de infração correspondente' em 296073 verificação(ões)"
   },
   {
    "layer": "L2",
    "kind": "signal",
    "key": "L2:embargo-link-without-term",
-   "count": 21606,
+   "count": 21765,
    "when": null,
-   "en": "21606 signal(s) of rule 'Embargo term cited by the notice but not published' in 96838 check(s)",
-   "pt": "21606 sinal(is) da regra 'Termo de embargo citado no auto e não publicado' em 96838 verificação(ões)"
+   "en": "21765 signal(s) of rule 'Embargo term cited by the notice but not published' in 97011 check(s)",
+   "pt": "21765 sinal(is) da regra 'Termo de embargo citado no auto e não publicado' em 97011 verificação(ões)"
   },
   {
    "layer": "L2",
    "kind": "signal",
    "key": "L2:fact-after-issue",
-   "count": 2120,
+   "count": 2135,
    "when": null,
-   "en": "2120 signal(s) of rule 'Offence dated after the infraction notice was issued' in 86654 check(s)",
-   "pt": "2120 sinal(is) da regra 'Fato infracional posterior à lavratura do auto' em 86654 verificação(ões)"
+   "en": "2135 signal(s) of rule 'Offence dated after the infraction notice was issued' in 87313 check(s)",
+   "pt": "2135 sinal(is) da regra 'Fato infracional posterior à lavratura do auto' em 87313 verificação(ões)"
+  },
+  {
+   "layer": "L2",
+   "kind": "signal",
+   "key": "L2:fine-outside-legal-limits",
+   "count": 1489,
+   "when": null,
+   "en": "1489 signal(s) of rule 'Simple fine outside the legal limits (BRL 50.00 to BRL 50,000,000.00)' in 543482 check(s)",
+   "pt": "1489 sinal(is) da regra 'Multa simples fora dos limites legais (R$ 50,00 a R$ 50.000.000,00)' em 543482 verificação(ões)"
   },
   {
    "layer": "L2",
    "kind": "signal",
    "key": "L2:infraction-coordinates-missing-or-zero",
-   "count": 28345,
+   "count": 28357,
    "when": null,
-   "en": "28345 signal(s) of rule 'Infraction notice without coordinates or at (0,0)' in 246557 check(s)",
-   "pt": "28345 sinal(is) da regra 'Auto de infração sem coordenada ou em (0,0)' em 246557 verificação(ões)"
+   "en": "28357 signal(s) of rule 'Infraction notice without coordinates or at (0,0)' in 247389 check(s)",
+   "pt": "28357 sinal(is) da regra 'Auto de infração sem coordenada ou em (0,0)' em 247389 verificação(ões)"
   },
   {
    "layer": "L2",
    "kind": "signal",
    "key": "L2:issued-over-five-years-after-fact",
-   "count": 1611,
+   "count": 1633,
    "when": null,
-   "en": "1611 signal(s) of rule 'Notice issued more than five years after the offence' in 84534 check(s)",
-   "pt": "1611 sinal(is) da regra 'Lavratura mais de cinco anos depois do fato' em 84534 verificação(ões)"
+   "en": "1633 signal(s) of rule 'Notice issued more than five years after the offence' in 85178 check(s)",
+   "pt": "1633 sinal(is) da regra 'Lavratura mais de cinco anos depois do fato' em 85178 verificação(ões)"
   },
   {
    "layer": "L2",
    "kind": "signal",
    "key": "L2:legal-basis-without-infraction",
-   "count": 35134,
+   "count": 35604,
    "when": null,
-   "en": "35134 signal(s) of rule 'Legal basis record without a matching infraction notice' in 690618 check(s)",
-   "pt": "35134 sinal(is) da regra 'Registro de enquadramento sem auto de infração correspondente' em 690618 verificação(ões)"
+   "en": "35604 signal(s) of rule 'Legal basis record without a matching infraction notice' in 691786 check(s)",
+   "pt": "35604 sinal(is) da regra 'Registro de enquadramento sem auto de infração correspondente' em 691786 verificação(ões)"
   },
   {
    "layer": "L2",
    "kind": "signal",
    "key": "L2:notice-before-issue",
-   "count": 1096,
+   "count": 1100,
    "when": null,
-   "en": "1096 signal(s) of rule 'Offender notified before the notice was issued' in 432798 check(s)",
-   "pt": "1096 sinal(is) da regra 'Ciência do autuado anterior à lavratura' em 432798 verificação(ões)"
+   "en": "1100 signal(s) of rule 'Offender notified before the notice was issued' in 433348 check(s)",
+   "pt": "1100 sinal(is) da regra 'Ciência do autuado anterior à lavratura' em 433348 verificação(ões)"
   },
   {
    "layer": "L2",
    "kind": "signal",
    "key": "L2:seizure-link-without-term",
-   "count": 10691,
+   "count": 10761,
    "when": null,
-   "en": "10691 signal(s) of rule 'Seizure term cited by the notice but not published' in 109615 check(s)",
-   "pt": "10691 sinal(is) da regra 'Termo de apreensão citado no auto e não publicado' em 109615 verificação(ões)"
+   "en": "10761 signal(s) of rule 'Seizure term cited by the notice but not published' in 109684 check(s)",
+   "pt": "10761 sinal(is) da regra 'Termo de apreensão citado no auto e não publicado' em 109684 verificação(ões)"
   },
   {
    "layer": "L2",
    "kind": "signal",
    "key": "L2:species-without-infraction",
-   "count": 3506,
+   "count": 3784,
    "when": null,
-   "en": "3506 signal(s) of rule 'Specimen record without a matching infraction notice' in 38167 check(s)",
-   "pt": "3506 sinal(is) da regra 'Registro de espécime sem auto de infração correspondente' em 38167 verificação(ões)"
+   "en": "3784 signal(s) of rule 'Specimen record without a matching infraction notice' in 38445 check(s)",
+   "pt": "3784 sinal(is) da regra 'Registro de espécime sem auto de infração correspondente' em 38445 verificação(ões)"
   },
   {
    "layer": "L2",
@@ -264,48 +280,152 @@
    "key": "L2:municipality-state",
    "count": 814,
    "when": null,
-   "en": "814 signal(s) of rule 'Municipality code consistent with the state of the same place' in 712362 check(s)",
-   "pt": "814 sinal(is) da regra 'Código do município compatível com a UF do mesmo local' em 712362 verificação(ões)"
+   "en": "814 signal(s) of rule 'Municipality code consistent with the state of the same place' in 713194 check(s)",
+   "pt": "814 sinal(is) da regra 'Código do município compatível com a UF do mesmo local' em 713194 verificação(ões)"
   },
   {
    "layer": "L5",
    "kind": "unrecorded_change",
-   "when": "2026-11-02T11:32:39+00:00",
+   "when": "2026-11-09T13:21:05+00:00",
    "resource_id": "b2aba344-95df-43c0-b2ba-f4353cfd9a00",
-   "en": "the bytes of resource b2aba344-95df-43c0-b2ba-f4353cfd9a00 changed between 2026-10-21 and 2026-11-02 with no change in the portal metadata",
-   "pt": "os bytes do recurso b2aba344-95df-43c0-b2ba-f4353cfd9a00 mudaram entre 2026-10-21 e 2026-11-02 sem mudança nos metadados do portal"
+   "en": "the bytes of resource b2aba344-95df-43c0-b2ba-f4353cfd9a00 changed between 2026-11-05 and 2026-11-09 with no change in the portal metadata",
+   "pt": "os bytes do recurso b2aba344-95df-43c0-b2ba-f4353cfd9a00 mudaram entre 2026-11-05 e 2026-11-09 sem mudança nos metadados do portal"
   },
   {
    "layer": "L5",
    "kind": "unrecorded_change",
-   "when": "2026-11-05T13:45:24+00:00",
+   "when": "2026-11-10T12:05:32+00:00",
    "resource_id": "b2aba344-95df-43c0-b2ba-f4353cfd9a00",
-   "en": "the bytes of resource b2aba344-95df-43c0-b2ba-f4353cfd9a00 changed between 2026-11-02 and 2026-11-05 with no change in the portal metadata",
-   "pt": "os bytes do recurso b2aba344-95df-43c0-b2ba-f4353cfd9a00 mudaram entre 2026-11-02 e 2026-11-05 sem mudança nos metadados do portal"
+   "en": "the bytes of resource b2aba344-95df-43c0-b2ba-f4353cfd9a00 changed between 2026-11-09 and 2026-11-10 with no change in the portal metadata",
+   "pt": "os bytes do recurso b2aba344-95df-43c0-b2ba-f4353cfd9a00 mudaram entre 2026-11-09 e 2026-11-10 sem mudança nos metadados do portal"
   },
   {
    "layer": "L5",
    "kind": "unrecorded_change",
-   "when": "2026-11-02T11:34:10+00:00",
+   "when": "2026-11-09T13:21:11+00:00",
+   "resource_id": "761dbd28-235b-4199-8613-92245416421e",
+   "en": "the bytes of resource 761dbd28-235b-4199-8613-92245416421e changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
+   "pt": "os bytes do recurso 761dbd28-235b-4199-8613-92245416421e mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-11-09T13:21:18+00:00",
+   "resource_id": "c3aea257-5c96-44ee-9e49-c1d3a439b61d",
+   "en": "the bytes of resource c3aea257-5c96-44ee-9e49-c1d3a439b61d changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
+   "pt": "os bytes do recurso c3aea257-5c96-44ee-9e49-c1d3a439b61d mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-11-09T13:21:39+00:00",
    "resource_id": "903120d7-9a73-46d2-8e22-93576f4f855b",
-   "en": "the bytes of resource 903120d7-9a73-46d2-8e22-93576f4f855b changed between 2026-10-21 and 2026-11-02 with no change in the portal metadata",
-   "pt": "os bytes do recurso 903120d7-9a73-46d2-8e22-93576f4f855b mudaram entre 2026-10-21 e 2026-11-02 sem mudança nos metadados do portal"
+   "en": "the bytes of resource 903120d7-9a73-46d2-8e22-93576f4f855b changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
+   "pt": "os bytes do recurso 903120d7-9a73-46d2-8e22-93576f4f855b mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
   },
   {
    "layer": "L5",
    "kind": "unrecorded_change",
-   "when": "2026-11-02T11:35:20+00:00",
+   "when": "2026-11-10T12:05:32+00:00",
+   "resource_id": "903120d7-9a73-46d2-8e22-93576f4f855b",
+   "en": "the bytes of resource 903120d7-9a73-46d2-8e22-93576f4f855b changed between 2026-11-09 and 2026-11-10 with no change in the portal metadata",
+   "pt": "os bytes do recurso 903120d7-9a73-46d2-8e22-93576f4f855b mudaram entre 2026-11-09 e 2026-11-10 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-11-09T13:21:46+00:00",
+   "resource_id": "22dae6f2-41b0-4781-9d4c-a45fb6eee0e9",
+   "en": "the bytes of resource 22dae6f2-41b0-4781-9d4c-a45fb6eee0e9 changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
+   "pt": "os bytes do recurso 22dae6f2-41b0-4781-9d4c-a45fb6eee0e9 mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-11-09T13:22:12+00:00",
+   "resource_id": "6f8b8b68-ee86-4ce0-9799-13698ad91062",
+   "en": "the bytes of resource 6f8b8b68-ee86-4ce0-9799-13698ad91062 changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
+   "pt": "os bytes do recurso 6f8b8b68-ee86-4ce0-9799-13698ad91062 mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-11-09T13:22:31+00:00",
+   "resource_id": "3325463b-3f90-4cd6-a033-e3c7cbe1b8ea",
+   "en": "the bytes of resource 3325463b-3f90-4cd6-a033-e3c7cbe1b8ea changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
+   "pt": "os bytes do recurso 3325463b-3f90-4cd6-a033-e3c7cbe1b8ea mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-11-09T13:22:35+00:00",
+   "resource_id": "96c79c3e-a979-47a1-9a05-1eba3df4ce20",
+   "en": "the bytes of resource 96c79c3e-a979-47a1-9a05-1eba3df4ce20 changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
+   "pt": "os bytes do recurso 96c79c3e-a979-47a1-9a05-1eba3df4ce20 mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-11-09T13:22:37+00:00",
    "resource_id": "160b14e2-d7d8-40aa-b06c-295575a5fb9c",
-   "en": "the bytes of resource 160b14e2-d7d8-40aa-b06c-295575a5fb9c changed between 2026-10-21 and 2026-11-02 with no change in the portal metadata",
-   "pt": "os bytes do recurso 160b14e2-d7d8-40aa-b06c-295575a5fb9c mudaram entre 2026-10-21 e 2026-11-02 sem mudança nos metadados do portal"
+   "en": "the bytes of resource 160b14e2-d7d8-40aa-b06c-295575a5fb9c changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
+   "pt": "os bytes do recurso 160b14e2-d7d8-40aa-b06c-295575a5fb9c mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
   },
   {
    "layer": "L5",
    "kind": "unrecorded_change",
-   "when": "2026-11-02T11:35:26+00:00",
+   "when": "2026-11-10T12:05:32+00:00",
+   "resource_id": "160b14e2-d7d8-40aa-b06c-295575a5fb9c",
+   "en": "the bytes of resource 160b14e2-d7d8-40aa-b06c-295575a5fb9c changed between 2026-11-09 and 2026-11-10 with no change in the portal metadata",
+   "pt": "os bytes do recurso 160b14e2-d7d8-40aa-b06c-295575a5fb9c mudaram entre 2026-11-09 e 2026-11-10 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-11-09T13:22:41+00:00",
+   "resource_id": "8fd0af49-f045-4fc5-a1cc-d5def2efd3b5",
+   "en": "the bytes of resource 8fd0af49-f045-4fc5-a1cc-d5def2efd3b5 changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
+   "pt": "os bytes do recurso 8fd0af49-f045-4fc5-a1cc-d5def2efd3b5 mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-11-09T13:22:44+00:00",
    "resource_id": "afe30a48-eb96-4915-8f13-c4e838dae033",
-   "en": "the bytes of resource afe30a48-eb96-4915-8f13-c4e838dae033 changed between 2026-10-21 and 2026-11-02 with no change in the portal metadata",
-   "pt": "os bytes do recurso afe30a48-eb96-4915-8f13-c4e838dae033 mudaram entre 2026-10-21 e 2026-11-02 sem mudança nos metadados do portal"
+   "en": "the bytes of resource afe30a48-eb96-4915-8f13-c4e838dae033 changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
+   "pt": "os bytes do recurso afe30a48-eb96-4915-8f13-c4e838dae033 mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-11-10T12:05:32+00:00",
+   "resource_id": "afe30a48-eb96-4915-8f13-c4e838dae033",
+   "en": "the bytes of resource afe30a48-eb96-4915-8f13-c4e838dae033 changed between 2026-11-09 and 2026-11-10 with no change in the portal metadata",
+   "pt": "os bytes do recurso afe30a48-eb96-4915-8f13-c4e838dae033 mudaram entre 2026-11-09 e 2026-11-10 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-11-09T13:22:47+00:00",
+   "resource_id": "2783a310-045b-4255-869a-c46a5647f8fc",
+   "en": "the bytes of resource 2783a310-045b-4255-869a-c46a5647f8fc changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
+   "pt": "os bytes do recurso 2783a310-045b-4255-869a-c46a5647f8fc mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-11-09T13:22:48+00:00",
+   "resource_id": "4244aee7-93c3-4b5f-89aa-fa6a09f1344f",
+   "en": "the bytes of resource 4244aee7-93c3-4b5f-89aa-fa6a09f1344f changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
+   "pt": "os bytes do recurso 4244aee7-93c3-4b5f-89aa-fa6a09f1344f mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-11-09T13:23:05+00:00",
+   "resource_id": "67fa25c0-8869-4cd9-8938-36d4c7061e07",
+   "en": "the bytes of resource 67fa25c0-8869-4cd9-8938-36d4c7061e07 changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
+   "pt": "os bytes do recurso 67fa25c0-8869-4cd9-8938-36d4c7061e07 mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
   }
  ],
  "outcomes": {
@@ -606,6 +726,32 @@
      "67fa25c0-8869-4cd9-8938-36d4c7061e07": "2ccaba145abfe74ea5fc6d7cf4b84235f86e3d01a70326747bea5cf54102e1eb"
     },
     "first_change_seen": "2026-10-14T10:05:24+00:00"
+   },
+   {
+    "key": "L2:fine-outside-legal-limits",
+    "layer": "L2",
+    "first_reported": "2026-11-10T12:09:32+00:00",
+    "count": 1489,
+    "evaluated_at": "2026-11-10T12:07:11+00:00",
+    "status": "reported",
+    "en": "1489 signal(s) of rule 'Simple fine outside the legal limits (BRL 50.00 to BRL 50,000,000.00)' in 543482 check(s)",
+    "pt": "1489 sinal(is) da regra 'Multa simples fora dos limites legais (R$ 50,00 a R$ 50.000.000,00)' em 543482 verificação(ões)",
+    "digests": {
+     "b2aba344-95df-43c0-b2ba-f4353cfd9a00": "5f0aec889f87765d808dcfca6bf7003c9daa03e941874359fb753fb5be840d4a",
+     "761dbd28-235b-4199-8613-92245416421e": "aedcf5883e812750f6acdea1018c5c5b97bd015b44b8d79cf717ed7bc2e8405e",
+     "c3aea257-5c96-44ee-9e49-c1d3a439b61d": "5cfeba3da6a03b70aa889954c7fe9f2050459bcbfef67f470b040ed163652e5f",
+     "903120d7-9a73-46d2-8e22-93576f4f855b": "a23dcde565aea75628b39ef110f4316013407b0a2d096ada2e301b3b5c0dca57",
+     "22dae6f2-41b0-4781-9d4c-a45fb6eee0e9": "daeb5f4ef2a0d494ea8ece2b1d587438d4677bdbde796d0c0ceae90d9b396168",
+     "6f8b8b68-ee86-4ce0-9799-13698ad91062": "153c1c1af7d2d76e5c3e9e76b572ab2d884a0312aa6c786435eb6f43b13eb6e1",
+     "3325463b-3f90-4cd6-a033-e3c7cbe1b8ea": "1d255fd49d9972481bd1bb30b70d969458321d8bca72462b682ebdb81dfd131e",
+     "96c79c3e-a979-47a1-9a05-1eba3df4ce20": "632cd1788a11a6d35d5ddcc0ff036f8f2c136637ba71a7f184491b6743d684b6",
+     "160b14e2-d7d8-40aa-b06c-295575a5fb9c": "b7f7dc7504cbec81a851d54acc2104fcc183af1c4161de2819d39aef2db3f83e",
+     "8fd0af49-f045-4fc5-a1cc-d5def2efd3b5": "c8ec3631c1c74583dec29b8240ec4e05e8324527655fde2761c74646e1aa3e45",
+     "afe30a48-eb96-4915-8f13-c4e838dae033": "aa6bcbd6ff4c1972fe0c7199c568d5d8d923d1a94432a7c784d72f28fad3ec56",
+     "2783a310-045b-4255-869a-c46a5647f8fc": "81e776480de20d4ed819244fe0ecbab83c86bc3ccbfefe85395f1fe30093ad8b",
+     "4244aee7-93c3-4b5f-89aa-fa6a09f1344f": "c11342b70c256730860bf2327e8a51922b3876629f80c2d0d86db6c92f9d9d63",
+     "67fa25c0-8869-4cd9-8938-36d4c7061e07": "1ece16e50cf0aeb7a90744d938ab55716765145882a050795c7934e7e7a9a94f"
+    }
    }
   ],
   "closed": []
@@ -614,22 +760,22 @@
   "L1": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-02T12:37:26+00:00",
+   "generated_at": "2026-11-09T13:53:57+00:00",
    "files": [
     {
      "path": "results/layer1_summary.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/layer1_summary.json",
      "commit": {
-      "sha": "035cd6b1f8f5fd971a77a72dd2b8eaf759342e91",
-      "date": "2026-11-02T12:37:26Z"
+      "sha": "670a6179b359ad321ce35c517851f62a5e83b514",
+      "date": "2026-11-09T13:53:57Z"
      }
     },
     {
      "path": "results/validation.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/validation.json",
      "commit": {
-      "sha": "035cd6b1f8f5fd971a77a72dd2b8eaf759342e91",
-      "date": "2026-11-02T12:37:26Z"
+      "sha": "670a6179b359ad321ce35c517851f62a5e83b514",
+      "date": "2026-11-09T13:53:57Z"
      }
     }
    ],
@@ -638,14 +784,14 @@
   "L2": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-21T09:31:58+00:00",
+   "generated_at": "2026-11-10T12:08:00+00:00",
    "files": [
     {
      "path": "docs/data/layer2.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2/main/docs/data/layer2.json",
      "commit": {
-      "sha": "dc591712070b78f347d34fcec0ec13bc0ae33c59",
-      "date": "2026-10-21T09:32:19Z"
+      "sha": "a37d862eaf74c7c183fc61faf1655cbbea8a5320",
+      "date": "2026-11-10T12:08:20Z"
      }
     }
    ],
@@ -678,30 +824,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-09T06:17:00.829614+00:00",
+   "generated_at": "2026-11-10T07:11:06.394446+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "f5f7fd205c281c2bba8f37bb0d81a7b58dfb631a",
-      "date": "2026-11-09T06:17:00Z"
+      "sha": "790f93283961b007671c19b3b284867a9d713239",
+      "date": "2026-11-10T07:11:06Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "be5acb91c334e47135fe97b3233c1cade88e5506",
-      "date": "2026-11-09T11:57:55Z"
+      "sha": "9828e484d6953b6ba473d001b57377550a75983c",
+      "date": "2026-11-10T11:32:08Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "f5f7fd205c281c2bba8f37bb0d81a7b58dfb631a",
-      "date": "2026-11-09T06:17:00Z"
+      "sha": "790f93283961b007671c19b3b284867a9d713239",
+      "date": "2026-11-10T07:11:06Z"
      }
     }
    ],
@@ -753,19 +899,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-09T13:49:01+00:00",
+ "generated_at": "2026-11-10T12:09:32+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "6656d225e130ab37c55c363f00bcda53f95d9fc0",
-  "run_id": "42628776323"
+  "commit": "36fa8c6c09e29f5ad665e7835b014a5ac7c668ab",
+  "run_id": "42813343962"
  },
  "ficha": {
-  "id": "sha256:f9f7feaa39a0083346b99321eb48157919884a27d2ab27c3cce607be96e72abc",
+  "id": "sha256:cccc0828401f0885d4b9281218359ceedf2ad3fc262d84779ee96a604e893d7f",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-auto-de-infracao",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/fiscalizacao-auto-de-infracao.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'fiscalizacao-auto-de-infracao' (IBAMA), 2026-11-09, sha256:f9f7feaa39a00833…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-auto-de-infracao",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-auto-de-infracao' (IBAMA), 2026-11-09, sha256:f9f7feaa39a00833…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-auto-de-infracao"
+   "en": "5L-TEP Layer 5 record of 'fiscalizacao-auto-de-infracao' (IBAMA), 2026-11-10, sha256:cccc0828401f0885…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-auto-de-infracao",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-auto-de-infracao' (IBAMA), 2026-11-10, sha256:cccc0828401f0885…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-auto-de-infracao"
   }
  }
 }

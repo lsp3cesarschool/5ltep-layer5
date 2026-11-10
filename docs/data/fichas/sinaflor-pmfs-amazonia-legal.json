@@ -12,18 +12,18 @@
  "qs": {
   "kind": "partial",
   "factor": 1.0,
-  "coverage": 0.5,
+  "coverage": 0.8,
   "valid_layers": [
    "L1",
+   "L2",
    "L4"
   ],
   "integrity": [],
-  "low": 0.2,
-  "high": 0.7,
-  "band": "alert",
+  "low": 0.49324324324324326,
+  "high": 0.6932432432432433,
+  "band": "critical",
   "eligible": false,
   "missing_layers": [
-   "L2",
    "L3"
   ]
  },
@@ -32,8 +32,8 @@
    "status": "valid",
    "reason": null,
    "rate": 0.0,
-   "evaluated_at": "2026-11-02T11:40:19+00:00",
-   "current": true,
+   "evaluated_at": "2026-11-09T13:25:10+00:00",
+   "current": false,
    "facts": {
     "level": 2,
     "tables": 1,
@@ -50,17 +50,17 @@
    ]
   },
   "L2": {
-   "status": "expired",
-   "reason": "summary_too_old",
-   "rate": 0.9770596449231996,
-   "evaluated_at": "2026-10-21T09:30:55+00:00",
-   "current": null,
+   "status": "valid",
+   "reason": null,
+   "rate": 0.9774774774774775,
+   "evaluated_at": "2026-11-10T12:06:58+00:00",
+   "current": true,
    "facts": {
     "rules": [
      "pmfs-intensity-manual-over-10",
      "pmfs-intensity-mechanized-over-30"
     ],
-    "checks": 5013,
+    "checks": 5106,
     "signals": 115,
     "not_evaluated": []
    },
@@ -74,8 +74,8 @@
     {
      "key": "L2:pmfs-intensity-mechanized-over-30",
      "count": 87,
-     "en": "87 signal(s) of rule 'Cutting intensity above 30 m³/ha in forest management with mechanized skidding' in 4928 check(s)",
-     "pt": "87 sinal(is) da regra 'Intensidade de corte acima de 30 m³/ha em manejo com arraste mecanizado' em 4928 verificação(ões)"
+     "en": "87 signal(s) of rule 'Cutting intensity above 30 m³/ha in forest management with mechanized skidding' in 5021 check(s)",
+     "pt": "87 sinal(is) da regra 'Intensidade de corte acima de 30 m³/ha em manejo com arraste mecanizado' em 5021 verificação(ões)"
     }
    ]
   },
@@ -92,10 +92,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-09T06:16:44+00:00",
+   "evaluated_at": "2026-11-10T07:10:44+00:00",
    "current": true,
    "facts": {
-    "observations": 96,
+    "observations": 95,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/17c29a10-de5c-46cf-89f1-8aa3e6cc66d9#b2441c055a6c"
    },
@@ -127,16 +127,24 @@
    "key": "L2:pmfs-intensity-mechanized-over-30",
    "count": 87,
    "when": null,
-   "en": "87 signal(s) of rule 'Cutting intensity above 30 m³/ha in forest management with mechanized skidding' in 4928 check(s)",
-   "pt": "87 sinal(is) da regra 'Intensidade de corte acima de 30 m³/ha em manejo com arraste mecanizado' em 4928 verificação(ões)"
+   "en": "87 signal(s) of rule 'Cutting intensity above 30 m³/ha in forest management with mechanized skidding' in 5021 check(s)",
+   "pt": "87 sinal(is) da regra 'Intensidade de corte acima de 30 m³/ha em manejo com arraste mecanizado' em 5021 verificação(ões)"
   },
   {
    "layer": "L5",
    "kind": "unrecorded_change",
-   "when": "2026-11-02T11:40:19+00:00",
+   "when": "2026-11-09T13:25:10+00:00",
    "resource_id": "fac201c9-8e09-49d5-9113-1608cf45b8c8",
-   "en": "the bytes of resource fac201c9-8e09-49d5-9113-1608cf45b8c8 changed between 2026-10-21 and 2026-11-02 with no change in the portal metadata",
-   "pt": "os bytes do recurso fac201c9-8e09-49d5-9113-1608cf45b8c8 mudaram entre 2026-10-21 e 2026-11-02 sem mudança nos metadados do portal"
+   "en": "the bytes of resource fac201c9-8e09-49d5-9113-1608cf45b8c8 changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
+   "pt": "os bytes do recurso fac201c9-8e09-49d5-9113-1608cf45b8c8 mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-11-10T12:05:32+00:00",
+   "resource_id": "fac201c9-8e09-49d5-9113-1608cf45b8c8",
+   "en": "the bytes of resource fac201c9-8e09-49d5-9113-1608cf45b8c8 changed between 2026-11-09 and 2026-11-10 with no change in the portal metadata",
+   "pt": "os bytes do recurso fac201c9-8e09-49d5-9113-1608cf45b8c8 mudaram entre 2026-11-09 e 2026-11-10 sem mudança nos metadados do portal"
   }
  ],
  "outcomes": {
@@ -190,22 +198,22 @@
   "L1": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-02T12:37:26+00:00",
+   "generated_at": "2026-11-09T13:53:57+00:00",
    "files": [
     {
      "path": "results/layer1_summary.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/layer1_summary.json",
      "commit": {
-      "sha": "035cd6b1f8f5fd971a77a72dd2b8eaf759342e91",
-      "date": "2026-11-02T12:37:26Z"
+      "sha": "670a6179b359ad321ce35c517851f62a5e83b514",
+      "date": "2026-11-09T13:53:57Z"
      }
     },
     {
      "path": "results/validation.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/validation.json",
      "commit": {
-      "sha": "035cd6b1f8f5fd971a77a72dd2b8eaf759342e91",
-      "date": "2026-11-02T12:37:26Z"
+      "sha": "670a6179b359ad321ce35c517851f62a5e83b514",
+      "date": "2026-11-09T13:53:57Z"
      }
     }
    ],
@@ -214,14 +222,14 @@
   "L2": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-10-21T09:31:58+00:00",
+   "generated_at": "2026-11-10T12:08:00+00:00",
    "files": [
     {
      "path": "docs/data/layer2.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2/main/docs/data/layer2.json",
      "commit": {
-      "sha": "dc591712070b78f347d34fcec0ec13bc0ae33c59",
-      "date": "2026-10-21T09:32:19Z"
+      "sha": "a37d862eaf74c7c183fc61faf1655cbbea8a5320",
+      "date": "2026-11-10T12:08:20Z"
      }
     }
    ],
@@ -254,30 +262,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-09T06:17:00.829614+00:00",
+   "generated_at": "2026-11-10T07:11:06.394446+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "f5f7fd205c281c2bba8f37bb0d81a7b58dfb631a",
-      "date": "2026-11-09T06:17:00Z"
+      "sha": "790f93283961b007671c19b3b284867a9d713239",
+      "date": "2026-11-10T07:11:06Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "be5acb91c334e47135fe97b3233c1cade88e5506",
-      "date": "2026-11-09T11:57:55Z"
+      "sha": "9828e484d6953b6ba473d001b57377550a75983c",
+      "date": "2026-11-10T11:32:08Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "f5f7fd205c281c2bba8f37bb0d81a7b58dfb631a",
-      "date": "2026-11-09T06:17:00Z"
+      "sha": "790f93283961b007671c19b3b284867a9d713239",
+      "date": "2026-11-10T07:11:06Z"
      }
     }
    ],
@@ -329,19 +337,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-09T13:49:01+00:00",
+ "generated_at": "2026-11-10T12:09:32+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "6656d225e130ab37c55c363f00bcda53f95d9fc0",
-  "run_id": "42628776323"
+  "commit": "36fa8c6c09e29f5ad665e7835b014a5ac7c668ab",
+  "run_id": "42813343962"
  },
  "ficha": {
-  "id": "sha256:479dde041c3b6fda96a3a4fe90d3b3b839e6a2ae32d21c7c42f84e8c2210f11a",
+  "id": "sha256:956e0396b0fb933d8d8668cd994f71ba142d934ac04693541436baa468acf3ff",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=sinaflor-pmfs-amazonia-legal",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/sinaflor-pmfs-amazonia-legal.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'sinaflor-pmfs-amazonia-legal' (IBAMA), 2026-11-09, sha256:479dde041c3b6fda…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=sinaflor-pmfs-amazonia-legal",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'sinaflor-pmfs-amazonia-legal' (IBAMA), 2026-11-09, sha256:479dde041c3b6fda…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=sinaflor-pmfs-amazonia-legal"
+   "en": "5L-TEP Layer 5 record of 'sinaflor-pmfs-amazonia-legal' (IBAMA), 2026-11-10, sha256:956e0396b0fb933d…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=sinaflor-pmfs-amazonia-legal",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'sinaflor-pmfs-amazonia-legal' (IBAMA), 2026-11-10, sha256:956e0396b0fb933d…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=sinaflor-pmfs-amazonia-legal"
   }
  }
 }
