@@ -214,19 +214,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-10T12:09:32+00:00",
+ "generated_at": "2026-11-10T13:24:41+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "36fa8c6c09e29f5ad665e7835b014a5ac7c668ab",
-  "run_id": "42813343962"
+  "commit": "3c4850f0a098e46a4a5e739b20d99f0fa8e96bd6",
+  "run_id": "42824241499"
  },
  "ficha": {
-  "id": "sha256:63b3e93d8cc56dbd6bb639b7b31615f6e8f7e5fe8fd694c21512238fae71885f",
+  "id": "sha256:1fdabc1fecd306abfcbf800fcb01f7a937dbc2ba27c6f4cbb4a18cff91567988",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fabricante-de-produtos-que-utilizam-materia-prima-de-origem-florestal",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/fabricante-de-produtos-que-utilizam-materia-prima-de-origem-florestal.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'fabricante-de-produtos-que-utilizam-materia-prima-de-origem-florestal' (IBAMA), 2026-11-10, sha256:63b3e93d8cc56dbd…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fabricante-de-produtos-que-utilizam-materia-prima-de-origem-florestal",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'fabricante-de-produtos-que-utilizam-materia-prima-de-origem-florestal' (IBAMA), 2026-11-10, sha256:63b3e93d8cc56dbd…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fabricante-de-produtos-que-utilizam-materia-prima-de-origem-florestal"
+   "en": "5L-TEP Layer 5 record of 'fabricante-de-produtos-que-utilizam-materia-prima-de-origem-florestal' (IBAMA), 2026-11-10, sha256:1fdabc1fecd306ab…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fabricante-de-produtos-que-utilizam-materia-prima-de-origem-florestal",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'fabricante-de-produtos-que-utilizam-materia-prima-de-origem-florestal' (IBAMA), 2026-11-10, sha256:1fdabc1fecd306ab…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fabricante-de-produtos-que-utilizam-materia-prima-de-origem-florestal"
   }
  }
 }

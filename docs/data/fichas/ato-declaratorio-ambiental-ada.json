@@ -97,30 +97,6 @@
    "when": null,
    "en": "46506 signal(s) of rule 'Permanent protection and net legal reserve above the property area' in 6206859 check(s)",
    "pt": "46506 sinal(is) da regra 'APP e reserva legal líquida acima da área do imóvel' em 6206859 verificação(ões)"
-  },
-  {
-   "layer": "L5",
-   "kind": "unrecorded_change",
-   "when": "2026-11-09T13:27:35+00:00",
-   "resource_id": "09494a73-726a-4341-92ca-b97cf35914b2",
-   "en": "the bytes of resource 09494a73-726a-4341-92ca-b97cf35914b2 changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
-   "pt": "os bytes do recurso 09494a73-726a-4341-92ca-b97cf35914b2 mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
-  },
-  {
-   "layer": "L5",
-   "kind": "unrecorded_change",
-   "when": "2026-11-09T13:27:58+00:00",
-   "resource_id": "13f44201-5207-4aa9-92d1-69830f642142",
-   "en": "the bytes of resource 13f44201-5207-4aa9-92d1-69830f642142 changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
-   "pt": "os bytes do recurso 13f44201-5207-4aa9-92d1-69830f642142 mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
-  },
-  {
-   "layer": "L5",
-   "kind": "unrecorded_change",
-   "when": "2026-11-09T13:28:22+00:00",
-   "resource_id": "c4c9db21-036a-4eb7-9d96-cb979f8448c9",
-   "en": "the bytes of resource c4c9db21-036a-4eb7-9d96-cb979f8448c9 changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
-   "pt": "os bytes do recurso c4c9db21-036a-4eb7-9d96-cb979f8448c9 mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
   }
  ],
  "outcomes": {
@@ -287,19 +263,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-10T12:09:32+00:00",
+ "generated_at": "2026-11-10T13:24:41+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "36fa8c6c09e29f5ad665e7835b014a5ac7c668ab",
-  "run_id": "42813343962"
+  "commit": "3c4850f0a098e46a4a5e739b20d99f0fa8e96bd6",
+  "run_id": "42824241499"
  },
  "ficha": {
-  "id": "sha256:553c31cfc3c1ba200b260410e5db4c040ef0428c95ec78aae7c9fe56054b4224",
+  "id": "sha256:b0ae720c7aa8894a16b948a19b072bacb436efbd6eb5a0a6dbc10244027a0d65",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=ato-declaratorio-ambiental-ada",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/ato-declaratorio-ambiental-ada.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'ato-declaratorio-ambiental-ada' (IBAMA), 2026-11-10, sha256:553c31cfc3c1ba20…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=ato-declaratorio-ambiental-ada",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'ato-declaratorio-ambiental-ada' (IBAMA), 2026-11-10, sha256:553c31cfc3c1ba20…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=ato-declaratorio-ambiental-ada"
+   "en": "5L-TEP Layer 5 record of 'ato-declaratorio-ambiental-ada' (IBAMA), 2026-11-10, sha256:b0ae720c7aa8894a…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=ato-declaratorio-ambiental-ada",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'ato-declaratorio-ambiental-ada' (IBAMA), 2026-11-10, sha256:b0ae720c7aa8894a…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=ato-declaratorio-ambiental-ada"
   }
  }
 }

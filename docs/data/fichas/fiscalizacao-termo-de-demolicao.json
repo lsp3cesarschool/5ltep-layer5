@@ -90,30 +90,6 @@
    "when": null,
    "en": "1 of 3 verifiable file(s) do not conform to the declared schema",
    "pt": "1 de 3 arquivo(s) verificável(is) fora do esquema declarado"
-  },
-  {
-   "layer": "L5",
-   "kind": "unrecorded_change",
-   "when": "2026-11-09T13:44:39+00:00",
-   "resource_id": "0522b605-5c8e-4d04-a57a-ce217ce9bb61",
-   "en": "the bytes of resource 0522b605-5c8e-4d04-a57a-ce217ce9bb61 changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
-   "pt": "os bytes do recurso 0522b605-5c8e-4d04-a57a-ce217ce9bb61 mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
-  },
-  {
-   "layer": "L5",
-   "kind": "unrecorded_change",
-   "when": "2026-11-09T13:44:42+00:00",
-   "resource_id": "9e715d83-f7eb-4dcc-b686-23252325ebbf",
-   "en": "the bytes of resource 9e715d83-f7eb-4dcc-b686-23252325ebbf changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
-   "pt": "os bytes do recurso 9e715d83-f7eb-4dcc-b686-23252325ebbf mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
-  },
-  {
-   "layer": "L5",
-   "kind": "unrecorded_change",
-   "when": "2026-11-09T13:44:44+00:00",
-   "resource_id": "e62430da-5c2e-4447-94f7-bd2d92496137",
-   "en": "the bytes of resource e62430da-5c2e-4447-94f7-bd2d92496137 changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
-   "pt": "os bytes do recurso e62430da-5c2e-4447-94f7-bd2d92496137 mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
   }
  ],
  "outcomes": {
@@ -280,19 +256,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-10T12:09:32+00:00",
+ "generated_at": "2026-11-10T13:24:41+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "36fa8c6c09e29f5ad665e7835b014a5ac7c668ab",
-  "run_id": "42813343962"
+  "commit": "3c4850f0a098e46a4a5e739b20d99f0fa8e96bd6",
+  "run_id": "42824241499"
  },
  "ficha": {
-  "id": "sha256:fc3a4785540203659de8f1064818ede55e9e1f20775099200cb78933c192ed4f",
+  "id": "sha256:2fc4c43fd7beeefddcd9a0a3755b6626a2344b4a50feda566091cd6b00333127",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-demolicao",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/fiscalizacao-termo-de-demolicao.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'fiscalizacao-termo-de-demolicao' (IBAMA), 2026-11-10, sha256:fc3a478554020365…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-demolicao",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-termo-de-demolicao' (IBAMA), 2026-11-10, sha256:fc3a478554020365…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-demolicao"
+   "en": "5L-TEP Layer 5 record of 'fiscalizacao-termo-de-demolicao' (IBAMA), 2026-11-10, sha256:2fc4c43fd7beeefd…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-demolicao",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-termo-de-demolicao' (IBAMA), 2026-11-10, sha256:2fc4c43fd7beeefd…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-demolicao"
   }
  }
 }

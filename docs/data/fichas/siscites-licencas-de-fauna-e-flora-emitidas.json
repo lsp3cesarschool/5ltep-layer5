@@ -117,14 +117,6 @@
   {
    "layer": "L5",
    "kind": "unrecorded_change",
-   "when": "2026-11-09T13:25:25+00:00",
-   "resource_id": "dddd819f-275a-4653-9104-772dd7519e6a",
-   "en": "the bytes of resource dddd819f-275a-4653-9104-772dd7519e6a changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
-   "pt": "os bytes do recurso dddd819f-275a-4653-9104-772dd7519e6a mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
-  },
-  {
-   "layer": "L5",
-   "kind": "unrecorded_change",
    "when": "2026-11-10T12:05:32+00:00",
    "resource_id": "dddd819f-275a-4653-9104-772dd7519e6a",
    "en": "the bytes of resource dddd819f-275a-4653-9104-772dd7519e6a changed between 2026-11-09 and 2026-11-10 with no change in the portal metadata",
@@ -307,19 +299,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-10T12:09:32+00:00",
+ "generated_at": "2026-11-10T13:24:41+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "36fa8c6c09e29f5ad665e7835b014a5ac7c668ab",
-  "run_id": "42813343962"
+  "commit": "3c4850f0a098e46a4a5e739b20d99f0fa8e96bd6",
+  "run_id": "42824241499"
  },
  "ficha": {
-  "id": "sha256:586d259e2701c8f731597a055d0a2719ca6e952867313bb9cc55e51f5224edbd",
+  "id": "sha256:c6a3fdba4720856d3d496cf263f64a125803f4cd8a5f35bd42ca075965145a1b",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=siscites-licencas-de-fauna-e-flora-emitidas",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/siscites-licencas-de-fauna-e-flora-emitidas.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'siscites-licencas-de-fauna-e-flora-emitidas' (IBAMA), 2026-11-10, sha256:586d259e2701c8f7…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=siscites-licencas-de-fauna-e-flora-emitidas",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'siscites-licencas-de-fauna-e-flora-emitidas' (IBAMA), 2026-11-10, sha256:586d259e2701c8f7…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=siscites-licencas-de-fauna-e-flora-emitidas"
+   "en": "5L-TEP Layer 5 record of 'siscites-licencas-de-fauna-e-flora-emitidas' (IBAMA), 2026-11-10, sha256:c6a3fdba4720856d…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=siscites-licencas-de-fauna-e-flora-emitidas",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'siscites-licencas-de-fauna-e-flora-emitidas' (IBAMA), 2026-11-10, sha256:c6a3fdba4720856d…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=siscites-licencas-de-fauna-e-flora-emitidas"
   }
  }
 }

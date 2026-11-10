@@ -90,14 +90,6 @@
    "when": null,
    "en": "1 of 1 verifiable file(s) do not conform to the declared schema",
    "pt": "1 de 1 arquivo(s) verificável(is) fora do esquema declarado"
-  },
-  {
-   "layer": "L5",
-   "kind": "unrecorded_change",
-   "when": "2026-11-09T13:44:29+00:00",
-   "resource_id": "826b90b3-1fff-4ed2-a892-d3bb85370e15",
-   "en": "the bytes of resource 826b90b3-1fff-4ed2-a892-d3bb85370e15 changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
-   "pt": "os bytes do recurso 826b90b3-1fff-4ed2-a892-d3bb85370e15 mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
   }
  ],
  "outcomes": {
@@ -262,19 +254,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-10T12:09:32+00:00",
+ "generated_at": "2026-11-10T13:24:41+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "36fa8c6c09e29f5ad665e7835b014a5ac7c668ab",
-  "run_id": "42813343962"
+  "commit": "3c4850f0a098e46a4a5e739b20d99f0fa8e96bd6",
+  "run_id": "42824241499"
  },
  "ficha": {
-  "id": "sha256:fe58c400c2f95c014c860f265071488c924c5f64cf6cc41aa249b76e488bbb59",
+  "id": "sha256:c86b78ede01fe6381761312d65efdde7753705a89f0e44153e9f21245b256155",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-notificacao",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/fiscalizacao-notificacao.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'fiscalizacao-notificacao' (IBAMA), 2026-11-10, sha256:fe58c400c2f95c01…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-notificacao",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-notificacao' (IBAMA), 2026-11-10, sha256:fe58c400c2f95c01…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-notificacao"
+   "en": "5L-TEP Layer 5 record of 'fiscalizacao-notificacao' (IBAMA), 2026-11-10, sha256:c86b78ede01fe638…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-notificacao",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-notificacao' (IBAMA), 2026-11-10, sha256:c86b78ede01fe638…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-notificacao"
   }
  }
 }

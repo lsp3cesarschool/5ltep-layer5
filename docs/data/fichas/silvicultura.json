@@ -214,19 +214,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-10T12:09:32+00:00",
+ "generated_at": "2026-11-10T13:24:41+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "36fa8c6c09e29f5ad665e7835b014a5ac7c668ab",
-  "run_id": "42813343962"
+  "commit": "3c4850f0a098e46a4a5e739b20d99f0fa8e96bd6",
+  "run_id": "42824241499"
  },
  "ficha": {
-  "id": "sha256:03dd0bf55a485b80e2562137dade2bd64509b5dc4a0c285321808c1894bc576c",
+  "id": "sha256:4b4530c640d1b8f8f36b8811f9dd1b8f04106173c74c574a1a9661029907e198",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=silvicultura",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/silvicultura.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'silvicultura' (IBAMA), 2026-11-10, sha256:03dd0bf55a485b80…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=silvicultura",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'silvicultura' (IBAMA), 2026-11-10, sha256:03dd0bf55a485b80…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=silvicultura"
+   "en": "5L-TEP Layer 5 record of 'silvicultura' (IBAMA), 2026-11-10, sha256:4b4530c640d1b8f8…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=silvicultura",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'silvicultura' (IBAMA), 2026-11-10, sha256:4b4530c640d1b8f8…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=silvicultura"
   }
  }
 }

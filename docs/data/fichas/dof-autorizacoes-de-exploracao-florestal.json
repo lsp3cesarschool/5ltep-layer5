@@ -66,32 +66,7 @@
    "signals": []
   }
  },
- "findings": [
-  {
-   "layer": "L5",
-   "kind": "unrecorded_change",
-   "when": "2026-11-09T13:28:31+00:00",
-   "resource_id": "edf548f1-1920-4003-8c24-6d33b10701da",
-   "en": "the bytes of resource edf548f1-1920-4003-8c24-6d33b10701da changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
-   "pt": "os bytes do recurso edf548f1-1920-4003-8c24-6d33b10701da mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
-  },
-  {
-   "layer": "L5",
-   "kind": "unrecorded_change",
-   "when": "2026-11-09T13:29:13+00:00",
-   "resource_id": "2d3c0058-d466-49d8-b5dd-b92f46b7da63",
-   "en": "the bytes of resource 2d3c0058-d466-49d8-b5dd-b92f46b7da63 changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
-   "pt": "os bytes do recurso 2d3c0058-d466-49d8-b5dd-b92f46b7da63 mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
-  },
-  {
-   "layer": "L5",
-   "kind": "unrecorded_change",
-   "when": "2026-11-09T13:30:27+00:00",
-   "resource_id": "9713832d-dd76-457d-926a-d398ca2f716e",
-   "en": "the bytes of resource 9713832d-dd76-457d-926a-d398ca2f716e changed between 2026-11-02 and 2026-11-09 with no change in the portal metadata",
-   "pt": "os bytes do recurso 9713832d-dd76-457d-926a-d398ca2f716e mudaram entre 2026-11-02 e 2026-11-09 sem mudança nos metadados do portal"
-  }
- ],
+ "findings": [],
  "outcomes": {
   "open": [],
   "closed": []
@@ -239,19 +214,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-10T12:09:32+00:00",
+ "generated_at": "2026-11-10T13:24:41+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "36fa8c6c09e29f5ad665e7835b014a5ac7c668ab",
-  "run_id": "42813343962"
+  "commit": "3c4850f0a098e46a4a5e739b20d99f0fa8e96bd6",
+  "run_id": "42824241499"
  },
  "ficha": {
-  "id": "sha256:e28a1774335b35fa89615ac95b5d01c64777b5a436cc386f45a6fc3705f09da4",
+  "id": "sha256:835ea5a7778ad6045b0419f072215298f28c9051dfd2d13f167f56211d910060",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=dof-autorizacoes-de-exploracao-florestal",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/dof-autorizacoes-de-exploracao-florestal.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'dof-autorizacoes-de-exploracao-florestal' (IBAMA), 2026-11-10, sha256:e28a1774335b35fa…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=dof-autorizacoes-de-exploracao-florestal",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'dof-autorizacoes-de-exploracao-florestal' (IBAMA), 2026-11-10, sha256:e28a1774335b35fa…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=dof-autorizacoes-de-exploracao-florestal"
+   "en": "5L-TEP Layer 5 record of 'dof-autorizacoes-de-exploracao-florestal' (IBAMA), 2026-11-10, sha256:835ea5a7778ad604…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=dof-autorizacoes-de-exploracao-florestal",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'dof-autorizacoes-de-exploracao-florestal' (IBAMA), 2026-11-10, sha256:835ea5a7778ad604…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=dof-autorizacoes-de-exploracao-florestal"
   }
  }
 }
