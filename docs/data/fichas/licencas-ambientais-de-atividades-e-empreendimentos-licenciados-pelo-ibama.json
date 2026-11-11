@@ -46,7 +46,7 @@
    "status": "valid",
    "reason": null,
    "rate": 0.9958246346555324,
-   "evaluated_at": "2026-11-10T12:07:49+00:00",
+   "evaluated_at": "2026-11-11T12:05:09+00:00",
    "current": true,
    "facts": {
     "rules": [
@@ -99,10 +99,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-10T07:10:44+00:00",
+   "evaluated_at": "2026-11-11T06:05:44+00:00",
    "current": true,
    "facts": {
-    "observations": 95,
+    "observations": 94,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/6fe82499-bae2-404e-b85e-6a446ffd1c0e#2b85852d0cc9"
    },
@@ -153,6 +153,14 @@
    "resource_id": "9e4873d3-10d8-464f-a883-88be3b3abf06",
    "en": "the bytes of resource 9e4873d3-10d8-464f-a883-88be3b3abf06 changed between 2026-11-09 and 2026-11-10 with no change in the portal metadata",
    "pt": "os bytes do recurso 9e4873d3-10d8-464f-a883-88be3b3abf06 mudaram entre 2026-11-09 e 2026-11-10 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-11-11T12:00:25+00:00",
+   "resource_id": "9e4873d3-10d8-464f-a883-88be3b3abf06",
+   "en": "the bytes of resource 9e4873d3-10d8-464f-a883-88be3b3abf06 changed between 2026-11-10 and 2026-11-11 with no change in the portal metadata",
+   "pt": "os bytes do recurso 9e4873d3-10d8-464f-a883-88be3b3abf06 mudaram entre 2026-11-10 e 2026-11-11 sem mudança nos metadados do portal"
   }
  ],
  "outcomes": {
@@ -244,14 +252,14 @@
   "L2": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-10T12:08:00+00:00",
+   "generated_at": "2026-11-11T12:05:23+00:00",
    "files": [
     {
      "path": "docs/data/layer2.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2/main/docs/data/layer2.json",
      "commit": {
-      "sha": "a37d862eaf74c7c183fc61faf1655cbbea8a5320",
-      "date": "2026-11-10T12:08:20Z"
+      "sha": "4798e9d1b8c70b2258bc9222058b12654075fb2d",
+      "date": "2026-11-11T12:05:44Z"
      }
     }
    ],
@@ -284,30 +292,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-10T07:11:06.394446+00:00",
+   "generated_at": "2026-11-11T06:06:02.536505+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "790f93283961b007671c19b3b284867a9d713239",
-      "date": "2026-11-10T07:11:06Z"
+      "sha": "947ba6309d0ed83dc3a00e04c6766b7db1d5e0c5",
+      "date": "2026-11-11T06:06:02Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "9828e484d6953b6ba473d001b57377550a75983c",
-      "date": "2026-11-10T11:32:08Z"
+      "sha": "c42455e5617d091c37419818e12ffd9e4a3d76dc",
+      "date": "2026-11-11T11:20:41Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "790f93283961b007671c19b3b284867a9d713239",
-      "date": "2026-11-10T07:11:06Z"
+      "sha": "947ba6309d0ed83dc3a00e04c6766b7db1d5e0c5",
+      "date": "2026-11-11T06:06:02Z"
      }
     }
    ],
@@ -359,19 +367,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-10T13:24:41+00:00",
+ "generated_at": "2026-11-11T12:39:10+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "3c4850f0a098e46a4a5e739b20d99f0fa8e96bd6",
-  "run_id": "42824241499"
+  "commit": "13b6bfc7cb7406ecb9d9ef81f350935a23eb432b",
+  "run_id": "43022173451"
  },
  "ficha": {
-  "id": "sha256:59ab96fb61786681e21e64d04164506ef25f8a757471b69de1d76d5798464fc0",
+  "id": "sha256:6b6a3d495f9489df3a42fb513064677f3be627cd5e2c8fced73bebc5d4da94ab",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=licencas-ambientais-de-atividades-e-empreendimentos-licenciados-pelo-ibama",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/licencas-ambientais-de-atividades-e-empreendimentos-licenciados-pelo-ibama.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'licencas-ambientais-de-atividades-e-empreendimentos-licenciados-pelo-ibama' (IBAMA), 2026-11-10, sha256:59ab96fb61786681…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=licencas-ambientais-de-atividades-e-empreendimentos-licenciados-pelo-ibama",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'licencas-ambientais-de-atividades-e-empreendimentos-licenciados-pelo-ibama' (IBAMA), 2026-11-10, sha256:59ab96fb61786681…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=licencas-ambientais-de-atividades-e-empreendimentos-licenciados-pelo-ibama"
+   "en": "5L-TEP Layer 5 record of 'licencas-ambientais-de-atividades-e-empreendimentos-licenciados-pelo-ibama' (IBAMA), 2026-11-11, sha256:6b6a3d495f9489df…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=licencas-ambientais-de-atividades-e-empreendimentos-licenciados-pelo-ibama",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'licencas-ambientais-de-atividades-e-empreendimentos-licenciados-pelo-ibama' (IBAMA), 2026-11-11, sha256:6b6a3d495f9489df…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=licencas-ambientais-de-atividades-e-empreendimentos-licenciados-pelo-ibama"
   }
  }
 }

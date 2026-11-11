@@ -53,7 +53,7 @@
    "status": "valid",
    "reason": null,
    "rate": 0.9982844513469924,
-   "evaluated_at": "2026-11-10T12:06:44+00:00",
+   "evaluated_at": "2026-11-11T12:03:47+00:00",
    "current": true,
    "facts": {
     "rules": [
@@ -85,10 +85,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-10T07:10:44+00:00",
+   "evaluated_at": "2026-11-11T06:05:44+00:00",
    "current": true,
    "facts": {
-    "observations": 95,
+    "observations": 94,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/d2eb0087-6500-4315-92ec-e66fe2c56ec1#2b3c44001fb9"
    },
@@ -174,14 +174,14 @@
   "L2": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-10T12:08:00+00:00",
+   "generated_at": "2026-11-11T12:05:23+00:00",
    "files": [
     {
      "path": "docs/data/layer2.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2/main/docs/data/layer2.json",
      "commit": {
-      "sha": "a37d862eaf74c7c183fc61faf1655cbbea8a5320",
-      "date": "2026-11-10T12:08:20Z"
+      "sha": "4798e9d1b8c70b2258bc9222058b12654075fb2d",
+      "date": "2026-11-11T12:05:44Z"
      }
     }
    ],
@@ -214,30 +214,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-10T07:11:06.394446+00:00",
+   "generated_at": "2026-11-11T06:06:02.536505+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "790f93283961b007671c19b3b284867a9d713239",
-      "date": "2026-11-10T07:11:06Z"
+      "sha": "947ba6309d0ed83dc3a00e04c6766b7db1d5e0c5",
+      "date": "2026-11-11T06:06:02Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "9828e484d6953b6ba473d001b57377550a75983c",
-      "date": "2026-11-10T11:32:08Z"
+      "sha": "c42455e5617d091c37419818e12ffd9e4a3d76dc",
+      "date": "2026-11-11T11:20:41Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "790f93283961b007671c19b3b284867a9d713239",
-      "date": "2026-11-10T07:11:06Z"
+      "sha": "947ba6309d0ed83dc3a00e04c6766b7db1d5e0c5",
+      "date": "2026-11-11T06:06:02Z"
      }
     }
    ],
@@ -289,19 +289,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-10T13:24:41+00:00",
+ "generated_at": "2026-11-11T12:39:10+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "3c4850f0a098e46a4a5e739b20d99f0fa8e96bd6",
-  "run_id": "42824241499"
+  "commit": "13b6bfc7cb7406ecb9d9ef81f350935a23eb432b",
+  "run_id": "43022173451"
  },
  "ficha": {
-  "id": "sha256:245629339d7f63e337705d693b144ce43bb4b84fc9536420cd37030ecdbe9a1c",
+  "id": "sha256:fe9a9e84a2a9a3ff2a6d2336e0ff24c25769fe3c19a74c3b6b7f09599c5c45c8",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=sisfogo-roi",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/sisfogo-roi.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'sisfogo-roi' (IBAMA), 2026-11-10, sha256:245629339d7f63e3…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=sisfogo-roi",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'sisfogo-roi' (IBAMA), 2026-11-10, sha256:245629339d7f63e3…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=sisfogo-roi"
+   "en": "5L-TEP Layer 5 record of 'sisfogo-roi' (IBAMA), 2026-11-11, sha256:fe9a9e84a2a9a3ff…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=sisfogo-roi",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'sisfogo-roi' (IBAMA), 2026-11-11, sha256:fe9a9e84a2a9a3ff…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=sisfogo-roi"
   }
  }
 }
