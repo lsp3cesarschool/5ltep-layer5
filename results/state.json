@@ -1,6 +1,6 @@
 {
- "round": "2026-11-11T12:39:10+00:00",
- "rounds": 31,
+ "round": "2026-11-12T13:41:43+00:00",
+ "rounds": 32,
  "datasets": {
   "arrecadacao-com-tcfa": {
    "signals": {
@@ -1458,19 +1458,6 @@
       "26f5a30e-53d2-4509-b5b3-5e980ae706f1": "325bb10a5474221c9a70ba7d9816f2a8c87d8dd5aada88acc25050fdf3d5c09a"
      },
      "first_change_seen": "2026-10-27T10:27:20+00:00"
-    },
-    "L4:access:2026-08-14T02:01:51+00:00": {
-     "layer": "L4",
-     "first_reported": "2026-10-13T19:15:59+00:00",
-     "count": 3,
-     "evaluated_at": "2026-10-13T00:35:39+00:00",
-     "status": "changed_signal_persists",
-     "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net; 3 zip → plain file); license title changed",
-     "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net; 3 zip → arquivo simples); título da licença alterado",
-     "digests": {
-      "26f5a30e-53d2-4509-b5b3-5e980ae706f1": "325bb10a5474221c9a70ba7d9816f2a8c87d8dd5aada88acc25050fdf3d5c09a"
-     },
-     "first_change_seen": "2026-10-27T10:27:20+00:00"
     }
    },
    "in_universe": true,
@@ -2450,1109 +2437,1126 @@
    "dataset": "sinaflor-responsavel-tecnico",
    "outcome": "remediated_observed",
    "at": "2026-11-11T12:39:10+00:00"
+  },
+  {
+   "layer": "L4",
+   "first_reported": "2026-10-13T19:15:59+00:00",
+   "count": 3,
+   "evaluated_at": "2026-10-13T00:35:39+00:00",
+   "status": "remediated_observed",
+   "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net; 3 zip → plain file); license title changed",
+   "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net; 3 zip → arquivo simples); título da licença alterado",
+   "digests": {
+    "26f5a30e-53d2-4509-b5b3-5e980ae706f1": "325bb10a5474221c9a70ba7d9816f2a8c87d8dd5aada88acc25050fdf3d5c09a"
+   },
+   "first_change_seen": "2026-10-27T10:27:20+00:00",
+   "key": "L4:access:2026-08-14T02:01:51+00:00",
+   "dataset": "sinaflor-autorizacao-especial",
+   "outcome": "remediated_observed",
+   "at": "2026-11-12T13:41:43+00:00"
   }
  ],
  "digests": {
   "2873d587-4e02-44c9-a9e6-29bb6c7bacea": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "arrecadacao-com-tcfa",
    "sha256": "84c1972fbf7e1c6a8b7bab3bb4ae55fbda4365803520bb592bf458b991175d6a",
    "at": "2026-11-09T13:51:55+00:00"
   },
   "d8876290-bd5f-427b-a8c7-f3777ab376d7": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "arrecadacao-com-tcfa",
    "sha256": "9d97bab655626aac6e601deca0c137b30b15858b77fd2ac190bbcc3c10b320e4",
    "at": "2026-11-09T13:50:51+00:00"
   },
   "52b00d0a-c548-41b4-abec-230960350d8f": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "arrecadacao-com-tcfa",
    "sha256": "a0da57bc348ff6ae4d491e8e274a558faea2dd8568b34ac9e26b584a3f46e050",
    "at": "2026-11-09T13:50:53+00:00"
   },
   "cd55e477-2f11-43e5-b994-7be34e275561": {
-   "layer": "L2",
+   "layer": "L2 (previous round)",
    "dataset": "arrecadacao-de-multas-ambientais-bens-tutelados",
    "sha256": "6e415c56febd0674dc7919f411a7f3da0b8eb0d5bd0c649be0989119eba196b7",
    "at": "2026-11-11T12:00:25+00:00"
   },
   "9d371390-73e7-4010-af9f-d8f672697094": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "arrecadacao-de-multas-ambientais-bens-tutelados",
    "sha256": "855e30cb9048c891afd91153e802fefc0f7972c6830f545451957dea91589d00",
    "at": "2026-11-09T13:26:18+00:00"
   },
   "2d4550a2-6d6b-4e10-8822-7544fdb12099": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "arrecadacao-de-multas-ambientais-bens-tutelados",
    "sha256": "5872d9afb39e54518087c0f87c0042e24489d620e7396ba9e92e169e98fcc373",
    "at": "2026-11-09T13:26:49+00:00"
   },
   "09494a73-726a-4341-92ca-b97cf35914b2": {
-   "layer": "L2",
+   "layer": "L2 (previous round)",
    "dataset": "ato-declaratorio-ambiental-ada",
    "sha256": "ee444cea19f7f0645608aeebf4c5b8d7e18a94f92af86ca4bcbcbbbc7e9cc817",
    "at": "2026-11-11T12:00:25+00:00"
   },
   "13f44201-5207-4aa9-92d1-69830f642142": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ato-declaratorio-ambiental-ada",
    "sha256": "f07a4ece04d597374fffdffd056c9a003d91870d7f1a3fc524d38b7c27fa96b9",
    "at": "2026-11-09T13:27:58+00:00"
   },
   "c4c9db21-036a-4eb7-9d96-cb979f8448c9": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "ato-declaratorio-ambiental-ada",
    "sha256": "ad0bedf201f7c01a36a1427b25a5effef297cf99865f92ea6b7c4b7f3c008079",
    "at": "2026-11-09T13:28:22+00:00"
   },
   "d5c0fa8b-b522-446a-a281-15f587783935": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "autorizacao-ambiental-para-o-transporte-interestadual-de-produtos-perigosos-aatipp",
    "sha256": "2afe2fccb08df1318886ce9160dde73f5c0893e5911d8433eda81f4a16e07d27",
    "at": "2026-11-02T11:32:15+00:00"
   },
   "4aed5817-45fd-49b9-ad42-e5d8addc8621": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "certificados-ambientais",
    "sha256": "ec26a5a20992f50244bc0f1590fb0bf94e6c459f02b8230d170154a946edb213",
    "at": "2026-11-02T11:32:15+00:00"
   },
   "edf548f1-1920-4003-8c24-6d33b10701da": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "dof-autorizacoes-de-exploracao-florestal",
    "sha256": "552a642be0bc3439ba646bb4ca316ad0f4f505e873a57d1e81b5ba41aefca2e2",
    "at": "2026-11-09T13:28:31+00:00"
   },
   "2d3c0058-d466-49d8-b5dd-b92f46b7da63": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "dof-autorizacoes-de-exploracao-florestal",
    "sha256": "ab13b3bdfd2d2cf2b12de98991664a3f5b763380af62091751cdb5301387f7e2",
    "at": "2026-11-09T13:29:13+00:00"
   },
   "9713832d-dd76-457d-926a-d398ca2f716e": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "dof-autorizacoes-de-exploracao-florestal",
    "sha256": "b416e907d98223aa712f301c03616ffe3695e69d526b66a0c7e0df8a73c718cc",
    "at": "2026-11-09T13:30:27+00:00"
   },
   "5f9d395c-41ec-4b8d-a0c0-3ad1a5b9192a": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "dof-conversoes-de-produtos-florestais",
    "sha256": "f0b10a33d5497b322477cc1f08a93a2c255074e1d21396a237e987ea1259287d",
    "at": "2026-11-09T13:31:28+00:00"
   },
   "762ce581-1096-4e83-bceb-dcaea43d7790": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "dof-conversoes-de-produtos-florestais",
    "sha256": "5d8b365bb508edc231f52e97289edc3d16287108bcd3ab83b235354e9f6a9e0b",
    "at": "2026-11-09T13:33:24+00:00"
   },
   "c1414b9c-b760-45e7-8ad2-3a5f226e2e9b": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "dof-conversoes-de-produtos-florestais",
    "sha256": "67588cd8fd455aa102b37cc76b322eee165e936e7adedbb637e764ecf7298d4b",
    "at": "2026-11-09T13:35:48+00:00"
   },
   "f89e36de-38a6-41b0-8c46-556cbbb28895": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "dof-transportes-de-produtos-florestais",
    "sha256": "7e4fe38fbfeebf0aca19bbd1ed45760a0b09dfcc27ccacc0157262ffbb46ed35",
    "at": "2026-11-09T11:57:09+00:00"
   },
   "992f4336-5392-448a-bef1-fff7e7c45d3d": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "dof-transportes-de-produtos-florestais",
    "sha256": "b8073077f239c76d372d6281afa56f66b32b018069e8063cf365fb3450f4f571",
    "at": "2026-11-09T11:57:10+00:00"
   },
   "a7fe3ed9-8981-495a-9f26-63351422e700": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "dof-transportes-de-produtos-florestais",
    "sha256": "0e1829edff98886f6426ea022a968eab1b0b14abbda3a5ee9fcd9968d120f044",
    "at": "2026-11-09T12:47:08+00:00"
   },
   "21e21d34-b71c-4f41-8ad3-ee5743fb8e00": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "dof-trechos-e-veiculos-de-transportes-florestais-detalhes",
    "sha256": "9a6b1e9ce078c4179f49250e51b4ab558fab4e242f5a4eece7b745e6a2434500",
    "at": "2026-11-09T13:38:08+00:00"
   },
   "45702319-7f8c-4e22-ade4-607935928c5e": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "dof-trechos-e-veiculos-de-transportes-florestais-detalhes",
    "sha256": "014b84026b8a221e0d070202edb7a7d87f36315f7d50946ed03889de1e47253f",
    "at": "2026-11-09T13:40:20+00:00"
   },
   "2b2107f4-8aea-4b27-9c0e-739f9d799026": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "dof-trechos-e-veiculos-de-transportes-florestais-detalhes",
    "sha256": "f855685599ef459c0ace2ced2433aa6321469ade4a16bf3ab0d651477049f6b1",
    "at": "2026-11-09T13:41:54+00:00"
   },
   "9ae4b7c3-6dd2-4e83-a117-7411c2cad222": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "efluentes-liquidos",
    "sha256": "d7a76f4739e2691cf87f58008afa586188350aea6c29ba7e0903e496f99ba77a",
    "at": "2026-11-02T11:32:17+00:00"
   },
   "74e90d52-2540-4b75-a1b8-6336d25f81e3": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "emissoes-de-poluentes-atmosfericos",
    "sha256": "581e7be286e3c05b470d2f53319ff89553e2ec73603c2cc97a7fe4742bd782a5",
    "at": "2026-11-02T11:32:18+00:00"
   },
   "e6a5c7ff-4dea-4b34-bd2e-9486cc6fcd56": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "evolucao-das-receitas-arrecadadas",
    "sha256": "c01deac55f95d4e9c395fc17cc15142b606e4af80fb420ff5d2be00e7c2599cf",
    "at": "2026-11-09T13:20:47+00:00"
   },
   "cc7367e8-10b8-4a42-8f4a-e1ef02867ed5": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "exploracao-economica-da-madeira-ou-lenha-e-subprodutos-florestais",
    "sha256": "115ed7340e1d43a1b2e9d83bf39d05e28f68b3ff67a91f29f8b274d823e84302",
    "at": "2026-11-02T11:32:19+00:00"
   },
   "ec986109-95a4-4361-ac9b-197883eae365": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "extracao-e-tratamento-de-produtos-minerais",
    "sha256": "9b8bb367f061aa5f66f70e24557e3fc3b435189c34879fc7b339a8f341eb8aaa",
    "at": "2026-11-02T11:32:21+00:00"
   },
   "c7d0f645-ee23-4efd-9d3f-a270a97ffd75": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "fabricante-de-produtos-que-utilizam-materia-prima-de-origem-florestal",
    "sha256": "46c5570d771b9d7cafa51e84384ee75855b846503b845a918daea013345cf15f",
    "at": "2026-11-02T11:32:24+00:00"
   },
   "eb580641-414e-4ae1-b430-d7b71c8c6709": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fila-de-acompanhamento-de-registro-de-agrotoxicos-quimicos",
    "sha256": "0982c4ecd0c98fdd0aa04c6ce148fb8a3c076029f8801bcab13234b519758f76",
    "at": "2026-11-09T13:20:59+00:00"
   },
   "b2aba344-95df-43c0-b2ba-f4353cfd9a00": {
-   "layer": "L2",
+   "layer": "L2 (previous round)",
    "dataset": "fiscalizacao-auto-de-infracao",
    "sha256": "181b2ed83312de705c6e6a520d626fee0b3c72f9c6f680a170354186270005be",
    "at": "2026-11-11T12:00:25+00:00"
   },
   "761dbd28-235b-4199-8613-92245416421e": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-auto-de-infracao",
    "sha256": "aedcf5883e812750f6acdea1018c5c5b97bd015b44b8d79cf717ed7bc2e8405e",
    "at": "2026-11-09T13:21:11+00:00"
   },
   "c3aea257-5c96-44ee-9e49-c1d3a439b61d": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-auto-de-infracao",
    "sha256": "5cfeba3da6a03b70aa889954c7fe9f2050459bcbfef67f470b040ed163652e5f",
    "at": "2026-11-09T13:21:18+00:00"
   },
   "903120d7-9a73-46d2-8e22-93576f4f855b": {
-   "layer": "L2",
+   "layer": "L2 (previous round)",
    "dataset": "fiscalizacao-auto-de-infracao",
    "sha256": "28b361fefe5f02e68859afb2573fd454a2bb6fb27e4812f150627071e40eea6f",
    "at": "2026-11-11T12:00:25+00:00"
   },
   "22dae6f2-41b0-4781-9d4c-a45fb6eee0e9": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-auto-de-infracao",
    "sha256": "daeb5f4ef2a0d494ea8ece2b1d587438d4677bdbde796d0c0ceae90d9b396168",
    "at": "2026-11-09T13:21:46+00:00"
   },
   "6f8b8b68-ee86-4ce0-9799-13698ad91062": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-auto-de-infracao",
    "sha256": "153c1c1af7d2d76e5c3e9e76b572ab2d884a0312aa6c786435eb6f43b13eb6e1",
    "at": "2026-11-09T13:22:12+00:00"
   },
   "3325463b-3f90-4cd6-a033-e3c7cbe1b8ea": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-auto-de-infracao",
    "sha256": "1d255fd49d9972481bd1bb30b70d969458321d8bca72462b682ebdb81dfd131e",
    "at": "2026-11-09T13:22:31+00:00"
   },
   "96c79c3e-a979-47a1-9a05-1eba3df4ce20": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-auto-de-infracao",
    "sha256": "632cd1788a11a6d35d5ddcc0ff036f8f2c136637ba71a7f184491b6743d684b6",
    "at": "2026-11-09T13:22:35+00:00"
   },
   "160b14e2-d7d8-40aa-b06c-295575a5fb9c": {
-   "layer": "L2",
+   "layer": "L2 (previous round)",
    "dataset": "fiscalizacao-auto-de-infracao",
    "sha256": "27b18b9cac9c39d6cfadc755c1923619083dd8847d5d5ed2ff5be3fe0b5d0d04",
    "at": "2026-11-11T12:00:25+00:00"
   },
   "8fd0af49-f045-4fc5-a1cc-d5def2efd3b5": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-auto-de-infracao",
    "sha256": "c8ec3631c1c74583dec29b8240ec4e05e8324527655fde2761c74646e1aa3e45",
    "at": "2026-11-09T13:22:41+00:00"
   },
   "afe30a48-eb96-4915-8f13-c4e838dae033": {
-   "layer": "L2",
+   "layer": "L2 (previous round)",
    "dataset": "fiscalizacao-auto-de-infracao",
    "sha256": "9daa7e2309227f3a18877c5454088d2f7b21298708c91f8842a0aed6127f73cc",
    "at": "2026-11-11T12:00:25+00:00"
   },
   "2783a310-045b-4255-869a-c46a5647f8fc": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-auto-de-infracao",
    "sha256": "81e776480de20d4ed819244fe0ecbab83c86bc3ccbfefe85395f1fe30093ad8b",
    "at": "2026-11-09T13:22:47+00:00"
   },
   "4244aee7-93c3-4b5f-89aa-fa6a09f1344f": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-auto-de-infracao",
    "sha256": "c11342b70c256730860bf2327e8a51922b3876629f80c2d0d86db6c92f9d9d63",
    "at": "2026-11-09T13:22:48+00:00"
   },
   "67fa25c0-8869-4cd9-8938-36d4c7061e07": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-auto-de-infracao",
    "sha256": "1ece16e50cf0aeb7a90744d938ab55716765145882a050795c7934e7e7a9a94f",
    "at": "2026-11-09T13:23:05+00:00"
   },
   "826b90b3-1fff-4ed2-a892-d3bb85370e15": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-notificacao",
    "sha256": "45bad116df11cb248c5cbc6d7fe610e5770387bc3294e0fda7dfee84f3af98dc",
    "at": "2026-11-09T13:44:29+00:00"
   },
   "3364a902-067a-469a-bd9a-b865d234eed9": {
-   "layer": "L2",
+   "layer": "L2 (previous round)",
    "dataset": "fiscalizacao-termo-de-apreensao",
    "sha256": "afd442f6d8af42303c6015154b26bd227eb240a778928e71063dfcf6a86db2dc",
    "at": "2026-11-11T12:00:25+00:00"
   },
   "67c67a93-f99e-4764-b0ee-4a2911d79c7a": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-apreensao",
    "sha256": "78530c50d3776adf5c14caf260ca15fcae37e7c2d6e0ea9e0d609e5da77f075e",
    "at": "2026-11-02T11:32:27+00:00"
   },
   "27242a34-0690-436a-83e9-572f2e9cbc0e": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-apreensao",
    "sha256": "3091b98113b667da9d7e10a2f7433691f0cd07fa87c3955bbdcc881f3bd67b12",
    "at": "2026-11-02T11:32:30+00:00"
   },
   "beab1a59-3fd2-4e00-871d-0d2052ef2425": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-apreensao",
    "sha256": "ea3ba089c36c6a51aa16a8fe1e34e538251590d190d8be0057c7b645c5b6557c",
    "at": "2026-11-02T11:36:42+00:00"
   },
   "0c3335d3-cd37-48f6-9785-9de6864dfeb8": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-apreensao",
    "sha256": "94572a53253d402a2450b134465e8b2cdc10a4353cf1ad2ceb5ba7c822b90706",
    "at": "2026-11-02T11:36:44+00:00"
   },
   "26063153-1102-4cc1-ba71-df8f2bb00727": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-apreensao",
    "sha256": "ec267785cf69970c14a845744fabf24e3697507ceaf31c43c7b6b14d24ce172b",
    "at": "2026-11-02T11:37:00+00:00"
   },
   "081627a0-d158-44a8-88b0-600929e93526": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-apreensao",
    "sha256": "5a4de5c370ed164d70fc3745cd69f6286c0c7ce52ea830e97c0b9f2edb0b8262",
    "at": "2026-11-02T11:37:13+00:00"
   },
   "122931cd-78da-4064-87b6-3f2a89406c61": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-apreensao",
    "sha256": "4b09e2d7c7527084628799cc308a39c7e08209ac151b56ac61dc2a0f30225160",
    "at": "2026-11-02T11:37:21+00:00"
   },
   "27706b6b-e099-4cd7-bb87-2a45a47f9446": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-apreensao",
    "sha256": "f6f5bf786e50fd3a570b687078c38b3a10cd6c37e9162966c4fd0ec62a120102",
    "at": "2026-11-02T11:37:22+00:00"
   },
   "10869c00-3e91-4da2-99a9-e73c976a9af6": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-apreensao",
    "sha256": "5512ddb83ad4743650031801685c2ac15a9704d54d2f8d50d7711fd5ce6a5062",
    "at": "2026-11-02T11:39:12+00:00"
   },
   "4d0993b3-3fc3-4708-b617-7e86485dbb99": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-apreensao",
    "sha256": "2c46bd7fdf82451551f866d842523f21bdb5fbad46283c9189565384311d302d",
    "at": "2026-11-02T11:39:28+00:00"
   },
   "f7195f5e-26ac-444a-ad98-d1bd69081d58": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-apreensao",
    "sha256": "abd5f02be35b61b92502de521b91ce97a5409cff9e88b25d6b04d4e3a17ad327",
    "at": "2026-11-02T11:39:30+00:00"
   },
   "c49419ca-efed-4090-a32e-565c2ec68084": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-apreensao",
    "sha256": "9e63646dde96fef2b437a64e8c080081a228df13bcac419c7aba55e856f396a7",
    "at": "2026-11-02T11:40:36+00:00"
   },
   "497ac942-f584-415c-bed8-a5bb09f97463": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-apreensao",
    "sha256": "3b6088202510e50cb0a5044345219cb16a79ea71e696c38dd4cfb5a6b6f2ab2a",
    "at": "2026-11-02T11:40:38+00:00"
   },
   "76095503-a1e2-4e5d-8f02-fd05aa632522": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-apreensao",
    "sha256": "e332556ae6729b64f55e4e73bab3413a3af60ca781df41b0b5dc0aa77ee1446d",
    "at": "2026-11-02T11:40:39+00:00"
   },
   "a96d568d-2beb-44bd-84ce-19522dd0f856": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-apreensao",
    "sha256": "1c6066bab88070dd1592b02fea5424c5b8325afb9b2e9385f73669dbc6d539ac",
    "at": "2026-11-02T11:40:39+00:00"
   },
   "3b99c21e-30b2-410b-8823-356bb73012e0": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-apreensao",
    "sha256": "4090a12a865fa8cefb0d891f45fbef5600776f5e1550b14b13d6405f28701ee7",
    "at": "2026-11-02T11:40:40+00:00"
   },
   "e8f66578-2df7-424e-bd85-bcbf260243a9": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-apreensao",
    "sha256": "b42d6c7c28de64591315d9a8780d81b13ca2a51470a40b9d66a4247571ac3a0d",
    "at": "2026-11-02T12:23:43+00:00"
   },
   "0522b605-5c8e-4d04-a57a-ce217ce9bb61": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-demolicao",
    "sha256": "76e44629b33eb096811048eff37d89bc01e7f4e68436750a9a813562c1caffb5",
    "at": "2026-11-09T13:44:39+00:00"
   },
   "9e715d83-f7eb-4dcc-b686-23252325ebbf": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-demolicao",
    "sha256": "94db47c89f78450b0562186d1dfd70489abc346825f88514bdeff9e9a64b2bd7",
    "at": "2026-11-09T13:44:42+00:00"
   },
   "e62430da-5c2e-4447-94f7-bd2d92496137": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-demolicao",
    "sha256": "7bdba33cea5657c82d505f360740e9ce24b77637e3d453a1a162647a17d82eee",
    "at": "2026-11-09T13:44:44+00:00"
   },
   "e2279c55-804e-409b-aaaf-1b7408d8ca52": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-destruicao-ou-inutilizacao",
    "sha256": "a31efa2abe8dd6994baff841b61f0ceaf80f07543909c89745ddf1f30dabe0c9",
    "at": "2026-11-09T13:44:45+00:00"
   },
   "13f87098-c079-458d-93b6-810b708eb1e3": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-destruicao-ou-inutilizacao",
    "sha256": "09c2d3c6b131ede95ca9499c1f708b41fad1c244e5bc0c38a2dc5a835ff480f0",
    "at": "2026-11-09T13:44:48+00:00"
   },
   "17d20dcb-1848-4f8a-a972-fa7dfe4a1e7f": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-destruicao-ou-inutilizacao",
    "sha256": "6559f9759247f8cf28d4d82f52c0a49a4937fc40a6dcd6e6ebca81c673f7a425",
    "at": "2026-11-09T13:44:52+00:00"
   },
   "62d099c5-e2b2-4e24-874e-46374cf9fa9e": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-destruicao-ou-inutilizacao",
    "sha256": "53a09827097285f9d5f548d0a2957a8739fad9b67225149df80875be4bcf47d1",
    "at": "2026-11-09T13:44:55+00:00"
   },
   "0d58b13b-3909-43da-a242-11a3e95100f5": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-destruicao-ou-inutilizacao",
    "sha256": "c6fe920de8e0265906719fca2fe13549aa244dcf41a4b806f935b8eb350c96b5",
    "at": "2026-11-09T13:44:57+00:00"
   },
   "2f335d4d-6707-4862-995d-f2fb6c7dd052": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-destruicao-ou-inutilizacao-serie-a-e-b",
    "sha256": "29aa509ed08e2a1752343577817d1eb4c66cc7468e635b448289cbb27a585c90",
    "at": "2026-11-09T13:20:47+00:00"
   },
   "92f92021-28df-42b7-bbbb-a4f77b3a078e": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-destruicao-ou-inutilizacao-serie-a-e-b",
    "sha256": "d52b7a84f6da92309c4547cbb31b67802ee66cebaf1d54183b9ff846431eb594",
    "at": "2026-11-02T12:23:45+00:00"
   },
   "0224f6a5-1f51-4a64-a8c4-f34729f04285": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-destruicao-ou-inutilizacao-serie-a-e-b",
    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
    "at": "2026-11-02T12:23:45+00:00"
   },
   "2c53046a-664c-4d27-8dd1-159b5f054448": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-doacao",
    "sha256": "17e6f63e5989e5139da6cf9b0b276174264532a25878cf6b7a35904a2105e242",
    "at": "2026-11-09T13:45:00+00:00"
   },
   "4d98126c-73c1-42fe-8cb0-19fe0374e0be": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-doacao",
    "sha256": "d89a048ec061be449585a22761a9cbf21088f06c641045ec8ce944b275b02016",
    "at": "2026-11-09T13:45:05+00:00"
   },
   "7409947a-637a-4ac6-827f-caf439617944": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-doacao",
    "sha256": "7d7d126f9b34634c6c4016f8bac8d4f670d5aac0a3fde25137f15fe87d5356f6",
    "at": "2026-11-09T13:45:09+00:00"
   },
   "194b9635-bd97-4555-8ea8-48fab4a9c972": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-doacao",
    "sha256": "a74b8121d6939f3f28fce3ec23dd28c8876fbca9b1139878db0aee3e1b51e6b9",
    "at": "2026-11-09T13:45:12+00:00"
   },
   "d9c1208f-1f35-4708-b9fb-abd022de894c": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-doacao",
    "sha256": "eced7f7cccc755478cf0582b8b95836796ae4947db241f28e9003d41b9cd6b00",
    "at": "2026-11-09T13:45:15+00:00"
   },
   "8f88b43e-287a-470b-a730-db440f9e37fa": {
-   "layer": "L2",
+   "layer": "L2 (previous round)",
    "dataset": "fiscalizacao-termo-de-embargo",
    "sha256": "64987beaf598aae32f675b96e01d7bc789487bca3e9d3225e4d6691e65e4d760",
    "at": "2026-11-11T12:00:25+00:00"
   },
   "aba90ea8-e2f3-431e-a0cc-1ae24773843b": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-embargo",
    "sha256": "31e561bd855f754c64645b3c5720384108961fcbf550876e3001cd4ce31f2e45",
    "at": "2026-11-09T13:23:09+00:00"
   },
   "90d17ce7-6a9b-4bfb-804c-6d52e43af264": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-embargo",
    "sha256": "7298d79634ae1d8979f3ecde92012dac581e71be3ff29b0a3dde161d78746532",
    "at": "2026-11-09T13:45:19+00:00"
   },
   "3360882c-a038-4129-a1f0-7013af37926a": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-embargo",
    "sha256": "44313e04a443946d86c11e7f47309e451be502b37c0fe011b03f8d025116ffd7",
    "at": "2026-11-09T13:45:22+00:00"
   },
   "0a4284aa-e142-4d6d-823f-9958f26c829e": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-embargo",
    "sha256": "32ac1f46cbd2d2632540e0a5380bda7ff377a8ea4288b6ca597343b7fb71a1c0",
    "at": "2026-11-09T13:23:12+00:00"
   },
   "ccdbf737-0fbf-4547-adf6-267204aa4413": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-embargo",
    "sha256": "a21cfbfd2cbb708cbdb9039971c497340c6023704e49d833619d9c46e84573f0",
    "at": "2026-11-09T13:45:24+00:00"
   },
   "21347475-cd71-41de-a677-f0fbaa8c02b2": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-embargo",
    "sha256": "5e6fb3fd346574b66b1861cf5cda75185d2f78b04f95f93d72971d4c1ab4ea57",
    "at": "2026-11-09T13:45:27+00:00"
   },
   "04f7998d-58e1-4717-85f5-401dc9994b19": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-embargo",
    "sha256": "0fde32cc1fbea19a63833635267ca84388210840a2a972827bebc6e0e3bbacb2",
    "at": "2026-11-09T13:23:38+00:00"
   },
   "f0073116-1642-4e4d-ac1f-153f3fcd21b4": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-incineracao",
    "sha256": "30cef68dc2a66c9a7772163659806153d9cd4342f83bef03baa0bc237844cd2b",
    "at": "2026-11-09T13:45:29+00:00"
   },
   "08a27674-c9f2-4cd9-a4b9-2b2e3cf00948": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-incineracao",
    "sha256": "9b473699c850902283bc95deb247fadc4425a9233fcb52ad363746ad0b18e8fd",
    "at": "2026-11-09T13:45:33+00:00"
   },
   "589ea44c-cc80-4d1c-9797-af3b8646202c": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-incineracao",
    "sha256": "305117682f19432976b3a3d636ac38dd6800ed99d3717969253c4674b34a3eb1",
    "at": "2026-11-09T13:45:36+00:00"
   },
   "24251a10-7e8d-424d-878c-8d2aa908cf7b": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-soltura",
    "sha256": "eb47420c845a5b162ff697b10a320f67d363eec6ae35b22a11ece9838751180e",
    "at": "2026-11-09T13:23:39+00:00"
   },
   "8911eaf9-ebb9-4821-a4d7-b5e2cfe3c390": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-soltura",
    "sha256": "f7f8b8493e3ee76145c46d46e3f705448f71a777d03fadec0828b95888cff17e",
    "at": "2026-11-09T13:23:39+00:00"
   },
   "d57ca40d-d5c0-4bd5-8bc1-cdfb79ae1a3e": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-soltura",
    "sha256": "946ab8ae8da89e521600cb9c855d1b2edfac4459ec4a92a2ff96c5a1fe96987b",
    "at": "2026-11-09T13:23:41+00:00"
   },
   "6a4222f1-353f-4f61-a6a9-38d8f4f50c3e": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-soltura",
    "sha256": "c9a588d41703ae51210752a2d019a29a407d3731b7b1f00e3a3859d74f3535a6",
    "at": "2026-11-09T13:23:42+00:00"
   },
   "7dad7932-3761-456c-93fa-32413ba48703": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-soltura",
    "sha256": "3ac87a699e0b2f63a135ea0da022b11e4cc17056a83c79dcc2df826bd0a4a969",
    "at": "2026-11-09T13:23:43+00:00"
   },
   "4822e6fa-c4af-4ab8-8ca6-04014f4b3c45": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-suspensao",
    "sha256": "f953a0e35e930a9a1dc0f0b60396d944d1044e7606f828cc90ecd1efe4abcf3a",
    "at": "2026-11-09T13:45:37+00:00"
   },
   "5b31395e-1e45-4840-ab84-a2532212caa3": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-suspensao",
    "sha256": "57764560b4ed80e70316b0239e4912b38f2af4c4b79bea25b54de2bd9cf844cd",
    "at": "2026-11-09T13:45:40+00:00"
   },
   "0c2237c6-bfca-4ab7-8063-03dc8bf72c11": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "fiscalizacao-termo-de-suspensao",
    "sha256": "f6fff72f8c55c13bd127fdeb388cc5f6952b451013843839b375df3aa1050443",
    "at": "2026-11-09T13:45:43+00:00"
   },
   "98d0aeb5-4843-421a-9e3c-cfb8d8b885e5": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "fonte-energetica",
    "sha256": "3c7aea9b8052639faea07a7c0064f251e4ea2f9093129e00fe18339ac21fd61b",
    "at": "2026-11-02T12:23:46+00:00"
   },
   "dccac66a-382f-418d-beb4-65c1c2c5991d": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "fontes-energeticas",
    "sha256": "d73584260ab0b0ecc438d1748215f2b22084c5e6dcbbdce7e1dd877f7d7546bc",
    "at": "2026-11-02T12:30:38+00:00"
   },
   "9b04fdf7-d6da-4621-a1e7-460b53b399a6": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "importador-exportador-de-fauna-e-flora-produtos-parte",
    "sha256": "419e32748b233c473f4ac9f8f6137d2d64b30068063cff104e54711f8a650380",
    "at": "2026-11-02T12:30:46+00:00"
   },
   "6fe07a2f-718a-4d04-a386-2a1cd3e96afb": {
-   "layer": "L2",
+   "layer": "L2 (previous round)",
    "dataset": "julgamentos-de-auto-de-infracao-realizado-no-ambito-do-ibama",
    "sha256": "7780312127223a853a01ced2be76b9631850ce282fc32af0e72dbf8eae81004d",
    "at": "2026-11-11T12:00:25+00:00"
   },
   "9e4873d3-10d8-464f-a883-88be3b3abf06": {
-   "layer": "L2",
+   "layer": "L2 (previous round)",
    "dataset": "licencas-ambientais-de-atividades-e-empreendimentos-licenciados-pelo-ibama",
    "sha256": "17f287d49fb633be886eb2ada7dc8d3f794a3d08ed045e91d71324530b7f24c6",
    "at": "2026-11-11T12:00:25+00:00"
   },
   "3d9c4d47-9d44-4971-922c-4a9143d071a6": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "multas-ambientais-distribuidas-por-bens-tutelados",
    "sha256": "d43eaf80ea5d278e69e6d377a9dc275916c676154edef95fd5bc97d3b97af117",
    "at": "2026-11-09T13:45:45+00:00"
   },
   "4f9c7227-2bbd-4e88-8599-a3fbe787fb5b": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "multas-ambientais-distribuidas-por-bens-tutelados",
    "sha256": "3c320cc30e34b51bd30566ce29e07181b5da5d9c2b485138037a096ebbc693af",
    "at": "2026-11-09T13:45:51+00:00"
   },
   "f7db373a-09a3-48c7-a370-fe71da7dcf8b": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "multas-ambientais-distribuidas-por-bens-tutelados",
    "sha256": "da2926e22215c6605f13b31aa0beaf6f716251238b0814d7b0e600b321a8b75b",
    "at": "2026-11-09T13:46:04+00:00"
   },
   "69580d03-480d-4380-a2f7-1ffdd9a4e848": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "pescador-profissional",
    "sha256": "e1747a6ef11770bd8f0dcf6b95e9e769d5521ce4adbaa2f2016e97c61b53b0f2",
    "at": "2026-11-02T12:30:50+00:00"
   },
   "3a9b322c-ac27-4e36-bc07-a81fff885dac": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "pessoas-juridicas-inscritas-no-ctf-aida",
    "sha256": "d11c71d9f43134de3da87989fe16a78cf7cd5af3b288fb4445904204c8742e56",
    "at": "2026-11-09T13:23:47+00:00"
   },
   "6c07749d-da36-46b2-af2f-baa84194380a": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "pessoas-juridicas-inscritas-no-ctf-app",
    "sha256": "485ce7477d26f1dd40bbfac5793685ff8c189aa322067fe9aa8939f5412b0a79",
    "at": "2026-11-09T13:23:50+00:00"
   },
   "9d35f568-b77f-453b-9cac-b47b87c85125": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "pessoas-juridicas-inscritas-no-ctf-app",
    "sha256": "b97a75e2a08a1122bb467a9afdcad0b3323e14c86c32768dd3813e0c210ff099",
    "at": "2026-11-09T13:23:54+00:00"
   },
   "3d3ac98e-6737-429b-a1c3-bfd73b259003": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "pessoas-juridicas-inscritas-no-ctf-app",
    "sha256": "f59ce7e02859bbc5ff1bc18e306957bd67b625307084bd505dd8023bd5823d21",
    "at": "2026-11-09T13:23:57+00:00"
   },
   "cc55dbc7-f200-4f84-916b-534c02d2fe4a": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "plantacao-vegetacao-nativa",
    "sha256": "f1170c76c179c83f33c9ff7b361f707209b9c28be872b5c213ea2a7666a5cffa",
    "at": "2026-11-02T12:30:52+00:00"
   },
   "82312442-c03c-4527-a9df-45d2cc78dd50": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "produtos-reciclados",
    "sha256": "cf13525c3654b05a2aed653b12ad1675f266cec5c8764592b6dcb87814a13a65",
    "at": "2026-11-02T12:30:54+00:00"
   },
   "305df277-08a9-44d4-a5af-be3e2eddb950": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-fabricante-nacional",
    "sha256": "eee0f64e3791f5fc0e8a9ebc20150dd4a31d4e4da08ebbec8950e950343a5074",
    "at": "2026-11-09T13:24:17+00:00"
   },
   "473e8496-3530-4c95-897a-447db2bf8b7e": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-fabricante-nacional",
    "sha256": "5c41f125e92e9dca351d98435fe26d6ab3ca9ac6fa5761d3b9677643c29d47b1",
    "at": "2026-11-09T13:24:17+00:00"
   },
   "53af19d0-356e-4e4a-ba52-98982cdc047c": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-fabricante-nacional",
    "sha256": "66bacf4c16f056f96464ec30165c53c918d2f6eee01974c8f339736e41d0116c",
    "at": "2026-11-09T13:24:18+00:00"
   },
   "cc755979-551a-4e07-8be1-0a3d615286c0": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-fabricante-nacional",
    "sha256": "a278ad7fb049c6ebd762846a31bc1a6601d2bbb3103ae53f5153438e1c1bc60b",
    "at": "2026-11-09T13:24:18+00:00"
   },
   "d42ef134-d6f2-4129-a7f7-497c06dcf695": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-fabricante-nacional",
    "sha256": "6e8dcb7090e7db14d0d67e4f1c160db1985aeb54197b506166329204cf39d1d3",
    "at": "2026-11-09T13:24:18+00:00"
   },
   "819ac66f-8c8f-465f-9f30-4def5e81ece6": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-fabricante-nacional",
    "sha256": "de3d286d97af2f21a0284e2bb9529a897ab7d8d930d6fb60f32cda3a75b677b8",
    "at": "2026-11-09T13:24:19+00:00"
   },
   "6bde1c16-692f-4706-be68-bd2b3c1ac7d4": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-fabricante-nacional",
    "sha256": "dace946b1f321bbb101c7a9035be4ab545fe585afdcc49a69508261994a1bc96",
    "at": "2026-11-09T13:20:57+00:00"
   },
   "4c02546d-c971-44b2-a007-87e2127c02b3": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-fabricante-nacional",
    "sha256": "62af5400d6794c920d873c546620328069bc68305e1670af210dc3f5e3c3433d",
    "at": "2026-11-09T13:24:19+00:00"
   },
   "336f347e-21f9-4bef-82f2-a4984aaa66d6": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-fabricante-nacional",
    "sha256": "9f534fd84292b6a785a2eb297f8e8617948e2e9bfe5e4cd06b7b93f1fc20a538",
    "at": "2026-11-09T13:24:22+00:00"
   },
   "5329587b-8db8-4c39-b7bf-8b2230495f16": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-fabricante-nacional",
    "sha256": "29f0d361d03d7d30a5a6fc67f723f6d12d2ae31693c861938aa126c5f4446513",
    "at": "2026-11-09T13:24:26+00:00"
   },
   "2f8116fe-968a-4efb-9895-3e35f41ee300": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-fabricante-nacional",
    "sha256": "7afd1cbcdd204378afd7316936867b0256f92b18dca30ada409a2ad2ce1976d2",
    "at": "2026-11-09T13:24:26+00:00"
   },
   "2e2cb2ba-95bf-4680-bf65-abc5777e229d": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-fabricante-nacional",
    "sha256": "78e4c8ceb2808c2b499fb52285c5a1f3ee08e689a79251e78a2c813295296f81",
    "at": "2026-11-09T13:24:27+00:00"
   },
   "9fbedfb0-618c-43d9-931a-7b5925a88842": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-fabricante-nacional",
    "sha256": "723c1d05065befeac5dfedebe016401e54d06022839176b97ac8b0f14d887d02",
    "at": "2026-11-09T13:24:27+00:00"
   },
   "058e6e91-eb09-4df6-8452-e1cfa21eb05e": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-fabricante-nacional",
    "sha256": "1acc5b7faf6d5947f8de8454b731a7c0df9d0f9eca4c33deba4bdad86ac01a6a",
    "at": "2026-11-09T13:24:27+00:00"
   },
   "1013018f-2a1d-4af8-8ffd-8acb7219e73a": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-fabricante-nacional",
    "sha256": "ccfcbd3a91478f2bf698578d60c67688264c1ea1cbc41ce75ac31085c084c206",
    "at": "2026-11-09T13:24:27+00:00"
   },
   "6c96417b-b6bf-4599-bb11-471c14ddbe56": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-importador",
    "sha256": "58ef3f02ad197e0ae5b9c2e71fe8c0b47746915f0449eb2cbe6558c11f0e9aae",
    "at": "2026-11-09T13:46:28+00:00"
   },
   "0dcf7b76-12fd-498e-9ae2-d3de8e5331cb": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-importador",
    "sha256": "b2955ba7c2957fb439d97553807ad0b1b44b3455ddf52cc556de5c5dbcff8caa",
    "at": "2026-11-09T13:46:28+00:00"
   },
   "8b4cc0cb-f3c6-4fe3-be79-94ab1867df71": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-importador",
    "sha256": "c727f530d155755a8918a8a95f608fca08bc65259a4c38c001ab693e401f8d59",
    "at": "2026-11-09T13:46:29+00:00"
   },
   "85efc1b6-c4bb-4e1b-96cc-8fb4e39dd811": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-importador",
    "sha256": "673a88076a494f37ed5d0c9dea40479c5ba938069be4245b3c587dbd75a615d7",
    "at": "2026-11-09T13:20:58+00:00"
   },
   "78692bb1-017c-4ba4-a954-ff619bdc53ed": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-importador",
    "sha256": "94909a93cadae4371b6ff9325b66e4584bf9a47ac852f48bef8737bd10d73fb8",
    "at": "2026-11-09T13:20:58+00:00"
   },
   "c60c95d4-ce2b-4d27-884d-1a572a604576": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-importador",
    "sha256": "169b5f19a329aee9c09127bbfc4426e1612f47db8e6f49e6172094d5064577bf",
    "at": "2026-11-09T13:20:58+00:00"
   },
   "4260f6e2-6598-415a-a371-0a8bf7b16bd6": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-importador",
    "sha256": "ff7f5f80b44f87e4992b36d07ed05fef154f9ca3de97151d8d3289b1bb5acaf9",
    "at": "2026-11-09T13:46:30+00:00"
   },
   "7fcc2bcd-fdb0-4be5-b215-37973dc6dd2f": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-importador",
    "sha256": "3e86d2867b4557c2cb3b765fb3d409c44f60b39561f614e7658ce421d16f7e10",
    "at": "2026-11-09T13:46:30+00:00"
   },
   "ebca9d7f-aceb-4c50-9f48-34f502d2eb55": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-importador",
    "sha256": "192f895bce76677eb2781888dad793ef56dc8bda75f0c23ef29f43ee41378681",
    "at": "2026-11-09T13:46:30+00:00"
   },
   "6c1ec9e7-6615-4b99-bd38-a64d1267a3c8": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-importador",
    "sha256": "caa231b9c2f943c54a7bfcac17698420d0bfc601177836f573757ba0b6b1fea8",
    "at": "2026-11-09T13:46:30+00:00"
   },
   "d7f3fcc4-4a5d-413e-9213-9f6ede3a1380": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-importador",
    "sha256": "38779863509584b0c94266c45d9196d1bfd596bc09f4cc01d9f302ab986c9ddf",
    "at": "2026-11-09T13:46:31+00:00"
   },
   "a2adba95-0b96-4ccf-9630-13cc1668396a": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-importador",
    "sha256": "7e1b18365c9fa10c7264db34b8a11a3fb06f6b0cd8c015d49c1023a185889673",
    "at": "2026-11-09T13:46:32+00:00"
   },
   "c10fc1fd-3c85-4e12-a9cd-79fe464602c3": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-importador",
    "sha256": "6b471a926696454459a37ac081cc32e8c5ce613571c70c71d7de3e8973ed0c66",
    "at": "2026-11-09T13:20:58+00:00"
   },
   "cb9cf40d-f0fa-4304-ae73-3c857c3d59d0": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-importador",
    "sha256": "52d7c03d97aed931403758db9a93b118bd98aee8fd78501802ae8fb227cf4dc2",
    "at": "2026-11-09T13:20:58+00:00"
   },
   "e6a02e7b-98c0-44e4-aa7c-2f61b9552e04": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-importador",
    "sha256": "3492c964d53aa35943f0562607db8d7f60ea89ada3c99618889ea2e35fe6c735",
    "at": "2026-11-09T13:20:59+00:00"
   },
   "6cd160bc-baf4-4966-a520-47ac533f8890": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-importador",
    "sha256": "37505572437772bec6131e0dc61f2923da9e2f4fe087e947a2e46a91da5a4304",
    "at": "2026-11-09T13:46:33+00:00"
   },
   "de5ffe29-1873-4b34-87e9-fa5cb7e1a6a7": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-importador",
    "sha256": "b70f8de6a8d66030d2d94afbd1075c378c7b89dd7181ad2cc1528b8f1c9e168a",
    "at": "2026-11-09T13:46:34+00:00"
   },
   "a262adef-7e05-47fe-b1ab-56cc86980a05": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-importador",
    "sha256": "4a0ca48744b6c230d3f6306b65a5c87beb82b21a8778bcd78ea5cd5d90bd5e2b",
    "at": "2026-11-09T13:46:34+00:00"
   },
   "3cf1fc83-c401-4b9f-b2fd-3ffddb35ddcb": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "rapp-pilhas-e-baterias-reciclador",
    "sha256": "694e837c7814f953fb81cfbd6aa2be95fbb55ead2971909676f828adcc56314a",
    "at": "2026-11-09T13:46:34+00:00"
   },
   "5baa8719-cbc7-4a31-956c-d8d016ab5672": {
-   "layer": "L2",
+   "layer": "L2 (previous round)",
    "dataset": "relatorios-de-comercializacao-de-agrotoxicos",
    "sha256": "12fa08c61fb8102a7c1d03729f4d90af46697cbbd937553dd95243a9010ff849",
    "at": "2026-11-11T12:00:25+00:00"
   },
   "1fb9c97f-13b8-4385-95e9-8249b974746c": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "relatorios-de-comercializacao-de-agrotoxicos",
    "sha256": "236d51a2b602aaa6c75f9dd0e78653f81b856e9f296eed94b8a405b9a87da9aa",
    "at": "2026-11-09T13:24:36+00:00"
   },
   "570e4b24-e728-4887-bd6c-864cc8c9f587": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "relatorios-de-comercializacao-de-agrotoxicos",
    "sha256": "3a4fc900b41e5f68c6433a8fb8639bc32cb1eb43b00adb97dfc01e16cb5e9a20",
    "at": "2026-11-09T13:46:42+00:00"
   },
   "4f1236db-ec33-465a-80c7-d31ac05338ee": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "residuos-solidos-armazenador",
    "sha256": "03faf1f9b1583f7764ac00894404f8ce57e05779255fa3a112245b0ac54a577a",
    "at": "2026-11-02T12:30:57+00:00"
   },
   "532a6fec-dfc2-4b49-ab95-86d46b9cd4f3": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "residuos-solidos-destinador",
    "sha256": "7a3b386f3e5098d982a96a34bd63328e78adeaed9456bcaa76b71e30ddfdcc60",
    "at": "2026-11-02T12:30:59+00:00"
   },
   "3033f34f-b622-4da6-a188-f9a56cbb2b2a": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "residuos-solidos-gerador-a-partir-de-2012",
    "sha256": "291c8e9026dc931ea1153b66137b977169142df0dafd9be777fe8d01196bc174",
    "at": "2026-11-02T12:31:08+00:00"
   },
   "5d78cd9f-a990-4d65-acf3-aa5a18937143": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "residuos-solidos-gerador-anterior-a-2012",
    "sha256": "8ce74d15e75f7f7f6a183cce7f5f0e637a346e105f939405fd506193f0b81794",
    "at": "2026-11-02T12:31:37+00:00"
   },
   "5907b69f-64dd-47d1-b9ee-f81eb19c6012": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "residuos-solidos-transportador",
    "sha256": "e50db77bd3b0eac7ae3b21d5d7aba2110379a344e458acbf3ea8f43e5e93955f",
    "at": "2026-11-02T12:31:46+00:00"
   },
   "dada25a0-4e75-4a5e-8b8a-a9f5767127f3": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "silvicultura",
    "sha256": "6f220173dc253347a1ff58a68ec1e9f8177f41f390befb8a93860caec72af046",
    "at": "2026-11-02T12:31:49+00:00"
   },
   "e257dc08-786d-4223-86e5-9e8597fb716d": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sinaflor-autorizacao-de-supressao-de-vegetacao",
    "sha256": "233b144e11e5c648b32b1513daace5f0b2c22593590c6d08f0c2f6a11a3b31b8",
    "at": "2026-11-09T13:24:47+00:00"
   },
   "7a275dac-4a9c-4664-a6b5-b4ff12af3786": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sinaflor-autorizacao-de-utilizacao-de-materia-prima-florestal",
    "sha256": "f14f9968194d1850c1a99baa6711ee71da282fbd90bcb9dc6fe62e4948c4f6d1",
    "at": "2026-11-09T13:24:51+00:00"
   },
   "26f5a30e-53d2-4509-b5b3-5e980ae706f1": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sinaflor-autorizacao-especial",
    "sha256": "f2e84f8932e9beb6b05f209034d786d8b901d2e3950680484afff54e0b2a4639",
    "at": "2026-11-09T13:24:55+00:00"
   },
   "91b0bde2-9b66-4ba1-bb5c-b955571b075d": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sinaflor-corte-de-arvores-isoladas",
    "sha256": "6c3fb8dc67cf0b1ed230acbd4d6ea7e8a780ff2a62454bfed5736eabf45fdf19",
    "at": "2026-11-09T13:25:00+00:00"
   },
   "1db30067-2c1a-43f6-abff-d3258cdc376a": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sinaflor-corte-de-arvores-isoladas",
    "sha256": "e87a9a2d904928e78be591f0dc0c2e7f348d5812a6714a382f3e4cce7df7856f",
    "at": "2026-11-09T13:25:03+00:00"
   },
   "3d6fb0d5-4efd-4f22-8321-a075d1d48c38": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sinaflor-empreendimentos-de-base-florestal",
    "sha256": "dc0a32c350b393f0396de77d15056f8a0167e3a6896e2c755da925dff37c3e29",
    "at": "2026-11-09T13:21:01+00:00"
   },
   "402741a2-8072-4365-b5d8-4dcb915be169": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sinaflor-exploracao-de-floresta-plantada",
    "sha256": "d2ba0686ff00f715fd2fc4cd6cadcbdb67a3f2c06d6d8dbd38a675da98886bc3",
    "at": "2026-11-09T13:25:05+00:00"
   },
   "fac201c9-8e09-49d5-9113-1608cf45b8c8": {
-   "layer": "L2",
+   "layer": "L2 (previous round)",
    "dataset": "sinaflor-pmfs-amazonia-legal",
    "sha256": "e8ae0c684aa6dfcc1e519c812686e1c1d87af1549ba7ad6afa83df536a629f32",
    "at": "2026-11-11T12:00:25+00:00"
   },
   "b36eeee5-f885-45e3-8926-3b822be5735a": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sinaflor-pmfs-outros-biomas",
    "sha256": "110c0351fb15b5b98944a14d0d24b15f0adad96682be3d4a66a9446398fd7eb5",
    "at": "2026-11-09T13:46:49+00:00"
   },
   "a913bfaa-61c1-43da-a98e-5a5a366eaeec": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sinaflor-poa-amazonia-legal",
    "sha256": "715ac706516ac92399621c7da0b9e492e7c32b1b902dd2dd59ef030eeb675779",
    "at": "2026-11-09T13:25:14+00:00"
   },
   "b2f0b4a5-0664-469d-aa6a-be980b45d2cb": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sinaflor-poa-outros-biomas",
    "sha256": "08a28c16a729b99cca7bf282df70eabf22dcee6ccd7111641f0285d2db584f02",
    "at": "2026-11-09T13:25:20+00:00"
   },
   "cf25bc77-14d7-47ca-9e61-4e45f5cdf2b9": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sinaflor-responsavel-tecnico",
    "sha256": "3ce1c62fa7e048880beaef67c1de9800ce460bb0cd171142905b0fa899134376",
    "at": "2026-11-09T13:25:21+00:00"
   },
   "09a00f90-3eba-4a57-a557-dfdf6030c188": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sinaflor-uso-alternativo-do-solo",
    "sha256": "eaf1c0c9b3caf7af6fadc14e7de4fc5d5bdae70fb9757eea07f42f9236a86cc8",
    "at": "2026-11-09T13:46:54+00:00"
   },
   "eeb2d948-dcdd-44c8-916a-1dd131deacfb": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "sinaflor-uso-alternativo-do-solo-agricultor-familiar",
    "sha256": "b04c907f4524a59d09ab66f01ec57a3677ecec05e730807f4d6f636aea8b9149",
    "at": "2026-11-09T13:47:05+00:00"
   },
   "dddd819f-275a-4653-9104-772dd7519e6a": {
-   "layer": "L2",
+   "layer": "L2 (previous round)",
    "dataset": "siscites-licencas-de-fauna-e-flora-emitidas",
    "sha256": "15a5ea14d219ccd4dd0dce346f261d1845a58db402a22a207d7658cfe25b6acd",
    "at": "2026-11-11T12:00:25+00:00"
   },
   "0b1167c8-4a2a-4a9b-9959-3b24c51b6d09": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "sisfauna-comercializacao-de-partes-produtos",
    "sha256": "56a40dc2ce5bcfdac782590d9c3da40fb181c901e3f3182b531275427c44b0c9",
    "at": "2026-11-02T12:31:51+00:00"
   },
   "7944b91e-085f-4f72-a9af-fc4207a3ecb8": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "sisfauna-plantel-estimado",
    "sha256": "ad70c33a3a6be0023122cef15b1a2fbe7ad7b986437dec44ef60e21c8dea226e",
    "at": "2026-11-02T12:31:55+00:00"
   },
   "a271ddd8-aac6-4b58-9017-37b57b3b80dd": {
-   "layer": "L2",
+   "layer": "L2 (previous round)",
    "dataset": "sisfauna-plantel-exato",
    "sha256": "26250d38da458413546d7f981ebc115f80c0d278aa5edef3304f372ff075ab8e",
    "at": "2026-11-11T12:00:25+00:00"
   },
   "c2ac514d-3701-4255-9b47-fcbb042fb9b2": {
-   "layer": "L2",
+   "layer": "L2 (previous round)",
    "dataset": "sisfogo-roi",
    "sha256": "252aa380626d9377c0e24b9fbcc8a0c7572e5e7ee8acab0c152b1888ad0ebc91",
    "at": "2026-11-11T12:00:25+00:00"
   },
   "b922cba7-1e20-4087-9e7d-41e8d3c12598": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "transporte-de-produtos-quimicos-perigosos-ou-combustiveis",
    "sha256": "cb0fb2bb02dee90ad7667f7b42223d52fd0d0a57bc5a7a6fb3d0c4796101aa12",
    "at": "2026-11-02T12:32:51+00:00"
   },
   "03610c0c-b1b0-4a93-a90b-b57cb46c8ad6": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "unidade-poluidora",
    "sha256": "f7c8c60b65791d6ade1b01c8b45ed405ddee2ae17ff810c4c01d6f959060b1c6",
    "at": "2026-11-02T12:33:17+00:00"
   },
   "f7120b1d-e413-4520-a921-b1976be1900d": {
-   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round) (previous round)",
    "dataset": "vias-despavimentadas",
    "sha256": "29144685eb3acf0d6da6240b6c3b6821d5510ca677744c58031a23982e19f3c4",
    "at": "2026-11-02T12:33:20+00:00"
   },
   "ac345e77-863b-472c-a06a-4f171263bc70": {
-   "layer": "L2",
+   "layer": "L2 (previous round)",
    "dataset": "volumes-explorados-if-100",
    "sha256": "1ff909e0ad5cfafa7d689dde4a95d2bff058c666f17d37992cd9a375cbb99541",
    "at": "2026-11-11T12:00:25+00:00"
   },
   "f27715d9-8f23-4c01-8440-5cc0c2567b00": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "volumes-explorados-if-100",
    "sha256": "01c7e3b068b902f9bc8456b584a3b3e3dc27d1ea8b8842bc4b4b2f799793f215",
    "at": "2026-11-09T13:25:30+00:00"
   },
   "cc66d4ce-5eca-4a07-bc2c-aa4f567bc82f": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "volumes-explorados-if-100",
    "sha256": "564a3884164598cb2db3e6ed61938f9aa7cec007017cd4bb4016043af468c96a",
    "at": "2026-11-09T13:25:32+00:00"
   },
   "8b868981-3062-414c-9bd9-e6a896c050fb": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "volumes-explorados-inventario-amostral",
    "sha256": "3e88e8f7cc6b942fa7ba45cbb48124d83d1027b1ad12d20d4d6d7515341e958a",
    "at": "2026-11-09T13:47:08+00:00"
   },
   "86a438d0-d599-462e-b771-28f69bcf2395": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "volumes-explorados-inventario-amostral",
    "sha256": "9f866fba99aebd4fc43164faa9a5a4cd59a908d4e192c044d6626361d284297f",
    "at": "2026-11-09T13:47:36+00:00"
   },
   "5d6f99ec-b9e1-4a62-ba03-231ff9f7234d": {
-   "layer": "L1 (previous round) (previous round)",
+   "layer": "L1 (previous round) (previous round) (previous round)",
    "dataset": "volumes-explorados-inventario-amostral",
    "sha256": "17b016b55098f60ac548d6d40758f84fc18c277b3982fbb0c4929b104a1d0313",
    "at": "2026-11-09T13:49:20+00:00"
