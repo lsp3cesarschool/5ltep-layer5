@@ -71,10 +71,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-13T06:34:23+00:00",
+   "evaluated_at": "2026-11-14T06:12:30+00:00",
    "current": true,
    "facts": {
-    "observations": 95,
+    "observations": 93,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/49e2db1d-3b84-4556-9c87-e5b0dbd9e6a6#0f47809ad250"
    },
@@ -181,14 +181,14 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-13T06:34:46.740455+00:00",
+   "generated_at": "2026-11-14T06:31:50.610716+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "9ef2ac6d4d9598d505d028f4b1e8648dc9fd3aad",
-      "date": "2026-11-13T06:34:46Z"
+      "sha": "3a67e35679cf334e3a74b1f64e0796e4a05f83af",
+      "date": "2026-11-14T06:31:50Z"
      }
     },
     {
@@ -203,8 +203,8 @@
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "9ef2ac6d4d9598d505d028f4b1e8648dc9fd3aad",
-      "date": "2026-11-13T06:34:46Z"
+      "sha": "3a67e35679cf334e3a74b1f64e0796e4a05f83af",
+      "date": "2026-11-14T06:31:50Z"
      }
     }
    ],
@@ -256,19 +256,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-13T13:00:15+00:00",
+ "generated_at": "2026-11-14T12:05:38+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "9f7cf76ed585218e3fd4655fca7671b77c74729d",
-  "run_id": "43429874223"
+  "commit": "15f9559704cf426721fe61a42dc2340920a2528b",
+  "run_id": "43593098231"
  },
  "ficha": {
-  "id": "sha256:6bc373174ed8aa45718effb20f7c15b12246a7accfd6e4e62348731c715a48c6",
+  "id": "sha256:9bc034182e8952bb91072f448a6d9688747c9cedc56f36fa7390bc3c6159c87e",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-demolicao",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/fiscalizacao-termo-de-demolicao.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'fiscalizacao-termo-de-demolicao' (IBAMA), 2026-11-13, sha256:6bc373174ed8aa45…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-demolicao",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-termo-de-demolicao' (IBAMA), 2026-11-13, sha256:6bc373174ed8aa45…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-demolicao"
+   "en": "5L-TEP Layer 5 record of 'fiscalizacao-termo-de-demolicao' (IBAMA), 2026-11-14, sha256:9bc034182e8952bb…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-demolicao",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-termo-de-demolicao' (IBAMA), 2026-11-14, sha256:9bc034182e8952bb…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-demolicao"
   }
  }
 }

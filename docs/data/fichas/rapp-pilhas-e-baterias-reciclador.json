@@ -71,10 +71,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-13T06:34:23+00:00",
+   "evaluated_at": "2026-11-14T06:12:30+00:00",
    "current": true,
    "facts": {
-    "observations": 31,
+    "observations": 33,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/7294fa27-6d00-47c6-ba4c-ba6d7b693c4d#b20a8192af70"
    },
@@ -179,14 +179,14 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-13T06:34:46.740455+00:00",
+   "generated_at": "2026-11-14T06:31:50.610716+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "9ef2ac6d4d9598d505d028f4b1e8648dc9fd3aad",
-      "date": "2026-11-13T06:34:46Z"
+      "sha": "3a67e35679cf334e3a74b1f64e0796e4a05f83af",
+      "date": "2026-11-14T06:31:50Z"
      }
     },
     {
@@ -201,8 +201,8 @@
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "9ef2ac6d4d9598d505d028f4b1e8648dc9fd3aad",
-      "date": "2026-11-13T06:34:46Z"
+      "sha": "3a67e35679cf334e3a74b1f64e0796e4a05f83af",
+      "date": "2026-11-14T06:31:50Z"
      }
     }
    ],
@@ -254,19 +254,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-13T13:00:15+00:00",
+ "generated_at": "2026-11-14T12:05:38+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "9f7cf76ed585218e3fd4655fca7671b77c74729d",
-  "run_id": "43429874223"
+  "commit": "15f9559704cf426721fe61a42dc2340920a2528b",
+  "run_id": "43593098231"
  },
  "ficha": {
-  "id": "sha256:2da334dd37ea9e97e5e8068214b3b9f5f137315a2172f5b9be4e227b3c980e15",
+  "id": "sha256:26f9317bce3a5c17038cb4a1a33be864fe71d4dbdf43f69b9be7c529ce7ad5e8",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=rapp-pilhas-e-baterias-reciclador",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/rapp-pilhas-e-baterias-reciclador.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'rapp-pilhas-e-baterias-reciclador' (IBAMA), 2026-11-13, sha256:2da334dd37ea9e97…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=rapp-pilhas-e-baterias-reciclador",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'rapp-pilhas-e-baterias-reciclador' (IBAMA), 2026-11-13, sha256:2da334dd37ea9e97…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=rapp-pilhas-e-baterias-reciclador"
+   "en": "5L-TEP Layer 5 record of 'rapp-pilhas-e-baterias-reciclador' (IBAMA), 2026-11-14, sha256:26f9317bce3a5c17…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=rapp-pilhas-e-baterias-reciclador",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'rapp-pilhas-e-baterias-reciclador' (IBAMA), 2026-11-14, sha256:26f9317bce3a5c17…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=rapp-pilhas-e-baterias-reciclador"
   }
  }
 }

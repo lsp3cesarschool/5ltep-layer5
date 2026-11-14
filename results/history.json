@@ -1807,5 +1807,60 @@
    }
   },
   "integrity_open": 0
+ },
+ {
+  "at": "2026-11-14T12:05:38+00:00",
+  "commit": "15f9559704cf426721fe61a42dc2340920a2528b",
+  "run_id": "43593098231",
+  "totals": {
+   "datasets": 76,
+   "complete": 0,
+   "partial": 39,
+   "no_content": 37,
+   "eligible": 0,
+   "bands": {
+    "none:None": 37,
+    "partial:undetermined": 14,
+    "partial:alert": 22,
+    "partial:critical": 3
+   }
+  },
+  "coverage": {
+   "L1": {
+    "reached": 31,
+    "valid": 31
+   },
+   "L2": {
+    "reached": 13,
+    "valid": 13
+   },
+   "L3": {
+    "reached": 1,
+    "valid": 1
+   },
+   "L4": {
+    "reached": 76,
+    "valid": 76
+   }
+  },
+  "layers": {
+   "L1": {
+    "status": "ok",
+    "generated_at": "2026-11-09T13:53:57+00:00"
+   },
+   "L2": {
+    "status": "ok",
+    "generated_at": "2026-11-11T12:05:23+00:00"
+   },
+   "L3": {
+    "status": "ok",
+    "generated_at": "2026-11-05T14:36:10+00:00"
+   },
+   "L4": {
+    "status": "ok",
+    "generated_at": "2026-11-14T06:31:50.610716+00:00"
+   }
+  },
+  "integrity_open": 0
  }
 ]
