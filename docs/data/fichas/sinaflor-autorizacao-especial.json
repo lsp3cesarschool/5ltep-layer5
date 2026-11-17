@@ -32,7 +32,7 @@
    "status": "valid",
    "reason": null,
    "rate": 0.0,
-   "evaluated_at": "2026-11-09T13:24:55+00:00",
+   "evaluated_at": "2026-11-16T13:54:54+00:00",
    "current": true,
    "facts": {
     "level": 1,
@@ -71,10 +71,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-16T06:19:27+00:00",
+   "evaluated_at": "2026-11-17T07:49:22+00:00",
    "current": true,
    "facts": {
-    "observations": 90,
+    "observations": 88,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/777a2cf5-515c-4c35-b141-24487388ac83#160d51d98bed"
    },
@@ -90,6 +90,14 @@
    "when": null,
    "en": "1 of 1 verifiable file(s) do not conform to the declared schema",
    "pt": "1 de 1 arquivo(s) verificável(is) fora do esquema declarado"
+  },
+  {
+   "layer": "L5",
+   "kind": "unrecorded_change",
+   "when": "2026-11-16T13:54:54+00:00",
+   "resource_id": "26f5a30e-53d2-4509-b5b3-5e980ae706f1",
+   "en": "the bytes of resource 26f5a30e-53d2-4509-b5b3-5e980ae706f1 changed between 2026-11-09 and 2026-11-16 with no change in the portal metadata",
+   "pt": "os bytes do recurso 26f5a30e-53d2-4509-b5b3-5e980ae706f1 mudaram entre 2026-11-09 e 2026-11-16 sem mudança nos metadados do portal"
   }
  ],
  "outcomes": {
@@ -133,22 +141,22 @@
   "L1": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-09T13:53:57+00:00",
+   "generated_at": "2026-11-16T14:36:05+00:00",
    "files": [
     {
      "path": "results/layer1_summary.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/layer1_summary.json",
      "commit": {
-      "sha": "670a6179b359ad321ce35c517851f62a5e83b514",
-      "date": "2026-11-09T13:53:57Z"
+      "sha": "51478590597ec7ee69d39109124fb403d8e6cc25",
+      "date": "2026-11-16T14:36:06Z"
      }
     },
     {
      "path": "results/validation.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/validation.json",
      "commit": {
-      "sha": "670a6179b359ad321ce35c517851f62a5e83b514",
-      "date": "2026-11-09T13:53:57Z"
+      "sha": "51478590597ec7ee69d39109124fb403d8e6cc25",
+      "date": "2026-11-16T14:36:06Z"
      }
     }
    ],
@@ -197,30 +205,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-16T06:19:52.229998+00:00",
+   "generated_at": "2026-11-17T07:49:40.899301+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "558060bfbadee000af0102c80d20699ae7a6414a",
-      "date": "2026-11-16T06:19:52Z"
+      "sha": "a06089e0970da65f6ac21de283c5c84daa23e708",
+      "date": "2026-11-17T07:49:41Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "31051fad3ffa7a81168afb603340da1a88351232",
-      "date": "2026-11-16T12:13:05Z"
+      "sha": "1f145470e317477935aba6356b9641f804aa2fed",
+      "date": "2026-11-17T12:17:47Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "558060bfbadee000af0102c80d20699ae7a6414a",
-      "date": "2026-11-16T06:19:52Z"
+      "sha": "a06089e0970da65f6ac21de283c5c84daa23e708",
+      "date": "2026-11-17T07:49:41Z"
      }
     }
    ],
@@ -272,19 +280,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-16T13:32:47+00:00",
+ "generated_at": "2026-11-17T14:17:56+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "fe2e91dd3e5f63db72176b0c07d534a8b8e2b96b",
-  "run_id": "43876769527"
+  "commit": "d9739ed06c42e0187086db17ed03e83a38fa53f1",
+  "run_id": "44101548496"
  },
  "ficha": {
-  "id": "sha256:cdf09d87b6f71e13abeb218bee26bb2f7b6401b4cae5fb37f1a7d623b576e661",
+  "id": "sha256:0f4e8b5f304b0c92c27b96b8f82b1b3cc4426561f51dbe3dba2ad0e2a560a33c",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=sinaflor-autorizacao-especial",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/sinaflor-autorizacao-especial.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'sinaflor-autorizacao-especial' (IBAMA), 2026-11-16, sha256:cdf09d87b6f71e13…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=sinaflor-autorizacao-especial",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'sinaflor-autorizacao-especial' (IBAMA), 2026-11-16, sha256:cdf09d87b6f71e13…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=sinaflor-autorizacao-especial"
+   "en": "5L-TEP Layer 5 record of 'sinaflor-autorizacao-especial' (IBAMA), 2026-11-17, sha256:0f4e8b5f304b0c92…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=sinaflor-autorizacao-especial",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'sinaflor-autorizacao-especial' (IBAMA), 2026-11-17, sha256:0f4e8b5f304b0c92…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=sinaflor-autorizacao-especial"
   }
  }
 }
