@@ -56,10 +56,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-17T07:49:22+00:00",
+   "evaluated_at": "2026-11-18T07:19:46+00:00",
    "current": true,
    "facts": {
-    "observations": 88,
+    "observations": 86,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/f113a5c3-8fa4-4dbd-a9e0-14a17a2e567c#56f8dc299dc0"
    },
@@ -99,14 +99,14 @@
   "L2": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-11T12:05:23+00:00",
+   "generated_at": "2026-11-18T13:19:29+00:00",
    "files": [
     {
      "path": "docs/data/layer2.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2/main/docs/data/layer2.json",
      "commit": {
-      "sha": "4798e9d1b8c70b2258bc9222058b12654075fb2d",
-      "date": "2026-11-11T12:05:44Z"
+      "sha": "fb1de4df7cd7aa58150ff2f6ac4f1383abc35268",
+      "date": "2026-11-18T13:19:57Z"
      }
     }
    ],
@@ -139,30 +139,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-17T07:49:40.899301+00:00",
+   "generated_at": "2026-11-18T07:20:09.270681+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "a06089e0970da65f6ac21de283c5c84daa23e708",
-      "date": "2026-11-17T07:49:41Z"
+      "sha": "b1f80a74354329766e9f3179dcec54c92103e980",
+      "date": "2026-11-18T07:20:09Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "1f145470e317477935aba6356b9641f804aa2fed",
-      "date": "2026-11-17T12:17:47Z"
+      "sha": "14ee67f7a85d91cf94a1a358dba9f0c00bcce5ff",
+      "date": "2026-11-18T12:04:31Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "a06089e0970da65f6ac21de283c5c84daa23e708",
-      "date": "2026-11-17T07:49:41Z"
+      "sha": "b1f80a74354329766e9f3179dcec54c92103e980",
+      "date": "2026-11-18T07:20:09Z"
      }
     }
    ],
@@ -214,19 +214,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-17T14:17:56+00:00",
+ "generated_at": "2026-11-18T13:51:32+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "d9739ed06c42e0187086db17ed03e83a38fa53f1",
-  "run_id": "44101548496"
+  "commit": "a10e299330a2216a3c6e61fdc1a9a10e78b7731d",
+  "run_id": "44317990970"
  },
  "ficha": {
-  "id": "sha256:02f456ebd4e8e61a277c70c98253ce7b918e9ed9df96ae2e179e663626715092",
+  "id": "sha256:42609d18421d3a1536748d7d6f7c338e9e61ceea8e02d8ec0153628740c5da7f",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=residuos-solidos-gerador-anterior-a-2012",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/residuos-solidos-gerador-anterior-a-2012.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'residuos-solidos-gerador-anterior-a-2012' (IBAMA), 2026-11-17, sha256:02f456ebd4e8e61a…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=residuos-solidos-gerador-anterior-a-2012",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'residuos-solidos-gerador-anterior-a-2012' (IBAMA), 2026-11-17, sha256:02f456ebd4e8e61a…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=residuos-solidos-gerador-anterior-a-2012"
+   "en": "5L-TEP Layer 5 record of 'residuos-solidos-gerador-anterior-a-2012' (IBAMA), 2026-11-18, sha256:42609d18421d3a15…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=residuos-solidos-gerador-anterior-a-2012",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'residuos-solidos-gerador-anterior-a-2012' (IBAMA), 2026-11-18, sha256:42609d18421d3a15…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=residuos-solidos-gerador-anterior-a-2012"
   }
  }
 }
