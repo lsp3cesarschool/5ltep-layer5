@@ -92,7 +92,7 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-18T07:19:46+00:00",
+   "evaluated_at": "2026-11-19T07:17:10+00:00",
    "current": true,
    "facts": {
     "observations": 86,
@@ -100,13 +100,6 @@
     "entity": "https://dadosabertos.ibama.gov.br/dataset/4b292c2e-56bb-4639-9ea2-a9b02fea9558#ac484a83530c"
    },
    "signals": [
-    {
-     "key": "L4:access:2026-08-20T18:39:41+00:00",
-     "count": 3,
-     "when": "2026-08-20T18:39:41+00:00",
-     "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net)",
-     "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net)"
-    },
     {
      "key": "L4:access:2026-09-01T20:41:02+00:00",
      "count": 3,
@@ -179,15 +172,6 @@
    "when": null,
    "en": "16 signal(s) of rule 'Embargo lifted before it was imposed' in 19830 check(s)",
    "pt": "16 sinal(is) da regra 'Desembargo anterior ao embargo' em 19830 verificação(ões)"
-  },
-  {
-   "layer": "L4",
-   "kind": "signal",
-   "key": "L4:access:2026-08-20T18:39:41+00:00",
-   "count": 3,
-   "when": "2026-08-20T18:39:41+00:00",
-   "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net)",
-   "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net)"
   },
   {
    "layer": "L4",
@@ -313,27 +297,6 @@
     "status": "changed_signal_persists",
     "en": "16 signal(s) of rule 'Embargo lifted before it was imposed' in 19683 check(s)",
     "pt": "16 sinal(is) da regra 'Desembargo anterior ao embargo' em 19683 verificação(ões)",
-    "digests": {
-     "8f88b43e-287a-470b-a730-db440f9e37fa": "c5336cab703e81437c41d4d44f80f83daf0404f53c322c07a1194b46fbfc70dc",
-     "aba90ea8-e2f3-431e-a0cc-1ae24773843b": "49bdbe891673a2587f1cd34b4262d87730d2576fd5e70afbe5f7b394ca31ec8a",
-     "90d17ce7-6a9b-4bfb-804c-6d52e43af264": "fc7a2f9cad38aa047bf433111196a2f36cfc6a8073ede8ec5893b8eace3016c5",
-     "3360882c-a038-4129-a1f0-7013af37926a": "4cd987b1f7f51884287588016ac0f438a5bd71904f9e61dd80fc619f51555499",
-     "0a4284aa-e142-4d6d-823f-9958f26c829e": "d1e7058480ed19e6c6f865de0ed45f00895506cd8dda7e2f8da78adb382dcbb6",
-     "ccdbf737-0fbf-4547-adf6-267204aa4413": "c3a2c6515d2d1b83e2a4f3a0967dacde143008302d885646085ca6d7eaf46923",
-     "21347475-cd71-41de-a677-f0fbaa8c02b2": "b0c5137470d12911b12535220a4e3d2025a01bb6dbdfc66ede7aa307cf9858a5",
-     "04f7998d-58e1-4717-85f5-401dc9994b19": "6d7e3f494194339606de49cc215eb2365d3c712f7cfb489379d0d0b894559711"
-    },
-    "first_change_seen": "2026-10-14T10:05:24+00:00"
-   },
-   {
-    "key": "L4:access:2026-08-20T18:39:41+00:00",
-    "layer": "L4",
-    "first_reported": "2026-10-13T19:15:59+00:00",
-    "count": 3,
-    "evaluated_at": "2026-10-13T00:35:39+00:00",
-    "status": "changed_signal_persists",
-    "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net)",
-    "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net)",
     "digests": {
      "8f88b43e-287a-470b-a730-db440f9e37fa": "c5336cab703e81437c41d4d44f80f83daf0404f53c322c07a1194b46fbfc70dc",
      "aba90ea8-e2f3-431e-a0cc-1ae24773843b": "49bdbe891673a2587f1cd34b4262d87730d2576fd5e70afbe5f7b394ca31ec8a",
@@ -497,6 +460,30 @@
     "dataset": "fiscalizacao-termo-de-embargo",
     "outcome": "remediated_observed",
     "at": "2026-11-13T13:00:15+00:00"
+   },
+   {
+    "layer": "L4",
+    "first_reported": "2026-10-13T19:15:59+00:00",
+    "count": 3,
+    "evaluated_at": "2026-10-13T00:35:39+00:00",
+    "status": "remediated_observed",
+    "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net)",
+    "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net)",
+    "digests": {
+     "8f88b43e-287a-470b-a730-db440f9e37fa": "c5336cab703e81437c41d4d44f80f83daf0404f53c322c07a1194b46fbfc70dc",
+     "aba90ea8-e2f3-431e-a0cc-1ae24773843b": "49bdbe891673a2587f1cd34b4262d87730d2576fd5e70afbe5f7b394ca31ec8a",
+     "90d17ce7-6a9b-4bfb-804c-6d52e43af264": "fc7a2f9cad38aa047bf433111196a2f36cfc6a8073ede8ec5893b8eace3016c5",
+     "3360882c-a038-4129-a1f0-7013af37926a": "4cd987b1f7f51884287588016ac0f438a5bd71904f9e61dd80fc619f51555499",
+     "0a4284aa-e142-4d6d-823f-9958f26c829e": "d1e7058480ed19e6c6f865de0ed45f00895506cd8dda7e2f8da78adb382dcbb6",
+     "ccdbf737-0fbf-4547-adf6-267204aa4413": "c3a2c6515d2d1b83e2a4f3a0967dacde143008302d885646085ca6d7eaf46923",
+     "21347475-cd71-41de-a677-f0fbaa8c02b2": "b0c5137470d12911b12535220a4e3d2025a01bb6dbdfc66ede7aa307cf9858a5",
+     "04f7998d-58e1-4717-85f5-401dc9994b19": "6d7e3f494194339606de49cc215eb2365d3c712f7cfb489379d0d0b894559711"
+    },
+    "first_change_seen": "2026-10-14T10:05:24+00:00",
+    "key": "L4:access:2026-08-20T18:39:41+00:00",
+    "dataset": "fiscalizacao-termo-de-embargo",
+    "outcome": "remediated_observed",
+    "at": "2026-11-19T14:20:23+00:00"
    }
   ]
  },
@@ -568,30 +555,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-18T07:20:09.270681+00:00",
+   "generated_at": "2026-11-19T07:17:31.420078+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "b1f80a74354329766e9f3179dcec54c92103e980",
-      "date": "2026-11-18T07:20:09Z"
+      "sha": "7a2dcf4a73d3d5f2304600d73259da8fb1978027",
+      "date": "2026-11-19T07:17:31Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "14ee67f7a85d91cf94a1a358dba9f0c00bcce5ff",
-      "date": "2026-11-18T12:04:31Z"
+      "sha": "8a4100e74624a6051005a0fbc7eac39152b33a98",
+      "date": "2026-11-19T11:59:44Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "b1f80a74354329766e9f3179dcec54c92103e980",
-      "date": "2026-11-18T07:20:09Z"
+      "sha": "7a2dcf4a73d3d5f2304600d73259da8fb1978027",
+      "date": "2026-11-19T07:17:31Z"
      }
     }
    ],
@@ -643,19 +630,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-18T13:51:32+00:00",
+ "generated_at": "2026-11-19T14:20:23+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "a10e299330a2216a3c6e61fdc1a9a10e78b7731d",
-  "run_id": "44317990970"
+  "commit": "5d1404609292c820e840edfebc37f9b0d22c0f60",
+  "run_id": "44542631454"
  },
  "ficha": {
-  "id": "sha256:dcdebdcdda04567e1e9a1eee6871882fd14d7482936d22f15cc89102e3acc13c",
+  "id": "sha256:3d8e4e9697c077c6fe26ffcbbf8c937b2b6847b19f4e7af5fe3fdc673bf60472",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-embargo",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/fiscalizacao-termo-de-embargo.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'fiscalizacao-termo-de-embargo' (IBAMA), 2026-11-18, sha256:dcdebdcdda04567e…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-embargo",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-termo-de-embargo' (IBAMA), 2026-11-18, sha256:dcdebdcdda04567e…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-embargo"
+   "en": "5L-TEP Layer 5 record of 'fiscalizacao-termo-de-embargo' (IBAMA), 2026-11-19, sha256:3d8e4e9697c077c6…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-embargo",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-termo-de-embargo' (IBAMA), 2026-11-19, sha256:3d8e4e9697c077c6…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-embargo"
   }
  }
 }

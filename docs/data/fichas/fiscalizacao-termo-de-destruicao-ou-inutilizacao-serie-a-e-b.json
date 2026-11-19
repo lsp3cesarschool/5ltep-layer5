@@ -4,9 +4,9 @@
   "title": "Fiscalização – termo de destruição ou inutilização (série A e B)",
   "id": "2b346de7-e221-43f7-a155-3993c4353506",
   "resources": 12,
-  "last_change": "2026-11-12T23:33:25+00:00",
+  "last_change": "2026-11-18T20:26:28+00:00",
   "last_type": "CONTENT_MOD",
-  "entity": "https://dadosabertos.ibama.gov.br/dataset/2b346de7-e221-43f7-a155-3993c4353506#6509e855cbb2",
+  "entity": "https://dadosabertos.ibama.gov.br/dataset/2b346de7-e221-43f7-a155-3993c4353506#461ee36176f1",
   "portal_page": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-termo-de-destruicao-ou-inutilizacao-serie-a-e-b"
  },
  "qs": {
@@ -33,7 +33,7 @@
    "reason": null,
    "rate": 1.0,
    "evaluated_at": "2026-11-16T13:49:44+00:00",
-   "current": true,
+   "current": false,
    "facts": {
     "level": 1,
     "tables": 3,
@@ -64,12 +64,12 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-18T07:19:46+00:00",
+   "evaluated_at": "2026-11-19T07:17:10+00:00",
    "current": true,
    "facts": {
     "observations": 86,
     "critical_in_window": 0,
-    "entity": "https://dadosabertos.ibama.gov.br/dataset/2b346de7-e221-43f7-a155-3993c4353506#6509e855cbb2"
+    "entity": "https://dadosabertos.ibama.gov.br/dataset/2b346de7-e221-43f7-a155-3993c4353506#461ee36176f1"
    },
    "signals": [
     {
@@ -85,6 +85,13 @@
      "when": "2026-11-12T23:33:25+00:00",
      "en": "1 resource URL(s) changed (1 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net)",
      "pt": "1 URL(s) de recurso alterada(s) (1 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net)"
+    },
+    {
+     "key": "L4:access:2026-11-18T20:26:28+00:00",
+     "count": 3,
+     "when": "2026-11-18T20:26:28+00:00",
+     "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net)",
+     "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net)"
     }
    ]
   }
@@ -107,6 +114,23 @@
    "when": "2026-11-12T23:33:25+00:00",
    "en": "1 resource URL(s) changed (1 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net)",
    "pt": "1 URL(s) de recurso alterada(s) (1 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net)"
+  },
+  {
+   "layer": "L4",
+   "kind": "signal",
+   "key": "L4:access:2026-11-18T20:26:28+00:00",
+   "count": 3,
+   "when": "2026-11-18T20:26:28+00:00",
+   "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net)",
+   "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net)"
+  },
+  {
+   "layer": "L4",
+   "kind": "simultaneous",
+   "when": "2026-11-18T20:26:28+00:00",
+   "count": 5,
+   "en": "CONTENT_MOD in 5 datasets in the same monitoring cycle (probably one operational event)",
+   "pt": "CONTENT_MOD em 5 conjuntos no mesmo ciclo de monitoramento (provavelmente um único evento operacional)"
   }
  ],
  "outcomes": {
@@ -142,6 +166,21 @@
      "0224f6a5-1f51-4a64-a8c4-f34729f04285": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "first_change_seen": "2026-11-17T14:17:56+00:00"
+   },
+   {
+    "key": "L4:access:2026-11-18T20:26:28+00:00",
+    "layer": "L4",
+    "first_reported": "2026-11-19T14:20:23+00:00",
+    "count": 3,
+    "evaluated_at": "2026-11-19T07:17:10+00:00",
+    "status": "reported",
+    "en": "3 resource URL(s) changed (3 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net)",
+    "pt": "3 URL(s) de recurso alterada(s) (3 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net)",
+    "digests": {
+     "2f335d4d-6707-4862-995d-f2fb6c7dd052": "1e49c79fa9113bc8fe29c8e588cd7e71f7062f08814083aaaf48f657eace2de3",
+     "92f92021-28df-42b7-bbbb-a4f77b3a078e": "d52b7a84f6da92309c4547cbb31b67802ee66cebaf1d54183b9ff846431eb594",
+     "0224f6a5-1f51-4a64-a8c4-f34729f04285": "f4ef6e6b25adb4f7aa96b4031057050053306fe86aac4bcc5452e2efe821e3db"
+    }
    }
   ],
   "closed": []
@@ -214,30 +253,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-18T07:20:09.270681+00:00",
+   "generated_at": "2026-11-19T07:17:31.420078+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "b1f80a74354329766e9f3179dcec54c92103e980",
-      "date": "2026-11-18T07:20:09Z"
+      "sha": "7a2dcf4a73d3d5f2304600d73259da8fb1978027",
+      "date": "2026-11-19T07:17:31Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "14ee67f7a85d91cf94a1a358dba9f0c00bcce5ff",
-      "date": "2026-11-18T12:04:31Z"
+      "sha": "8a4100e74624a6051005a0fbc7eac39152b33a98",
+      "date": "2026-11-19T11:59:44Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "b1f80a74354329766e9f3179dcec54c92103e980",
-      "date": "2026-11-18T07:20:09Z"
+      "sha": "7a2dcf4a73d3d5f2304600d73259da8fb1978027",
+      "date": "2026-11-19T07:17:31Z"
      }
     }
    ],
@@ -289,19 +328,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-18T13:51:32+00:00",
+ "generated_at": "2026-11-19T14:20:23+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "a10e299330a2216a3c6e61fdc1a9a10e78b7731d",
-  "run_id": "44317990970"
+  "commit": "5d1404609292c820e840edfebc37f9b0d22c0f60",
+  "run_id": "44542631454"
  },
  "ficha": {
-  "id": "sha256:7a97b3937877342931f20f57bd9372e1fef9faec85dd159a2d4eac8de91865e4",
+  "id": "sha256:115c7e4a7f22b271f41534fcf50e2881bceca11a99e8005793be9d200d18b0ae",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-destruicao-ou-inutilizacao-serie-a-e-b",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/fiscalizacao-termo-de-destruicao-ou-inutilizacao-serie-a-e-b.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'fiscalizacao-termo-de-destruicao-ou-inutilizacao-serie-a-e-b' (IBAMA), 2026-11-18, sha256:7a97b39378773429…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-destruicao-ou-inutilizacao-serie-a-e-b",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-termo-de-destruicao-ou-inutilizacao-serie-a-e-b' (IBAMA), 2026-11-18, sha256:7a97b39378773429…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-destruicao-ou-inutilizacao-serie-a-e-b"
+   "en": "5L-TEP Layer 5 record of 'fiscalizacao-termo-de-destruicao-ou-inutilizacao-serie-a-e-b' (IBAMA), 2026-11-19, sha256:115c7e4a7f22b271…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-destruicao-ou-inutilizacao-serie-a-e-b",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-termo-de-destruicao-ou-inutilizacao-serie-a-e-b' (IBAMA), 2026-11-19, sha256:115c7e4a7f22b271…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-destruicao-ou-inutilizacao-serie-a-e-b"
   }
  }
 }
