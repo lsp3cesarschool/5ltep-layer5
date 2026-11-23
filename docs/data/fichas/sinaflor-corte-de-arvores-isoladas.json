@@ -71,10 +71,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-22T06:39:23+00:00",
+   "evaluated_at": "2026-11-23T07:27:59+00:00",
    "current": true,
    "facts": {
-    "observations": 80,
+    "observations": 78,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/a1f609a7-3bcf-4639-ab86-665214e051d9#0b89295b63e4"
    },
@@ -180,30 +180,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-22T06:39:40.075919+00:00",
+   "generated_at": "2026-11-23T07:28:16.524138+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "11f854d7a93724de881f54f1d63f4c7055595a40",
-      "date": "2026-11-22T06:39:40Z"
+      "sha": "7e96efd28e1be634dce691d787ee713101f58357",
+      "date": "2026-11-23T07:28:16Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "a8032193815cbb2ed23436481d62962f7a041a71",
-      "date": "2026-11-22T11:49:10Z"
+      "sha": "c5d1455d71ceea99a77e207bbf595869489b7368",
+      "date": "2026-11-23T13:29:31Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "11f854d7a93724de881f54f1d63f4c7055595a40",
-      "date": "2026-11-22T06:39:40Z"
+      "sha": "7e96efd28e1be634dce691d787ee713101f58357",
+      "date": "2026-11-23T07:28:16Z"
      }
     }
    ],
@@ -255,19 +255,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-22T13:15:40+00:00",
+ "generated_at": "2026-11-23T15:53:01+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "7e1e05d7666a854f3ff2a81a60fefb844f2d5b25",
-  "run_id": "45026526186"
+  "commit": "7c5e7b26f6e9213ade6bd18216ff43d36fa2e787",
+  "run_id": "45210172340"
  },
  "ficha": {
-  "id": "sha256:f800c7557d7c7429ec474167b8d7d90e895b7337a68a9ac5f86583782a673bf7",
+  "id": "sha256:db9612cfca2053503f6a101a9f781be1b81e80acf89b560b3f82981a7059827a",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=sinaflor-corte-de-arvores-isoladas",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/sinaflor-corte-de-arvores-isoladas.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'sinaflor-corte-de-arvores-isoladas' (IBAMA), 2026-11-22, sha256:f800c7557d7c7429…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=sinaflor-corte-de-arvores-isoladas",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'sinaflor-corte-de-arvores-isoladas' (IBAMA), 2026-11-22, sha256:f800c7557d7c7429…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=sinaflor-corte-de-arvores-isoladas"
+   "en": "5L-TEP Layer 5 record of 'sinaflor-corte-de-arvores-isoladas' (IBAMA), 2026-11-23, sha256:db9612cfca205350…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=sinaflor-corte-de-arvores-isoladas",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'sinaflor-corte-de-arvores-isoladas' (IBAMA), 2026-11-23, sha256:db9612cfca205350…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=sinaflor-corte-de-arvores-isoladas"
   }
  }
 }
