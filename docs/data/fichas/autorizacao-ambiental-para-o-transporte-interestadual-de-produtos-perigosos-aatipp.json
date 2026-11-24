@@ -32,20 +32,20 @@
    "status": "valid",
    "reason": null,
    "rate": 0.0,
-   "evaluated_at": "2026-11-02T11:32:15+00:00",
-   "current": false,
+   "evaluated_at": "2026-11-23T13:28:18+00:00",
+   "current": true,
    "facts": {
     "level": 1,
-    "tables": 1,
-    "verifiable": 1,
+    "tables": 3,
+    "verifiable": 3,
     "conformant": 0
    },
    "signals": [
     {
      "key": "L1:autorizacao-ambiental-para-o-transporte-interestadual-de-produtos-perigosos-aatipp",
-     "count": 1,
-     "en": "1 of 1 verifiable file(s) do not conform to the declared schema",
-     "pt": "1 de 1 arquivo(s) verificável(is) fora do esquema declarado"
+     "count": 3,
+     "en": "3 of 3 verifiable file(s) do not conform to the declared schema",
+     "pt": "3 de 3 arquivo(s) verificável(is) fora do esquema declarado"
     }
    ]
   },
@@ -71,10 +71,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-23T07:27:59+00:00",
+   "evaluated_at": "2026-11-24T09:48:05+00:00",
    "current": true,
    "facts": {
-    "observations": 78,
+    "observations": 76,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/2dc12ec3-de3d-4bf4-964b-374d9bacad6f#2b597ca5ea6b"
    },
@@ -94,10 +94,10 @@
    "layer": "L1",
    "kind": "signal",
    "key": "L1:autorizacao-ambiental-para-o-transporte-interestadual-de-produtos-perigosos-aatipp",
-   "count": 1,
+   "count": 3,
    "when": null,
-   "en": "1 of 1 verifiable file(s) do not conform to the declared schema",
-   "pt": "1 de 1 arquivo(s) verificável(is) fora do esquema declarado"
+   "en": "3 of 3 verifiable file(s) do not conform to the declared schema",
+   "pt": "3 de 3 arquivo(s) verificável(is) fora do esquema declarado"
   },
   {
    "layer": "L4",
@@ -139,12 +139,13 @@
     "first_reported": "2026-11-19T14:20:23+00:00",
     "count": 4,
     "evaluated_at": "2026-11-19T07:17:10+00:00",
-    "status": "unchanged",
+    "status": "changed_signal_persists",
     "en": "4 resource URL(s) changed (4 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net; 4 plain file → zip); license title changed",
     "pt": "4 URL(s) de recurso alterada(s) (4 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net; 4 arquivo simples → zip); título da licença alterado",
     "digests": {
      "d5c0fa8b-b522-446a-a281-15f587783935": "2afe2fccb08df1318886ce9160dde73f5c0893e5911d8433eda81f4a16e07d27"
-    }
+    },
+    "first_change_seen": "2026-11-24T15:45:33+00:00"
    }
   ],
   "closed": []
@@ -153,22 +154,22 @@
   "L1": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-16T14:36:05+00:00",
+   "generated_at": "2026-11-23T17:48:44+00:00",
    "files": [
     {
      "path": "results/layer1_summary.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/layer1_summary.json",
      "commit": {
-      "sha": "51478590597ec7ee69d39109124fb403d8e6cc25",
-      "date": "2026-11-16T14:36:06Z"
+      "sha": "afa31ddfb838eb495b24102eacec055380bf0295",
+      "date": "2026-11-23T17:48:45Z"
      }
     },
     {
      "path": "results/validation.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/validation.json",
      "commit": {
-      "sha": "51478590597ec7ee69d39109124fb403d8e6cc25",
-      "date": "2026-11-16T14:36:06Z"
+      "sha": "afa31ddfb838eb495b24102eacec055380bf0295",
+      "date": "2026-11-23T17:48:45Z"
      }
     }
    ],
@@ -217,30 +218,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-23T07:28:16.524138+00:00",
+   "generated_at": "2026-11-24T09:48:23.750606+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "7e96efd28e1be634dce691d787ee713101f58357",
-      "date": "2026-11-23T07:28:16Z"
+      "sha": "f5d8b84379cf38d76cb7a6df570ee9dc28b4d694",
+      "date": "2026-11-24T09:48:23Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "c5d1455d71ceea99a77e207bbf595869489b7368",
-      "date": "2026-11-23T13:29:31Z"
+      "sha": "6b1365a2aa77788a53cc5fb6afeb5cf9b1dade77",
+      "date": "2026-11-24T14:06:57Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "7e96efd28e1be634dce691d787ee713101f58357",
-      "date": "2026-11-23T07:28:16Z"
+      "sha": "f5d8b84379cf38d76cb7a6df570ee9dc28b4d694",
+      "date": "2026-11-24T09:48:23Z"
      }
     }
    ],
@@ -292,19 +293,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-23T15:53:01+00:00",
+ "generated_at": "2026-11-24T15:45:33+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "7c5e7b26f6e9213ade6bd18216ff43d36fa2e787",
-  "run_id": "45210172340"
+  "commit": "4680092af0ce183048f5abf73c759f6f3ffa64de",
+  "run_id": "45429150347"
  },
  "ficha": {
-  "id": "sha256:aa39654b60d343ad6677cbf5dd5904cac823333cd1e2d0ef32892e566d83865b",
+  "id": "sha256:d1198621d5a7049ca41abb65f976c66d80c09ecef06d76565ae6e594c6f2b889",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=autorizacao-ambiental-para-o-transporte-interestadual-de-produtos-perigosos-aatipp",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/autorizacao-ambiental-para-o-transporte-interestadual-de-produtos-perigosos-aatipp.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'autorizacao-ambiental-para-o-transporte-interestadual-de-produtos-perigosos-aatipp' (IBAMA), 2026-11-23, sha256:aa39654b60d343ad…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=autorizacao-ambiental-para-o-transporte-interestadual-de-produtos-perigosos-aatipp",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'autorizacao-ambiental-para-o-transporte-interestadual-de-produtos-perigosos-aatipp' (IBAMA), 2026-11-23, sha256:aa39654b60d343ad…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=autorizacao-ambiental-para-o-transporte-interestadual-de-produtos-perigosos-aatipp"
+   "en": "5L-TEP Layer 5 record of 'autorizacao-ambiental-para-o-transporte-interestadual-de-produtos-perigosos-aatipp' (IBAMA), 2026-11-24, sha256:d1198621d5a7049c…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=autorizacao-ambiental-para-o-transporte-interestadual-de-produtos-perigosos-aatipp",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'autorizacao-ambiental-para-o-transporte-interestadual-de-produtos-perigosos-aatipp' (IBAMA), 2026-11-24, sha256:d1198621d5a7049c…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=autorizacao-ambiental-para-o-transporte-interestadual-de-produtos-perigosos-aatipp"
   }
  }
 }

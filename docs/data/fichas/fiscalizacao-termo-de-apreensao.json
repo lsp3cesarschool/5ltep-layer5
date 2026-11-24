@@ -19,8 +19,8 @@
    "L4"
   ],
   "integrity": [],
-  "low": 0.7265824402662465,
-  "high": 0.9265824402662466,
+  "low": 0.7682524402662465,
+  "high": 0.9682524402662465,
   "band": "undetermined",
   "eligible": false,
   "missing_layers": [
@@ -31,21 +31,21 @@
   "L1": {
    "status": "valid",
    "reason": null,
-   "rate": 0.7778,
-   "evaluated_at": "2026-11-02T12:23:43+00:00",
-   "current": false,
+   "rate": 0.9167,
+   "evaluated_at": "2026-11-23T13:47:06+00:00",
+   "current": true,
    "facts": {
     "level": 1,
-    "tables": 18,
-    "verifiable": 18,
-    "conformant": 14
+    "tables": 12,
+    "verifiable": 12,
+    "conformant": 11
    },
    "signals": [
     {
      "key": "L1:fiscalizacao-termo-de-apreensao",
-     "count": 4,
-     "en": "4 of 18 verifiable file(s) do not conform to the declared schema",
-     "pt": "4 de 18 arquivo(s) verificável(is) fora do esquema declarado"
+     "count": 1,
+     "en": "1 of 12 verifiable file(s) do not conform to the declared schema",
+     "pt": "1 de 12 arquivo(s) verificável(is) fora do esquema declarado"
     }
    ]
   },
@@ -92,10 +92,10 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-23T07:27:59+00:00",
+   "evaluated_at": "2026-11-24T09:48:05+00:00",
    "current": true,
    "facts": {
-    "observations": 78,
+    "observations": 76,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/89568872-a865-4e19-8a7c-6f11965a3195#af2aff5d93f6"
    },
@@ -115,10 +115,10 @@
    "layer": "L1",
    "kind": "signal",
    "key": "L1:fiscalizacao-termo-de-apreensao",
-   "count": 4,
+   "count": 1,
    "when": null,
-   "en": "4 of 18 verifiable file(s) do not conform to the declared schema",
-   "pt": "4 de 18 arquivo(s) verificável(is) fora do esquema declarado"
+   "en": "1 of 12 verifiable file(s) do not conform to the declared schema",
+   "pt": "1 de 12 arquivo(s) verificável(is) fora do esquema declarado"
   },
   {
    "layer": "L2",
@@ -257,7 +257,7 @@
     "first_reported": "2026-11-19T14:20:23+00:00",
     "count": 9,
     "evaluated_at": "2026-11-19T07:17:10+00:00",
-    "status": "unchanged",
+    "status": "changed_signal_persists",
     "en": "9 resource URL(s) changed (9 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net; 9 zip → plain file)",
     "pt": "9 URL(s) de recurso alterada(s) (9 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net; 9 zip → arquivo simples)",
     "digests": {
@@ -279,7 +279,8 @@
      "a96d568d-2beb-44bd-84ce-19522dd0f856": "1c6066bab88070dd1592b02fea5424c5b8325afb9b2e9385f73669dbc6d539ac",
      "3b99c21e-30b2-410b-8823-356bb73012e0": "4090a12a865fa8cefb0d891f45fbef5600776f5e1550b14b13d6405f28701ee7",
      "e8f66578-2df7-424e-bd85-bcbf260243a9": "b42d6c7c28de64591315d9a8780d81b13ca2a51470a40b9d66a4247571ac3a0d"
-    }
+    },
+    "first_change_seen": "2026-11-24T15:45:33+00:00"
    }
   ],
   "closed": []
@@ -288,22 +289,22 @@
   "L1": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-16T14:36:05+00:00",
+   "generated_at": "2026-11-23T17:48:44+00:00",
    "files": [
     {
      "path": "results/layer1_summary.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/layer1_summary.json",
      "commit": {
-      "sha": "51478590597ec7ee69d39109124fb403d8e6cc25",
-      "date": "2026-11-16T14:36:06Z"
+      "sha": "afa31ddfb838eb495b24102eacec055380bf0295",
+      "date": "2026-11-23T17:48:45Z"
      }
     },
     {
      "path": "results/validation.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer1/main/results/validation.json",
      "commit": {
-      "sha": "51478590597ec7ee69d39109124fb403d8e6cc25",
-      "date": "2026-11-16T14:36:06Z"
+      "sha": "afa31ddfb838eb495b24102eacec055380bf0295",
+      "date": "2026-11-23T17:48:45Z"
      }
     }
    ],
@@ -352,30 +353,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-23T07:28:16.524138+00:00",
+   "generated_at": "2026-11-24T09:48:23.750606+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "7e96efd28e1be634dce691d787ee713101f58357",
-      "date": "2026-11-23T07:28:16Z"
+      "sha": "f5d8b84379cf38d76cb7a6df570ee9dc28b4d694",
+      "date": "2026-11-24T09:48:23Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "c5d1455d71ceea99a77e207bbf595869489b7368",
-      "date": "2026-11-23T13:29:31Z"
+      "sha": "6b1365a2aa77788a53cc5fb6afeb5cf9b1dade77",
+      "date": "2026-11-24T14:06:57Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "7e96efd28e1be634dce691d787ee713101f58357",
-      "date": "2026-11-23T07:28:16Z"
+      "sha": "f5d8b84379cf38d76cb7a6df570ee9dc28b4d694",
+      "date": "2026-11-24T09:48:23Z"
      }
     }
    ],
@@ -427,19 +428,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-23T15:53:01+00:00",
+ "generated_at": "2026-11-24T15:45:33+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "7c5e7b26f6e9213ade6bd18216ff43d36fa2e787",
-  "run_id": "45210172340"
+  "commit": "4680092af0ce183048f5abf73c759f6f3ffa64de",
+  "run_id": "45429150347"
  },
  "ficha": {
-  "id": "sha256:2938009cce7db3f09393f386b70cb54ec22ff70ea8de2f1b717fd1b8cc590c7b",
+  "id": "sha256:f1544c462bc84bd27828ffd091935c8aa5a4a0260b6406e8dc0f3226c2859e00",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-apreensao",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/fiscalizacao-termo-de-apreensao.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'fiscalizacao-termo-de-apreensao' (IBAMA), 2026-11-23, sha256:2938009cce7db3f0…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-apreensao",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-termo-de-apreensao' (IBAMA), 2026-11-23, sha256:2938009cce7db3f0…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-apreensao"
+   "en": "5L-TEP Layer 5 record of 'fiscalizacao-termo-de-apreensao' (IBAMA), 2026-11-24, sha256:f1544c462bc84bd2…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-apreensao",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-termo-de-apreensao' (IBAMA), 2026-11-24, sha256:f1544c462bc84bd2…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-apreensao"
   }
  }
 }
