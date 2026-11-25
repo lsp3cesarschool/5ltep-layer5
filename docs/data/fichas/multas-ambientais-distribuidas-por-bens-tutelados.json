@@ -56,68 +56,26 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-24T09:48:05+00:00",
+   "evaluated_at": "2026-11-25T08:23:25+00:00",
    "current": true,
    "facts": {
-    "observations": 76,
+    "observations": 75,
     "critical_in_window": 0,
     "entity": "https://dadosabertos.ibama.gov.br/dataset/004c4ee8-5580-430e-8cec-b52ac7ea9461#21dac3323638"
    },
-   "signals": [
-    {
-     "key": "L4:access:2026-08-26T19:49:09+00:00",
-     "count": 4,
-     "when": "2026-08-26T19:49:09+00:00",
-     "en": "4 resource URL(s) changed (4 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net; 4 plain file → zip); license title changed",
-     "pt": "4 URL(s) de recurso alterada(s) (4 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net; 4 arquivo simples → zip); título da licença alterado"
-    }
-   ]
+   "signals": []
   }
  },
- "findings": [
-  {
-   "layer": "L4",
-   "kind": "signal",
-   "key": "L4:access:2026-08-26T19:49:09+00:00",
-   "count": 4,
-   "when": "2026-08-26T19:49:09+00:00",
-   "en": "4 resource URL(s) changed (4 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net; 4 plain file → zip); license title changed",
-   "pt": "4 URL(s) de recurso alterada(s) (4 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net; 4 arquivo simples → zip); título da licença alterado"
-  },
-  {
-   "layer": "L5",
-   "kind": "unrecorded_change",
-   "when": "2026-11-23T17:44:29+00:00",
-   "resource_id": "3d9c4d47-9d44-4971-922c-4a9143d071a6",
-   "en": "the bytes of resource 3d9c4d47-9d44-4971-922c-4a9143d071a6 changed between 2026-11-16 and 2026-11-23 with no change in the portal metadata",
-   "pt": "os bytes do recurso 3d9c4d47-9d44-4971-922c-4a9143d071a6 mudaram entre 2026-11-16 e 2026-11-23 sem mudança nos metadados do portal"
-  },
-  {
-   "layer": "L5",
-   "kind": "unrecorded_change",
-   "when": "2026-11-23T17:44:30+00:00",
-   "resource_id": "4f9c7227-2bbd-4e88-8599-a3fbe787fb5b",
-   "en": "the bytes of resource 4f9c7227-2bbd-4e88-8599-a3fbe787fb5b changed between 2026-11-16 and 2026-11-23 with no change in the portal metadata",
-   "pt": "os bytes do recurso 4f9c7227-2bbd-4e88-8599-a3fbe787fb5b mudaram entre 2026-11-16 e 2026-11-23 sem mudança nos metadados do portal"
-  },
-  {
-   "layer": "L5",
-   "kind": "unrecorded_change",
-   "when": "2026-11-23T17:44:31+00:00",
-   "resource_id": "f7db373a-09a3-48c7-a370-fe71da7dcf8b",
-   "en": "the bytes of resource f7db373a-09a3-48c7-a370-fe71da7dcf8b changed between 2026-11-16 and 2026-11-23 with no change in the portal metadata",
-   "pt": "os bytes do recurso f7db373a-09a3-48c7-a370-fe71da7dcf8b mudaram entre 2026-11-16 e 2026-11-23 sem mudança nos metadados do portal"
-  }
- ],
+ "findings": [],
  "outcomes": {
-  "open": [
+  "open": [],
+  "closed": [
    {
-    "key": "L4:access:2026-08-26T19:49:09+00:00",
     "layer": "L4",
     "first_reported": "2026-10-13T19:15:59+00:00",
     "count": 4,
     "evaluated_at": "2026-10-13T00:35:39+00:00",
-    "status": "changed_signal_persists",
+    "status": "remediated_observed",
     "en": "4 resource URL(s) changed (4 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net; 4 plain file → zip); license title changed",
     "pt": "4 URL(s) de recurso alterada(s) (4 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net; 4 arquivo simples → zip); título da licença alterado",
     "digests": {
@@ -125,10 +83,13 @@
      "4f9c7227-2bbd-4e88-8599-a3fbe787fb5b": "437cd1626f3bc31387cf7441ff2b7afcde5c3dce8fc3dd7964ee693fb8ba683d",
      "f7db373a-09a3-48c7-a370-fe71da7dcf8b": "5fc26fee1569a6ea18c184af248d373d36b36b298088304b2d9d2a760c94272f"
     },
-    "first_change_seen": "2026-10-27T10:27:20+00:00"
+    "first_change_seen": "2026-10-27T10:27:20+00:00",
+    "key": "L4:access:2026-08-26T19:49:09+00:00",
+    "dataset": "multas-ambientais-distribuidas-por-bens-tutelados",
+    "outcome": "remediated_observed",
+    "at": "2026-11-25T15:30:11+00:00"
    }
-  ],
-  "closed": []
+  ]
  },
  "sources": {
   "L1": {
@@ -158,14 +119,14 @@
   "L2": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-18T13:19:29+00:00",
+   "generated_at": "2026-11-25T14:49:36+00:00",
    "files": [
     {
      "path": "docs/data/layer2.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer2/main/docs/data/layer2.json",
      "commit": {
-      "sha": "fb1de4df7cd7aa58150ff2f6ac4f1383abc35268",
-      "date": "2026-11-18T13:19:57Z"
+      "sha": "de345e6757a0450ea0d0d1d7cb46673aa57270b6",
+      "date": "2026-11-25T14:50:00Z"
      }
     }
    ],
@@ -198,30 +159,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-24T09:48:23.750606+00:00",
+   "generated_at": "2026-11-25T08:23:41.385961+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "f5d8b84379cf38d76cb7a6df570ee9dc28b4d694",
-      "date": "2026-11-24T09:48:23Z"
+      "sha": "dc887ecea4a5e48f03fb46a468640e089cf6e71e",
+      "date": "2026-11-25T08:23:41Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "6b1365a2aa77788a53cc5fb6afeb5cf9b1dade77",
-      "date": "2026-11-24T14:06:57Z"
+      "sha": "ae8dbf529579fc1ffaa085820c3e5ca986e9bd50",
+      "date": "2026-11-25T13:21:02Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "f5d8b84379cf38d76cb7a6df570ee9dc28b4d694",
-      "date": "2026-11-24T09:48:23Z"
+      "sha": "dc887ecea4a5e48f03fb46a468640e089cf6e71e",
+      "date": "2026-11-25T08:23:41Z"
      }
     }
    ],
@@ -273,19 +234,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-24T15:45:33+00:00",
+ "generated_at": "2026-11-25T15:30:11+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "4680092af0ce183048f5abf73c759f6f3ffa64de",
-  "run_id": "45429150347"
+  "commit": "fbf6fa1bdb6a579b7af70760086c9c4a1fb18ee3",
+  "run_id": "45645841344"
  },
  "ficha": {
-  "id": "sha256:70e2b2e2f75fcfbb0f412608ae95a860bb29ce94bbfa521ef535f2c569ac3b20",
+  "id": "sha256:267760695a7bbfbf5bc25759b6cafe87bb6bb5b0c5b211d247589db6083e86b7",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=multas-ambientais-distribuidas-por-bens-tutelados",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/multas-ambientais-distribuidas-por-bens-tutelados.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'multas-ambientais-distribuidas-por-bens-tutelados' (IBAMA), 2026-11-24, sha256:70e2b2e2f75fcfbb…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=multas-ambientais-distribuidas-por-bens-tutelados",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'multas-ambientais-distribuidas-por-bens-tutelados' (IBAMA), 2026-11-24, sha256:70e2b2e2f75fcfbb…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=multas-ambientais-distribuidas-por-bens-tutelados"
+   "en": "5L-TEP Layer 5 record of 'multas-ambientais-distribuidas-por-bens-tutelados' (IBAMA), 2026-11-25, sha256:267760695a7bbfbf…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=multas-ambientais-distribuidas-por-bens-tutelados",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'multas-ambientais-distribuidas-por-bens-tutelados' (IBAMA), 2026-11-25, sha256:267760695a7bbfbf…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=multas-ambientais-distribuidas-por-bens-tutelados"
   }
  }
 }
