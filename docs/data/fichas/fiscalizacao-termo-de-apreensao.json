@@ -4,9 +4,9 @@
   "title": "Fiscalização - termo de apreensão",
   "id": "89568872-a865-4e19-8a7c-6f11965a3195",
   "resources": 18,
-  "last_change": "2026-11-18T20:26:28+00:00",
+  "last_change": "2026-11-25T21:37:13+00:00",
   "last_type": "CONTENT_MOD",
-  "entity": "https://dadosabertos.ibama.gov.br/dataset/89568872-a865-4e19-8a7c-6f11965a3195#af2aff5d93f6",
+  "entity": "https://dadosabertos.ibama.gov.br/dataset/89568872-a865-4e19-8a7c-6f11965a3195#5bd6c22c3dd3",
   "portal_page": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-termo-de-apreensao"
  },
  "qs": {
@@ -33,7 +33,7 @@
    "reason": null,
    "rate": 0.9167,
    "evaluated_at": "2026-11-23T13:47:06+00:00",
-   "current": true,
+   "current": false,
    "facts": {
     "level": 1,
     "tables": 12,
@@ -85,18 +85,25 @@
    "status": "valid",
    "reason": null,
    "rate": 1.0,
-   "evaluated_at": "2026-11-25T08:23:25+00:00",
+   "evaluated_at": "2026-11-26T08:08:28+00:00",
    "current": true,
    "facts": {
-    "observations": 75,
+    "observations": 74,
     "critical_in_window": 0,
-    "entity": "https://dadosabertos.ibama.gov.br/dataset/89568872-a865-4e19-8a7c-6f11965a3195#af2aff5d93f6"
+    "entity": "https://dadosabertos.ibama.gov.br/dataset/89568872-a865-4e19-8a7c-6f11965a3195#5bd6c22c3dd3"
    },
    "signals": [
     {
      "key": "L4:access:2026-11-18T20:26:28+00:00",
      "count": 9,
      "when": "2026-11-18T20:26:28+00:00",
+     "en": "9 resource URL(s) changed (9 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net; 9 zip → plain file)",
+     "pt": "9 URL(s) de recurso alterada(s) (9 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net; 9 zip → arquivo simples)"
+    },
+    {
+     "key": "L4:access:2026-11-25T21:37:13+00:00",
+     "count": 9,
+     "when": "2026-11-25T21:37:13+00:00",
      "en": "9 resource URL(s) changed (9 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net; 9 zip → plain file)",
      "pt": "9 URL(s) de recurso alterada(s) (9 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net; 9 zip → arquivo simples)"
     }
@@ -119,6 +126,15 @@
    "key": "L4:access:2026-11-18T20:26:28+00:00",
    "count": 9,
    "when": "2026-11-18T20:26:28+00:00",
+   "en": "9 resource URL(s) changed (9 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net; 9 zip → plain file)",
+   "pt": "9 URL(s) de recurso alterada(s) (9 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net; 9 zip → arquivo simples)"
+  },
+  {
+   "layer": "L4",
+   "kind": "signal",
+   "key": "L4:access:2026-11-25T21:37:13+00:00",
+   "count": 9,
+   "when": "2026-11-25T21:37:13+00:00",
    "en": "9 resource URL(s) changed (9 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net; 9 zip → plain file)",
    "pt": "9 URL(s) de recurso alterada(s) (9 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net; 9 zip → arquivo simples)"
   },
@@ -202,6 +218,36 @@
      "e8f66578-2df7-424e-bd85-bcbf260243a9": "b42d6c7c28de64591315d9a8780d81b13ca2a51470a40b9d66a4247571ac3a0d"
     },
     "first_change_seen": "2026-11-24T15:45:33+00:00"
+   },
+   {
+    "key": "L4:access:2026-11-25T21:37:13+00:00",
+    "layer": "L4",
+    "first_reported": "2026-11-26T15:02:22+00:00",
+    "count": 9,
+    "evaluated_at": "2026-11-26T08:08:28+00:00",
+    "status": "reported",
+    "en": "9 resource URL(s) changed (9 moved from dadosabertos.ibama.gov.br to stibamadadosabertosprd.blob.core.windows.net; 9 zip → plain file)",
+    "pt": "9 URL(s) de recurso alterada(s) (9 movida(s) de dadosabertos.ibama.gov.br para stibamadadosabertosprd.blob.core.windows.net; 9 zip → arquivo simples)",
+    "digests": {
+     "3364a902-067a-469a-bd9a-b865d234eed9": "f92db55212b73e4be92a3e9777f3d7b3415a77bb0f029da9ea7404b11c96a8ec",
+     "67c67a93-f99e-4764-b0ee-4a2911d79c7a": "78530c50d3776adf5c14caf260ca15fcae37e7c2d6e0ea9e0d609e5da77f075e",
+     "27242a34-0690-436a-83e9-572f2e9cbc0e": "3091b98113b667da9d7e10a2f7433691f0cd07fa87c3955bbdcc881f3bd67b12",
+     "beab1a59-3fd2-4e00-871d-0d2052ef2425": "5bc38e6e65846e02e3af932b96953aef00d4787b3d12474a1bce576f606596d0",
+     "0c3335d3-cd37-48f6-9785-9de6864dfeb8": "94572a53253d402a2450b134465e8b2cdc10a4353cf1ad2ceb5ba7c822b90706",
+     "26063153-1102-4cc1-ba71-df8f2bb00727": "ec267785cf69970c14a845744fabf24e3697507ceaf31c43c7b6b14d24ce172b",
+     "081627a0-d158-44a8-88b0-600929e93526": "5a4de5c370ed164d70fc3745cd69f6286c0c7ce52ea830e97c0b9f2edb0b8262",
+     "122931cd-78da-4064-87b6-3f2a89406c61": "4b09e2d7c7527084628799cc308a39c7e08209ac151b56ac61dc2a0f30225160",
+     "27706b6b-e099-4cd7-bb87-2a45a47f9446": "f6f5bf786e50fd3a570b687078c38b3a10cd6c37e9162966c4fd0ec62a120102",
+     "10869c00-3e91-4da2-99a9-e73c976a9af6": "5512ddb83ad4743650031801685c2ac15a9704d54d2f8d50d7711fd5ce6a5062",
+     "4d0993b3-3fc3-4708-b617-7e86485dbb99": "2c46bd7fdf82451551f866d842523f21bdb5fbad46283c9189565384311d302d",
+     "f7195f5e-26ac-444a-ad98-d1bd69081d58": "abd5f02be35b61b92502de521b91ce97a5409cff9e88b25d6b04d4e3a17ad327",
+     "c49419ca-efed-4090-a32e-565c2ec68084": "9e63646dde96fef2b437a64e8c080081a228df13bcac419c7aba55e856f396a7",
+     "497ac942-f584-415c-bed8-a5bb09f97463": "20d85fd6787710ee15ac8e7d2983f6d1eeb0c46d40198f53f62d0e973cac8f44",
+     "76095503-a1e2-4e5d-8f02-fd05aa632522": "e332556ae6729b64f55e4e73bab3413a3af60ca781df41b0b5dc0aa77ee1446d",
+     "a96d568d-2beb-44bd-84ce-19522dd0f856": "1c6066bab88070dd1592b02fea5424c5b8325afb9b2e9385f73669dbc6d539ac",
+     "3b99c21e-30b2-410b-8823-356bb73012e0": "4090a12a865fa8cefb0d891f45fbef5600776f5e1550b14b13d6405f28701ee7",
+     "e8f66578-2df7-424e-bd85-bcbf260243a9": "b42d6c7c28de64591315d9a8780d81b13ca2a51470a40b9d66a4247571ac3a0d"
+    }
    }
   ],
   "closed": [
@@ -343,30 +389,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-25T08:23:41.385961+00:00",
+   "generated_at": "2026-11-26T08:08:51.872425+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "dc887ecea4a5e48f03fb46a468640e089cf6e71e",
-      "date": "2026-11-25T08:23:41Z"
+      "sha": "6b77410009e7aaf8bc46c2c8b4a014eee0449746",
+      "date": "2026-11-26T08:08:52Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "ae8dbf529579fc1ffaa085820c3e5ca986e9bd50",
-      "date": "2026-11-25T13:21:02Z"
+      "sha": "ee860c9637eb46cb6f2dfb41cc14b55bd149fe99",
+      "date": "2026-11-26T12:59:55Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "dc887ecea4a5e48f03fb46a468640e089cf6e71e",
-      "date": "2026-11-25T08:23:41Z"
+      "sha": "6b77410009e7aaf8bc46c2c8b4a014eee0449746",
+      "date": "2026-11-26T08:08:52Z"
      }
     }
    ],
@@ -418,19 +464,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-25T15:30:11+00:00",
+ "generated_at": "2026-11-26T15:02:22+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "fbf6fa1bdb6a579b7af70760086c9c4a1fb18ee3",
-  "run_id": "45645841344"
+  "commit": "d1ba13a0192406dda6bdcc95655f286698c19b46",
+  "run_id": "45844991997"
  },
  "ficha": {
-  "id": "sha256:a6432db7f6bb645df328ec007046222cc3f17706c89eb0caf3ab1004bd47cb62",
+  "id": "sha256:81264201b6ff1a0f1e3843824149481fbccc200753225de26535a8f0cea3578c",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-apreensao",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/fiscalizacao-termo-de-apreensao.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'fiscalizacao-termo-de-apreensao' (IBAMA), 2026-11-25, sha256:a6432db7f6bb645d…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-apreensao",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-termo-de-apreensao' (IBAMA), 2026-11-25, sha256:a6432db7f6bb645d…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-apreensao"
+   "en": "5L-TEP Layer 5 record of 'fiscalizacao-termo-de-apreensao' (IBAMA), 2026-11-26, sha256:81264201b6ff1a0f…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-apreensao",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-termo-de-apreensao' (IBAMA), 2026-11-26, sha256:81264201b6ff1a0f…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-termo-de-apreensao"
   }
  }
 }

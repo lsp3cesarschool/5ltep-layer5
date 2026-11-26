@@ -3,10 +3,10 @@
   "name": "pessoas-juridicas-inscritas-no-ctf-aida",
   "title": "Pessoas jurídicas inscritas no CTF/AIDA",
   "id": "520bbf04-e66f-430b-813b-2efd4bc0d56e",
-  "resources": 3,
-  "last_change": "2026-06-24T19:48:36+00:00",
-  "last_type": "CONTENT_MOD",
-  "entity": "https://dadosabertos.ibama.gov.br/dataset/520bbf04-e66f-430b-813b-2efd4bc0d56e#bbbe6ed72f81",
+  "resources": 4,
+  "last_change": "2026-11-25T21:37:13+00:00",
+  "last_type": "SCHEMA_DRIFT",
+  "entity": "https://dadosabertos.ibama.gov.br/dataset/520bbf04-e66f-430b-813b-2efd4bc0d56e#062dbc7cdd2f",
   "portal_page": "https://dadosabertos.ibama.gov.br/dataset/pessoas-juridicas-inscritas-no-ctf-aida"
  },
  "qs": {
@@ -55,18 +55,34 @@
   "L4": {
    "status": "valid",
    "reason": null,
-   "rate": 1.0,
-   "evaluated_at": "2026-11-25T08:23:25+00:00",
+   "rate": 0.9864864864864865,
+   "evaluated_at": "2026-11-26T08:08:28+00:00",
    "current": true,
    "facts": {
-    "observations": 75,
-    "critical_in_window": 0,
-    "entity": "https://dadosabertos.ibama.gov.br/dataset/520bbf04-e66f-430b-813b-2efd4bc0d56e#bbbe6ed72f81"
+    "observations": 74,
+    "critical_in_window": 1,
+    "entity": "https://dadosabertos.ibama.gov.br/dataset/520bbf04-e66f-430b-813b-2efd4bc0d56e#062dbc7cdd2f"
    },
    "signals": []
   }
  },
- "findings": [],
+ "findings": [
+  {
+   "layer": "L4",
+   "kind": "scope",
+   "when": "2026-11-25T21:37:13+00:00",
+   "en": "the dataset structure changed (SCHEMA_DRIFT): earlier evaluations no longer cover it",
+   "pt": "a estrutura do conjunto mudou (SCHEMA_DRIFT): avaliações anteriores deixam de cobri-lo"
+  },
+  {
+   "layer": "L4",
+   "kind": "simultaneous",
+   "when": "2026-11-25T21:37:13+00:00",
+   "count": 5,
+   "en": "SCHEMA_DRIFT in 5 datasets in the same monitoring cycle (probably one operational event)",
+   "pt": "SCHEMA_DRIFT em 5 conjuntos no mesmo ciclo de monitoramento (provavelmente um único evento operacional)"
+  }
+ ],
  "outcomes": {
   "open": [],
   "closed": []
@@ -139,30 +155,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-25T08:23:41.385961+00:00",
+   "generated_at": "2026-11-26T08:08:51.872425+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "dc887ecea4a5e48f03fb46a468640e089cf6e71e",
-      "date": "2026-11-25T08:23:41Z"
+      "sha": "6b77410009e7aaf8bc46c2c8b4a014eee0449746",
+      "date": "2026-11-26T08:08:52Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "ae8dbf529579fc1ffaa085820c3e5ca986e9bd50",
-      "date": "2026-11-25T13:21:02Z"
+      "sha": "ee860c9637eb46cb6f2dfb41cc14b55bd149fe99",
+      "date": "2026-11-26T12:59:55Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "dc887ecea4a5e48f03fb46a468640e089cf6e71e",
-      "date": "2026-11-25T08:23:41Z"
+      "sha": "6b77410009e7aaf8bc46c2c8b4a014eee0449746",
+      "date": "2026-11-26T08:08:52Z"
      }
     }
    ],
@@ -214,19 +230,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-25T15:30:11+00:00",
+ "generated_at": "2026-11-26T15:02:22+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "fbf6fa1bdb6a579b7af70760086c9c4a1fb18ee3",
-  "run_id": "45645841344"
+  "commit": "d1ba13a0192406dda6bdcc95655f286698c19b46",
+  "run_id": "45844991997"
  },
  "ficha": {
-  "id": "sha256:d3d630e95537639a0a5858951f45fa891e6c6d11bd295f0361be086030c4234b",
+  "id": "sha256:146b799d57b77110cfede33d6309d344b75976b2ab104560ea135a41ca14c661",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=pessoas-juridicas-inscritas-no-ctf-aida",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/pessoas-juridicas-inscritas-no-ctf-aida.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'pessoas-juridicas-inscritas-no-ctf-aida' (IBAMA), 2026-11-25, sha256:d3d630e95537639a…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=pessoas-juridicas-inscritas-no-ctf-aida",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'pessoas-juridicas-inscritas-no-ctf-aida' (IBAMA), 2026-11-25, sha256:d3d630e95537639a…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=pessoas-juridicas-inscritas-no-ctf-aida"
+   "en": "5L-TEP Layer 5 record of 'pessoas-juridicas-inscritas-no-ctf-aida' (IBAMA), 2026-11-26, sha256:146b799d57b77110…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=pessoas-juridicas-inscritas-no-ctf-aida",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'pessoas-juridicas-inscritas-no-ctf-aida' (IBAMA), 2026-11-26, sha256:146b799d57b77110…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=pessoas-juridicas-inscritas-no-ctf-aida"
   }
  }
 }

@@ -1,31 +1,23 @@
 {
  "dataset": {
   "name": "fiscalizacao-auto-de-infracao",
-  "title": "Fiscalização - auto de infração",
+  "title": "Fiscalização - Auto de infração",
   "id": "09850847-5ba2-435a-942c-a5dcd7e970c9",
-  "resources": 24,
-  "last_change": null,
-  "last_type": null,
-  "entity": "https://dadosabertos.ibama.gov.br/dataset/09850847-5ba2-435a-942c-a5dcd7e970c9#af6414f5255a",
+  "resources": 32,
+  "last_change": "2026-11-25T21:37:13+00:00",
+  "last_type": "SCHEMA_DRIFT",
+  "entity": "https://dadosabertos.ibama.gov.br/dataset/09850847-5ba2-435a-942c-a5dcd7e970c9#d24cdd2783a1",
   "portal_page": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao"
  },
  "qs": {
-  "kind": "partial",
+  "kind": "none",
   "factor": 1.0,
-  "coverage": 0.7,
+  "coverage": 0.2,
   "valid_layers": [
-   "L2",
-   "L3",
    "L4"
   ],
   "integrity": [],
-  "low": 0.6909314446613484,
-  "high": 0.9909314446613484,
-  "band": "undetermined",
-  "eligible": false,
-  "missing_layers": [
-   "L1"
-  ]
+  "band": null
  },
  "layers": {
   "L1": {
@@ -43,11 +35,11 @@
    "signals": []
   },
   "L2": {
-   "status": "valid",
-   "reason": null,
+   "status": "out_of_scope",
+   "reason": "structure_changed_after",
    "rate": 0.9697714822044944,
    "evaluated_at": "2026-11-25T14:48:58+00:00",
-   "current": true,
+   "current": null,
    "facts": {
     "rules": [
      "act-end-before-start",
@@ -142,11 +134,11 @@
    ]
   },
   "L3": {
-   "status": "valid",
-   "reason": null,
+   "status": "out_of_scope",
+   "reason": "structure_changed_after",
    "rate": 1.0,
    "evaluated_at": "2026-11-05T13:45:24+00:00",
-   "current": false,
+   "current": null,
    "facts": {
     "profile": "ibama-autos-infracao",
     "window": [
@@ -161,13 +153,13 @@
   "L4": {
    "status": "valid",
    "reason": null,
-   "rate": 1.0,
-   "evaluated_at": "2026-11-25T08:23:25+00:00",
+   "rate": 0.9864864864864865,
+   "evaluated_at": "2026-11-26T08:08:28+00:00",
    "current": true,
    "facts": {
-    "observations": 75,
-    "critical_in_window": 0,
-    "entity": "https://dadosabertos.ibama.gov.br/dataset/09850847-5ba2-435a-942c-a5dcd7e970c9#af6414f5255a"
+    "observations": 74,
+    "critical_in_window": 1,
+    "entity": "https://dadosabertos.ibama.gov.br/dataset/09850847-5ba2-435a-942c-a5dcd7e970c9#d24cdd2783a1"
    },
    "signals": []
   }
@@ -273,6 +265,13 @@
    "pt": "814 sinal(is) da regra 'Código do município compatível com a UF do mesmo local' em 713895 verificação(ões)"
   },
   {
+   "layer": "L4",
+   "kind": "scope",
+   "when": "2026-11-25T21:37:13+00:00",
+   "en": "the dataset structure changed (SCHEMA_DRIFT): earlier evaluations no longer cover it",
+   "pt": "a estrutura do conjunto mudou (SCHEMA_DRIFT): avaliações anteriores deixam de cobri-lo"
+  },
+  {
    "layer": "L5",
    "kind": "unrecorded_change",
    "when": "2026-11-23T14:10:20+00:00",
@@ -311,6 +310,14 @@
    "resource_id": "afe30a48-eb96-4915-8f13-c4e838dae033",
    "en": "the bytes of resource afe30a48-eb96-4915-8f13-c4e838dae033 changed between 2026-11-23 and 2026-11-25 with no change in the portal metadata",
    "pt": "os bytes do recurso afe30a48-eb96-4915-8f13-c4e838dae033 mudaram entre 2026-11-23 e 2026-11-25 sem mudança nos metadados do portal"
+  },
+  {
+   "layer": "L4",
+   "kind": "simultaneous",
+   "when": "2026-11-25T21:37:13+00:00",
+   "count": 5,
+   "en": "SCHEMA_DRIFT in 5 datasets in the same monitoring cycle (probably one operational event)",
+   "pt": "SCHEMA_DRIFT em 5 conjuntos no mesmo ciclo de monitoramento (provavelmente um único evento operacional)"
   }
  ],
  "outcomes": {
@@ -714,30 +721,30 @@
   "L4": {
    "status": "ok",
    "reason": null,
-   "generated_at": "2026-11-25T08:23:41.385961+00:00",
+   "generated_at": "2026-11-26T08:08:51.872425+00:00",
    "files": [
     {
      "path": "docs/data/layer4.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/layer4.json",
      "commit": {
-      "sha": "dc887ecea4a5e48f03fb46a468640e089cf6e71e",
-      "date": "2026-11-25T08:23:41Z"
+      "sha": "6b77410009e7aaf8bc46c2c8b4a014eee0449746",
+      "date": "2026-11-26T08:08:52Z"
      }
     },
     {
      "path": "docs/data/cross_check.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/docs/data/cross_check.json",
      "commit": {
-      "sha": "ae8dbf529579fc1ffaa085820c3e5ca986e9bd50",
-      "date": "2026-11-25T13:21:02Z"
+      "sha": "ee860c9637eb46cb6f2dfb41cc14b55bd149fe99",
+      "date": "2026-11-26T12:59:55Z"
      }
     },
     {
      "path": "data/hash_store.json",
      "url": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer4/main/data/hash_store.json",
      "commit": {
-      "sha": "dc887ecea4a5e48f03fb46a468640e089cf6e71e",
-      "date": "2026-11-25T08:23:41Z"
+      "sha": "6b77410009e7aaf8bc46c2c8b4a014eee0449746",
+      "date": "2026-11-26T08:08:52Z"
      }
     }
    ],
@@ -789,19 +796,19 @@
   "en": "Layer 5 informs; it does not decide. The publication decision, if any, happens in the agency's own systems. Signals are things to check, never verdicts; a gap is missing evidence, never a low score. Outcomes after a report are observations, with no attribution of cause.",
   "pt": "A Camada 5 informa; não decide. A decisão de publicação, se houver, acontece nos sistemas do próprio órgão. Sinais são itens a conferir, nunca vereditos; lacuna é falta de evidência, nunca nota baixa. Desfechos depois de um relato são observações, sem atribuição de causa."
  },
- "generated_at": "2026-11-25T15:30:11+00:00",
+ "generated_at": "2026-11-26T15:02:22+00:00",
  "engine": {
   "repository": "lsp3cesarschool/5ltep-layer5",
-  "commit": "fbf6fa1bdb6a579b7af70760086c9c4a1fb18ee3",
-  "run_id": "45645841344"
+  "commit": "d1ba13a0192406dda6bdcc95655f286698c19b46",
+  "run_id": "45844991997"
  },
  "ficha": {
-  "id": "sha256:7ffdbe2fc0e6bb945846fae17805bda2c90eb66eae2bf76f14c8882ae784f307",
+  "id": "sha256:66188033474c1b3ccbe0dc4c0ad6e5e8048e582b3f7835e460d84a2cc21bace3",
   "page": "https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-auto-de-infracao",
   "data": "https://raw.githubusercontent.com/lsp3cesarschool/5ltep-layer5/main/docs/data/fichas/fiscalizacao-auto-de-infracao.json",
   "how_to_cite": {
-   "en": "5L-TEP Layer 5 record of 'fiscalizacao-auto-de-infracao' (IBAMA), 2026-11-25, sha256:7ffdbe2fc0e6bb94…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-auto-de-infracao",
-   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-auto-de-infracao' (IBAMA), 2026-11-25, sha256:7ffdbe2fc0e6bb94…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-auto-de-infracao"
+   "en": "5L-TEP Layer 5 record of 'fiscalizacao-auto-de-infracao' (IBAMA), 2026-11-26, sha256:66188033474c1b3c…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-auto-de-infracao",
+   "pt": "Ficha da Camada 5 do 5L-TEP para 'fiscalizacao-auto-de-infracao' (IBAMA), 2026-11-26, sha256:66188033474c1b3c…, https://lsp3cesarschool.github.io/5ltep-layer5/ficha.html?d=fiscalizacao-auto-de-infracao"
   }
  }
 }
